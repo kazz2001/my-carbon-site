@@ -1,14 +1,15 @@
-ファイル変更
+## ファイル変更
 	manifest.yml
 	Staticfile
 	.cfignore
 yarn build
-cfへのdeploy
+
+## cfへのdeploy
 	cf push -f manifest.yml
 
 
 
-再setup
+## 再etup
 	https://gatsby-theme-carbon.now.sh/getting-started
 	git remote add
 	git fetch origin
@@ -18,20 +19,22 @@ cfへのdeploy
 
 	npm install -S @carbon/pictograms
 	
-強制同期
+## 強制同期
 	git stash save
 	git pull origin XX
 
-package.json変更後
+## package.json変更後のTo Do
 	npm update
 
-git 無視ファイルをcacheから削除
+## git 無視ファイルをcacheから削除
 	git rm -r --cached .vs
 
-To Do
+## To Do
 	style (font, grid)
 	IBMのLogoはずす (内部参照)
-	
+	SEO
+	Google Analytics
+
 	C:\Users\user\AppData\Local\Temp
 
 Shadow
