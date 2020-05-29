@@ -1,7 +1,7 @@
 {
   "name": "Black-Music-CD-Review",
   "private": true,
-  "version": "1.24.2",
+  "version": "1.00.01",
   "license": "Apache 2.0",
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",

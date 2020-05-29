@@ -9,7 +9,7 @@ yarn build
 
 
 
-## 再etup
+## 再setup
 	https://gatsby-theme-carbon.now.sh/getting-started
 	git remote add
 	git fetch origin
