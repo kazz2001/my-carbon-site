@@ -9,9 +9,9 @@ import SliderJS from "../best50/slider2"
 
 import './_2018.scss';
 
-import { Slider } from 'carbon-components-react';
+import { Slider, Button } from 'carbon-components-react';
 import { Link } from "gatsby"
-import { Add24 } from '@carbon/icons-react';
+import { Add24, Add16 } from '@carbon/icons-react';
 
 import { Airplane } from '@carbon/pictograms-react';
 
@@ -22,6 +22,11 @@ export const metadata = { maxValue: "10", };
 Black Music Best 50 by planet.ky
 
 </PageDescription>
+
+<Button renderIcon={Add16}>Button</Button>
+    <button>
+      <Airplane aria-label="Add" />
+    </button>
 
   <SliderJS value="4" />
 
