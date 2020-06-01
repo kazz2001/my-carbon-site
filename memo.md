@@ -1,4 +1,4 @@
-## ファイル変更
+## Set-upファイル変更
 	manifest.yml
 	Staticfile
 	.cfignore
@@ -7,15 +7,14 @@ yarn build
 ## cfへのdeploy
 	cf push -f manifest.yml
 
-
-
 ## 再setup
-	https://gatsby-theme-carbon.now.sh/getting-started
+	https://gatsby-theme-carbon.now.sh/getting-started  の手順
 	git remote add
 	git fetch origin
 	git branch B1 origin/B1
 	git checkout B1
-	??yarn install    npm i yarn
+	
+	yarnのinstall    npm i yarn　　　　yarn-cliが使えないとき
 
 	npm install -S @carbon/pictograms
 	
@@ -35,6 +34,7 @@ yarn build
 	SEO
 	Google Analytics
 
+## メモ
 	C:\Users\user\AppData\Local\Temp
 
 Shadow
