@@ -3,12 +3,16 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 
 const links = [
   {
-    title: 'Github',
-    href: 'https://github.com/carbon-design-system/gatsby-theme-carbon',
+    title: 'Mirror Site1', 
+    href: 'http://carbon.planetky.com',
   },
   {
-    title: 'Carbon',
-    href: 'https://www.carbondesignsystem.com',
+    title: 'Mirror Site2', 
+    href: 'http://cdreview.mybluemix.net',
+  },
+  {
+    title: 'Mirror Site3', 
+    href: 'https://cdreview.netlify.app',
   },
 ];
 

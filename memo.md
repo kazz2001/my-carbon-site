@@ -30,7 +30,7 @@ yarn build
 
 ## To Do
 	style (font, grid)
-	IBMのLogoはずす (内部参照)
+	favicon (内部参照)
 	SEO
 	Google Analytics
 
