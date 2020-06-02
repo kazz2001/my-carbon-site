@@ -4,19 +4,25 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import Carbon from '../../images/carbon.jpg';
 
 const FirstLeftText = () =>
-    <h2>CD Review</h2>
+    <h2>Contents</h2>
 ;
 const FirstRightText = () => (
     <p>
-        <code>Black Music CD Review</code> introduces CD review for Soul and Hip-Hop since 1998
+        <code>Black Music CD Review</code>
+        <br/> R&amp;BやHip-HopなどBlack MusicのCD Reviewを紹介しています。1998年より、年50年枚程度レビューしています。
+        <br/><code>Black Music album Best 50</code>
+        <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
     </p>
 );
 
-const SecondLeftText = () => <h2> Album Best 50</h2>;
+const SecondLeftText = () => <h2> Contents</h2>;
 
 const SecondRightText = () => (
     <p>
-        Black Music Best 50 albums since 1998
+        <code>Black Music CD Review</code>
+        <br/> This site introduces CD review of Black Music, such ad R&amp;B and Hip-Hop since 1998.
+        <br/><code>Black Music album Best 50</code>
+        <br/>Black Music album annual Best 50 since. Ranking is original.
     </p>
 );
 
