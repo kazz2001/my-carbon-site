@@ -37,6 +37,8 @@ yarn build
 ## メモ
 	C:\Users\user\AppData\Local\Temp
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/879f5e62-98f6-4f1d-b0a1-5bba4c6a9b55/deploy-status)](https://app.netlify.com/sites/cdreview/deploys)
+
 Shadow
 ?@?@?@Homepage.js
 		import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
