@@ -15,3 +15,6 @@
       path: /best50/2019
     - title: 2018
       path: /best50/2018
+- title: Book Reviews
+  pages:
+    - path: /book/bookreview1

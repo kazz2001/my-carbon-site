@@ -34,6 +34,12 @@ yarn build
 	SEO
 	Google Analytics
 
+## Packageの最新化
+	NCUを導入
+	NCUで確認
+	NCU -Uでpackage.jsonをupdate
+	NPM Install
+
 ## メモ
 	C:\Users\user\AppData\Local\Temp
 
