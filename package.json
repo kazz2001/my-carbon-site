@@ -18,7 +18,7 @@
   "dependencies": {
     "@carbon/grid": "^10.10.2",
     "@carbon/pictograms-react": "^10.10.2",
-    "gatsby": "^2.22.17",
+    "gatsby": "^2.23.0",
     "gatsby-theme-carbon": "^1.24.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
