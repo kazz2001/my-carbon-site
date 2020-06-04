@@ -7,11 +7,11 @@ const links = [
     href: 'http://carbon.planetky.com',
   },
   {
-    title: 'Mirror Site2', 
+    title: 'Mirror Site2 (IBM Cloud)', 
     href: 'http://cdreview.mybluemix.net',
   },
   {
-    title: 'Mirror Site3', 
+    title: 'Mirror Site3 (netlify)', 
     href: 'https://cdreview.netlify.app',
   },
 ];
