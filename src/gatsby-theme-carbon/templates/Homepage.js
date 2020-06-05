@@ -3,6 +3,10 @@ import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import Carbon from '../../images/carbon.jpg';
 
+import { ArrowUpRight24  } from '@carbon/icons-react';
+import { Launch } from '@carbon/pictograms-react';
+import { Link } from "gatsby"
+
 const FirstLeftText = () =>
     <h2>Contents</h2>
 ;
@@ -10,8 +14,10 @@ const FirstRightText = () => (
     <p>
         <code>Black Music CD Review</code>
         <br/> R&amp;BやHip-HopなどBlack MusicのCD Reviewを紹介しています。1998年より、年50年枚程度レビューしています。
+        <br/><p><Link to="/best50/2019/">2019<ArrowUpRight24 /></Link></p>
         <br/><code>Black Music album Best 50</code>
         <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
+        <br/><p><Link to="/cd/2019/">2019<Launch className="svg-white" /></Link></p>
     </p>
 );
 
