@@ -72,6 +72,9 @@ div[class*='Code-module--row']{
     width:95%;
 }
 
+a:link[class="link-color"] {color:#0000ff;} 
+a:visited[class="visited-color"] {color:#00ccff;}
+
 .bx--list--nested {
     margin-bottom: 1.5em;
 }
@@ -101,6 +104,11 @@ div[class*='Code-module--row']{
     margin-top: 1px  ;
   }
 
-.svg-white {
+svg.svg-white {
     fill: white;
+    bottom: 100px;
+  }
+.link-1 {
+  bottom: 100px;
+  color: Black;
   }

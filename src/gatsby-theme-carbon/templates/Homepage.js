@@ -14,14 +14,14 @@ const FirstRightText = () => (
     <p>
         <code>Black Music CD Review</code>
         <br/> R&amp;BやHip-HopなどBlack MusicのCD Reviewを紹介しています。1998年より、年50年枚程度レビューしています。
-        <br/><p><Link to="/best50/2019/">2019<ArrowUpRight24 /></Link></p>
+        <br/><a href="/best50/2019/"><font color="#000000"> 2019</font><Launch width="24px" height="24px"/></a> 
         <br/><code>Black Music album Best 50</code>
         <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
-        <br/><p><Link to="/cd/2019/">2019<Launch className="svg-white" /></Link></p>
+        <br/><a href="/cd/2019/"><font color="#000000"> 2019<Launch width="24px" height="24px"/></font></a>
     </p>
 );
 
-const SecondLeftText = () => <h2> Contents</h2>;
+const SecondLeftText = () => <h2> Contents</h2>; 
 
 const SecondRightText = () => (
     <p>
