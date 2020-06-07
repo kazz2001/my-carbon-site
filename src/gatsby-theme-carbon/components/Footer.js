@@ -20,7 +20,7 @@ const links = {
     { href: 'https://ibm.com/design', linkText: 'IBM Carbon Design System' },
   ],
   secondCol: [
-    { href: 'https://gatsby-theme-carbon.now.sh/', linkText: 'Gatuby Carbon Theme' },
+    { href: 'https://gatsby-theme-carbon.now.sh/', linkText: 'Gatsby Carbon Theme' },
   ],
 };
 
