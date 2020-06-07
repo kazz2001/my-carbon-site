@@ -40,8 +40,20 @@ yarn build
 	NCU -Uでpackage.jsonをupdate
 	NPM Install
 
+## NPMで困ったとき
+	node --stack-size=4000 "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js" install
+	npm cache clean -force
+	npm config set strict-ssl f
+
 ## メモ
 	C:\Users\user\AppData\Local\Temp
+
+## VSCode
+	Git History
+	Git Lens
+	MDX
+	React Extension Pack
+	React code snipets
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/879f5e62-98f6-4f1d-b0a1-5bba4c6a9b55/deploy-status)](https://app.netlify.com/sites/cdreview/deploys)
 
