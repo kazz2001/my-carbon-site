@@ -5,7 +5,6 @@ const SliderJS3 = (props) => {
     return (
         <div>
         <hr />
-        <p>  familiar  ---------------  serious</p>
                            
         <Slider
             hideTextInput
@@ -13,8 +12,10 @@ const SliderJS3 = (props) => {
             id="slider"
             max={5}
             min={1}
+            minLabel={" - familiar"}
+            maxLabel={" - Serious"}
             step={1}
-            stepMuliplier={4}
+            stepMuliplier={1}
             value={props.value}
             />
         </div>

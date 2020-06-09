@@ -15,19 +15,27 @@ const FirstRightText = () => (
         <code>Black Music CD Review</code>
         <br/>R&amp;BやHip-HopなどBlack MusicのCD Reviewを紹介しています。1998年より、年50年枚程度レビューしています。
         <div>
-	<Button href="/best50/2020/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
-    2020
-    </Button>
-    <Button href="/best50/2019/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
-    2019
-    </Button>
-	</div>
+	      <Button href="/cd/2020/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+            2020
+          </Button>
+          <Button href="/cd/2019/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+            2019
+          </Button>
+	    </div>
         <br/><code>Black Music album Best 50</code>
         <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
-        <br/><a href="/cd/2019/"><font color="#000000"> 2019<Launch width="24px" height="24px"/></font></a>
-        <br/><br/><code>Book Review</code>
+        <div>
+	      <Button href="/best50/2029/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+            2019
+          </Button>
+	    </div>
+        <br/><code>Book Review</code>
         <br/>R&amp;BやHip-Hopを取り上げた書籍のレビューです。
-        <br/><a href="/book/bookreview/"><font color="#000000"> Book Review<Launch width="24px" height="24px"/></font></a>
+        <div>
+	      <Button href="/book/bookreview/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+            Book Review
+          </Button>
+	    </div>
     </div>
 );
 
