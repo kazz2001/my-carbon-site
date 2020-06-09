@@ -6,18 +6,17 @@ const SliderJS1 = (props) => {
         <div>
         <hr />
 
+        <p>  rap oriented---------song oriented</p>
         <Slider
             hideTextInput
             ariaLabelInput="Label for slider value"
             id="slider"
             max={5}
             min={1}
-            minLabel={" - Rap oriented"}
-            maxLabel={" - Song oriented"}
             step={1}
-            stepMuliplier={1}
+            stepMuliplier={4}
             value={props.value}
-        />
+            />
         </div>
     );
 };

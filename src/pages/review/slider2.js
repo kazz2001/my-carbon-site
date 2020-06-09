@@ -4,17 +4,18 @@ import { Slider } from 'carbon-components-react';
 const SliderJS2 = (props) => {
     return (
         <div>
-        <hr/>                         
+        <hr/>
+
+        <p>  urban-------------------------earthy</p>
+                                      
         <Slider
             hideTextInput
             ariaLabelInput="Label for slider value"
             id="slider"
             max={5}
             min={1}
-            minLabel={" - Urban***"}
-            maxLabel={" - Earthy"}
             step={1}
-            stepMuliplier={1}
+            stepMuliplier={4}
             value={props.value}
             />
         </div>
