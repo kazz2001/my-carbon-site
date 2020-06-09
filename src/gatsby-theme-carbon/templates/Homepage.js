@@ -2,7 +2,7 @@ import React from 'react';
 import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import Carbon from '../../images/carbon.jpg';
-
+import { Button } from 'carbon-components-react';
 import { ArrowUpRight24  } from '@carbon/icons-react';
 import { Launch } from '@carbon/pictograms-react';
 import { Link } from "gatsby"
@@ -14,9 +14,15 @@ const FirstRightText = () => (
     <div>
         <code>Black Music CD Review</code>
         <br/>R&amp;BやHip-HopなどBlack MusicのCD Reviewを紹介しています。1998年より、年50年枚程度レビューしています。
-        <br/><a href="/best50/2012/"><font color="#000000"> 2020</font><Launch width="24px" height="24px"/></a> 
-        <a href="/best50/2019/"><font color="#000000"> 2019</font><Launch width="24px" height="24px"/></a> 
-        <br/><br/><code>Black Music album Best 50</code>
+        <div>
+	<Button href="/best50/2020/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+    2020
+    </Button>
+    <Button href="/best50/2019/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+    2019
+    </Button>
+	</div>
+        <br/><code>Black Music album Best 50</code>
         <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
         <br/><a href="/cd/2019/"><font color="#000000"> 2019<Launch width="24px" height="24px"/></font></a>
         <br/><br/><code>Book Review</code>
