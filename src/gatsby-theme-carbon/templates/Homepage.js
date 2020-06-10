@@ -25,14 +25,14 @@ const FirstRightText = () => (
         <br/><code>Black Music album Best 50</code>
         <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
         <div>
-	      <Button href="/best50/2029/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+	      <Button href="/best50/2019/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
             2019
           </Button>
 	    </div>
         <br/><code>Book Review</code>
         <br/>R&amp;BやHip-Hopを取り上げた書籍のレビューです。
         <div>
-	      <Button href="/book/bookreview/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+	      <Button href="/book/bookreview1/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
             Book Review
           </Button>
 	    </div>
