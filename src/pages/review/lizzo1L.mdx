@@ -2,7 +2,9 @@
 title: "Lizzo / Cuz I Love You"
 description: "CD review of Lizzo / Cuz I Love You"
 ---
-import { Slider } from 'carbon-components-react';
+import { Slider, Button } from 'carbon-components-react';
+import { ArrowUpRight24  } from '@carbon/icons-react';
+
 import SliderJS1 from "../review/slider1"
 import SliderJS2 from "../review/slider2"
 import SliderJS3 from "../review/slider3"
@@ -26,10 +28,14 @@ import { Link } from "gatsby"
 	<p>
 	話題のプラス・サイズ・ディーバ、Lizzoのメジャーデビュー作。テレビ、ドラマ、映画に出演したり、セーラームーンのコスプレでフルートを吹いたりとArtistの枠に捉われない活動をしている人だが、このアルバムは本格的なR&B作品。判りやすくて、アップでノリの良い曲がほとんどで、Track自体は虚飾が無く、懐かしめのR&Bな感じで、Princeっぽいところも少々。何よりLizzoのド迫力のVocalが最大の魅力。Rapperかと思ってたが、逆にVocaがl多め。自分を愛そうというメッセージとポジティブネスに満ちているので、聴いていて気持ちが良い。是非ライブを見てみたい人のうちの一人である。
 	</p>
-	<a href="https://amzn.to/2TQFapy">Buy from amazon.com</a>
-	<br/>  
-	<a href="https://amzn.to/2TScXP2">Buy from amazon.co.jp</a>
-	<br/>
+	<div>
+	    <Button href="https://amzn.to/2TQFapy" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+          amazon.com
+        </Button>
+        <Button href="https://amzn.to/2TScXP2" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+          amazon.co.jp
+        </Button>
+	</div>
 	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2019-04-19&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/cuz-i-love-you/1452318774?mt=1&app=music&ls=1&at=11lcug"></a>
 	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2019-04-19T00:00:00Z&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;" href="https://geo.music.apple.com/jp/album/cuz-i-love-you-deluxe/1462189879?app=itunes&at=11lcug"></a>
 	</Column>

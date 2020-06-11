@@ -2,7 +2,9 @@
 title: Freddie Gibbs & Madlib / Bandana
 description: CD review of Freddie Gibbs & Madlib / Bandana
 ---
-import { Slider } from 'carbon-components-react';
+import { Slider, Button } from 'carbon-components-react';
+import { ArrowUpRight24  } from '@carbon/icons-react';
+
 import SliderJS1 from "../review/slider1"
 import SliderJS2 from "../review/slider2"
 import SliderJS3 from "../review/slider3"
@@ -25,10 +27,14 @@ import { Link } from "gatsby"
 	<p>
 	MadlibとFreddie Gibbsによるデュオ作。5年りの2作目で、前作同様、高評価を得ているが、今回はメジャーからのリリースとなる。(Freddieにとっては、これが初とのこと）。モヤさまで聞き覚えのあるカタカナ日本語のナレーションが2か所にはいってることにビックリしたが、これはHoyaのVoiceTextというアプリによるものらしい。そんなコミカルなところはあるが、70年代のブラックスプロイテーション映画を意識しているとのことで、Lyricなどは社会不満をあらわしてコンシャスな印象。Trackもシリアスなトーンは残しつつ、ただメローなものも多数で聴きやすい。全てiPadで作ったというBeatはMadlib, MCはFrddieという役割は変わらず、Freddieの太くて男らしいRapが印象に残る。
     </p>
-	<a href="https://amzn.to/36N3Ep1">Buy from amazon.com</a>
-	<br/>  
-	<a href="https://amzn.to/2TRNQfy">Buy from amazon.co.jp</a>
-	<br/>
+	<div>
+	  <Button href="https://amzn.to/36N3Ep1" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+      amazon.com
+      </Button>
+      <Button href="https://amzn.to/2TRNQfy" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+      amazon.co.jp
+      </Button>
+	</div>
 	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2019-06-28&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/bandana/1464243671?mt=1&app=music&ls=1&at=11lcug"></a>
 	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2019-06-28&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;" href="https://geo.music.apple.com/jp/album/bandana/1464243671?app=itunes&at=11lcug"></a>
 	</Column>

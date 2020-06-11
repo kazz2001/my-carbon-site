@@ -2,7 +2,9 @@
 title: Slowthai / Nothing Great About Britain
 description: CD review of Slowthai / Nothing Great About Britain
 ---
-import { Slider } from 'carbon-components-react';
+import { Slider, Button } from 'carbon-components-react';
+import { ArrowUpRight24  } from '@carbon/icons-react';
+
 import SliderJS1 from "../review/slider1"
 import SliderJS2 from "../review/slider2"
 import SliderJS3 from "../review/slider3"
@@ -25,10 +27,14 @@ import { Link } from "gatsby"
 	<p>
 	UKの中部、Northampton出身、24歳のRapper, Slowthaiのデビューアルバム。Slowthaiは吃音に悩まされた幼少時のニックネームより来てるらしいが、フローではそれを感じることはない。労働者階級出身で、公営団地前で処刑される自身をCDジャケットに持ってくるところからして、Brexitを迎えたUKの保守的な空気への批判や、若者の閉塞感をLyricで表現している。ただ、地元愛なども合いまった複雑な感情も感じられる。サウンドはMura MasaやSkeptaなど勢いのあるGuestを迎え、不穏な雰囲気をもったPopよりのGrimeと言える。
 	</p>
-	<a href="https://amzn.to/2Xir6r2">Buy from amazon.com</a>
-	<br/>  
-	<a href="https://amzn.to/2Bdhfdn">Buy from amazon.co.jp</a>
-	<br/>
+	<div>
+	    <Button href="https://amzn.to/2Xir6r2" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+          amazon.com
+        </Button>
+        <Button href="https://amzn.to/3hhKWL1" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+          amazon.co.jp
+        </Button>
+	</div>
 	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2020-03-13&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/the-mirror/1492347023?mt=1&app=music&ls=1&at=11lcug"></a>
 	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2020-03-13T00:00:00Z&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;" href="https://geo.music.apple.com/jp/album/the-mirror/1492347023?app=itunes&at=11lcug"></a>
 	</Column>
