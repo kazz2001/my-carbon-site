@@ -103,6 +103,11 @@ a:visited[class="visited-color"] {color:#00ccff;}
 .h1--no--margin {
     margin-top: 1px  ;
   }
+
+.h1-no-bottom-margin {
+    font-size: 3.5em;
+    margin-bottom: -15px  ;
+}
  
 svg.svg-white {
     fill: white;

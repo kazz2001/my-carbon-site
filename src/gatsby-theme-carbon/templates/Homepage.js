@@ -47,6 +47,8 @@ const SecondRightText = () => (
         <br/> This site introduces CD review of Black Music, such ad R&amp;B and Hip-Hop since 1998.
         <br/><code>Black Music album Best 50</code>
         <br/>Black Music album annual Best 50 since. Ranking is original.
+        <br/><code>Book Review</code>
+        <br/>Book review of Black Music, such as R&B and Hip-Hop.
     </p>
 );
 
