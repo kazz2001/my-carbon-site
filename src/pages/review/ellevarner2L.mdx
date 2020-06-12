@@ -1,0 +1,85 @@
+---
+title: "Elle Varner / Ellevation"
+description: "CD review of Elle Varner / Ellevation"
+---
+import { Slider, Button } from 'carbon-components-react';
+import { ArrowUpRight24  } from '@carbon/icons-react';
+
+import SliderJS1 from "../review/slider1"
+import SliderJS2 from "../review/slider2"
+import SliderJS3 from "../review/slider3"
+import SliderJS4 from "../review/slider4"
+
+import { Link } from "gatsby"
+
+import './_review.scss';
+
+<h2>CD review</h2>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
+       <ImageCard>
+
+![Elle Varner / Ellevation](../../images/cd/ellevarner2L.jpg) 
+
+</ImageCard>
+	</Column>
+	<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
+	<p>
+	Elle Varnerのデビュー作以来となる7年振りのアルバム。RCAからeOneに移り、Produceも父Jimmy Varnerが中心となってたりして、こじんまりとしたのかなとも思われたが、佳曲ぞろいで、うまくまとまった作品となっている。Trackはスロー&メローで、90年代オーソドックスなものが中心となる。透きとおった声で、しっとりと揺蕩うように唄うElleのVocalが大変心地よい。Wale, RapsodyといったGuestも、なかなか通好みで良いと思う。
+	</p>
+    <div>
+	  <Button href="https://amzn.to/3cYuYlA" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+      amazon.com
+      </Button>
+      <Button href="https://amzn.to/2UAZfAC" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+      amazon.co.jp
+      </Button>
+	</div>
+	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2019-08-21&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/ellevation/1475452731?mt=1&app=music&ls=1"></a>
+	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2019-08-21&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;" href="https://geo.music.apple.com/jp/album/ellevation/1475452731?app=itunes"></a>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
+<div>
+    <h3>Score card</h3>
+	<SliderJS1 value="5" />
+    <SliderJS2 value="2" />
+	<SliderJS3 value="1" />
+    <SliderJS4 value="8" />
+</div>
+</Column>
+<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
+<div>
+<h3>Producers</h3>
+<p>
+Nascent, Coop and Jimmy V(1,2)
+<br/>Nascent and Jordan Ware(3）
+<br/>Jimmy Varner and Nascent(4,8,9)
+<br/>Jimmy Varner and Elle Varner(5)
+<br/>Jimmy Varner(6)
+<br/>Los Hendrixx, Jordan Ware, Nascent and Jimmy Varner(7)
+</p>
+<h3>Guests</h3>
+<p>
+Wale, Rapsody
+</p>
+</div>
+</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. |	 Title             |	 Composers                                                   |	 Performer               |	Time |
+| --- |	------------------ | --------------------------------------------------------------- | ------------------------- | ----- |
+| 1   |	Coffee on the Roof | Elle Varner / Jimmy Varner                                      | Elle Varner               | 04:28 |
+| 2   |	Pour Me            | Olubowale Akintimehin / Elle Varner / Jimmy Varner              | Elle Varner feat. Wale    | 04:06 |
+| 3   |	1 to 10            | Elle Varner / Jordan Ware                                       | Elle Varner               | 03:46 |
+| 4   |	Wishing Well       | Marlanna Evans / Elle Varner / Jimmy Varner                     | Elle Varner feat. Rapsody | 04:20 |
+| 5   |	Number One Song    | Elle Varner / Jimmy Varner                                      | Elle Varner               | 05:06 |
+| 6   |	Loving U Blind     | Elle Varner / Jimmy Varner                                      | Elle Varner               | 03:28 |
+| 7   |	Kinda Love         | Stacy Barthe / Los Hendrix / L3gion / Elle Varner / Jordan Ware | Elle Varner               | 03:14 |
+| 8   |	Casanova           | Elle Varner                                                     | Elle Varner               | 04:11 |
+| 9   |	Be Encouraged      | Nascent / Elle Varner / Jimmy Varner                            | Elle Varner               | 03:09 |
