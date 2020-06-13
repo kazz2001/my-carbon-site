@@ -2,6 +2,8 @@
 title: "Book Review"
 description: "Review of Books about Black Music, R&B, Hip-Hop and related."
 ---
+import { Button } from 'carbon-components-react';
+import { ArrowUpRight24  } from '@carbon/icons-react';
 
 <Row >
 <Column colMd={"12"} colLg={"12"} noGutterMdLeft="">
@@ -46,7 +48,11 @@ MPC Impact
 <p className="largeP">
 1800円(税抜き)
 </p>
-<a href="https://amzn.to/2U5xgc5">Buy from amazon.co.jp</a>
+<div>
+<Button href="https://amzn.to/2U5xgc5" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+      amazon.co.jp
+</Button>
+</div>
 </div>
 </Column>
 </Row>
