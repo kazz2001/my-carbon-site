@@ -1,9 +1,9 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
-import PlanetkyLogo from './planetkylogo.gif';
+// import PlanetkyLogo from './planetkylogo.gif'; 
 
 const Logo = () => (
-  <img src="http://bm.planetky.com/flipwhiteh.gif" />
+  <img src="https://planetky.netlify.app/flipwhiteh.gif" alt="logo"/>
 );
 
 const Content = ({ buildTime }) => (

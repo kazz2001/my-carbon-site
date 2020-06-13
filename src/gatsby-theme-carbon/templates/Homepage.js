@@ -4,8 +4,8 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import Carbon from '../../images/carbon.jpg';
 import { Button } from 'carbon-components-react';
 import { ArrowUpRight24  } from '@carbon/icons-react';
-import { Launch } from '@carbon/pictograms-react';
-import { Link } from "gatsby"
+// import { Launch } from '@carbon/pictograms-react';
+// import { Link } from "gatsby"
 
 const FirstLeftText = () =>
     <h2>Contents</h2>

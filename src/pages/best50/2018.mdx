@@ -1,158 +1,71 @@
 ﻿---
-title: 2018 CD Best 50
-tabs: ['2019', '2018']
-description: 2018 Black Music Best 50 by planet.ky
+title: 2018 Album Best 50
+tabs: ['2019', '2018', '2017']
+description: 2018 Black Music Album Best 50 by planet.ky
 ---
 
-import Slider1 from "../best50/slider1.mdx"
-import SliderJS from "../best50/slider2"
+import Review1 from "../review/janellemonae3.mdx"
 
-import './_2018.scss';
-
-import { Slider, Button } from 'carbon-components-react';
-import { Link } from "gatsby"
-import { Add24, Add16 } from '@carbon/icons-react';
-
-import { Airplane } from '@carbon/pictograms-react';
-
-export const metadata = { maxValue: "10", };
-
-<PageDescription> 
-
-Black Music Best 50 by planet.ky
-
-</PageDescription>
-
-<h2>H1</h2>
-<Button renderIcon={Add16}>Button</Button>
-    <button>
-      <Airplane aria-label="Add" />
-    </button>
-
-<SliderJS value="4" />
-
-<Airplane />
-<Add24 />
-
-<Slider1 />
+<h1> {props.pageContext.frontmatter.description} </h1>
 
 <Row>
-<Column colMd={5} colLg={8}>
 
-It is more important than ever that we own our own ethos, make palpable our brand values, and incorporate an instantly identifiable IBMness in everything we do.
-Aesthetic is defined as the philosophical theory or set of principles governing outward appearance or actions.
-
+<Column colMd={3} colLg={3} noGutterMdLeft>
+<h1>1</h1>
+<Review1 />
 </Column>
-<Column colMd={2} colLg={3} offsetMd={1} offsetLg={1}>
-<Aside aria-label="Example aside">
 
-**Good design is always good design.**
-
-What we borrow from our own design history is not a mid-century aesthetic in stylistic terms, but the modernist attitudes and approach used at the time.
-
-</Aside>
-<AnchorLinks small>
-  <AnchorLink>H1</AnchorLink>
-  <AnchorLink>H2</AnchorLink>
-</AnchorLinks>
-</Column>
 </Row>
 
-[Text](/2019)
-
-<Link to="/best50/2019/">2019</Link>
-
-![Anderson.Paak / Ventura](./planetkylogo.gif) 
- 
-<Title>2018 Black Music Best 50</Title>
-
-| No | Artist/Title                                                                       | 
-| -- | ---------------------------------------------------------------------------------- | 
-| 1  | [Tyler, the Creator / IGOR](http://planetky.com/tyler4.htm)                        |  
-| 2  | [Solange / When I Get Home](http://planetky.com/solange4.htm)                      | 
-
-
-<div className="some-container">
-  <Slider hideTextInput
-  ariaLabelInput="Label for slider value"
-  id="slider"
-  labelText="Soul  ---   hip-hop"
-  max={metadata.maxValue}
-  min={1}
-  step={1}
-  stepMuliplier={4}
-  value={3}
-  />
-</div>
-<br/>
-<a>----</a>
-<div className="bx--grid bx--grid--full-width ">
-    <div className="bx--row ">
-      <div className="bx--col-lg-16 bx--left--border">1</div>
-    </div>
-    <div className="bx--row ">
-      <div className="bx--col-md-4 bx--col-lg-7">7/16</div>
-      <div className="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8">8/16</div>
-    </div>
-    <div className="bx--row ">
-      <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
-      <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
-      <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
-      <div className="bx--col-md-4 bx--col-lg-4">1/4</div>
-    </div>
-</div>
-<div className="bx--grid">
-  <div class="bx--row">
-    <div class="bx--col-lg-16">16</div>
-  </div>
-  <div class="bx--row">
-    <div class="bx--col-lg-15 bx--col-md-7 bx--col-sm-3">15</div>
-    <div class="bx--col-sm-1 bx--col-md-1 bx--col-lg-1">1</div>
-  </div>
-  <div class="bx--row">
-    <div class="bx--col-lg-14 bx--col-md-6">14</div>
-    <div class="bx--col-lg-2 bx--col-md-2">2</div>
-  </div>
-  <div class="bx--row">
-    <div class="bx--col-lg-13 bx--col-md-5">13</div>
-    <div class="bx--col-lg-3 bx--col-md-3">3</div>
-  </div>
-  <div class="bx--row">
-    <div class="bx--col-lg-12">12</div>
-    <div class="bx--col-lg-4">4</div>
-  </div>
-  <div class="bx--row">
-    <div class="bx--col-lg-11">11</div>
-    <div class="bx--col-lg-5">5</div>
-  </div>
-  <div class="bx--row">
-    <div class="bx--col-lg-10">10</div>
-    <div class="bx--col-lg-6">6</div>
-  </div>
-  <div class="bx--row">
-    <div class="bx--col-lg-9">9</div>
-    <div class="bx--col-lg-7">7</div>
-  </div>
-  <div class="bx--row">
-    <div class="bx--col-lg-8 bx--col-md-4 bx--col-sm-2">8</div>
-    <div class="bx--col-lg-8 bx--col-md-4 bx--col-sm-2">8</div>
-  </div>
-  <div class="bx--row">
-    <div class="bx--col-lg-4 bx--col-md-2 bx--col-sm-1">4</div>
-    <div class="bx--col-lg-4 bx--col-md-2 bx--col-sm-1">4</div>
-    <div class="bx--col-lg-4 bx--col-md-2 bx--col-sm-1">4</div>
-    <div class="bx--col-lg-4 bx--col-md-2 bx--col-sm-1">4</div>
-  </div>
-  <div class="bx--row">
-    <div class="bx--col-lg-2 bx--col-md-1">2</div>
-    <div class="bx--col-lg-2 bx--col-md-1">2</div>
-    <div class="bx--col-lg-2 bx--col-md-1">2</div>
-    <div class="bx--col-lg-2 bx--col-md-1">2</div>
-    <div class="bx--col-lg-2 bx--col-md-1">2</div>
-    <div class="bx--col-lg-2 bx--col-md-1">2</div>
-    <div class="bx--col-lg-2 bx--col-md-1">2</div>
-    <div class="bx--col-lg-2 bx--col-md-1">2</div>
-  </div>
-</div>
-
-<h2>H2</h2>
+| No | Artist/Title                                                                      | 
+| -- | --------------------------------------------------------------------------------- | 
+|1	 | [Janelle Monáe / Dirty Computer](/review/janellemonae3L)                          |
+|2	 | [Pusha-T / Daytona](http://planetky.com/pushat3.htm)                              |
+|3	 | [Cardi B / Invasion of Privacy](http://planetky.com/cardib1.htm)                  |
+|4	 | [Travis Scott / ASTROWORLD](http://planetky.com/travisscott3.htm)                 |
+|5	 | [Ariana Grande / Sweetner](http://planetky.com/arianagrande4.htm)                 |
+|6	 | [Noname / Room 25](http://planetky.com/noname2.htm)                               |
+|7	 | [The Internet /Hive Mind](http://planetky.com/theinternet2.htm)                   |
+|8	 | [Kamasi Washington / Heaven and Earth](http://planetky.com/kamasiwashington3.htm) |
+|9	 | [Tierra Whack / Whack World](http://planetky.com/tierrawhack1.htm)                |
+|10  | [Blood Orange / Negro Swan](http://planetky.com/bloodorange3.htm)                 |　　　　　　　　　　　　　　　
+|11  | [Mac Miller / Swimming](http://planetky.com/macmiller2.htm)　　　　　　　　　　　 　|
+|12  | [Kali Uchis / Isolation](http://planetky.com/kaliuchis1.htm)                      |
+|13  | [Black Panther: The Album](http://planetky.com/blackpanther.htm)                  |
+|14  | [Earl Sweatshirt / Some Rap Songs](http://planetky.com/earlsweatshirt3.htm)       |
+|15  | [Saba / Care for Me](http://planetky.com/saba1.htm)                               |
+|16  | [The Carters / Everything Is Love](http://planetky.com/carters1.htm)              |
+|17  | [serpentwithfeet / soil](http://planetky.com/serpentwithfeet1.htm)                |
+|18  | [Jorja Smith / Lost & Found](http://planetky.com/jorjasmith1.htm)                 |
+|19  | [Kids See Ghosts / KIDS SEE GHOSTS](http://planetky.com/kidsseeghosts1.htm)       |
+|20  | [Teyana Taylor / K.T.S.E.](http://planetky.com/teyanataylor2.ht)                  |
+|21  | [Vince Staples / FM!](http://planetky.com/vincestaples4)                          |              
+|22  | [Playboi Carti / Die Lit](http://planetky.com/playboicarti1.htm)                  |
+|23  | [Meshell Ndegeocello / Ventriloquism](http://planetky.com/ndegeocelllo4.htm)      |
+|24  | [Brockhampton / iridescence](http://planetky.com/brockhampton1.htm)               |
+|25  | [Ella Mai / Ella Mai](http://planetky.com/ellamai1.htm)                           |
+|26  | [Camila Cabello / Camila](http://planetky.com/camilacabello1.htm)                 |
+|27  | Mariah Carey / Caution                                                            |
+|28  | [Tom Misch / Geography](http://planetky.com/tommisch1.htm)                        |
+|29  | [Georgia Anne Muldrow / Overload](http://planetky.com/georgiaannemuldrow.htm)     |
+|30  | Angelique Kidjo - Remain In Light                                                 |
+|31  | [Young Fathers / Cocoa Sugar](http://planetky.com/youngfathers2.htm)              |
+|32  | [Kanye West / Ye](http://planetky.com/kanyewest9.htm)                             |
+|33  | Drake / Scorpion                                                                  |
+|34  | [Nipsey Hussle / Victory Lap](http://planetky.com/nipseyhustle1.htm)              |
+|35  | [Anderson.Paak / Oxnard](http://planetky.com/andersonpaak3.htm)                   |
+|36  | [Leon Bridges / Good Thing](http://planetky.com/leonbridges2.htm)                 |
+|37  | [Brandon Coleman / Resintance](http://planetky.com/brandoncoleman1.htm)           |
+|38  | Prince / Piano & a Microphone 1983                                                |
+|39  | Jay Rock / Redemption                                                             |
+|40  | 6LACK / East Atlanta Love Letter                                                  |
+|41  | Rico Nasty / Nasty                                                                |
+|42  | JPEGMAFIA / Veteran                                                               |
+|43  | [J. Cole / KOD](http://planetky.com/jcole3.htm)                                   |
+|44  | Nao / Saturn                                                                      |
+|45  | John Cleary / Dyna-Mite                                                           |
+|46  | Logic / YSIV                                                                      |
+|47  | Lil Wayne / Tha Carter V                                                          |
+|48  | Keith Sweat / Praying For Keeps                                                   |
+|49  | [Post Malone / Beerbongs & Bentleys(http://planetky.com/postmalone1.htm)          |
+|50  | [The Weeknd / My Dear Melancholy(http://planetky.com/weeknd5.htm)                 |
