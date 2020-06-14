@@ -23,7 +23,21 @@ yarn build
 	git pull origin XX
 
 ## package.json変更後のTo Do
-	npm update
+	一部update
+		 npm update
+	総入れ替え
+		package.jsonを最小にする。バージョンは最新
+			    "@carbon/pictograms-react": "^10.12.0",
+    			"gatsby": "2.23.3",
+    			"gatsby-theme-carbon": "1.24.4",
+    			"react": "16.13.1",
+    			"react-dom": "^16.13.1"
+		yarn
+
+
+
+個別に導入
+@carbon/pictograms-react
 
 ## git 無視ファイルをcacheから削除
 	git rm -r --cached .vs
@@ -43,7 +57,7 @@ yarn build
 ## NPMで困ったとき
 	node --stack-size=4000 "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js" install
 	npm cache clean -force
-	npm config set strict-ssl f
+	npm config set strict-ssl f  or npm config set strict-ssl  
 	export NODE_OPTIONS="--max-old-space-size=4096"
 
 ## メモ
