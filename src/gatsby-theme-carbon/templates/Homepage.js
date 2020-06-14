@@ -31,7 +31,7 @@ const FirstRightText = () => (
 	      <Button href="/best50/2019/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
             2019
           </Button>
-          <Button href="/best50/2018/" kind="secandary" size="small" renderIcon={ArrowUpRight24}>
+          <Button href="/best50/2018/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
             2018
           </Button>
 	    </div>

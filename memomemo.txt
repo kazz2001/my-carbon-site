@@ -2,3 +2,16 @@ package.jsonを最小にして、yarn　　バージョンは最新
 
 個別に導入
 @carbon/pictograms-react
+
+ESLint
+GIt History
+GItLens
+Japanese Language package
+JavaScript code snipets
+MDX
+npm
+npm intelligence
+Path intelligence
+React Extention package
+Reactjs code smipets
+Subline Text Keymap
