@@ -1,0 +1,4 @@
+package.jsonを最小にして、yarn　　バージョンは最新
+
+個別に導入
+@carbon/pictograms-react
