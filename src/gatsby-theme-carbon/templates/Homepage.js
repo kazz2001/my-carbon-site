@@ -13,7 +13,7 @@ const FirstLeftText = () =>
 const FirstRightText = () => (
     <div>
         <code>Black Music CD Review</code>
-        <br/>R&amp;BやHip-HopなどBlack MusicのCD Reviewを紹介しています。1998年より、年50年枚程度レビューしています。
+        <br/>R&amp;BやHip-HopなどBlack MusicのCD Reviewを載せています。1998年より、年50年枚程度レビューしています。
         <div>
 	      <Button href="/cd/2020/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
             2020
@@ -36,7 +36,7 @@ const FirstRightText = () => (
           </Button>
 	    </div>
         <br/><code>Book Review</code>
-        <br/>R&amp;BやHip-Hopを取り上げた書籍のレビューです。
+        <br/>R&amp;BやHip-Hopをテーマにした書籍のレビューです。
         <div>
 	      <Button href="/book/bookreview1/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
             Book Review
@@ -58,7 +58,7 @@ const SecondRightText = () => (
     </p>
 );
 
-const BannerText = () => <h1>Black Musicc CD Review by planet.ky</h1>;
+const BannerText = () => <h1>Black Music CD Review by planet.ky</h1>;
 
 const customProps = {
     Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
