@@ -7,6 +7,13 @@ module.exports = {
   pathPrefix: `/gtc`,
   plugins: [
     {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-54911-5",
+        head: true,
+      }
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Carbon Design Gatsby Theme',
