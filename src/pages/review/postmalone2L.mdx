@@ -11,11 +11,13 @@ import SliderJS2 from "../review/slider2"
 import SliderJS3 from "../review/slider3"
 import SliderJS4 from "../review/slider4"
 
+import Review1  from "../review/postmalone1.mdx"
+
 import { Link } from "gatsby"
 
 <p className="largeP">CD review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
-<h3><Link to="/best50/2019/">2019 Black Music Album Best No.35</Link></h3>
+<p className="largeP"><Link to="/best50/2019/">2019 Black Music Album Best No.35</Link></p>
 
 <br/>
 <Row  className="image-card-group">
@@ -94,3 +96,11 @@ import { Link } from "gatsby"
 | 12  |	Take It Back                     | Arca / Russell Boring / Alejandro Ghersi / Devonte Hynes / Joba                                                |	Blood Orange feat. Arca, Joba, Justine Skye          | 04:22 |
 | 13  |	Happiness                        | Devonte Hynes                                                                                                  |	Blood Orange                                         | 02:09 |
 | 14  |	Today                            | Devonte Hynes                                                                                                  |	Blood Orange                                         | 01:19 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+<Column colMd={3} colLg={3} noGutterMdLeft>
+<Review1 />
+</Column>
+</Row>
