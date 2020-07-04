@@ -32,6 +32,7 @@ yarn build
     			"gatsby-theme-carbon": "1.24.4",
     			"react": "16.13.1",
     			"react-dom": "^16.13.1"
+		yarn.lock を削除
 		yarn
 
 
@@ -46,7 +47,6 @@ yarn build
 	style (font, grid)
 	favicon (内部参照)
 	SEO
-	Google Analytics
 
 ## Packageの最新化
 	NCUを導入
@@ -62,6 +62,7 @@ yarn build
 
 ## メモ
 	C:\Users\user\AppData\Local\Temp
+	npm view carbon-components version
 
 ## VSCode
 	Git History
