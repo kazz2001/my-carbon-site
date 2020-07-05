@@ -1,7 +1,7 @@
 ---
 title: The Weeknd / My Dear Melancholy
 description: CD review of The Weeknd / My Dear Melancholy
-keywords: 'The Weeknd / My Dear Melancholy, ジ・ウィークエンド, マイ・ディア・メランコリー'
+keywords: 'The Weeknd, My Dear Melancholy, ジ・ウィークエンド, マイ・ディア・メランコリー'
 ---
 import { Slider, Button } from 'carbon-components-react';
 import { ArrowUpRight24  } from '@carbon/icons-react';
@@ -13,9 +13,11 @@ import SliderJS4 from "../review/slider4"
 
 import { Link } from "gatsby"
 
+import Review1  from "../review/weeknd6.mdx"
+
 <p className="largeP">CD review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
-<h3><Link to="/best50/2018/">2018 Black Music Best No.50</Link></h3>
+<p className="largeP"><Link to="/best50/2018/">2018 Black Music Best No.50</Link></p>
 
 <Row  className="image-card-group">
 	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
@@ -80,3 +82,11 @@ import { Link } from "gatsby"
 |	4	    |	I Was Never There	| Abel "The Weeknd" Tesfaye, Mike L?vy, Adam Feeney                                                                      | The Weeknd feat. Gesaffelstein	|	04:01 |
 |	5	    |	Hurt You         	| Guy-Manuel de Homem-Christo, Abel "The Weeknd" Tesfaye, Mike L?vy, Henry Russell Walter                                | The Weeknd feat. Gesaffelstein	|	03:50 |
 |	6	    |	Privilege        	| Abel "The Weeknd" Tesfaye, Jason Quenneville, Adam Feeney                                                              | The Weeknd                    	|	02:50 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+<Column colMd={3} colLg={3} noGutterMdLeft>
+<Review1 />
+</Column>
+</Row>
