@@ -57,7 +57,7 @@ yarn build
 ## NPMで困ったとき
 	node --stack-size=4000 "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js" install
 	npm cache clean -force
-	npm config set strict-ssl f  or npm config set strict-ssl  
+	npm config set strict-ssl f  
 	export NODE_OPTIONS="--max-old-space-size=4096"
 
 ## メモ
