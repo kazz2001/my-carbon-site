@@ -122,6 +122,11 @@ svg.svg-white {
     font-size: 1.5em;
 }
 
+.largeP-less-margin {
+    font-size: 1.5em;
+    margin-bottom: -25px  ;
+}
+
 .bigP {
     font-size: 2.5em;
     margin-bottom: -35px  ;
