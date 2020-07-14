@@ -9,6 +9,8 @@
       path: /cd/2019
     - title: 2018
       path: /cd/2018
+    - title: 2017
+      path: /cd/2017
 - title: Best 50 Albums 
   pages:
     - title: 2019
@@ -17,6 +19,8 @@
       path: /best50/2018
     - title: 2017
       path: /best50/2017
+    - title: 2016
+      path: /best50/2016
 - title: Book Reviews
   pages:
     - path: /book/bookreview1
