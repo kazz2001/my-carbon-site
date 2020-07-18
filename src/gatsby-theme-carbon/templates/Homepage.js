@@ -24,6 +24,9 @@ const FirstRightText = () => (
           <Button href="/cd/2018/" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
             2018
           </Button>
+          <Button href="/cd/2017/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+            2017
+          </Button>
 	    </div>
         <br/><code>Black Music album Best 50</code>
         <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
@@ -33,6 +36,9 @@ const FirstRightText = () => (
           </Button>
           <Button href="/best50/2018/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
             2018
+          </Button>
+          <Button href="/best50/2017/" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+            2017
           </Button>
 	    </div>
         <br/><code>Book Review</code>
