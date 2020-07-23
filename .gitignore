@@ -61,7 +61,7 @@ public
 # Mac files
 .DS_Store
 
-# Yarn
+# Yarn npm
 yarn-error.log
 yarn.lock
 .pnp/
@@ -72,3 +72,4 @@ yarn.lock
 #vs
 /.vs/*
 .vs/*
+package.json
