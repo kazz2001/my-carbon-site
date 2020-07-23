@@ -45,14 +45,14 @@ yarn build
 
 ## To Do
 	style (font, grid)
-	favicon (内部参照)
 	SEO
 
 ## Packageの最新化
 	NCUを導入
 	NCUで確認
 	NCU -Uでpackage.jsonをupdate
-	NPM Install
+	yarn.lock 削除
+	yarn ( or NPM Install)
 
 ## NPMで困ったとき
 	node --stack-size=4000 "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js" install
