@@ -41,7 +41,7 @@ yarn build
 @carbon/pictograms-react
 
 ## git 無視ファイルをcacheから削除
-	git rm -r --cached .vs
+	git rm -r --cached package.json
 
 ## To Do
 	style (font, grid)
