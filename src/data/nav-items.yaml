@@ -23,6 +23,8 @@
       path: /best50/2017
     - title: 2016
       path: /best50/2016
+    - title: 2015
+      path: /best50/2015
 - title: Book Reviews
   pages:
     - path: /book/bookreview1
