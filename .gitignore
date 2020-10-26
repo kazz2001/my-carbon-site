@@ -74,3 +74,8 @@ package.json
 /.vs/*
 .vs/*
 # package.json
+
+#git
+.gitignore
+
+
