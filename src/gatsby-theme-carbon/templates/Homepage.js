@@ -12,8 +12,8 @@ const FirstLeftText = () =>
 ;
 const FirstRightText = () => (
     <div>
-        <code>Black Music CD Review</code>
-        <br/>R&amp;BやHip-HopなどBlack MusicのCD Reviewを載せています。1998年より、年50年枚程度レビューしています。
+        <code>Black Music Album Review</code>
+        <br/>R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。1998年より、年50年枚程度レビューしています。
         <div>
 	      <Button href="/cd/2020/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
             2020
