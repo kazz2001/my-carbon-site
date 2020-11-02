@@ -61,8 +61,8 @@ const SecondLeftText = () => <h2> Contents</h2>;
 
 const SecondRightText = () => (
     <p>
-        <code>Black Music CD Review</code>
-        <br/> This site introduces CD review of Black Music, such ad R&amp;B and Hip-Hop since 1998.
+        <code>Black Music Album Review</code>
+        <br/> This site introduces Album reviews of Black Music, such as R&amp;B and Hip-Hop since 1998.
         <br/><code>Black Music album Best 50</code>
         <br/>Black Music album annual Best 50 since. Ranking is original.
         <br/><code>Book Review</code>
