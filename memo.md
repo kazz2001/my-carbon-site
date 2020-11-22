@@ -5,6 +5,7 @@
 yarn build
 
 ## cfへのdeploy
+cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 	cf push -f manifest.yml
 
 ## 再setup
