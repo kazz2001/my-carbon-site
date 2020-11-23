@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Black Music CD Review',
-    description: 'CD review for Soul and Hip-Hop Music',
-    keywords: 'CD,CD Review,Black Music,Soul,Hip-Hop',
+    title: 'Black Music Album Review',
+    description: 'Album review for Soul and Hip-Hop Music',
+    keywords: 'CD, Album, CD Review, Album Review, Black Music, Soul, Hip-Hop',
   },
   pathPrefix: `/gtc`,
   plugins: [
