@@ -70,7 +70,7 @@ const SecondRightText = () => (
     </p>
 );
 
-const BannerText = () => <h1>Black Music CD Review by planet.ky</h1>;
+const BannerText = () => <h1>Black Music Album Review by planet.ky</h1>;
 
 const customProps = {
     Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
