@@ -74,13 +74,15 @@ cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/879f5e62-98f6-4f1d-b0a1-5bba4c6a9b55/deploy-status)](https://app.netlify.com/sites/cdreview/deploys)
 
-Shadow
-?@?@?@Homepage.js
-		import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
-			D:\carbon\my-carbon-site\node_modules\gatsby-theme-carbon\src\components\Homepage/Banner.js
-			D:\carbon\my-carbon-site\node_modules\gatsby-theme-carbon\src\components\Homepage/Callout.js
-		import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-			D:\carbon\my-carbon-site\node_modules\gatsby-theme-carbon\src\templates/Homepage.js
-				import Layout from '../components/Layout';
-				import { HomepageBanner, HomepageCallout } from '../components/Homepage';  ==>
-				import Main from '../components/Main';
+Your friendly Gatsby maintainers detected your site has more JavaScript than most sites! We're working to make your site's JS compile as quickly as possible by avoiding clearing your webpack cache as 
+often.
+
+If you're interested in trialing this coming change *today* — which should make your local development experience faster — go ahead and enable the PRESERVE_WEBPACK_CACHE flag and run your develop server again.
+
+To do so, add to your gatsby-config.js:
+
+flags: {
+  PRESERVE_WEBPACK_CACHE: true,
+}
+
+Visit the umbrella issue to learn more: https://github.com/gatsbyjs/gatsby/discussions/28331  
