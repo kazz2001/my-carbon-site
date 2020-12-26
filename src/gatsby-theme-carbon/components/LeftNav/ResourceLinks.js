@@ -4,7 +4,7 @@ import ResourceLinks from 'gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 const links = [
   {
     title: 'Mirror Site1', 
-    href: 'http://carbon.planetky.com',
+    href: 'http://planetky.com',
   },
   {
     title: 'Mirror Site2 (IBM Cloud)', 
