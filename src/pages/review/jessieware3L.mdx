@@ -13,6 +13,8 @@ import SliderJS4 from "../review/slider4"
 
 import { Link } from "gatsby"
 
+import Review1 from "../review/jessieware4.mdx"
+
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
 <p className="largeP"><Link to="/best50/2017/">2017 Black Music Album Best No.44</Link></p>
@@ -31,10 +33,10 @@ import { Link } from "gatsby"
 	<div>
 	  <Button href="https://amzn.to/3h9Sxul" kind="primary" size="small" renderIcon={ArrowUpRight24}>
       amazon.com
-      </Button>
-      <Button href="https://amzn.to/3ew3vsp" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+    </Button>
+    <Button href="https://amzn.to/3ew3vsp" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
       amazon.co.jp
-      </Button>
+    </Button>
 	</div>
 	<a href="https://geo.music.apple.com/jp/album/hndrxx/1253102461?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2017-02-24&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
 	<a href="https://geo.music.apple.com/jp/album/hndrxx/1208302551?app=itunes&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2017-02-24T00:00:00Z&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;"></a>
@@ -43,11 +45,11 @@ import { Link } from "gatsby"
 <Row >
 	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
 <div>
-    <h3>Score card</h3>
+  <h3>Score card</h3>
 	<SliderJS1 value="5" />
-    <SliderJS2 value="1" />
+  <SliderJS2 value="1" />
 	<SliderJS3 value="1" />
-    <SliderJS4 value="8" />
+  <SliderJS4 value="8" />
 </div>
 </Column>
 <Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
@@ -96,3 +98,11 @@ Paul Buchanan
 | 17  |	Sorry                                  	| Nayvadius Wilburn, Leland Wayne, K. Gomringer, T. Gomringer                                                                                                                 |	Future                 | 07:31 |
 | 18  |	Pie (featuring Chris Brown)            	| Nayvadius Wilburn, Noel Fisher, David Doman, Christopher Brown, Justin Thomas, Jim Stewart, Thomas Klotz                                                                    |	Future ft. Chris Brown | 03:31 |
 | 19  |	You da Baddest (featuring Nicki Minaj) 	| Nayvadius Wilburn, Onika Maraj, Noel Fisher, Andre Price                                                                                                                    |	Future ft. Nicki Minaj | 04:01 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+<Column colMd={3} colLg={3} noGutterMdLeft>
+<Review1 />
+</Column>
+</Row>
