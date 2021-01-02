@@ -31,7 +31,7 @@ const FirstRightText = () => (
           2016
         </Button>
 	    </div>
-        <br/><code>Black Music album Best 50</code>
+        <br/><code>Black Music Best 50 albums</code>
         <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
         <div>
         <Button href="/best50/2020/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
