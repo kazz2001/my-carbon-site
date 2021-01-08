@@ -11,10 +11,10 @@ const FirstLeftText = () =>
     <h2>Contents</h2>
 ;
 const FirstRightText = () => (
-    <div>
-        <code>Black Music Album Review</code>
-        <br/>R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。1998年より、年50年枚程度レビューしています。
-        <div>
+    <p>
+      <code>Black Music Album Review</code>
+      <br/>R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。1998年より、年50年枚程度レビューしています。
+      <div>
 	      <Button href="/cd/2020/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
           2020
         </Button>
@@ -31,9 +31,9 @@ const FirstRightText = () => (
           2016
         </Button>
 	    </div>
-        <br/><code>Black Music Best 50 albums</code>
-        <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
-        <div>
+      <br/><code>Black Music Best 50 albums</code>
+      <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
+      <div>
         <Button href="/best50/2020/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
           2020
         </Button>
@@ -50,14 +50,14 @@ const FirstRightText = () => (
           2016
         </Button>
 	    </div>
-        <br/><code>Book Review</code>
-        <br/>R&amp;BやHip-Hopをテーマにした書籍のレビューです。
-        <div>
+      <br/><code>Book Review</code>
+      <br/>R&amp;BやHip-Hopをテーマにした書籍のレビューです。
+      <div>
 	      <Button href="/book/bookreview1/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
           Book Review
         </Button>
 	    </div>
-    </div>
+    </p>
 );
 
 const SecondLeftText = () => <h2> Contents</h2>; 
