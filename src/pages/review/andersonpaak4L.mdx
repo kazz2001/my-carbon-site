@@ -14,7 +14,8 @@ import SliderJS4 from "../review/slider4"
 import { Link } from "gatsby"
 
 import Review1 from "../review/andersonpaak3.mdx"
-import Review2 from "../review/nxworries1.mdx"
+import Review2 from "../review/andersonpaak2.mdx"
+import Review3 from "../review/nxworries1.mdx"
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -95,13 +96,16 @@ Andre 3000, Smokey Robinson, Lalah Hathaway, Jazmine Sullivan, Sonyae Elise, Bra
 <h3>Other Reviews</h3>
 
 <Row>
-<Column colMd={3} colLg={3} noGutterMdLeft>
-<Review1 />
-</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review1 />
+	</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review2 />
+	</Column>
 </Row>
 
 <Row>
-<Column colMd={3} colLg={3} noGutterMdLeft>
-<Review2 />
-</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review3 />
+	</Column>
 </Row>

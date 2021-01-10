@@ -14,11 +14,12 @@ import SliderJS4 from "../review/slider4"
 import { Link } from "gatsby"
 
 import Review1 from "../review/andersonpaak4.mdx"
-import Review2 from "../review/nxworries1.mdx"
+import Review2 from "../review/andersonpaak3.mdx"
+import Review3 from "../review/nxworries1.mdx"
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
-<p className="largeP"><Link to="/best50/2019/">2019 Black Music Best No.35</Link></p>
+<p className="largeP"><Link to="/best50/2018/">2018 Black Music Best No.35</Link></p>
 
 <Row  className="image-card-group">
 	<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
@@ -29,16 +30,16 @@ import Review2 from "../review/nxworries1.mdx"
 </ImageCard>
 	</Column>
 	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
-	<p>
-	Anderson.Paakの3年弱振りの3作目。DreをExecutive Producerに迎えたが、いわゆるWest Sideの強い影響は無く、Andersonの個性を活かした作りになっている。サンプリングを効果的に使いつつ、ベースはバンド指向になっている。サウンド的には70-80年代のソウルを下敷きにしたミディアム～スロー中心で、今まで以上にPopかつメローで聴きやすい。そんなTrackは本人はRapと唄を自由に行き来している。豪華ゲストが花を添えているところも聞き逃せない。</p>
-    <div>
-	  	<Button href="https://amzn.to/2B4MqYP" kind="primary" size="small" renderIcon={ArrowUpRight24}>
-      	amazon.com
-      </Button>
-	  	<Button href="https://amzn.to/2YrfouF" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
-      	amazon.co.jp
-      </Button>
-	  	&nbsp;
+		<p>
+			Anderson.Paakの3年弱振りの3作目。DreをExecutive Producerに迎えたが、いわゆるWest Sideの強い影響は無く、Andersonの個性を活かした作りになっている。サンプリングを効果的に使いつつ、ベースはバンド指向になっている。サウンド的には70-80年代のソウルを下敷きにしたミディアム～スロー中心で、今まで以上にPopかつメローで聴きやすい。そんなTrackは本人はRapと唄を自由に行き来している。豪華ゲストが花を添えているところも聞き逃せない。</p>
+    	<div>
+		 		<Button href="https://amzn.to/2B4MqYP" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+   	  		amazon.com
+    	 	</Button>
+	 			<Button href="https://amzn.to/2YrfouF" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+     			amazon.co.jp
+     		</Button>
+	 			&nbsp;
 			<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2018-11-16&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:170px;height:45px;" href="https://geo.music.apple.com/jp/album/oxnard/1439982774?mt=1&app=music&ls=1&at=11lcug"></a>
 			<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2018-11-16T00:00:00Z&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;" href="https://geo.music.apple.com/jp/album/oxnard/1439982774?app=itunes&at=11lcug"></a>
 		</div>
@@ -46,13 +47,13 @@ import Review2 from "../review/nxworries1.mdx"
 </Row>
 <Row >
 	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
-<div>
-  <h3>Score card</h3>
-	<SliderJS1 value="4" />
-  <SliderJS2 value="1" />
-	<SliderJS3 value="1" />
-  <SliderJS4 value="9" />
-</div>
+		<div>
+  		<h3>Score card</h3>
+			<SliderJS1 value="4" />
+  		<SliderJS2 value="1" />
+			<SliderJS3 value="1" />
+  		<SliderJS4 value="9" />
+		</div>
 	</Column>
 	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
 		<div>
@@ -104,10 +105,13 @@ import Review2 from "../review/nxworries1.mdx"
 	<Column colMd={3} colLg={3} noGutterMdLeft>
 		<Review1 />
 	</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review2 />
+	</Column>
 </Row>
 
 <Row>
 	<Column colMd={3} colLg={3} noGutterMdLeft>
-		<Review2 />
+		<Review3 />
 	</Column>
 </Row>
