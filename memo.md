@@ -86,3 +86,29 @@ flags: {
 }
 
 Visit the umbrella issue to learn more: https://github.com/gatsbyjs/gatsby/discussions/28331  
+
+There are 3 other flags available that you might  
+be interested in:
+- FAST_DEV · Enable all experiments aimed at      
+improving develop server start time
+- DEV_SSR · (Umbrella Issue
+(​https://gatsby.dev/dev-ssr-feedback​)) · Server 
+Side Render (SSR) pages on full reloads during    
+develop. Helps you detect SSR bugs and fix them   
+without needing to do full builds.
+- PRESERVE_FILE_DOWNLOAD_CACHE · (Umbrella Issue  
+(​https://gatsby.dev/cache-clearing-feedback​)) · 
+Don't delete the downloaded files cache when      
+changing gatsby-node.js & gatsby-config.js files. 
+- FAST_REFRESH · (Umbrella Issue
+(​https://gatsby.dev/fast-refresh-feedback​)) ·   
+Use React Fast Refresh instead of the legacy      
+react-hot-loader for instantaneous feedback in    
+your development server. Recommended for versions 
+of React >= 17.0.
+- PARALLEL_SOURCING · EXPERIMENTAL · (Umbrella    
+Issue
+(​https://gatsby.dev/parallel-sourcing-feedback​))
+ · Run all source plugins at the same time instead of serially. For sites with multiple source      
+plugins, this can speedup sourcing and
+transforming considerably.

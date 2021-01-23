@@ -131,3 +131,8 @@ svg.svg-white {
     font-size: 2.5em;
     margin-bottom: -35px  ;
 }
+
+.button-right-mergin {
+    margin-right: 5px  ;
+    margin-bottom: 5px  ;
+}

@@ -1,4 +1,5 @@
 module.exports = {
+  flags: { PRESERVE_WEBPACK_CACHE: true },  
   siteMetadata: {
     title: 'Black Music Album Review',
     description: 'Album review for Soul and Hip-Hop Music',
