@@ -36,8 +36,6 @@ cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 		yarn.lock を削除
 		yarn
 
-
-
 個別に導入
 @carbon/pictograms-react
 
