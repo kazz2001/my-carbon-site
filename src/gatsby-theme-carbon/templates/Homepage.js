@@ -7,7 +7,6 @@ import { ArrowUpRight24, Search24 } from '@carbon/icons-react';
 // import { Launch } from '@carbon/pictograms-react';
 // import { Link } from "gatsby"
 
-
 const FirstLeftText = () =>
     <h2>Contents</h2>
 ;
