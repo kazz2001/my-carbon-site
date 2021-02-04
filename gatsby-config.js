@@ -6,6 +6,7 @@ module.exports = {
     keywords: 'CD, Album, CD Review, Album Review, Black Music, Soul, Hip-Hop',
   },
   pathPrefix: `/gtc`,
+  plugins: ["@babel/plugin-transform-react-jsx"],
   plugins: [
     {
       resolve: "gatsby-plugin-google-analytics",
