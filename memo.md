@@ -42,9 +42,7 @@ cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 ## git 無視ファイルをcacheから削除
 	git rm -r --cached package.json
 
-## To Do
-	style (font, grid)
-	SEO
+
 
 ## Packageの最新化
 	NCUを導入
