@@ -9,13 +9,13 @@ cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 	cf push -f manifest.yml
 
 ## 再setup
-	https://gatsby-theme-carbon.now.sh/getting-started  の手順
-	git remote add
+	https://gatsby-theme-carbon.now.sh/getting-started  の手順　 @ carbon
+	git remote add origin https://github.com/kazz2001/my-carbon-site.git @ my-carbon-site
 	git fetch origin
 	git branch B1 origin/B1
 	git checkout B1
 	
-	yarnのinstall    npm i yarn　　　　yarn-cliが使えないとき
+	yarnのinstall    npm i yarn　　　　yarn-cliが使えないとき 
 
 	npm install -S @carbon/pictograms
 	
@@ -68,7 +68,7 @@ cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 	React Extension Pack
 	React code snipets
 
-## Mac ##
+## Mac set up##
 	xcode
 	homebrew
 	nodebrew
