@@ -14,6 +14,7 @@ cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 	git fetch origin
 	git branch B1 origin/B1
 	git checkout B1
+	.gitignore 確認し更新
 	
 	yarnのinstall    npm i yarn　　　　yarn-cliが使えないとき 
 
