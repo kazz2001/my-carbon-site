@@ -1,32 +1,39 @@
 ---
 title: Gallant / Ology
 description: Album Review of Gallant / Ology
-keywords: 'Gallant, Ology, フューチャー, ヘンドリックス'
+keywords: "Gallant, Ology"
 ---
-import { Slider, Button } from 'carbon-components-react';
-import { ArrowUpRight24  } from '@carbon/icons-react';
 
-import SliderJS1 from "../review/slider1"
-import SliderJS2 from "../review/slider2"
-import SliderJS3 from "../review/slider3"
-import SliderJS4 from "../review/slider4"
+import { Slider, Button } from "carbon-components-react";
+import { ArrowUpRight24 } from "@carbon/icons-react";
 
-import { Link } from "gatsby"
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+
+import { Link } from "gatsby";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
-<p className="largeP"><Link to="/best50/2016/">2016 Black Music Album Best No.28</Link></p>
+<p className="largeP">
+  <Link to="/best50/2016/">2016 Black Music Album Best No.28</Link>
+</p>
 
 <Row  className="image-card-group">
 	<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
        <ImageCard>
 
-![Gallant / Ology](../../images/cd/gallant1L.jpg) 
+![Gallant / Ology](../../images/cd/gallant1L.jpg)
+
 </ImageCard>
 	</Column>
 	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
 	<p>
-	DC生まれで、Maryland育ち、24歳(リリース時)のR&Bシンガー、Gallantのデビューアルバム。2016年春に配信開始、その後Physicalもリリースされ、Grammy賞にもNominateされている。とにかくメロディが良い曲ばかりで、Gallantの感傷的で繊細なVocalが絶妙にマッチしている。ファルセットを多用しているが、地声に芯があって青臭くないところがありがたいところ。曲はR&Bベースに、Rock, Houseなどをとりまぜ、切なく懐かしい感じであったり、アンビエントであったりと耳障りが良い。カナダ人のStintが多くの曲をProduceしている。9曲目のTitleはアニメの宮﨑（駿）監督のことらしいです。
+	DC生まれで、Maryland育ち、24歳(リリース時)のR&Bシンガー、Gallantのデビューアルバム。2016年春に配信開始、その後Physicalもリリースされ、Grammy賞にもNominateされている。
+	<br/>とにかくメロディが良い曲ばかりで、Gallantの感傷的で繊細なVocalが絶妙にマッチしている。ファルセットを多用しているが、地声に芯があって青臭くないところがありがたいところ。
+	<br/>曲はR&Bベースに、Rock, Houseなどをとりまぜ、切なく懐かしい感じであったり、アンビエントであったりと耳障りが良い。
+	<br/>カナダ人のStintが多くの曲をProduceしている。9曲目のTitleはアニメの宮﨑（駿）監督のことらしいです。
 	</p>
 	<div>
 	  <Button className="button-right-mergin"  href="https://amzn.to/30QeWr8" kind="primary" size="small" renderIcon={ArrowUpRight24}>
@@ -37,34 +44,33 @@ import { Link } from "gatsby"
     </Button>
 	</div>
 	<a href="https://geo.music.apple.com/jp/album/ology/1109106508?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2016-04-06&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
-	<a href="https://geo.music.apple.com/jp/album/ology/1109106508?app=itunes&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2016-04-06&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;"></a>
 	</Column>
 </Row>
 <Row >
 	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
 <div>
-    <h3>Score card</h3>
+  <h3>Score card</h3>
 	<SliderJS1 value="5" />
-    <SliderJS2 value="2" />
+  <SliderJS2 value="2" />
 	<SliderJS3 value="2" />
-    <SliderJS4 value="9" />
+  <SliderJS4 value="9" />
 </div>
 </Column>
 <Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
 <div>
 <h3>Producers</h3>
 <p>
-Stint(1,2,3,5,7,10,11,13,16)
-<br/>Josh Abraham and Oligee(4)
-<br/>Patrizio Moi(6,15)
-<br/>Bordeux(8)
-<br/>Ebrahim Lakhan(9)
-<br/>Maths Time Joy(12)
-<br/>Adrian Younge and Stint(14)
+	Stint(1,2,3,5,7,10,11,13,16)
+	<br/>Josh Abraham and Oligee(4)
+	<br/>Patrizio Moi(6,15)
+	<br/>Bordeux(8)
+	<br/>Ebrahim Lakhan(9)
+	<br/>Maths Time Joy(12)
+	<br/>Adrian Younge and Stint(14)
 </p>
 <h3>Guests</h3>
 <p>
-Jhene Aiko
+	Jhene Aiko
 </p>
 </div>
 </Column>
@@ -72,21 +78,21 @@ Jhene Aiko
 
 <h3>Tracks</h3>
 
-| No. |	 Title                   |	 Composers                                                                               |	 Performer              | Time	|
-| --- |	------------------------ | ----------------------------------------------------------------------------------------- | ------------------------ | ----- |
-| 1	  |	First                    | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                 	| 00:37	|
-| 2	  |	Talking to Myself        | Ajay Bhattacharyya / Christopher Gallant / Arthur Jones / Arthur Timothy Jones            | Gallant                 	| 03:57	|
-| 3	  |	Shotgun                  | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                 	| 03:17	|
-| 4	  |	Bourbon                  | Josh Abraham / Christopher Gallant / Oliver Goldstein                                     | Gallant                 	| 04:47	|
-| 5	  |	Bone + Tissue            | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                 	| 03:41	|
-| 6	  |	Oh, Universe (Interlude) | Christopher Gallant / Patrizio Moi                                                        | Gallant                 	| 01:02	|
-| 7	  |	Weight in Gold           | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                 	| 03:23	|
-| 8	  |	Episode                  | Christopher Gallant / Joseph Postiglione / Steven Zhu                                     | Gallant                 	| 04:36	|
-| 9	  |	Miyazaki                 | Yannick "Hazel" Beaucaine / Darryl Brown / Ebrahim Lakhani / Amel Larrieux / Bryce Wilson | Gallant                 	| 02:12	|
-| 10  |	Counting                 | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                 	| 04:34	|
-| 11  |	Percogesic               | Ajay Bhattacharyya / Christopher Gallant / Willis Norman                                  | Gallant                 	| 04:12	|
-| 12  |	Jupiter                  | Christopher Gallant / Timothy James                                                       | Gallant                 	| 04:36	|
-| 13  |	Open Up                  | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                 	| 04:37	|
-| 14  |	Skipping Stones          | Jhen? Aiko / Ajay Bhattacharyya / Christopher Gallant / Adrian Young                      | Gallant feat. Jhene Aiko	| 03:04	|
-| 15  |	Chandra                  | Christopher Gallant / Patrizio Moi                                                        | Gallant                 	| 03:43	|
-| 16  |	Last                     | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                 	| 00:31	|
+| No. | Title                    | Composers                                                                                 | Performer                | Time  |
+| --- | ------------------------ | ----------------------------------------------------------------------------------------- | ------------------------ | ----- |
+| 1   | First                    | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                  | 00:37 |
+| 2   | Talking to Myself        | Ajay Bhattacharyya / Christopher Gallant / Arthur Jones / Arthur Timothy Jones            | Gallant                  | 03:57 |
+| 3   | Shotgun                  | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                  | 03:17 |
+| 4   | Bourbon                  | Josh Abraham / Christopher Gallant / Oliver Goldstein                                     | Gallant                  | 04:47 |
+| 5   | Bone + Tissue            | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                  | 03:41 |
+| 6   | Oh, Universe (Interlude) | Christopher Gallant / Patrizio Moi                                                        | Gallant                  | 01:02 |
+| 7   | Weight in Gold           | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                  | 03:23 |
+| 8   | Episode                  | Christopher Gallant / Joseph Postiglione / Steven Zhu                                     | Gallant                  | 04:36 |
+| 9   | Miyazaki                 | Yannick "Hazel" Beaucaine / Darryl Brown / Ebrahim Lakhani / Amel Larrieux / Bryce Wilson | Gallant                  | 02:12 |
+| 10  | Counting                 | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                  | 04:34 |
+| 11  | Percogesic               | Ajay Bhattacharyya / Christopher Gallant / Willis Norman                                  | Gallant                  | 04:12 |
+| 12  | Jupiter                  | Christopher Gallant / Timothy James                                                       | Gallant                  | 04:36 |
+| 13  | Open Up                  | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                  | 04:37 |
+| 14  | Skipping Stones          | Jhen? Aiko / Ajay Bhattacharyya / Christopher Gallant / Adrian Young                      | Gallant feat. Jhene Aiko | 03:04 |
+| 15  | Chandra                  | Christopher Gallant / Patrizio Moi                                                        | Gallant                  | 03:43 |
+| 16  | Last                     | Ajay Bhattacharyya / Christopher Gallant                                                  | Gallant                  | 00:31 |

@@ -13,7 +13,9 @@
     "build:analyze": "ANALYZE=true yarn build",
     "build:prefix": "gatsby build --prefix-paths",
     "serve:prefix": "gatsby serve --prefix-paths",
-    "test:prefix": "yarn build:prefix && yarn serve:prefix"
+    "test:prefix": "yarn build:prefix && yarn serve:prefix",
+    "cf login": "cf login -a https://api.us-south.cf.cloud.ibm.com --sso",
+    "cf push": "cf push -f manifest.yml"
   },
   "dependencies": {
     "@carbon/pictograms-react": "^11.1.0",
