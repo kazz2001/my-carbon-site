@@ -75,6 +75,9 @@ cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 	nodebrew
 	node.js
 
+## apple affiliate
+	11lcug
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/879f5e62-98f6-4f1d-b0a1-5bba4c6a9b55/deploy-status)](https://app.netlify.com/sites/cdreview/deploys)
 
 Your friendly Gatsby maintainers detected your site has more JavaScript than most sites! We're working to make your site's JS compile as quickly as possible by avoiding clearing your webpack cache as 
