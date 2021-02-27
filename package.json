@@ -18,10 +18,10 @@
     "cf push": "cf push -f manifest.yml"
   },
   "dependencies": {
-    "@carbon/pictograms-react": "^11.1.0",
-    "gatsby": "2.30.1",
-    "gatsby-plugin-google-analytics": "^2.9.0",
-    "gatsby-theme-carbon": "1.27.2",
+    "@carbon/pictograms-react": "^11.4.0",
+    "gatsby": "2.32.4",
+    "gatsby-plugin-google-analytics": "^2.11.0",
+    "gatsby-theme-carbon": "1.27.3",
     "react": "17.0.1",
     "react-dom": "^17.0.1"
   }
