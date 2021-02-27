@@ -60,7 +60,7 @@ cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 
 ## メモ
 	C:\Users\user\AppData\Local\Temp
-	npm view carbon-components version
+	npm view carbon-components version リモートのバージョン
 
 ## VSCode
 	Git History
