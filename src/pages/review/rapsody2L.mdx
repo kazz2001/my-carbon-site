@@ -1,91 +1,95 @@
 ---
 title: "Rapsody / Eve"
 description: "Album review of Rapsody / Eve"
-keywords: 'Rapsody, Eve, ラプソディ, イブ'
+keywords: "Rapsody, Eve, ラプソディ, イブ"
 ---
-import { Slider, Button } from 'carbon-components-react';
-import { ArrowUpRight24  } from '@carbon/icons-react';
 
-import SliderJS1 from "../review/slider1"
-import SliderJS2 from "../review/slider2"
-import SliderJS3 from "../review/slider3"
-import SliderJS4 from "../review/slider4"
+import { Slider, Button } from "carbon-components-react";
+import { ArrowUpRight24 } from "@carbon/icons-react";
 
-import { Link } from "gatsby"
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+
+import { Link } from "gatsby";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
-<p className="largeP"><Link to="/best50/2019/">2019 Black Music Best No.6</Link></p>
+<p className="largeP">
+  <Link to="/best50/2019/">2019 Black Music Best No.6</Link>
+</p>
 
 <Row  className="image-card-group">
 	<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
        <ImageCard>
 
-![Rapsody / Eve](../../images/cd/rapsody2L.jpg) 
+![Rapsody / Eve](../../images/cd/rapsody2L.jpg)
 
 </ImageCard>
 	</Column>
 	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
-	<p>
-	Rapsodyの2年振り3作目。前2作がGrammyにノミネートされ、実力は折り紙付き。今作は彼女のヒーローである黒人女性たちにInspireされた作品で、曲ごとにArtist, 活動家から2Pacのお母さんまでと幅広い人々の名前が付けられいる。Lyricも当然女性に視点を当てていて、コンセプチャルかつコンシャスな大作と言ってよい。Producer陣は前作と変わらずで、Trackは前作路線のメロウなソウルや Jazzyな曲から、ストレートなHip-Hop,変化球的な作品とバラエティーの富んでいて、サンプリングも効果的。Guest陣(なんとD'angeloも参加)も様々。ちなみにalbumタイトルは⑭のGuestのQueen Latifahに相談して決めたらしい。きりっとしたCDジャケットのお顔も素敵です。
-	</p>
-	<div>
-	  <Button className="button-right-mergin"  href="https://amzn.to/2TUEgZ3" kind="primary" size="small" renderIcon={ArrowUpRight24}>
-      amazon.com
-    </Button>
-    <Button className="button-right-mergin"  href="https://amzn.to/3esCjuW" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
-      amazon.co.jp
-    </Button>
-	</div>
-	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2019-08-23&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/eve/1476020071?mt=1&app=music&ls=1&at=11lcug"></a>
-	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2019-08-23&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;" href="https://geo.music.apple.com/jp/album/eve/1476020071?app=itunes&at=11lcug"></a>
+		<p>
+			Rapsodyの2年振り3作目。前2作がGrammyにノミネートされ、実力は折り紙付き。今作は彼女のヒーローである黒人女性たちにInspireされた作品で、曲ごとにArtist, 活動家から2Pacのお母さんまでと幅広い人々の名前が付けられいる。
+			<br/>Lyricも当然女性に視点を当てていて、コンセプチャルかつコンシャスな大作と言ってよい。Producer陣は前作と変わらずで、Trackは前作路線のメロウなソウルや Jazzyな曲から、ストレートなHip-Hop,変化球的な作品とバラエティーの富んでいて、サンプリングも効果的。
+			<br/>Guest陣(なんとD'angeloも参加)も様々。ちなみにalbumタイトルは⑭のGuestのQueen Latifahに相談して決めたらしい。きりっとしたCDジャケットのお顔も素敵です。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/2TUEgZ3" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3esCjuW" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.co.jp
+  	  </Button>
+		</div>
+		<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2019-08-23&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/eve/1476020071?mt=1&app=music&ls=1&at=11lcug"></a>
 	</Column>
 </Row>
 <Row >
 	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
-<div>
-    <h3>Score card</h3>
-	<SliderJS1 value="4" />
-    <SliderJS2 value="2" />
-	<SliderJS3 value="1" />
-    <SliderJS4 value="9" />
-</div>
-</Column>
-<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
-<div>
-<h3>Producers</h3>
-<p>
-Mark Byrd(1)
-<br/>9th Wonder(2,8,9,11,13,15,16)
-<br/>Eric G(3,4,6,7,10)
-<br/>Khrysis(5)
-<br/>Nottz(12,14)
-</p>
-<h3>Guests</h3>
-<p>
-Leikili47, K.Roosevelt, GZA, D'angelo, Mereba, Elle Vernar, SiR, J.I.D, Queen Latifah, J. Cole, PJ Morton
-</p>
-</div>
+		<div>
+    	<h3>Score card</h3>
+			<SliderJS1 value="4" />
+    	<SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+    	<SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
+	<div>
+		<h3>Producers</h3>
+		<p>
+			Mark Byrd(1)
+			<br/>9th Wonder(2,8,9,11,13,15,16)
+			<br/>Eric G(3,4,6,7,10)
+			<br/>Khrysis(5)
+			<br/>Nottz(12,14)
+		</p>
+		<h3>Guests</h3>
+		<p>
+			Leikili47, K.Roosevelt, GZA, D'angelo, Mereba, Elle Vernar, SiR, J.I.D, Queen Latifah, J. Cole, PJ Morton
+		</p>
+	</div>
 </Column>
 </Row>
 
 <h3>Tracks</h3>
 
-| No. |	Title	          |	Composer	                                                                                                                                                                |	Performer	              |	Time |
-| --- |	----------------- |	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------	| --------------------------- |	---- |
-| 1	  |	Nina	          |	Lewis Allen / Mark Byrd / Marlanna Evans	                                                                                                                                | Rapsody                     |	4:20 |
-| 2	  |	Cleo	          |	Phil Collins / Patrick Douthit / Marlanna Evans	                                                                                                                            | Rapsody                     |	4:00 |
-| 3	  |	Aaliyah	          |	Brandon Canada / Sabrina Claudio / Marlanna Evans / Eric Gabouer / Derek Gamlan	                                                                                            | Rapsody                     |	3:54 |
-| 4	  |	Oprah	          |	Marlanna Evans / Eric Gabouer / Sauveur Mallia	                                                                                                                            | Rapsody feat. Leikili47	  |	5:02 |
-| 5	  |	Whoopi	          |	Marlanna Evans / Herbie Hancock / Christopher Tyson	                                                                                                                        | Rapsody	                  |	3:12 |
-| 6	  |	Serena	          |	Luther Campbell / Jacob Dutton / Marlanna Evans / Eric Gabouer	                                                                                                            | Rapsody	                  |	2:54 |
-| 7	  |	Tyra	          |	Marlanna Evans / Eric Gabouer / Alejandro Ghersi / Bj?rk Gudmundsdottir	                                                                                                    | Rapsody	                  |	2:01 |
-| 8	  |	Maya	          |	Victor Cooke / Patrick Douthit / Marlanna Evans / Kevin Roosevelt Moore II / James Poyser / Erica Wright	                                                                | Rapsody feat. K.Roosevelt	  |	3:41 |
-| 9	  |	Ibtihaj	          |	Michael Archer / Eddie Brigati / Felix Cavaliere / Patrick Douthit / Marlanna Evans / Gary Grice	                                                                        | Rapsody feat. GZA, D'angelo |	4:46 |
-| 10  |	Myrlie	          |	Marlanna Evans / Eric Gabouer / John Herbert / Marian Mereba	                                                                                                            | Rapsody feat. Mereba	      |	2:21 |
-| 11  |	Reyna's Interlude |	Patrick Douthit / Quintin Gulledge / Terrace Martin	                                                                                                                        | Rapsody	                  |	3:49 |
-| 12  |	Michelle	      |	Marlanna Evans / Dominick Lamb / Elle Varner	                                                                                                                            | Rapsody feat. Elle Vernar	  |	3:49 |
-| 13  |	Iman	          |	Patrick Douthit / Marlanna Evans / Darryl Farris / Morris Bailey Jr. / Destin Route	                                                                                        | Rapsody feat. SiR, J.I.D	  |	4:35 |
-| 14  |	Hatshepsut	      |	Marlanna Evans / Dominick Lamb / Dana Owens	                                                                                                                                | Rapsody feat. Queen Latifah |	3:15 |
-| 15  |	Sojourner	      |	Jermaine Cole / Patrick Douthit / Marlanna Evans / Kendra Morris / Jeremy Page	                                                                                            | Rapsody feat. J. Cole	      |	5:31 |
-| 16  |	Afeni	          |	Daryl Anderson / Patrick Douthit / Marlanna Evans / Susaye Greene / PJ Morton / Hank Redd / Tupac Shakur / Roger Troutman / Stan Vincent / Nathan Watts / Deniece Williams	| Rapsody feat. PJ Morton	  |	5:53 |
+| No. | Title             | Composer                                                                                                                                                                   | Performer                   | Time |
+| --- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | ---- |
+| 1   | Nina              | Lewis Allen / Mark Byrd / Marlanna Evans                                                                                                                                   | Rapsody                     | 4:20 |
+| 2   | Cleo              | Phil Collins / Patrick Douthit / Marlanna Evans                                                                                                                            | Rapsody                     | 4:00 |
+| 3   | Aaliyah           | Brandon Canada / Sabrina Claudio / Marlanna Evans / Eric Gabouer / Derek Gamlan                                                                                            | Rapsody                     | 3:54 |
+| 4   | Oprah             | Marlanna Evans / Eric Gabouer / Sauveur Mallia                                                                                                                             | Rapsody feat. Leikili47     | 5:02 |
+| 5   | Whoopi            | Marlanna Evans / Herbie Hancock / Christopher Tyson                                                                                                                        | Rapsody                     | 3:12 |
+| 6   | Serena            | Luther Campbell / Jacob Dutton / Marlanna Evans / Eric Gabouer                                                                                                             | Rapsody                     | 2:54 |
+| 7   | Tyra              | Marlanna Evans / Eric Gabouer / Alejandro Ghersi / Bj?rk Gudmundsdottir                                                                                                    | Rapsody                     | 2:01 |
+| 8   | Maya              | Victor Cooke / Patrick Douthit / Marlanna Evans / Kevin Roosevelt Moore II / James Poyser / Erica Wright                                                                   | Rapsody feat. K.Roosevelt   | 3:41 |
+| 9   | Ibtihaj           | Michael Archer / Eddie Brigati / Felix Cavaliere / Patrick Douthit / Marlanna Evans / Gary Grice                                                                           | Rapsody feat. GZA, D'angelo | 4:46 |
+| 10  | Myrlie            | Marlanna Evans / Eric Gabouer / John Herbert / Marian Mereba                                                                                                               | Rapsody feat. Mereba        | 2:21 |
+| 11  | Reyna's Interlude | Patrick Douthit / Quintin Gulledge / Terrace Martin                                                                                                                        | Rapsody                     | 3:49 |
+| 12  | Michelle          | Marlanna Evans / Dominick Lamb / Elle Varner                                                                                                                               | Rapsody feat. Elle Vernar   | 3:49 |
+| 13  | Iman              | Patrick Douthit / Marlanna Evans / Darryl Farris / Morris Bailey Jr. / Destin Route                                                                                        | Rapsody feat. SiR, J.I.D    | 4:35 |
+| 14  | Hatshepsut        | Marlanna Evans / Dominick Lamb / Dana Owens                                                                                                                                | Rapsody feat. Queen Latifah | 3:15 |
+| 15  | Sojourner         | Jermaine Cole / Patrick Douthit / Marlanna Evans / Kendra Morris / Jeremy Page                                                                                             | Rapsody feat. J. Cole       | 5:31 |
+| 16  | Afeni             | Daryl Anderson / Patrick Douthit / Marlanna Evans / Susaye Greene / PJ Morton / Hank Redd / Tupac Shakur / Roger Troutman / Stan Vincent / Nathan Watts / Deniece Williams | Rapsody feat. PJ Morton     | 5:53 |
