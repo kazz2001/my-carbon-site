@@ -1,7 +1,7 @@
 {
   "name": "Black-Music-Album-Review",
   "private": true,
-  "version": "1.00.03",
+  "version": "1.04.19",
   "license": "Apache 2.0",
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
@@ -18,11 +18,11 @@
     "cf push": "cf push -f manifest.yml"
   },
   "dependencies": {
-    "@carbon/pictograms-react": "^11.1.0",
+    "@carbon/pictograms-react": "^11.7.0",
     "gatsby": "2.30.1",
     "gatsby-plugin-google-analytics": "^2.9.0",
     "gatsby-theme-carbon": "1.27.2",
-    "react": "17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
