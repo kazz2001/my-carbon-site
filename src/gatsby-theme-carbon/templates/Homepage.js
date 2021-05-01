@@ -16,19 +16,22 @@ const FirstRightText = () => (
       <br/>R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。1998年より、年50年枚程度レビューしています。
       <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search24 />をクリックで検索できます。
       <div style={{marginTop: '0.5rem',}}>
-        <Button className="button-right-mergin" href="/cd/2020-2021/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
-          2020-2021
+        <Button className="button-right-mergin" href="/cd/2021/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+          2021
         </Button>
-        <Button className="button-right-mergin" href="/cd/2019/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2020/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+          2020
+        </Button>
+        <Button className="button-right-mergin" href="/cd/2019/" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
           2019
         </Button>
-        <Button className="button-right-mergin" href="/cd/2018/" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2018/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
           2018
         </Button>
-        <Button className="button-right-mergin" href="/cd/2017/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2017/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
           2017
         </Button>
-        <Button className="button-right-mergin" href="/cd/2016/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2016/" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
           2016
         </Button>
 	    </div>
