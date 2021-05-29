@@ -1,0 +1,88 @@
+---
+title: Celeste / Not Your Muse
+description: Album Review of Celeste / Not Your Muse
+keywords: "Celeste, Not Your Muse, セレステ, ノット・ユア・ミューズ"
+---
+
+import { Slider, Button } from "carbon-components-react";
+import { ArrowUpRight24 } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
+       <ImageCard>
+
+![Celeste / Not Your Muse](../../images/cd/celeste1L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
+	<p>
+		California出身、UK育ちのシンガー、Celesteの1stアルバム。デビューは大分前から期待されていたそうで、26歳でやっとのリリースにこぎつけたとのこと。その分、デビューアルバムとは思えない落ち着きと完成度の高さを感じるUKソウル/ポップの秀作である。ジャマイカとイギリスのハーフということだが、あまり黒っぽくはないそのスモーキーな歌声でAmy Winehouseに比べられることが多いようだが、彼女のような破天荒なところはなく、どちらかといったら優等生っぽく感じる。Trackは語り掛けてくるようなしっとりとしたスローが多く、ミディアム、アップも数曲。Lyricは恋愛のことを唄っていて、せつなさがひしひしと伝わってくる。
+	</p>
+	<div>
+	  <Button className="button-right-mergin"  href="https://amzn.to/3wEhSUQ" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+      amazon.com
+    </Button>
+    <Button className="button-right-mergin"  href="https://amzn.to/3uxSoHa" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+      amazon.co.jp
+    </Button>
+		<Button className="button-right-mergin"  href="https://geo.music.apple.com/us/album/not-your-muse-deluxe/1552047198?itsct=music_box_link&itscg=30200&at=11lcug&ct=albums_not_your_muse_%28deluxe%29&ls=1&app=music" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+      apple music
+    </Button>
+	</div>
+	</Column>
+</Row>
+<Row >
+  <Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
+    <div>
+    <h3>Score card</h3>
+		<SliderJS1 value="5" />
+    <SliderJS2 value="2" />
+		<SliderJS3 value="1" />
+    <SliderJS4 value="9" />
+    </div>
+  </Column>
+  <Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Josh Crocker(1,7,9)
+				<br/>Jamie Hartman(2,11,12)
+				<br/>Chalie Hugall, Kid Harpoon and Josh Crocker(8,10)
+				<br/>Jamie Hartman and John Hill(4)
+				<br/>Chalie Hugall(5,6)
+				<br/>Chalie Hugall and Josh Crocker(8,10)
+			</p>
+			<h3>Guests</h3>
+			<p>
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                          | Composers                                                       | Performer | Time  |
+| --- | ------------------------------ | --------------------------------------------------------------- | --------- | ----- |
+| 1   | Ideal Woman                    | Jamie Hartman / Jamien Nagadhana / Celeste Waite                | Celeste   | 03:44 |
+| 2   | Strange                        | Jamie Hartman / Celeste Waite / Stephen Wrabel                  | Celeste   | 03:18 |
+| 3   | Tonight Tonight                | Sean Douglas / Jamie Hartman / Celeste Waite                    | Celeste   | 03:41 |
+| 4   | Stop This Flame                | Jamie Hartman / Nina Simone / Celeste Waite                     | Celeste   | 03:29 |
+| 5   | Tell Me Something I Don't Know | Jamie Hartman / Jamien Nagadhana / Celeste Waite                | Celeste   | 03:56 |
+| 6   | Not Your Muse                  | Simon Aldred / Simon Aldridge / Celeste Waite                   | Celeste   | 04:27 |
+| 7   | Beloved                        | Jamie Hartman / Celeste Waite                                   | Celeste   | 03:58 |
+| 8   | Love Is Back                   | Etty Hartman / Jamie Hartman / Celeste Waite                    | Celeste   | 04:17 |
+| 9   | A Kiss                         | Jamie Hartman / Mark Mollison / Mattman & Robin / Celeste Waite | Celeste   | 03:58 |
+| 10  | The Promise                    | Holly Millman / Mark Mollison / Celeste Waite                   | Celeste   | 03:45 |
+| 11  | A Little Love                  | Jamie Hartman / Celeste Waite                                   | Celeste   | 02:59 |
+| 12  | Some Goodbyes Come With Hellos | Jamie Hartman / Gregory Hein / Sam Romans / Celeste Waite       | Celeste   | 03:26 |
