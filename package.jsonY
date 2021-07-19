@@ -1,7 +1,7 @@
 {
-  "name": "Black-Music-CD-Review",
+  "name": "Black-Music-Album-Review",
   "private": true,
-  "version": "1.00.03",
+  "version": "1.7.04",
   "license": "Apache 2.0",
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
@@ -13,14 +13,19 @@
     "build:analyze": "ANALYZE=true yarn build",
     "build:prefix": "gatsby build --prefix-paths",
     "serve:prefix": "gatsby serve --prefix-paths",
-    "test:prefix": "yarn build:prefix && yarn serve:prefix"
+    "test:prefix": "yarn build:prefix && yarn serve:prefix",
+    "cf login": "cf login -a https://api.us-south.cf.cloud.ibm.com --sso",
+    "cf push": "cf push -f manifest.yml"
   },
   "dependencies": {
-    "@carbon/pictograms-react": "^10.18.0",
-    "gatsby": "2.24.85",
-    "gatsby-plugin-google-analytics": "^2.3.19",
-    "gatsby-theme-carbon": "1.27.0",
-    "react": "17.0.1",
-    "react-dom": "^17.0.1"
+    "@carbon/pictograms-react": "^11.13.0",
+    "carbon-components": "^10.39.0",
+    "carbon-components-react": "^7.39.0",
+    "carbon-icons": "^7.0.7",
+    "gatsby": "2.32.13",
+    "gatsby-plugin-google-analytics": "^2.9.0",
+    "gatsby-theme-carbon": "1.30.1",
+    "react": "17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
