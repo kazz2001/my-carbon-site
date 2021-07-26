@@ -1,5 +1,5 @@
 module.exports = {
-  flags: { PRESERVE_WEBPACK_CACHE: true },  
+  flags: { PRESERVE_WEBPACK_CACHE: true, },  
   siteMetadata: {
     title: 'Black Music Album Review',
     description: 'Album review for Soul and Hip-Hop Music',
@@ -30,6 +30,9 @@ module.exports = {
       resolve: 'gatsby-theme-carbon',
       options: {
         iconPath: './src/images/music.png', 
+        options: {
+          isSwitcherEnabled: false,
+        },
         repository: {
           baseUrl:
             'https://github.com/kazz2001',
