@@ -18,12 +18,13 @@
     "cf push": "cf push -f manifest.yml"
   },
   "dependencies": {
-    "@carbon/pictograms-react": "^11.13.0",
-    "carbon-components": "^10.39.0",
-    "carbon-components-react": "^7.39.0",
+    "@carbon/pictograms-react": "^11.14.0",
+    "caniuse-lite": "^1.0.30001247",
+    "carbon-components": "^10.40.0",
+    "carbon-components-react": "^7.40.0",
     "carbon-icons": "^7.0.7",
-    "gatsby": "^3.9.1",
-    "gatsby-plugin-google-analytics": "^3.9.0",
+    "gatsby": "^3.10.1",
+    "gatsby-plugin-google-analytics": "^3.10.0",
     "gatsby-theme-carbon": "2.0.0",
     "react": "17.0.2",
     "react-dom": "^17.0.2"
