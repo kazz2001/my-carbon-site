@@ -12,7 +12,7 @@ const FirstLeftText = () =>
     <h2>Contents</h2>
 ;
 const FirstRightText = () => (
-    <p>
+    <p className="p-hp">
       <code>Black Music Album Review</code>
       <br/>R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。1998年より、年50年枚程度レビューしています。
       <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search24 />をクリックで検索できます。
