@@ -99,7 +99,6 @@ a:visited[class="visited-color"] {
 }
 
 .h1-no-bottom-margin {
-  font-size: 3.5em;
   margin-bottom: -15px;
   font-family: "IBM Plex Sans JP";
   font-weight: 500;
@@ -138,4 +137,39 @@ svg.svg-white {
 .p-hp {
   font-family: "IBM Plex Sans JP";
   font-weight: 100;
+}
+
+.p100 {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 100;
+}
+
+.p200 {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 200;
+}
+
+.p300 {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 300;
+}
+
+.p400 {
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+}
+
+.p500 {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 500;
+}
+
+.p700 {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 700;
+}
+
+.p600 {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 600;
 }
