@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'IBM Plex Sans JP';
+  font-style: normal;
+  font-weight: 100;
+  src: url("https://planetky.com/bm/fonts/IBM-Plex-Sans-JP/fonts/complete/woff2/hinted/IBMPlexSansJP-Thin.woff2") format("woff2"), url("https://planetky.com/bm/fonts/IBM-Plex-Sans-JP/fonts/complete/woff/hinted/IBMPlexSansJP-Thin.woff") format("woff"); }
+
 div[class*="page-header"] {
   --height: 10rem;
   font-family: "IBM Plex Sans JP";
@@ -130,7 +138,7 @@ svg.svg-white {
 }
 
 .button-right-mergin {
-  margin-right: 4px;
+  margin-right: 2px;
   margin-bottom: 4px;
 }
 
@@ -139,18 +147,52 @@ svg.svg-white {
   font-weight: 100;
 }
 
-.p100 {
+.p100J {
   font-family: "IBM Plex Sans JP";
   font-weight: 100;
 }
 
-.p200 {
+.p200J {
   font-family: "IBM Plex Sans JP";
   font-weight: 200;
 }
 
-.p300 {
+.p300J {
   font-family: "IBM Plex Sans JP";
+  font-weight: 300;
+}
+
+.p400J {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 400;
+}
+
+.p500J {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 500;
+}
+
+.p700J {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 700;
+}
+
+.p600J {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 600;
+}
+.p100 {
+  font-family: "IBM Plex Sans";
+  font-weight: 100;
+}
+
+.p200 {
+  font-family: "IBM Plex Sans";
+  font-weight: 200;
+}
+
+.p300 {
+  font-family: "IBM Plex Sans";
   font-weight: 300;
 }
 
@@ -160,16 +202,16 @@ svg.svg-white {
 }
 
 .p500 {
-  font-family: "IBM Plex Sans JP";
+  font-family: "IBM Plex Sans";
   font-weight: 500;
 }
 
 .p700 {
-  font-family: "IBM Plex Sans JP";
+  font-family: "IBM Plex Sans";
   font-weight: 700;
 }
 
 .p600 {
-  font-family: "IBM Plex Sans JP";
+  font-family: "IBM Plex Sans";
   font-weight: 600;
 }
