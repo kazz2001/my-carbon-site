@@ -12,9 +12,9 @@ const FirstLeftText = () =>
     <h2>Contents</h2>
 ;
 const FirstRightText = () => (
-    <p className="p-hp">
+    <p className="p700J">
       <code>Black Music Album Review</code>
-      <br/>R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。1998年より、年50年枚程度レビューしています。
+      <br/>R&amp;BやオHip-HopなどBlack MusicのAlbum Reviewを載せています。1998年より、年50年枚程度レビューしています。
       <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search24 />をクリックで検索できます。
       <div style={{marginTop: '0.5rem',}}>
         <Button className="button-right-mergin" href="/cd/2021/" kind="primary" size="small" renderIcon={ArrowUpRight24}>

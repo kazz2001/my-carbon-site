@@ -1,10 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
+/*
 @font-face {
   font-family: 'IBM Plex Sans JP';
   font-style: normal;
   font-weight: 100;
   src: url("https://planetky.com/bm/fonts/IBM-Plex-Sans-JP/fonts/complete/woff2/hinted/IBMPlexSansJP-Thin.woff2") format("woff2"), url("https://planetky.com/bm/fonts/IBM-Plex-Sans-JP/fonts/complete/woff/hinted/IBMPlexSansJP-Thin.woff") format("woff"); }
+*/
+
+@font-face {
+  font-family: 'IBM Plex Sans JP';
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/IBMPlexSansJP-Thin.woff2") format("woff2") }
+
+@font-face {
+  font-family: 'IBM Plex Sans JP';
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/IBMPlexSansJP-ExtraLight.woff2") format("woff2") }
+
+@font-face {
+  font-family: 'IBM Plex Sans JP';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/IBMPlexSansJP-Light.woff2") format("woff2") }  
+
+@font-face {
+  font-family: 'IBM Plex Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/IBMPlexSansJP-Regular.woff2") format("woff2") }  
+
+@font-face {
+  font-family: 'IBM Plex Sans JP';
+  font-style: normal;
+  font-weight: 450;
+  src: url("../fonts/IBMPlexSansJP-Text.woff2") format("woff2") }
+
+@font-face {
+  font-family: 'IBM Plex Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/IBMPlexSansJP-Medium.woff2") format("woff2") }
+    
+@font-face {
+  font-family: 'IBM Plex Sans JP';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/IBMPlexSansJP-SemiBold.woff2") format("woff2") }
+    
+@font-face {
+  font-family: 'IBM Plex Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/IBMPlexSansJP-Bold.woff2") format("woff2") }
 
 div[class*="page-header"] {
   --height: 10rem;
@@ -58,7 +108,7 @@ p[class*="paragraph--responsive"] {
   width: 90%;
   padding-bottom: 0.5em;
   font-family: "IBM Plex Sans JP";
-  font-weight: 450;
+  font-weight: 400;
 }
 
 ul[class*="module--list"] {
@@ -109,7 +159,7 @@ a:visited[class="visited-color"] {
 .h1-no-bottom-margin {
   margin-bottom: -15px;
   font-family: "IBM Plex Sans JP";
-  font-weight: 500;
+  font-weight: 600;
 }
 
 svg.svg-white {
@@ -124,7 +174,7 @@ svg.svg-white {
 .largeP {
   font-size: 1.5em;
   font-family: "IBM Plex Sans JP";
-  font-weight: 450;
+  font-weight: 500;
 }
 
 .largeP-less-margin {
