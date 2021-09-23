@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+*/
 /*
 @font-face {
   font-family: 'IBM Plex Sans JP';
@@ -159,7 +159,7 @@ a:visited[class="visited-color"] {
 .h1-no-bottom-margin {
   margin-bottom: -15px;
   font-family: "IBM Plex Sans JP";
-  font-weight: 600;
+  font-weight: 400;
 }
 
 svg.svg-white {
@@ -222,15 +222,16 @@ svg.svg-white {
   font-weight: 500;
 }
 
+.p600J {
+  font-family: "IBM Plex Sans JP";
+  font-weight: 600;
+}
+
 .p700J {
   font-family: "IBM Plex Sans JP";
   font-weight: 700;
 }
 
-.p600J {
-  font-family: "IBM Plex Sans JP";
-  font-weight: 600;
-}
 .p100 {
   font-family: "IBM Plex Sans";
   font-weight: 100;
@@ -264,4 +265,36 @@ svg.svg-white {
 .p600 {
   font-family: "IBM Plex Sans";
   font-weight: 600;
+}
+
+.p_sans {
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+}
+
+.p_mono {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+}
+
+.p_serif {
+  font-family: "IBM Plex Serif";
+  font-weight: 400;
+}
+
+.p_mono {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+}
+
+.ff_mono {
+  font-family: carbon--font-family('mono');
+}
+
+.ff_sans {
+  font-family: carbon--font-family('sans');
+}
+
+.ff_serif {
+  font-family: carbon--font-family('serif');
 }
