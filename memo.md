@@ -43,17 +43,15 @@ cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 ## git 無視ファイルをcacheから削除
 	git rm -r --cached package.json
 
-
-
 ## Packageの最新化
-	NCUを導入
-	NCUで確認
-	NCU -Uでpackage.jsonをupdate
-	yarn.lock 削除
-	yarn ( or NPM Install)
+	-NCUを導入
+	-NCUで確認
+	-NCU -Uでpackage.jsonをupdate
+	-yarn.lock 削除
+	-yarn ( or NPM Install)
 
 ## NPMで困ったとき
-	node --stack-size=4000 "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js" install
+	node --stack-size=4000 "C:/Program Files/nodejs/node_modules/npm/bin/1.npm-cli.js" install
 	npm cache clean -force
 	npm config set strict-ssl f  
 	export NODE_OPTIONS="--max-old-space-size=4096"
@@ -77,6 +75,21 @@ cf login -a https://api.us-south.cf.cloud.ibm.com --sso
 
 ## apple affiliate
 	11lcug
+
+## gatsby-theme-carbon v2 migration
+
+下記を最新パッケージからコピー
+	index.js  修正
+	Banner.js　修正
+Package.json 最新化
+yarn.rock 削除
+yarn
+Node optionセットしたのちに、develop
+
+## to do for v2
+headerとfooter修正
+book reviewの画像
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/879f5e62-98f6-4f1d-b0a1-5bba4c6a9b55/deploy-status)](https://app.netlify.com/sites/cdreview/deploys)
 
