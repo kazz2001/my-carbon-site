@@ -1,1 +1,25 @@
+// @import '@carbon/type/scss/type';
+// @import '@carbon/type/scss/font-face/mono';
+// @import '@carbon/type/scss/font-face/sans';
+
+// @include carbon--type-reset();
+// @include carbon--font-face-mono();
+// @include carbon--font-face-sans();
 // This is where your application styles could go.
+// @import '@carbon/type/scss/styles';
+// @include carbon--type-style('productive-heading-01');
+
+// @import '@carbon/type/scss/font-face/mono';
+// @import '@carbon/type/scss/font-face/sans';
+// @import '@carbon/type/scss/font-face/serif';
+// @include carbon--font-face-mono();
+// @include carbon--font-face-sans();
+// @include carbon--font-face-serif();
+
+// @import '@carbon/type/scss/classes';
+
+@import '@carbon/type/scss/font-family';
+
+
+
+

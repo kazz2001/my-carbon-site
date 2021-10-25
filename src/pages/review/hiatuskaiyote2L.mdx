@@ -1,0 +1,92 @@
+---
+title: Hiatus Kaiyote / Mood Valiant
+description: Album review of Hiatus Kaiyote / Mood Valiant
+keywords: "Hiatus Kaiyote, Mood Valiant"
+---
+
+import { Slider, Button } from "carbon-components-react";
+import { ArrowUpRight24 } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
+       <ImageCard>
+
+![Hiatus Kaiyote / Mood Valiant](../../images/cd/hiatuskaiyote2L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
+		<p>
+			前作の2作目が高評価で一気にメジャーな存在になったHiatus Kaiyoteの6年ぶりの3rd。ライブで忙殺されたり、VoのNai Palmの病気があったり、コロナ禍があったりと大分インターバルが空いてしまったが、そのぶんじっくりと制作に時間をかけたアルバムになっているようだ。
+			<br/>Rock, Jazz, Funk, R&Bをミックスしたようなサウンドはそのまま、ブラジルからArthur VelocaiをGuestに加えて、⑥などではストリングスを採用して、変化をつけている。
+			<br/>構成は昔の曲、ライブで使っている曲、最近の曲など様々だが、結成ほぼ10年ということで、かなりの一体感のある作品であり、バンド演奏とは思えない凝った構成と演奏でのテクニックは流石である。
+			<br/>今まで以上に、力強さや意思のようなものも感じられる。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3eYMF8p" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3iMQkr2" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://geo.music.apple.com/us/album/mood-valiant/1552222008?itsct=music_box_link&itscg=30200&at=11lcug&ct=albums_mood_valiant&ls=1&app=music" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+  	    apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Hiatus Kaiyote(all)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Arthur Velocai
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                      | Composers                                                              | Performer                           | Time  |
+| --- | -------------------------- | ---------------------------------------------------------------------- | ----------------------------------- | ----- |
+| 1   | Flight of the Tiger Lily   | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss, Arthur Verocai | Hiatus Kaiyote                      | 00:35 |
+| 2   | Sip Into Something Soft    | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote                      | 01:42 |
+| 3   | Chivalry Is Not Dead       | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote                      | 03:26 |
+| 4   | And We Go Gentle           | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote                      | 03:22 |
+| 5   | Get Sun                    | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote feat. Arthur Velocai | 05:37 |
+| 6   | All the Words We Don't Say | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote                      | 05:04 |
+| 7   | Hush Rattle                | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote                      | 00:43 |
+| 8   | Rose Water                 | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote                      | 03:59 |
+| 9   | Red Room                   | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote                      | 03:52 |
+| 10  | Sparkle Tape Break Up      | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote                      | 05:14 |
+| 11  | Stone or Lavender          | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote                      | 05:30 |
+| 12  | Blood and Marrow           | Naomi Saalfield, Paul Bender, Simon Mavin, Perrin Moss                 | Hiatus Kaiyote                      | 03:29 |
+
+<AdvJS3 />

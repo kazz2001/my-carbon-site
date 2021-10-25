@@ -1,14 +1,8 @@
-import React, {
-  useContext,
-  useRef,
-  useLayoutEffect,
-  useEffect,
-  useState,
-} from 'react';
+import React, { useContext, useRef, useEffect, useState } from 'react';
 import cx from 'classnames';
 import useMedia from 'use-media';
 import { Locked16 } from '@carbon/icons-react';
-import NavContext from '../../util/context/NavContext';
+import NavContext from 'gatsby-theme-carbon/src/util/context/NavContext';
 import { nav, open, divider, link, linkDisabled } from './Switcher.module.scss';
 
 const Switcher = ({ children }) => {
@@ -32,7 +26,7 @@ const Switcher = ({ children }) => {
   }, [toggleNavState]);
 
   // calculate and update height
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (switcherIsOpen) {
       setHeight(listRef.current.offsetHeight + 40);
     } else {
@@ -95,7 +89,7 @@ const DefaultChildren = () => (
     <SwitcherLink href="https://www.carbondesignsystem.com/">
       Carbon Design System
     </SwitcherLink>
-  </>
+      </>
 );
 
 Switcher.defaultProps = {

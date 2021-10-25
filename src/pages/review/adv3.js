@@ -11,6 +11,7 @@ const AdvJS3 = (props) => {
         border="0"
         marginwidth="0"
         frameborder="0"
+        title="link to amazon"
       ></iframe>
     </p>
   );
