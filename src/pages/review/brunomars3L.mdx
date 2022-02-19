@@ -11,8 +11,12 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
+
+import Review11 from "../review/silksonic1.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -29,21 +33,22 @@ import { Link } from "gatsby";
 </ImageCard>
 	</Column>
 	<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
-	<p>
-	Bruno Marsの約4年ぶりとなる3作目。その間にMark RonsonとのUptown Funkを成功させていたが、その流れを汲んだゴージャスでノリノリのアルバムになっている。
-	<br/>80年代後半から90年代前半の、いわゆるブラコンと呼ばれていたFunkでDicsoな音楽へのオマージュがたっぷりで、Zapp, Michael Jackson, New Jack Swing, JBなどを思わせる曲が散りばめられている。
-	<br/>それだけでなく、スローはメロディアスで、アップはキャッチーで判りやすくと曲自体の出来が素晴らしい。ちなみにProducer TeamのShampoo Press & Curlというのは、Brunoにthe Smeezingtons時代からの盟友Philip Lawrence、新たにBrody Brownによる3人組のようだ。
-	<br/>Bruno MarsのVocalも絶品で、オリジナリティはさておいて、単純に楽しめる作品だと思う。
-	</p>
-	<div>
-	  <Button href="https://amzn.to/3gVwKGU" kind="primary" size="small" renderIcon={ArrowUpRight24}>
-      amazon.com
-      </Button>
-      <Button href="https://amzn.to/3h8Mg28" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
-      amazon.co.jp
-      </Button>
-	</div>
-	<a href="https://geo.music.apple.com/jp/album/24k-magic/1161503945?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2016-11-18&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
+		<p>
+			Bruno Marsの約4年ぶりとなる3作目。その間にMark RonsonとのUptown Funkを成功させていたが、その流れを汲んだゴージャスでノリノリのアルバムになっている。
+			<br/>80年代後半から90年代前半の、いわゆるブラコンと呼ばれていたFunkでDicsoな音楽へのオマージュがたっぷりで、Zapp, Michael Jackson, New Jack Swing, JBなどを思わせる曲が散りばめられている。
+			<br/>それだけでなく、スローはメロディアスで、アップはキャッチーで判りやすくと曲自体の出来が素晴らしい。ちなみにProducer TeamのShampoo Press & Curlというのは、Brunoにthe Smeezingtons時代からの盟友Philip Lawrence、新たにBrody Brownによる3人組のようだ。
+			<br/>Bruno MarsのVocalも絶品で、オリジナリティはさておいて、単純に楽しめる作品だと思う。
+		</p>
+		<div>
+		  <Button href="https://amzn.to/3gVwKGU" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.com
+  	  </Button>
+  	  <Button href="https://amzn.to/3h8Mg28" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.co.jp
+  	  </Button>
+		</div>
+		<a href="https://geo.music.apple.com/jp/album/24k-magic/1161503945?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2016-11-18&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
+		<AdvJS2 />
 	</Column>
 </Row>
 <Row >
@@ -85,3 +90,13 @@ import { Link } from "gatsby";
 | 7   | Calling All My Lovelies | Jeff Bhasker / Christopher Brody Brown / James Fauntleroy / Emile Haynie / Philip Lawrence / Bruno Mars                                            | Bruno Mars | 04:10 |
 | 8   | Finesse                 | Christopher Brody Brown / James Fauntleroy / Ray Charles McCullough II / Philip Lawrence / Bruno Mars / Jeremy Reeves / Ray Romulus / Jonathan Yip | Bruno Mars | 03:10 |
 | 9   | Too Good to Say Goodbye | Jeff Bhasker / Christopher Brody Brown / Kenneth Edmonds / Philip Lawrence / Bruno Mars                                                            | Bruno Mars | 04:41 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review11 />
+  </Column>
+</Row>
+
+<AdvJS3 />

@@ -1,0 +1,103 @@
+---
+title: "Jorja Smith / Be Right Back"
+description: "Album Review of Jorja Smith / Be Right Back"
+keywords: "Jorja Smith, Be Right Back, ジョルジャ・スミス, ビー・ライト・バック"
+---
+
+import { Slider, Button } from "carbon-components-react";
+import { ArrowUpRight24 } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/jorjasmith1.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
+       <ImageCard>
+
+![Jorja Smith / Be Right Back](../../images/cd/jorjasmith2L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
+		<p>
+			デビュー作が高評価だったJorja Smithの8曲入りEP。予想外に間が空いて、3年ぶりのリリースとなる。
+			<br/>前作と大きく方向性が変わっているわけではなく、ゆったりめでAccousticなサウンドにGuitarをフィーチャーしたTrackがメインとなっている。ただ、R&B風味はうすれているかもしれない。
+			<br/>抑制の効いて落ち着いたVocalは、前作よりアンニョイですこしダウナーなところはあるが、暗い感じでは無い。
+			<br/>26分弱の小品ではあるが、魅力は十分に伝わってくるし、2ndアルバムを期待したいと思う。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3kcKl0a" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/2YoWBmL" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3ES0boP" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="8" />
+		</div>
+	</Column>
+	<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Compass and Ricardo Damian(1,7)
+				<br/>Rahki(2)
+				<br/>Kal Banx and Jeff "Filly" Gitelman(3,6)
+				<br/>Charlie J. Perry(4)
+				<br/>Ed Thomas(5)
+				<br/>Compass(8)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Shaybo
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title    | Composers                                                                                   | Performer                | Time  |
+| --- | -------- | ------------------------------------------------------------------------------------------- | ------------------------ | ----- |
+| 1   | Addicted | Mutale Chashi / Joel Compass / Femi Koleoso / Jorja Smith / Amané Suganami / Benjamin Totte | Jorja Smith              | 03:26 |
+| 2   | Gone     | Emawk / Rahki / Jorja Smith                                                                 | Jorja Smith              | 03:17 |
+| 3   | Bussdown | Laura Adegbite / Kalon Berry / Jeff Gitelman / Jorja Smith                                  | Jorja Smith feat. Shaybo | 03:24 |
+| 4   | Time     | Charlie J. Perry / Jorja Smith / Michael Stafford                                           | Jorja Smith              | 01:53 |
+| 5   | Home     | Jorja Smith / Michael Stafford / Ed Thomas                                                  | Jorja Smith              | 02:46 |
+| 6   | Burn     | Kalon Berry / Jeff Gitelman / Jorja Smith                                                   | Jorja Smith              | 03:35 |
+| 7   | Digging  | Mutale Chashi / Joel Compass / Femi Koleoso / Jorja Smith / Amané Suganami / Benjamin Totte | Jorja Smith              | 03:06 |
+| 8   | Weekend  | Mutale Chashi / Joel Compass / Jorja Smith                                                  | Jorja Smith              | 04:20 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />

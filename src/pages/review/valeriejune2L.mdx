@@ -1,0 +1,105 @@
+---
+title: "Valerie June / The Moon And Stars: Prescriptions For Dreamers"
+description: "Album review of Valerie June / The Moon And Stars: Prescriptions For Dreamers"
+keywords: " Valerie June, The Moon And Stars: Prescriptions For Dreamers"
+---
+
+import { Slider, Button } from "carbon-components-react";
+import { ArrowUpRight24 } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/valeriejune1.mdx";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
+       <ImageCard>
+
+![Valerie June / The Moon And Stars: Prescriptions For Dreamers](../../images/cd/valeriejune2L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
+		<p>
+			前作で広く知られるようになったValerie Juneの4年ぶりの3作目。引き続き、全曲のWritingも担当し、Producerとしても名を連ねている。
+			<br/>今作もゆったりと落ち着いてオーガニックなバンドサウンドに一部、ブラスやストリングが加わって豊潤な印象を与えている。曲調もRoots MusicにR&B, Blues, Folkとアメリカ南部音楽を集大成したようで、この辺も変わらず。ただ、ちょっとしたサイケな味付けがあるので、古臭い感じはない。
+			<br/>Valerieの唄は独特の声でしっとりと穏やかなものだが、⑥あたりではシャウトも聞かれたりもする。(あまり、合ってる気はしないが、、)
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3ErDreV" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/32q7lmD" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3equOqp" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="4" />
+			<SliderJS3 value="2" />
+		  <SliderJS4 value="8" />
+		</div>
+	</Column>
+	<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Jack Splash and Valerie June(1,2,3,5,6,7,9,10,12,13,14)
+				<br/>Valerie June(8,11)
+				<br/>Ben Rice and Valerie June(4)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Robert Glasper, Terrace Martin, INK
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                      | Composers    | Performer                       | Time  |
+| --- | -------------------------- | ------------ | ------------------------------- | ----- |
+| 1   | Stay                       | Valerie June | Valerie June                    | 03:01 |
+| 2   | Stay Meditation            | Valerie June | Valerie June                    | 00:54 |
+| 3   | You and I                  | Valerie June | Valerie June                    | 03:39 |
+| 4   | Colors                     | Valerie June | Valerie June                    | 04:19 |
+| 5   | Stardust Scattering        | Valerie June | Valerie June feat. Carla Thomas | 04:29 |
+| 6   | African Proverb            | Valerie June | Valerie June feat. Carla Thomas | 00:27 |
+| 7   | Call Me a Fool             | Valerie June | Valerie June                    | 03:43 |
+| 8   | Fallin'                    | Valerie June | Valerie June                    | 03:18 |
+| 9   | Smile                      | Valerie June | Valerie June                    | 03:30 |
+| 10  | Within You                 | Valerie June | Valerie June                    | 04:58 |
+| 11  | Two Roads                  | Valerie June | Valerie June                    | 04:11 |
+| 12  | Why the Bright Stars Glow  | Valerie June | Valerie June                    | 03:25 |
+| 13  | Home Inside                | Valerie June | Valerie June                    | 02:59 |
+| 14  | Starlight Ethereal Silence | Valerie June | Valerie June                    | 01:29 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />

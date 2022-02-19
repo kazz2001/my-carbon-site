@@ -11,8 +11,12 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
+
+import Review1 from "../review/lauramvula3.mdx";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -42,6 +46,7 @@ import { Link } from "gatsby";
     </Button>
 	</div>
 	<a href="https://geo.music.apple.com/us/album/the-dreaming-room/1078304526?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2016-06-17&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
+	<AdvJS2/>
 	</Column>
 </Row>
 <Row >
@@ -83,3 +88,13 @@ import { Link } from "gatsby";
 | 10  | People (featuring Wretch 32)      | Laura Mvula, Jermaine Scott Sinclair  | Laura Mvula | 03:47 |
 | 11  | Nan                               | Laura Mvula                           | Laura Mvula | 01:11 |
 | 12  | Phenomenal Woman                  | Laura Mvula, Troy Miller              | Laura Mvula | 02:44 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />

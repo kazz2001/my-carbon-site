@@ -1,0 +1,104 @@
+---
+title: "Vince Staples / Vince Staples"
+description: "Album review of Vince Staples / Vince Staples"
+keywords: "Vince Staples"
+---
+
+import { Slider, Button } from "carbon-components-react";
+import { ArrowUpRight24 } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1  from "../review/vincestaples4.mdx"
+import Review2  from "../review/vincestaples3.mdx"
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2021/">2021 Black Music Best No.8</Link>
+</p>
+
+<Row  className="image-card-group">
+	<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
+       <ImageCard>
+
+![Vince Staples / Vince Staples](../../images/cd/vincestaples5L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
+		<p>
+			Vince Staplesの4年振りの4作目。長めのインターバルになってはいるが前作"FM!"と対になる作品らしく、同じく22分強の小品になっている。同様にメインプロデューサーはKenny Beatsで今回は全曲プロデュースを担当している。
+			<br/>全曲、地味目でゆったりとした、ややダウナーなTrackにVinceのよれ気味の唄うようなフローがのっかっていて、これを切れ目なく繋いでいるので、全部で一曲みたいに感じられる作品になっている。Westside感はあまりなくて、代わりに温かみを感じられるTrackも少なくない。
+			<br/>Lyricはアルバムタイトルにあるようの、本人の半生を語った内省的でコンシャスなものになっている。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/34wzGZk" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3otsXq2" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3J8RPv5" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="1" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="2" />
+		  <SliderJS4 value="8" />
+		</div>
+	</Column>
+	<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Kenny Beats(all)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Foushee
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                | Composers                                                                                                                                              | Performer                   | Time  |
+| --- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | ----- |
+| 1   | Are You With That?   | Kenneth Blume III / Jacob Reske / Vince Staples                                                                                                        | Vince Staples               | 02:18 |
+| 2   | Law of Averages      | Kenneth Blume III / Jacob Reske / Vince Staples                                                                                                        | Vince Staples               | 02:19 |
+| 3   | Sundown Town         | Xavier Herrera / Kenneth Blume III / Giorgio Ligeon / Vince Staples                                                                                    | Vince Staples               | 02:30 |
+| 4   | The Shining          | James Colwell / Harper Gordon / Kenneth Blume III / Vince Staples                                                                                      | Vince Staples               | 02:40 |
+| 5   | Taking Trips         | Monte Booker / Doris Bright / Kenneth Blume III / Vince Staples                                                                                        | Vince Staples               | 02:37 |
+| 6   | The Apple & the Tree | Paul Bender / Kenneth Blume III / Justin Marshall / Thomas Martin / Simon Marvin / Rory McDougall / Michael Meagher / Vince Staples                    | Vince Staples               | 01:08 |
+| 7   | Take Me Home         | Paul Bender / Britanny Foushee / Kenneth Blume III / Justin Marshall / Thomas Martin / Simon Marvin / Rory McDougall / Michael Meagher / Vince Staples | Vince Staples feat: Foushee | 02:46 |
+| 8   | Lil Fade             | Kenneth Blume III / Rajesh Roshan / Vince Staples / Majrooh Sultanpuri                                                                                 | Vince Staples               | 02:12 |
+| 9   | Lakewood Mall        | Kenneth Blume III / Chuck Sibit / Vince Staples                                                                                                        | Vince Staples               | 01:17 |
+| 10  | MHM                  | Kenneth Blume III / Nils Nohden / Vince Staples                                                                                                        | Vince Staples               | 02:11 |
+
+<Row>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review1 />
+	</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review2 />
+	</Column>
+</Row>
+
+<AdvJS3 />

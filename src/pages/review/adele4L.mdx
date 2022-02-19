@@ -1,0 +1,99 @@
+---
+title: "Adele / 30"
+description: "Album review of Adele / 30"
+keywords: "Adele, 30"
+---
+
+import { Slider, Button } from "carbon-components-react";
+import { ArrowUpRight24 } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2021/">2021 Black Music Best No.6</Link>
+</p>
+
+<Row  className="image-card-group">
+	<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
+       <ImageCard>
+
+![Adele / 30](../../images/cd/adele4L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
+		<p>
+			Adeleの5年ぶりの4作目。発売後3日間で2021年最大のヒットとなり、変わらぬ実力と人気を示している。
+			<br/>前作リリース後、離婚を経験したこともあり、内面と向き合い、自己救済していく過程や、息子との親子愛がLyricや歌唱の込められており、心にダイレクトに響いてくる。
+			<br/>サウンド面は今までのスタイルをベースに変化も加わっていて、一番ソウル寄りになっており、3曲でゴスペルっぽいコーラスが入ってくる。Producerは、おなじみの面々に加え、SaultのInfroが終盤3曲を担当していて、Adeleの空気感を維持しつつ、サウンド面の変化に一役買っている。
+			<br/>歌唱面は成熟して穏やかな方向に向かいつつ、⑪などでは声を荒げて、感情を露わにしている。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3GmBOAY" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3nkCnDJ" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3tlPMiY" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Ludwig Göransson(1)
+				<br/>Greg Kurstin(2,3,4,5,7)
+				<br/>Max Martin and Shellback(6)
+				<br/>Greg Kurstin and Joey Pecoraro(8)
+				<br/>Infro(9,10,12)
+				<br/>Tobias Jesso, Jr. and Shawn Everett(11)
+			</p>
+			<h3>Guests</h3>
+			<p>
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                         | Composers                                             | Performer | Time  |
+| --- | ----------------------------- | ----------------------------------------------------- | --------- | ----- |
+| 1   | Strangers by Nature           | Adele Adkins / Ludwig Göransson                       | Adele     | 03:02 |
+| 2   | Easy on Me                    | Adele Adkins / Greg Kurstin                           | Adele     | 03:44 |
+| 3   | My Little Love                | Adele Adkins / Greg Kurstin                           | Adele     | 06:29 |
+| 4   | Cry Your Heart Out            | Adele Adkins / Greg Kurstin                           | Adele     | 04:15 |
+| 5   | Oh My God                     | Adele Adkins / Greg Kurstin                           | Adele     | 03:45 |
+| 6   | Can I Get It                  | Adele Adkins / Max Martin / Karl Schuster / Shellback | Adele     | 03:30 |
+| 7   | I Drink Wine                  | Adele Adkins / Greg Kurstin                           | Adele     | 06:16 |
+| 8   | All Night Parking (Interlude) | Adele Adkins / Erroll Garner                          | Adele     | 02:41 |
+| 9   | Woman Like Me                 | Adele Adkins / Dean Josiah Cover                      | Adele     | 05:00 |
+| 10  | Hold On                       | Adele Adkins / Dean Josiah Cover                      | Adele     | 06:06 |
+| 11  | To Be Loved                   | Adele Adkins / Tobias Jesso, Jr.                      | Adele     | 06:43 |
+| 12  | Love Is a Game                | Adele Adkins / Dean Josiah Cover                      | Adele     | 06:43 |
+
+<AdvJS3 />

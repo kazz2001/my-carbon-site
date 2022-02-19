@@ -11,8 +11,12 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
+
+import Review1 from "../review/flyinglotus4.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -41,7 +45,8 @@ import { Link } from "gatsby";
     </Button>
 	</div>
 	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2019-05-24&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/flamagra/1459368976?mt=1&app=music&ls=1&at=11lcug"></a>
-	</Column>
+	<AdvJS2/>
+  </Column>
 </Row>
 <Row >
 	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
@@ -91,3 +96,13 @@ import { Link } from "gatsby";
 | 19  | Debbie Is Depressed    | Stephen Bruner / Steven Ellison                                                                                     | Flying Lotus                       | 02:19 |
 | 20  | Find Your Own Way Home | Steven Ellison / Taylor Graves                                                                                      | Flying Lotus                       | 01:40 |
 | 21  | The Climb              | Miguel Atwood-Ferguson / Stephen Bruner / Brandon Coleman / Steven Ellison                                          | Flying Lotus feat. Thundercat      | 03:15 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />
