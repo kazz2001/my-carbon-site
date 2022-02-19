@@ -11,7 +11,12 @@ import SliderJS2 from "../review/slider2"
 import SliderJS3 from "../review/slider3"
 import SliderJS4 from "../review/slider4"
 
-import { Link } from "gatsby"
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/summerwalker2.mdx";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -39,6 +44,7 @@ import { Link } from "gatsby"
 	</div>
 	<a href="https://geo.music.apple.com/jp/album/over-it/1481606156?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2019-10-04&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
 	<a href="https://geo.music.apple.com/jp/album/over-it/1481606156?app=itunes&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2019-10-04T00:00:00Z&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;"></a>
+	<AdvJS2/>
 	</Column>
 </Row>
 <Row >
@@ -90,3 +96,13 @@ London On Da Track(1,2,3,4,5,6,8,10,12,13,14,15,16,17)
 |	16	|	Nobody Else         	| Kendall Roark Bailey / London Holmes / Steven Jordan / Aubrey Robinson / Summer Walker                                                                                                                                                              |	Summer Walker                	|	03:53 |
 |	17	|	Playing Games       	| Kendall Roark Bailey / LaShawn Daniels / Cameron Griffin / London Holmes / Fred Jerkins III / Beyoncé Knowles / LeToya Luckett / LaTavia Roberson / Aubrey Robinson / Rodney "Darkchild" Jerkins / Kelendria Rowland / Bryson Tiller / Summer Walke	|	Summer Walker                	|	02:22 |
 |	18	|	Girls Need Love     	| Arsenio Archer / Aubrey Graham / Summer Walker                                                                                                                                                                                                      |	Summer Walker   Drake        	|	03:42 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />
