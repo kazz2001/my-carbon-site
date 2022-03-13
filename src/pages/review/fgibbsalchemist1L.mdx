@@ -11,10 +11,13 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
 
 import Review1 from "../review/fgibsandmadlib2";
+import Review2 from "../review/armandhammeralchemist1.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -44,6 +47,7 @@ import Review1 from "../review/fgibsandmadlib2";
 		<Button className="button-right-mergin"  href="https://apple.co/3pVlwHx" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
       apple music
     </Button>
+		<AdvJS2/>
 	</div>
 	</Column>
 </Row>
@@ -91,4 +95,9 @@ import Review1 from "../review/fgibsandmadlib2";
   <Column colMd={3} colLg={3} noGutterMdLeft>
     <Review1 />
   </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
 </Row>
+
+<AdvJS3 />
