@@ -12,7 +12,12 @@ import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
 
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
 import { Link } from "gatsby";
+
+import Review1 from "../review/nas9.mdx";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -45,6 +50,7 @@ import { Link } from "gatsby";
 		<Button className="button-right-mergin"  href="https://apple.co/2RP4SMR" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
       apple music
     </Button>
+		<AdvJS2/>
 	</div>
 	</Column>
 </Row>
@@ -89,3 +95,13 @@ import { Link } from "gatsby";
 | 11  | 10 Points          | Nasir Jones                                                | Nas                                            | 03:05 |
 | 12  | The Cure           | Nasir Jones                                                | Nas                                            | 03:52 |
 | 13  | Spicy              | Darold Ferguson / Nasir Jones / Derek Milano / Maxie Ryles | Nas feat: A$AP Ferg / Fivio Foreign            | 02:47 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />
