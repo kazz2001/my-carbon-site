@@ -1,0 +1,112 @@
+---
+title: "Sault / Nine"
+description: "Album review of Sault / Nine"
+keywords: "Sault, Nine"
+---
+
+import { Slider, Button } from "carbon-components-react";
+import { ArrowUpRight24 } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/sault2.mdx";
+import Review2 from "../review/sault1.mdx";
+
+import Review2_1 from "../review/cleosol1.mdx";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2021/">2021 Black Music Album Best No.31</Link>
+</p>
+
+<Row  className="image-card-group">
+	<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
+       <ImageCard>
+
+![Sault / Nine](../../images/cd/sault3L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={"4"} colLg={"8"} noGutterMdLeft="">
+		<p>
+			UKのユニット、Saultの5作目。2021年夏のリリースとなる。InfroとCleo Solに加えて、Kid Sisterもメンバーの一員であることが判明している。
+			<br/>過去2作のようなBLMに呼応したコンシャスさは少し弱めで地元Londonや生活に根ざしたLyricが多めになっている。
+			<br/>サウンドは、Soul, Hip-HopをベースにUKらしいBreak Beatsを主体としている。冒頭、Tribalな曲から入るが、後半になるにつれて女性Vocalをフィーチャーしたクールで都会的なSoulに軸足が移っていく。静謐なスローもPopな曲も、良く作りこまれていて、心地よい。
+			<br/>なお、リリース後99日で予告通り配信は停止となっており、現在はPhysicalを探すくらいしか、入手方法が無さそうだ。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3ykm1l9" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3s3QYG1" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+  	    amazon.co.jp
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={"4"} colLg={"4"} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={"8"} colLg={"8"} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Inflo(all)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Michael Ofo, Little Simz
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                 | Performer               | Time  |
+| --- | --------------------- | ----------------------- | ----- |
+| 1   | Haha                  | Sault                   | 00:51 |
+| 2   | London Gangs          | Sault                   | 03:26 |
+| 3   | Trap Life             | Sault                   | 03:03 |
+| 4   | Fear                  | Sault                   | 03:31 |
+| 5   | Mike's Story          | Sault feat. Michael Ofo | 00:56 |
+| 6   | Bitter Streets        | Sault                   | 04:02 |
+| 7   | Alcohol               | Sault                   | 04:03 |
+| 8   | You From London       | Sault feat. Little Simz | 03:51 |
+| 9   | 9                     | Sault                   | 05:14 |
+| 10  | Light's in Your Hands | Sault                   | 05:04 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+</Row>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2_1 />
+  </Column>
+</Row>
+
+<AdvJS3 />

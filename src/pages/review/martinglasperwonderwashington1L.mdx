@@ -14,6 +14,9 @@ import SliderJS4 from "../review/slider4";
 
 import { Link } from "gatsby";
 
+import Review2_1 from "../review/robertglasper3.mdx";
+import Review2_2 from "../review/robertglasper2.mdx";
+
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
 
@@ -42,6 +45,7 @@ import { Link } from "gatsby";
 		<Button className="button-right-mergin"  href="https://apple.co/2VLWYTh" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
       apple music
     </Button>
+		<AdvJS2/>
 	</div>
 	</Column>
 </Row>
@@ -80,3 +84,16 @@ import { Link } from "gatsby";
 | 5   | The Mighty Tree           | Patrick Douthit / Marlanna Evans / Robert Glasper / Herbie Hancock / Terrace Martin / Kamasi Washington          | Robert Glasper / Terrace Martin / Kamasi Washington / 9th Wonder feat. Rapsody, Herbie Hancock, Snoop Dogg | 02:16 |
 | 6   | Freeze Tag                | Patrick Douthit / Cordae Dunston / Robert Glasper / Terrace Martin / Michael E. Neil / Kamasi Washington         | Robert Glasper / Terrace Martin / Kamasi Washington / 9th Wonder feat. Phoelix, Cordae, Snoop Dogg         | 03:11 |
 | 7   | Luv U                     | Calvin Broadus / Patrick Douthit / Robert Glasper / Alex Isley / Terrace Martin / Kamasi Washington              | Robert Glasper / Terrace Martin / Kamasi Washington / 9th Wonder feat. Snoop Dogg, Alex Isley              | 03:18 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2_1 />
+  </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2_2 />
+  </Column>
+</Row>
+
+<AdvJS3 />
