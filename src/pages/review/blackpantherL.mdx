@@ -14,8 +14,9 @@ import SliderJS4 from "../review/slider4";
 
 import { Link } from "gatsby";
 
-import Review1 from "../review/kendricklamar4.mdx";
+import Review1 from "../review/kendricklamar6.mdx";
 import Review2 from "../review/kendricklamar5.mdx";
+import Review3 from "../review/kendricklamar4.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -103,10 +104,13 @@ import Review2 from "../review/kendricklamar5.mdx";
 <h3>Other Reviews</h3>
 
 <Row>
-  <Column colMd={3} colLg={3} noGutterMdLeft>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
     <Review1 />
   </Column>
   <Column colMd={3} colLg={3} noGutterMdLeft>
     <Review2 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review3 />
   </Column>
 </Row>
