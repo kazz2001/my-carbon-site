@@ -4,23 +4,23 @@ description: "歌と映像で読み解くブラック・ライヴズ・マター
 keywords: "歌と映像で読み解くブラック・ライヴズ・マター, 藤田正"
 ---
 
-import { Button } from "carbon-components-react";
-import { ArrowUpRight24 } from "@carbon/icons-react";
+import { Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
 
 <Row>
-  <Column colMd={"8"} colLg={"12"} noGutterMdLeft="">
+  <Column colMd={8} colLg={12} noGutterMdLeft="">
     <p className="largeP">Book Review</p>
     <h1 className="h1-no-bottom-margin">歌と映像で読み解くブラック・ライヴズ・マター</h1>
   </Column>
 </Row>
 
 <Row>
-<Column colMd={"3"} colLg={"4"} noGutterMdLeft="">
+<Column colMd={3} colLg={4} noGutterMdLeft="">
 
   <img src="../../images/books/blacklivesmatter.jpg" />
 
 </Column>
-<Column colMd={"5"} colLg={"8"} noGutterMdLeft="">
+<Column colMd={5} colLg={8} noGutterMdLeft="">
   <div>
     <p>著者</p>
     <p className="largeP">
@@ -47,7 +47,7 @@ import { ArrowUpRight24 } from "@carbon/icons-react";
       2000円(税抜き)
     </p>
     <div>
-    <Button href="https://amzn.to/3egc0e3" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+    <Button href="https://amzn.to/3egc0e3" kind="primary" size="small" renderIcon={(props) => <ArrowUpRight size={24} {...props} />}>
       amazon.co.jp
     </Button>
     </div>
@@ -56,7 +56,7 @@ import { ArrowUpRight24 } from "@carbon/icons-react";
 </Row>
 
 <Row>
-  <Column colMd={"8"} colLg={"12"} noGutterMdLeft="">
+  <Column colMd={8} colLg={12} noGutterMdLeft="">
     <p>
       - コブシ・突き上げ、黒い肌は・怒る！ ブラック・ライブズ・マター運動はアメリカ崩壊の兆しか？ ビリー・ホリディ、ジェイムス・ブラウン、スパイク・リー、エヴァ・デュヴァネイ、アイス・キューブ、ビヨンセらの歌と映像から説き起こす現代アメリカの真実！ -
       <br />

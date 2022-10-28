@@ -90,6 +90,7 @@ Node optionセットしたのちに、develop
 headerとfooter修正
 book reviewの画像
 
+add search arrowupright
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/879f5e62-98f6-4f1d-b0a1-5bba4c6a9b55/deploy-status)](https://app.netlify.com/sites/cdreview/deploys)
 

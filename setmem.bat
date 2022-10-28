@@ -1,1 +1,1 @@
-set NODE_OPTIONS="--max-old-space-size=4096"
+set NODE_OPTIONS="--max-old-space-size=8192"

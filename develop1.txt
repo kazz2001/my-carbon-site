@@ -1,0 +1,324 @@
+yarn run v1.22.19
+$ gatsby develop -H 0.0.0.0
+success compile gatsby files - 46.380s
+
+[2K[1A[2K[Ginfo The following flags are active:
+- FAST_DEV · Enable all experiments aimed at improving develop server start
+time.
+- DEV_SSR · (Umbrella Issue (https://gatsby.dev/dev-ssr-feedback)) · Server Side
+ Render (SSR) pages on full reloads during develop. Helps you detect SSR bugs
+and fix them without needing to do full builds.
+- PRESERVE_FILE_DOWNLOAD_CACHE · (Umbrella Issue
+(https://gatsby.dev/cache-clearing-feedback)) · Don't delete the downloaded
+files cache when changing gatsby-node.js & gatsby-config.js files.
+
+There are 2 other flags available that you might be interested in:
+- PARALLEL_SOURCING · EXPERIMENTAL · (Umbrella Issue
+(https://gatsby.dev/parallel-sourcing-feedback)) · Run all source plugins at the
+ same time instead of serially. For sites with multiple source plugins, this can
+ speedup sourcing and transforming considerably.
+- DETECT_NODE_MUTATIONS · Diagnostic mode to log any attempts to mutate node
+directly. Helpful when debugging missing data problems. See
+https://gatsby.dev/debugging-missing-data for more details.
+
+
+[2K[1A[2K[Gsuccess load gatsby config - 1.371s
+
+[2K[1A[2K[Gsuccess load plugins - 28.531s
+
+[2K[1A[2K[Gwarn gatsby-plugin-react-helmet: Gatsby now has built-in support for modifying
+the document head. Learn more at https://gatsby.dev/gatsby-head
+
+[2K[1A[2K[Gsuccess onPreInit - 0.021s
+
+[2K[1A[2K[Gsuccess initialize cache - 0.781s
+
+[2K[1A[2K[Gsuccess copy gatsby files - 2.374s
+
+[2K[1A[2K[Gsuccess Compiling Gatsby Functions - 5.162s
+
+[2K[1A[2K[Gsuccess onPreBootstrap - 5.675s
+
+[2K[1A[2K[Gsuccess createSchemaCustomization - 0.007s
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.127s
+
+[2K[1A[2K[Gsuccess source and transform nodes - 80.503s
+
+[2K[1A[2K[Gsuccess building schema - 1.327s
+
+[2K[1A[2K[Gsuccess createPages - 0.035s
+
+[2K[1A[2K[Gsuccess createPagesStatefully - 32.796s
+
+[2K[1A[2K[Ginfo Total nodes: 3292, SitePage nodes: 637 (use --verbose for breakdown)
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.000s
+
+[2K[1A[2K[Gsuccess write out redirect data - 0.060s
+
+[2K[1A[2K[Gsuccess Build manifest and related icons - 3.900s
+
+[2K[1A[2K[Gsuccess Build manifest and related icons - 0.136s
+
+[2K[1A[2K[Gsuccess onPostBootstrap - 5.683s
+
+[2K[1A[2K[Ginfo bootstrap finished - 266.264s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.000s
+
+[2K[1A[2K[Gsuccess extract queries from components - 5.992s
+
+[2K[1A[2K[Gsuccess write out requires - 0.102s
+
+[2K[1A[2K[Gsuccess run static queries - 0.499s - 8/8 16.02/s
+
+[2K[1A[2K[Gsuccess run page queries - 0.058s - 3/3 51.77/s
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[GYou can now view Black-Music-Album-Review in the browser.
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[G  Local:            http://localhost:8000/
+
+[2K[1A[2K[G  On Your Network:  http://192.168.0.156:8000/
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[GView GraphiQL, an in-browser IDE, to explore your site's data and schema
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[G  Local:            http://localhost:8000/___graphql
+
+[2K[1A[2K[G  On Your Network:  http://192.168.0.156:8000/___graphql
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[GNote that the development build is not optimized.
+
+[2K[1A[2K[GTo create a production build, use gatsby build
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[Gsuccess Building development bundle - 315.916s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 15.360s - 3/637
+41.47/s
+
+[2K[1A[2K[Gsuccess write out requires - 0.527s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 4.988s
+
+[2K[1A[2K[Gsuccess write out requires - 0.004s
+
+[2K[1A[2K[Gsuccess run page queries - 0.189s - 1/1 5.28/s
+
+[2K[1A[2K[Gsuccess Running gatsby-plugin-sharp.IMAGE_PROCESSING jobs - 1857.806s - 309/309
+0.17/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.047s - 1/634
+13610.73/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.365s
+
+[2K[1A[2K[Gsuccess write out requires - 0.004s
+
+[2K[1A[2K[Gsuccess run page queries - 0.004s - 1/1 266.35/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.016s - 1/633
+40273.07/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.009s
+
+[2K[1A[2K[Gsuccess extract queries from components - 4.933s
+
+[2K[1A[2K[Gsuccess write out requires - 0.003s
+
+[2K[1A[2K[Gsuccess run page queries - 0.143s - 1/1 7.00/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.033s - 1/632
+19387.57/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.000s
+
+[2K[1A[2K[Gsuccess extract queries from components - 1.632s
+
+[2K[1A[2K[Gsuccess write out requires - 0.004s
+
+[2K[1A[2K[Gsuccess run page queries - 0.004s - 1/1 223.57/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.020s - 1/631
+32011.61/s
+
+[2K[1A[2K[Gsuccess Running gatsby-plugin-sharp.IMAGE_PROCESSING jobs - 3.388s - 7/7 2.07/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 1.978s
+
+[2K[1A[2K[Gsuccess write out requires - 0.004s
+
+[2K[1A[2K[Gsuccess run page queries - 0.005s - 3/3 647.43/s
+
+[2K[1A[2K[Gsuccess Running gatsby-plugin-sharp.IMAGE_PROCESSING jobs - 10.645s - 4/4 0.38/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.100s - 3/630
+6280.46/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.449s
+
+[2K[1A[2K[Gsuccess write out requires - 0.003s
+
+[2K[1A[2K[Gsuccess run page queries - 0.004s - 1/1 227.93/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.011s - 1/627
+55795.33/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.496s
+
+[2K[1A[2K[Gsuccess write out requires - 0.009s
+
+[2K[1A[2K[Gsuccess run page queries - 0.142s - 1/1 7.03/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.010s - 1/626
+61172.84/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.492s
+
+[2K[1A[2K[Gsuccess write out requires - 0.008s
+
+[2K[1A[2K[Gsuccess run page queries - 0.186s - 2/2 10.76/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.009s - 2/625
+71930.85/s
+
+[2K[1A[2K[Gsuccess Running gatsby-plugin-sharp.IMAGE_PROCESSING jobs - 1.771s - 10/10
+5.65/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.463s
+
+[2K[1A[2K[Gsuccess write out requires - 0.003s
+
+[2K[1A[2K[Gsuccess run page queries - 0.005s - 2/2 402.68/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.019s - 2/623
+32840.81/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.477s
+
+[2K[1A[2K[Gsuccess write out requires - 0.009s
+
+[2K[1A[2K[Gsuccess run page queries - 0.007s - 1/1 139.45/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.012s - 1/621
+49933.26/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.366s
+
+[2K[1A[2K[Gsuccess write out requires - 0.004s
+
+[2K[1A[2K[Gsuccess run page queries - 0.006s - 3/3 535.91/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.021s - 3/620
+28923.98/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.451s
+
+[2K[1A[2K[Gsuccess write out requires - 0.002s
+
+[2K[1A[2K[Gsuccess run page queries - 0.003s - 2/2 577.67/s
+
+[2K[1A[2K[Gsuccess Running gatsby-plugin-sharp.IMAGE_PROCESSING jobs - 5.389s - 13/13
+2.41/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.015s - 2/617
+41949.10/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.416s
+
+[2K[1A[2K[Gsuccess write out requires - 0.003s
+
+[2K[1A[2K[Gsuccess run page queries - 0.007s - 1/1 137.46/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.008s - 1/615
+72701.05/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.008s
+
+[2K[1A[2K[Gsuccess extract queries from components - 4.779s
+
+[2K[1A[2K[Gsuccess write out requires - 0.003s
+
+[2K[1A[2K[Gsuccess run page queries - 0.105s - 1/1 9.57/s
+
+[2K[1A[2K[Gsuccess Running gatsby-plugin-sharp.IMAGE_PROCESSING jobs - 704.943s - 2/2
+0.00/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.025s - 1/614
+24480.29/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.455s
+
+[2K[1A[2K[Gsuccess write out requires - 0.003s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.089s - 0/613
+6874.18/s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.004s - 0/613
+143077.21/s
+
+[2K[1A[2K[Gsuccess Re-building development bundle - 9.173s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.001s
+
+[2K[1A[2K[Gsuccess extract queries from components - 0.416s
+
+[2K[1A[2K[Gsuccess write out requires - 0.003s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.770s - 0/613
+796.10/s
+
+[2K[1A[2K[Gsuccess Re-building development bundle - 5.326s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.239s - 0/613
+2562.52/s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.003s
+
+[2K[1A[2K[Gsuccess extract queries from components - 16.604s
+
+[2K[1A[2K[Gsuccess write out requires - 0.003s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 0.029s - 0/613
+21426.82/s
+
+[2K[1A[2K[Gsuccess Re-building development bundle - 10.579s
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 1.933s - 0/613
+317.10/s
+

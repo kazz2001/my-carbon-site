@@ -1,0 +1,259 @@
+yarn run v1.22.17
+$ gatsby develop -H 0.0.0.0
+success compile gatsby files - 66.123s
+
+[2K[1A[2K[Ginfo The following flags are active:
+- FAST_DEV ¬∑ Enable all experiments aimed at improving develop server start
+time.
+- DEV_SSR ¬∑ (Umbrella Issue (https://gatsby.dev/dev-ssr-feedback)) ¬∑ Server Side
+ Render (SSR) pages on full reloads during develop. Helps you detect SSR bugs
+and fix them without needing to do full builds.
+- PRESERVE_FILE_DOWNLOAD_CACHE ¬∑ (Umbrella Issue
+(https://gatsby.dev/cache-clearing-feedback)) ¬∑ Don't delete the downloaded
+files cache when changing gatsby-node.js & gatsby-config.js files.
+
+There are 2 other flags available that you might be interested in:
+- PARALLEL_SOURCING ¬∑ EXPERIMENTAL ¬∑ (Umbrella Issue
+(https://gatsby.dev/parallel-sourcing-feedback)) ¬∑ Run all source plugins at the
+ same time instead of serially. For sites with multiple source plugins, this can
+ speedup sourcing and transforming considerably.
+- DETECT_NODE_MUTATIONS ¬∑ Diagnostic mode to log any attempts to mutate node
+directly. Helpful when debugging missing data problems. See
+https://gatsby.dev/debugging-missing-data for more details.
+
+
+[2K[1A[2K[Gsuccess load gatsby config - 1.453s
+
+[2K[1A[2K[Gsuccess load plugins - 23.904s
+
+[2K[1A[2K[Gwarn gatsby-plugin-react-helmet: Gatsby now has built-in support for modifying
+the document head. Learn more at https://gatsby.dev/gatsby-head
+
+[2K[1A[2K[Gsuccess onPreInit - 0.011s
+
+[2K[1A[2K[Gsuccess initialize cache - 0.746s
+
+[2K[1A[2K[Gsuccess copy gatsby files - 1.848s
+
+[2K[1A[2K[Gsuccess Compiling Gatsby Functions - 3.856s
+
+[2K[1A[2K[Gsuccess onPreBootstrap - 4.345s
+
+[2K[1A[2K[Gsuccess createSchemaCustomization - 0.006s
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.002s
+
+[2K[1A[2K[Gsuccess source and transform nodes - 67.717s
+
+[2K[1A[2K[Gsuccess building schema - 0.773s
+
+[2K[1A[2K[Gsuccess createPages - 0.002s
+
+[2K[1A[2K[Gsuccess createPagesStatefully - 31.273s
+
+[2K[1A[2K[Ginfo Total nodes: 3292, SitePage nodes: 637 (use --verbose for breakdown)
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.001s
+
+[2K[1A[2K[Gsuccess write out redirect data - 0.119s
+
+[2K[1A[2K[Gsuccess Build manifest and related icons - 0.686s
+
+[2K[1A[2K[Gsuccess Build manifest and related icons - 0.079s
+
+[2K[1A[2K[Gsuccess onPostBootstrap - 2.217s
+
+[2K[1A[2K[Ginfo bootstrap finished - 263.619s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.000s
+
+[2K[1A[2K[Gsuccess extract queries from components - 6.066s
+
+[2K[1A[2K[Gsuccess write out requires - 0.219s
+
+[2K[1A[2K[Gsuccess run static queries - 0.089s - 8/8 89.89/s
+
+[2K[1A[2K[Gsuccess run page queries - 0.040s - 3/3 75.45/s
+
+[2K[1A[2K[G
+ ERROR #98123  WEBPACK
+
+Generating development SSR bundle failed
+
+SassError: (md: (font-size: 2.625rem), lg: (font-size: 3.375rem), xlg:
+(font-size: 3.75rem, line-height: 1.17), max: (font-size: 4.75rem, line-height:
+1.13)) isn't a valid CSS value.
+    ‚ï∑
+844 ‚îÇ       #{$value}
+    ‚îÇ         ^^^^^^
+    ‚ïµ
+  node_modules\@carbon\type\scss\_styles.scss 844:9
+custom-properties()
+  node_modules\@carbon\type\scss\_styles.scss 875:5
+type-style()
+  src\gatsby-theme-carbon\components\Homepage\Banner.module.scss 29:3  root
+stylesheet
+
+File: src\gatsby-theme-carbon\components\Homepage\Banner.module.scss:844:9
+
+
+[2K[1A[2K[Gwarn ./src/gatsby-theme-carbon/components/Switcher/Switcher.js
+Attempted import error: 'Locked16' is not exported from '@carbon/icons-react'
+(imported as 'Locked16').
+
+[2K[1A[2K[G
+ ERROR #98123  WEBPACK
+
+Generating development JavaScript bundle failed
+
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: (md: (font-size: 2.625rem), lg: (font-size: 3.375rem), xlg:
+(font-size: 3.75rem, line-height: 1.17), max: (font-size: 4.75rem, line-height:
+1.13)) isn't a valid CSS value.
+    ‚ï∑
+844 ‚îÇ       #{$value}
+    ‚îÇ         ^^^^^^
+    ‚ïµ
+  node_modules\@carbon\type\scss\_styles.scss 844:9
+custom-properties()
+  node_modules\@carbon\type\scss\_styles.scss 875:5
+type-style()
+  src\gatsby-theme-carbon\components\Homepage\Banner.module.scss 29:3  root
+stylesheet
+
+File: src\gatsby-theme-carbon\components\Homepage\Banner.module.scss
+
+
+[2K[1A[2K[Gfailed Building development bundle - 353.861s
+
+[2K[1A[2K[G[1m[31mERROR[39m[22m in [1m./src/gatsby-theme-carbon/components/Homepage/Banner.module.scss[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from [22m
+[1m./node_modules/mini-css-extract-plugin/dist/loader.js):
+ModuleBuildError: Module build [1m[31mfailed[39m[22m[1m (from [22m
+[1m./node_modules/sass-loader/dist/cjs.js):
+SassError: (md: (font-size: 2.625rem), lg: (font-size: 3.375rem), xlg:
+(font-size: 3.75rem, line-height: 1.17), max: (font-size: 4.75rem, line-height:
+1.13)) isn't a valid CSS value.
+    ‚ï∑
+844 ‚îÇ       #{$value}
+    ‚îÇ         ^^^^^^
+    ‚ïµ
+  node_modules\@carbon\type\scss\_styles.scss 844:9
+custom-properties()
+  node_modules\@carbon\type\scss\_styles.scss 875:5
+type-style()
+  src\gatsby-theme-carbon\components\Homepage\Banner.module.scss 29:3  root
+stylesheet
+    at processResult
+(D:\carbon\gatsby_v3\node_modules\webpack\lib\NormalModule.js:758:19)
+    at D:\carbon\gatsby_v3\node_modules\webpack\lib\NormalModule.js:860:5
+    at D:\carbon\gatsby_v3\node_modules\loader-runner\lib\LoaderRunner.js:400:11
+    at D:\carbon\gatsby_v3\node_modules\loader-runner\lib\LoaderRunner.js:252:18
+    at context.callback
+(D:\carbon\gatsby_v3\node_modules\loader-runner\lib\LoaderRunner.js:124:13)
+    at D:\carbon\gatsby_v3\node_modules\sass-loader\dist\index.js:62:7
+    at Function.call$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:101257:16)
+    at render_closure1.call$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:86329:12)
+    at _RootZone.runBinary$3$3
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:30053:18)
+    at _FutureListener.handleError$1
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28582:21)
+    at _Future__propagateToListeners_handleError.call$0
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28889:49)
+    at Object._Future__propagateToListeners
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3911:77)
+    at _Future._completeError$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28735:9)
+    at _AsyncAwaitCompleter.completeError$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28383:12)
+    at Object._asyncRethrow
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3713:17)
+    at D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:20081:20
+    at _wrapJsFunctionForAsync_closure.$protected
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3738:15)
+    at _wrapJsFunctionForAsync_closure.call$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28402:12)
+    at _awaitOnObject_closure0.call$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28396:25)
+    at _RootZone.runBinary$3$3
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:30053:18)
+    at _FutureListener.handleError$1
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28582:21)
+    at _Future__propagateToListeners_handleError.call$0
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28889:49)
+    at Object._Future__propagateToListeners
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3911:77)
+    at _Future._completeError$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28735:9)
+    at _AsyncAwaitCompleter.completeError$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28383:12)
+    at Object._asyncRethrow
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3713:17)
+    at D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:15495:20
+    at _wrapJsFunctionForAsync_closure.$protected
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3738:15)
+    at _wrapJsFunctionForAsync_closure.call$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28402:12)
+    at _awaitOnObject_closure0.call$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28396:25)
+    at _RootZone.runBinary$3$3
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:30053:18)
+    at _FutureListener.handleError$1
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28582:21)
+    at _Future__propagateToListeners_handleError.call$0
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28889:49)
+    at Object._Future__propagateToListeners
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3911:77)
+    at _Future._completeError$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28735:9)
+    at _AsyncAwaitCompleter.completeError$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28383:12)
+    at Object._asyncRethrow
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3713:17)
+    at D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:15530:20
+    at _wrapJsFunctionForAsync_closure.$protected
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3738:15)
+    at _wrapJsFunctionForAsync_closure.call$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28402:12)
+    at _awaitOnObject_closure0.call$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28396:25)
+    at _RootZone.runBinary$3$3
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:30053:18)
+    at _FutureListener.handleError$1
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28582:21)
+    at _Future__propagateToListeners_handleError.call$0
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28889:49)
+    at Object._Future__propagateToListeners
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3911:77)
+    at _Future._completeError$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28735:9)
+    at _AsyncAwaitCompleter.completeError$2
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:28383:12)
+    at Object._asyncRethrow
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3713:17)
+    at D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:73958:20
+    at _wrapJsFunctionForAsync_closure.$protected
+(D:\carbon\gatsby_v3\node_modules\sass\sass.dart.js:3738:15)[39m[22m
+ @ ./src/gatsby-theme-carbon/components/Homepage/Banner.js 7:0-57 19:15-19
+28:15-18 36:15-21
+ @ ./node_modules/gatsby-theme-carbon/src/components/Homepage/index.js 3:0-53
+3:0-53
+ @ ./node_modules/gatsby-theme-carbon/index.js 24:0-76 24:0-76 24:0-76
+ @ ./src/pages/404.js?export=head 6:0-49 18:42-52
+ @ ./.cache/_this_is_virtual_fs_path_/$virtual/async-requires.js 1919:11-119
+ @ ./.cache/app.js 17:0-52 31:87-35:1 34:29-42 37:27-40 31:0-35:2
+
+[1m[31m1 ERROR in child compilations (Use 'stats.children: true' resp. [39m
+[31m'--stats-children' for more details)[39m[22m
+[1mdevelop[39m[22m compiled with [1m[31m2 errors[39m[22m
+
+[2K[1A[2K[Gsuccess Writing page-data.json files to public directory - 20.243s - 3/637
+31.47/s
+
+[2K[1A[2K[Gnot finished Running gatsby-plugin-sharp.IMAGE_PROCESSING jobs - 703.105s
+
+ÉoÉbÉ` ÉWÉáÉuÇèIóπÇµÇ‹Ç∑Ç© (Y/N)? 
+ÉoÉbÉ` ÉWÉáÉuÇèIóπÇµÇ‹Ç∑Ç© (Y/N)? 
+ÉoÉbÉ` ÉWÉáÉuÇèIóπÇµÇ‹Ç∑Ç© (Y/N)? 

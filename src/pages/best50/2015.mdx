@@ -7,9 +7,9 @@ description: 2018 Black Music Best 50 by planet.ky
 import Slider1 from "../best50/slider1.mdx";
 import SliderJS from "../best50/slider2";
 
-import { Slider, Button, Search } from "carbon-components-react";
+import { Slider, Button, Search } from "@carbon/react";
 import { Link } from "gatsby";
-import { Add24, Add16, Search16 } from "@carbon/icons-react";
+import { Add } from "@carbon/icons-react";
 
 import { Airplane } from "@carbon/pictograms-react";
 
@@ -22,17 +22,17 @@ Black Music Best 50 by planet.ky
 </PageDescription>
 
 <h2>H1</h2>
-<Button renderIcon={Add16}>Button</Button>
+<Button renderIcon={Add}>Button</Button>
 <button>
   <Airplane aria-label="Add" />
 </button>
 
 <SliderJS value="4" />
 
-AAA<Search16 />BBB
+AAA<Search />BBB
 
 <Airplane />
-<Add24 />
+<Add />
 
 <Slider1 />
 

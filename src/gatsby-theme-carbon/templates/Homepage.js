@@ -3,8 +3,8 @@ import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 // import { calloutLink } from './Homepage.module.scss';
 import Carbon from '../../images/carbon.jpg';
-import { Button } from 'carbon-components-react';
-import { ArrowUpRight24, Search24 } from '@carbon/icons-react';
+import { Button } from '@carbon/react';
+import { ArrowUpRight, Search } from '@carbon/icons-react';
 // import { Launch } from '@carbon/pictograms-react';
 // import { Link } from "gatsby"
 
@@ -15,27 +15,27 @@ const FirstRightText = () => (
   <p className="p500J">
       <code>Black Music Album Review</code>
       <br/>R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。
-      <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search24 />をクリックで検索できます。
+      <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search size={32} />をクリックで検索できます。
       <div style={{marginTop: '0.5rem',}}>
-        <Button className="button-right-mergin" href="/cd/2022/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2022/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2022
         </Button>
-        <Button className="button-right-mergin" href="/cd/2021/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2021/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2021
         </Button>
-        <Button className="button-right-mergin" href="/cd/2020/" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2020/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2020
         </Button>
-        <Button className="button-right-mergin" href="/cd/2019/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2019/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2019
         </Button>
-        <Button className="button-right-mergin" href="/cd/2018/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2018/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2018
         </Button>
-        <Button className="button-right-mergin" href="/cd/2017/" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2017/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2017
         </Button>
-        <Button className="button-right-mergin" href="/cd/2016/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/cd/2016/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2016
         </Button>
 	    </div>
@@ -43,29 +43,29 @@ const FirstRightText = () => (
       <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
       <br/>下のボタンをクリックで年ごとのBest50へ。
       <div style={{marginTop: '0.5rem',}}>
-        <Button className="button-right-mergin" href="/best50/2021/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/best50/2021/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2021
         </Button>
-        <Button className="button-right-mergin" href="/best50/2020/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/best50/2020/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2020
         </Button>
-	      <Button className="button-right-mergin" href="/best50/2019/" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+	      <Button className="button-right-mergin" href="/best50/2019/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2019
         </Button>
-        <Button className="button-right-mergin" href="/best50/2018/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/best50/2018/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2018
         </Button>
-        <Button className="button-right-mergin"href="/best50/2017/" kind="secondary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin"href="/best50/2017/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2017
         </Button>
-        <Button className="button-right-mergin" href="/best50/2016/" kind="tertiary" size="small" renderIcon={ArrowUpRight24}>
+        <Button className="button-right-mergin" href="/best50/2016/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2016
         </Button> 
 	    </div>
       <br/><code>Book Review</code>
       <br/>R&amp;BやHip-Hopをテーマにした書籍のレビューです。
       <div style={{marginTop: '0.5rem',}}>
-	      <Button className="button-right-mergin" href="/book/bookreview1/" kind="primary" size="small" renderIcon={ArrowUpRight24}>
+	      <Button className="button-right-mergin" href="/book/bookreview1/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           Book Review
         </Button>
 	    </div>
