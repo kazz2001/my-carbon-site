@@ -11,8 +11,12 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
+
+import Review1 from "../review/pushat4.mdx";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -44,6 +48,7 @@ import { Link } from "gatsby";
       </Button>
 	  </div>
 	  <a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2018-05-25&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/daytona/1388853738?mt=1&app=music&ls=1"></a>
+    <AdvJS2/>
     </Column>
 </Row>
 <Row >
@@ -81,3 +86,14 @@ import { Link } from "gatsby";
 | 5   | Santeria             | Terrence Thornton, Kanye West, Mike Dean, Isaac Hayes, Danielle Balbuena, Jordan Jenks                                                 | Pusha T                  | 02:56 |
 | 6   | What Would Meek Do?  | Terrence Thornton, Kanye West, Jon Anderson, Christopher Squire, William Bruford                                                       | Pusha T feat. Kanye west | 02:33 |
 | 7   | Infrared             | Terrence Thornton, Kanye West, Robert Manchurian, Shawn Carter, Mark James                                                             | Pusha T                  | 02:50 |
+
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3/>

@@ -1,0 +1,89 @@
+---
+title: Trombone Shorty / Lifted
+description: Album review of Trombone Shorty / Lifted
+keywords: "Trombone Shorty, Lifted	"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Trombone Shorty / Lifted](../../images/cd/tromboneshorty1L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+	<p>
+		New Orleans出身のTrombone奏者、ComposerであるTroy "Trombone Shorty" Andrews の5年ぶりのアルバム。4歳でBo Diddleyと共演し、13歳でLenny Kravitzのツアーに参加と30年以上の芸歴を持つ人である。CDジャケットでそんなTroyを持ち上げている(Lifted)母親に捧げたアルバムでもある。
+		<br/>活動当初はJazzが中心であったが、Rock, R&B界隈のアーティストとの共演を経て、ここ10年ぐらいはJazzに捉われない幅広い音楽分野での活動が目立っている。この作品も、こういった流れを組んでいて、Brass SoundをベースにRock, R&B, Gospelなどを取り入れたところが特徴となっている。
+		<br/>全曲本人の唄入りでもあり、Jazz要素は若干薄目な気がする。ノリの良いアップテンポな曲が多く、サウンドも分厚い、ライブ感100%な作品になっている。
+	</p>
+	<div>
+	  <Button className="button-right-mergin"  href="https://amzn.to/3h6uBNN" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+      amazon.com
+    </Button>
+    <Button className="button-right-mergin"  href="https://amzn.to/3WtrjUY" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+      amazon.co.jp
+    </Button>
+		<Button className="button-right-mergin"  href="https://apple.co/3DWvG3o" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+      apple music
+    </Button>
+		<AdvJS2/>
+	</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+    	<h3>Score card</h3>
+			<SliderJS1 value="5" />
+    	<SliderJS2 value="4" />
+			<SliderJS3 value="1" />
+    	<SliderJS4 value="8" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Chris Seefried(all)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Gary Clark, Jr, Lauren Daigle, New Bleed Brass Band
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                  | Composers                                                                                                                          | Performer                                                 | Time  |
+| --- | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ----- |
+| 1   | Come Back              | Troy "Trombone Shorty" Andrews / Sam Plecker / Chris Seefried / Derek Thomas                                                       | Troy "Trombone Shorty" Andrews                            | 04:19 |
+| 2   | Lie To Me              | Stefan Abingdon / Troy "Trombone Shorty" Andrews / Chris Seefried                                                                  | Troy "Trombone Shorty" Andrews                            | 04:10 |
+| 3   | I’m Standing Here      | Troy "Trombone Shorty" Andrews / Mike Bass-Bailey / Cobi / Josh Connelly / Alvin Ford, Jr. / Aaron Earl Livingston / Jacob Schmidt | Troy "Trombone Shorty" Andrews feat. Gary Clark, Jr       | 03:24 |
+| 4   | What It Takes          | Troy "Trombone Shorty" Andrews / Marvin Etzione / Chris Seefried                                                                   | Troy "Trombone Shorty" Andrews feat. Lauren Daigle        | 03:46 |
+| 5   | Everybody In The World | Troy "Trombone Shorty" Andrews / Marvin Etzione / Chris Seefried                                                                   | Troy "Trombone Shorty" Andrews feat. New Bleed Brass Band | 03:54 |
+| 6   | Lifted                 | Troy "Trombone Shorty" Andrews / Aaron Earl Livingston                                                                             | Troy "Trombone Shorty" Andrews                            | 03:12 |
+| 7   | Forgiveness            | Troy "Trombone Shorty" Andrews / Chris Seefried                                                                                    | Troy "Trombone Shorty" Andrews                            | 03:45 |
+| 8   | Miss Beautiful         | Stefan Abingdon / Troy "Trombone Shorty" Andrews / Chris Seefried                                                                  | Troy "Trombone Shorty" Andrews                            | 03:40 |
+| 9   | Might Not Make It Home | Troy "Trombone Shorty" Andrews / Mike Bass-Bailey / Josh Connelly / Marley Munroe / Chris Seefried                                 | Troy "Trombone Shorty" Andrews                            | 03:19 |
+| 10  | Good Company           | Troy "Trombone Shorty" Andrews / Cobi / Jacob Schmidt / Chris Seefried                                                             | Troy "Trombone Shorty" Andrews                            | 03:00 |
+
+<AdvJS3 />
