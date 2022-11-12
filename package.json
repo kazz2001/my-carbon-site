@@ -20,7 +20,7 @@
   "dependencies": {
     "@carbon/pictograms-react": "^11.33.0",
     "@carbon/react": "^1.15.0",
-    "gatsby": "4.24.5",
+    "gatsby": "^4.24.5",
     "gatsby-plugin-google-analytics": "^4.24.0",
     "gatsby-theme-carbon": "3.0.0",
     "react": "18.2.0",
