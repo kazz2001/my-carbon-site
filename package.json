@@ -1,7 +1,7 @@
 {
   "name": "Black-Music-Album-Review",
   "private": true,
-  "version": "1.22.10",
+  "version": "1.22.11",
   "license": "Apache 2.0",
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
