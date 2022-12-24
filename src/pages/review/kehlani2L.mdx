@@ -11,11 +11,14 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
 
-import Review1 from "../review/kehlani1.mdx";
+import Review1 from "../review/kehlani4.mdx";
 import Review2 from "../review/kehlani3.mdx";
+import Review3 from "../review/kehlani1.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -43,6 +46,7 @@ import Review2 from "../review/kehlani3.mdx";
     </Button>
 	</div>
 	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2019-01-10&kind=song&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/nights-like-this-feat-ty-dolla-%24ign/1452002220?i=1452002228&mt=1&app=music&ls=1&at=11lcug"></a>
+	<AdvJS2/>
 	</Column>
 </Row>
 <Row >
@@ -100,4 +104,9 @@ import Review2 from "../review/kehlani3.mdx";
   <Column colMd={3} colLg={3} noGutterMdLeft>
     <Review2 />
   </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review3 />
+  </Column>
 </Row>
+
+<AdvJS3/>
