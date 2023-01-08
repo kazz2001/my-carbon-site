@@ -1,7 +1,7 @@
 ---
-title: "Beyonce / Lemonede"
-description: "Album Review of Beyonce / Lemonede"
-keywords: "Beyonce, Lemonede, ビヨンセ, レモネード"
+title: "Beyoncé / Lemonede"
+description: "Album Review of Beyoncé / Lemonede"
+keywords: "Beyoncé, Lemonede, ビヨンセ, レモネード"
 ---
 
 import { Slider, Button } from "@carbon/react";
@@ -11,8 +11,12 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
+
+import Review1 from "../review/beyonce6.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -24,13 +28,13 @@ import { Link } from "gatsby";
 	<Column colMd={3} colLg={4} noGutterMdLeft="">
        <ImageCard>
 
-![Beyonce / Lemonede](../../images/cd/beyonce5L.jpg)
+![Beyoncé / Lemonede](../../images/cd/beyonce5L.jpg)
 
 </ImageCard>
 	</Column>
 	<Column colMd={4} colLg={8} noGutterMdLeft="">
 	<p>
-	  3年半となるBeyonceの6作目は、前作同様のVisual Album。ただ、今作は、Visualがメインで曲はサポート的なものと考えても良い。Visual(DVD)はPV集ではなく、切れ目のない一大叙事詩になっている。
+	  3年半ぶりとなるBeyonceの6作目は、前作同様のVisual Album。ただ、今作は、Visualがメインで曲はサポート的なものと考えても良い。Visual(DVD)はPV集ではなく、切れ目のない一大叙事詩になっている。
     <br/>最初は夫に浮気された女性の話だが、後半から家族、ルーツを遡るアメリカ黒人女性の自己探しの旅みたいな話になっている。
     <br/>サウンド面では前半は陰鬱で重苦しく、後半は解き放たれて力強い印象の曲へと変わっていく。また、コンテンポラリーであったり、尖がったり、のりが良かったりしてるところは一切無くて、スロー中心で、ストーリーを体現する様々な曲調のTrackから構成されている。
   </p>
@@ -43,6 +47,7 @@ import { Link } from "gatsby";
     </Button>
 	</div>
 	<a href="https://geo.music.apple.com/jp/album/lemonade/1460430561?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2016-04-23&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
+  <AdvJS2/>
   </Column>
 </Row>
 <Row >
@@ -96,3 +101,11 @@ import { Link } from "gatsby";
 | 10  | Freedom             | Arrow Benjamin / Jonathan Coffer / Kendrick Duckworth / Beyonce Knowles / Alan Lomax / John A. Lomax / Frank Tirado / Carla Williams                                                                                                           | Beyonce feat. Kendrick Lamar | 04:49 |
 | 11  | All Night           | Henry Allen / Andre Benjamin / Patrick Brown / Jaramye Daniels / Ilsey Juber / Akil King / Beyonce Knowles / Antwan Patton / Thomas Wesley Pentz / Theron Thomas / Timothy Thomas                                                              | Beyonce                      | 05:21 |
 | 12  | Formation           | Khalif Brown / Asheton Hogan / Michael L. Williams II / Beyonce Knowles                                                                                                                                                                        | Beyonce                      | 03:26 |
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3/>

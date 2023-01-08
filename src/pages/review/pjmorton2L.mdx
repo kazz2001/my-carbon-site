@@ -1,0 +1,101 @@
+---
+title: PJ Morton / Watch The Sun
+description: Album review of PJ Morton / Watch The Sun
+keywords: "PJ Morton, Watch The Sun, ＰＪ・モートン, ウオッチ・ザ・サン"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/pjmorton1.mdx";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2022/">2022 Black Music Album Best No.18</Link>
+</p>
+
+<br/>
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![PJ Morton / Watch The Sun](../../images/cd/pjmorton2L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+	  <p>
+	    PJ Mortonの2年ぶりのアルバム。前作はGospelシンガーたちとのGospel作であったが、今回は通常運転となる。ゆったりとし穏やかなオールドソウル作品となっており、ブラスを効果的に用いたりして、出自のNew Orleans色が強くなっている。
+      <br/>サウンドやPJの唄など、70年代ソウルとJohn Legendを合わせたようなPJならではのサウンドが展開されている。ちょっとレゲエっぽい表題曲④など、本当に心地良い。NasやWaleといったRapperや御大Stevieまでゲスト陣も幅広いが、うまく自身の世界に取り込んでいると思う。
+    </p>
+  <div>
+	  <Button className="button-right-mergin"  href="https://amzn.to/2XKOjCC" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+      amazon.com
+    </Button>
+    <Button className="button-right-mergin"  href="https://amzn.to/3dIDaYx" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+      amazon.co.jp
+    </Button>
+	</div>
+	  <a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2019-08-09&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/paul/1471252926?mt=1&app=music&ls=1&at=11lcug"></a>
+    <AdvJS2/>
+    </Column>
+</Row>
+<Row >
+  <Column colMd={4} colLg={4} noGutterMdLeft="">
+    <div>
+      <h3>Score card</h3>
+	    <SliderJS1 value="4" />
+      <SliderJS2 value="4" />
+	    <SliderJS3 value="1" />
+      <SliderJS4 value="9" />
+    </div>
+  </Column>
+  <Column colMd={8} colLg={8} noGutterMdLeft="">
+    <div>
+      <h3>Producers</h3>
+      <p>
+        PJ Morton(all)
+      </p>
+      <h3>Guests</h3>
+      <p>
+        Chronixx, Mr. Talkbox, Stevie Wonder, Nas, Jill Scott, Alex Isley, El Debarge, Zacardi Cortex, Gene Moore, Samoht, Tim Rogers, Darrel "Musiqcity" Walls
+      </p>
+    </div>
+  </Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                                  | Composers                                                                                            | Performer                                                                                | Time  |
+| --- | -------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----- |
+| 1   | Love's Disease (Just Can't Get Enough) | PJ Morton                                                                                            | PJ Morton                                                                                | 02:57 |
+| 2   | Biggest Mistake                        | PJ Morton                                                                                            | PJ Morton                                                                                | 03:05 |
+| 3   | Please Don't Walk Away                 | PJ Morton                                                                                            | PJ Morton                                                                                | 03:51 |
+| 4   | Watch the Sun                          | Jamar McNaughton / PJ Morton                                                                         | PJ Morton feat. Chronixx                                                                 | 02:54 |
+| 5   | My Peace                               | Andr? Benjamin / Patrick Brown / Byron Manard Chambers / Joanna Levesque / PJ Morton / Antwan Patton | PJ Morton feat: JoJo. Mr. Talkbox                                                        | 03:47 |
+| 6   | Be Like Water                          | Nasir Jones / PJ Morton                                                                              | PJ Morton feat. Stevie Wonder, Nas                                                       | 03:17 |
+| 7   | So Lonely                              | PJ Morton / Wale                                                                                     | PJ Morton feat. Wale                                                                     | 03:34 |
+| 8   | Still Believe                          | PJ Morton / Jill Scott                                                                               | PJ Morton feat. Jill Scott, Alex Isley                                                   | 03:40 |
+| 9   | A Lil Too Heavy                        | PJ Morton                                                                                            | PJ Morton                                                                                | 02:50 |
+| 10  | On My Way                              | PJ Morton                                                                                            | PJ Morton feat. El Debarge                                                               | 02:21 |
+| 11  | The Better Benediction                 | PJ Morton                                                                                            | PJ Morton feat. Zacardi Cortex, Gene Moore, Samoht, Tim Rogers, Darrel "Musiqcity" Walls | 05:23 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />

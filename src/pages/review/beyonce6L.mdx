@@ -1,0 +1,121 @@
+---
+title: "Beyoncé / Renaissance"
+description: "Album Review of Beyoncé / Renaissance"
+keywords: "Beyoncé, Lemonede, ビヨンセ, ルネッサンス"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/beyonce5.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2022/">2022 Black Music Best No.1</Link>
+</p>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Beyoncé / Renaissance](../../images/cd/beyonce6L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+	<p>
+	  ライブ作品を挟んで、オリジナルアルバムとしては、なんと6年ぶりとなるBeyonceの7作目。その不在感を埋めるべく16曲で1時間を超える大作となっている。(ちなみに3部作の一つ目らしい)。
+    <br/>良い作品をリリースするだけでなく、話題をふりまける稀有な存在ではあるが、当作ではハウスにがっつり取り組んでいるのが最大の話題であり、Grammyの主要部門だけでなく、Best Dance/Electronicの2部門にもノミネートされている。
+    <br/>4つ打ちのハウスにディスコとアップなビートが中心となり、パーティ的で開放感のあるサウンドが特徴的。クラブっぽく曲間を無くして、シームレスに繋がっていく。ただ、Sydとの⑧などは癒し系っぽく、アルバム中間で一休みとなっている。
+    <br/>Produer陣も一新し、そっち系の人たちが多くなっているが、The-DreamやRaphael SaadiqなどによってR&Bフレイバーも微かに感じられる。LyricではLGBTQによりそうところも感じられ、このへんもBeyoncéらしいところだ。
+  </p>
+  <div>
+	  <Button className="button-right-mergin"  href="https://amzn.to/3vK6c4w" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+      amazon.com
+    </Button>
+    <Button className="button-right-mergin"  href="https://amzn.to/3Gm9Y9f" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+      amazon.co.jp
+    </Button>
+    <Button className="button-right-mergin"  href="https://apple.co/3GoenZ5" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+      apple music
+    </Button>
+    <AdvJS2/>
+  </div>
+  </Column>
+</Row>
+<Row >
+  <Column colMd={4} colLg={4} noGutterMdLeft="">
+    <div>
+      <h3>Score card</h3>
+	    <SliderJS1 value="5" />
+      <SliderJS2 value="1" />
+	    <SliderJS3 value="1" />
+      <SliderJS4 value="9" />
+    </div>
+  </Column>
+  <Column colMd={4} colLg={8} noGutterMdLeft="">
+    <div>
+      <h3>Producers</h3>
+      <p>
+        Beyoncé and Kelman Duran(1)
+        <br/>Beyoncé, Chris Penny, Luke Solomon and Honey Dijon(2,3)
+        <br/>Beyoncé, Nova Wav and Raphael Saadiq(4)
+        <br/>Beyoncé, Skrillex, Beam and Al Cres(5)
+        <br/>Beyoncé, Terius "The-Dream" Nash and C “Tricky” Stewart(6)
+        <br/>Beyoncé, Terius "The-Dream" Nash and No ID(7).
+        <br/>Beyoncé and Syd(8)
+        <br/>Beyoncé and Leven Kali(9)
+        <br/>Beyoncé and P2J(10)
+        <br/>Beyoncé, Jahaan Sweet, Neenyo, Sevn Thomas and Boi-1da(11)
+        <br/>Beyoncé and P2J(12)
+        <br/>Beyoncé and Bah(13)
+        <br/>Beyoncé and Terius "The-Dream" Nash(14)
+        <br/>Beyoncé, Nova Wav and BloodPop(15)
+        <br/>Beyoncé and Nova Wav(16)
+      </p>
+      <h3>Guests</h3>
+      <p>
+        Beam, TEMS, Grace Jones
+      </p>
+    </div>
+  </Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                 | Composers                                                                                                                                                                                                                                                                                                                                                                                                                          | Performer                      | Time  |
+| --- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ | ----- |
+| 1   | I'm That Girl         | Beyoncé / Mike Dean / Kelman Duran / Tommy Wright III / Terius Nash / Andrea Summers                                                                                                                                                                                                                                                                                                                                               | Beyoncé                        | 03:28 |
+| 2   | Cozy                  | Beyoncé / Nija Charles / Mike Dean / Dave Giles II / Curtis A. Jones / Ts Madison / Terius Nash / Christopher Penny / Honey Redmond / Luke Solomon                                                                                                                                                                                                                                                                                 | Beyoncé                        | 03:30 |
+| 3   | Alien Superstar       | Denisia Andrews / Danielle Balbuena / Beyoncé / Atia Boggs / David Debrandon Brown / Shawn Carter / Brittany Coney / Kim Cooper / Levar Coppin / Mike Dean / Saliou Diagne / Honey Dijon / Christopher Abbott Bernard Fairbrass / Richard Peter John Fairbrass / David Hamelin / John Holiday / Leven Kali / Robert Manzoli / Timothy McKenzie / Christopher Penny / Peter Rauhofer / Luke Solomon / Barbara Ann Teer / Rami Yacou | Beyoncé                        | 03:35 |
+| 4   | Cuff It               | Denisia Andrews / Beyoncé / Brittany Coney / Morten Ristorp Jensen / Teena Marie / Allen Henry McGrier / Terius Nash / Nile Rodgers / Raphael Saadiq                                                                                                                                                                                                                                                                               | Beyoncé                        | 03:45 |
+| 5   | Energy                | Denisia Andrews / Beyoncé / Brittany Coney / Almando Cresso / Jordan Douglas / Chad Hugo / Tizita Makuria / Teena Marie / Allen Henry McGrier / Sonny Moore / Terius Nash / Adam Pigott / Freddie Ross / Tyshane Thompson / Pharrell Williams                                                                                                                                                                                      | Beyoncé feat: Beam             | 01:56 |
+| 6   | Break My Soul         | George Allen / Beyoncé / Shawn Carter / Fred Craig McFarlane / Terius Nash / Adam Pigott / Freddie Ross / Christopher Stewart                                                                                                                                                                                                                                                                                                      | Beyoncé                        | 04:38 |
+| 7   | Church Girl           | Eldon Deloyd Anderson / Beyoncé / James Brown / Orville Hall / Donald Mac / Terius Nash / Dion Norman / Derrick Ordogne / Jimi Payton / Phillip Price / William Salter / Jerome Temple / Elbernita Clark Terrell / Ernest Wilson                                                                                                                                                                                                   | Beyoncé                        | 03:44 |
+| 8   | Plastic Off the Sofa  | Sydney Bennett / Beyoncé / Sabrina Claudio / Nick Green                                                                                                                                                                                                                                                                                                                                                                            | Beyoncé                        | 04:14 |
+| 9   | Virgo's Groove        | Beyoncé / Dustin Bowie / Darius Dixson / Jocelyn Donald / Leven Kali / Daniel Memmi / Jesse Wilson                                                                                                                                                                                                                                                                                                                                 | Beyoncé                        | 06:08 |
+| 10  | Move                  | Denisia Andrews / Ronald Banful / Beyoncé / Brittany Coney / Ariowa Irosogie / Richard Isong / Temilade Openiyi                                                                                                                                                                                                                                                                                                                    | Beyoncé feat: Grace Jones / Te | 03:23 |
+| 11  | Heated                | Denisia Andrews / Beyoncé / Brittany Coney / Drake / Rupert Thomas, Jr. / Ricky Lawson / Matthew Samuels / Sean Seaton / Jahaan Sweet                                                                                                                                                                                                                                                                                              | Beyoncé feat: Maurice Harris   | 04:20 |
+| 12  | Thique                | Beyoncé / Atia Boggs / Chauncey Hollis / Lil Ju / Terius Nash / Cherdericka Nichols / Jabbar Stevens                                                                                                                                                                                                                                                                                                                               | Beyoncé                        | 04:04 |
+| 13  | All Up in Your        | Jameil Aossey / Beyoncé / Mike Dean / Larry Griffin, Jr. / Cherdericka Nichols / Jabbar Stevens / Michael Tucker                                                                                                                                                                                                                                                                                                                   | Beyoncé                        | 02:49 |
+| 14  | America Has a Problem | Kilo Ali / Beyoncé / Shawn Carter / Mike Dean / Tino McIntosh / Terius Nash / Andrell Rogers                                                                                                                                                                                                                                                                                                                                       | Beyoncé                        | 03:18 |
+| 15  | Pure/Honey            | Vejai Marcel Alston / Denisia Andrews / Joe Barlow / Beyoncé / Brittany Coney / Michael D. Cox / Darius Dixson / Terius Nash / Michael Pollack / Moi Renee / Raphael Saadiq / Michael Tucker                                                                                                                                                                                                                                       | Beyoncé                        | 04:48 |
+| 16  | Summer Renaissance    | Denisia Andrews / Peter Bellotte / Beyoncé / Atia Boggs / Brittany Coney / Levar Coppin / Mike Dean / Saliou Diagne / Leven Kali / Ricky Lawson / Giorgio Moroder / Terius Nash / Donna Summer                                                                                                                                                                                                                                     | Beyoncé                        | 04:34 |
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />
