@@ -1,0 +1,113 @@
+---
+title: Steve Lacy / Gemini Rights
+description: Album review of Steve Lacy / Gemini Rights
+keywords: "Steve Lacy, Gemini Rights, スティーブ・レイシー, ジェミニ・ライツ"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1_1 from "../review/stevelacy1.mdx";
+
+import Review2_1 from "../review/theinternet2.mdx";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2022/">2022 Black Music Best No.3</Link>
+</p>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Steve Lacy / Gemini Rights](../../images/cd/stevelacy2L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<p>
+			前作のソロデビュー作が好評だったSteve Lacyの3年ぶりとなる2nd。ローファイなところは残しつつ、多様で広がりを感じる構成となり、R&B/Soulと言えるのは、かろうじて⑩くらい。Indy Rockが基調となり、Bosa Nova曲(③)もあったりしている。
+			<br/>また、前半にBeatlesっぽい曲が数曲あって、アルバムのトーンを決めている。キャッチーで軽快なアップから、しみじみとしたスローまでと曲調も様々。外部Producerの力を借りつつ、Steve本人のProduce力にも一層、磨きがかかっている。
+			<br/>なお、3曲で母親と、アーティストの妹がコーラスで参加している。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3kMr2y9" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3kOqjfS" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3HAgRFS" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	    apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+    	<h3>Score card</h3>
+			<SliderJS1 value="5" />
+    	<SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+    	<SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Steve Lacy(1,2,3,4,5,7,8)
+				<br/>Matthew Martins(6)
+				<br/>Karriem Riggins(9)
+				<br/>Steve Lacy and Dahi(10)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Matthew Martins
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title               | Composers                                                                          | Performer                      | Time  |
+| --- | ------------------- | ---------------------------------------------------------------------------------- | ------------------------------ | ----- |
+| 1   | Static              | John Carroll Kirby, Steve Lacy                                                     | Steve Lacy                     | 02:36 |
+| 2   | Helmet              | Diana Gordon, Steve Lacy                                                           | Steve Lacy                     | 03:21 |
+| 3   | Mercury             | Britanny Fousheé, Dacoury Natche, Ely Rise, Steve Lacy                             | Steve Lacy                     | 04:55 |
+| 4   | Buttons             | Dacoury Natche, Ely Rise, Steve Lacy                                               | Steve Lacy                     | 03:04 |
+| 5   | Bad Habit           | Britanny Fousheé, Diana Gordon, John Carroll Kirby, Matthew Castellanos, Steve Lac | Steve Lacy                     | 03:52 |
+| 6   | 2Gether (Enterlude) | John Carroll Kirby, Matthew Martins, Steve Lacy                                    | Steve Lacy and Matthew Martins | 01:50 |
+| 7   | Cody Freestyle      | Britanny Fousheé, Steve Lacy                                                       | Steve Lacy                     | 04:00 |
+| 8   | Amber               | Steve Lacy                                                                         | Steve Lacy                     | 02:53 |
+| 9   | Sunshine            | Britanny Fousheé, Karriem Riggins, Steve Lacy                                      | Steve Lacy                     | 04:53 |
+| 10  | Give You the World  | Dacoury Natche, Ely Rise, Steve Lacy                                               | Steve Lacy                     | 04:33 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1_1 />
+  </Column>
+</Row>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2_1 />
+  </Column>
+</Row>
+
+<AdvJS3 />
