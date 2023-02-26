@@ -10,8 +10,12 @@ import SliderJS1 from "../review/slider1"
 import SliderJS2 from "../review/slider2"
 import SliderJS3 from "../review/slider3"
 import SliderJS4 from "../review/slider4"
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby"
+
+import Review1 from "../review/sudanarchives2.mdx";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -39,6 +43,7 @@ import { Link } from "gatsby"
 	</div>
 	<a href="https://geo.music.apple.com/jp/album/athena/1477555213?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2019-11-01&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
 	<a href="https://geo.music.apple.com/jp/album/athena/1477555213?app=itunes&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2019-11-01T00:00:00Z&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;"></a>
+	<AdvJS2/>
 	</Column>
 </Row>
 <Row >
@@ -92,3 +97,13 @@ Sudan Archives, Catherine Parks and Collin Davis(1)
 | 12  |	Limitless                      	| Sudan Archives / Paul White                         |	Sudan Archives | 02:55 |
 | 13  |	Honey                          	| Sudan Archives                                      |	Sudan Archives | 03:02 |
 | 14  |	Pelicans in the Summer         	| Sudan Archives / Kenny Gilmore / James R. McCall IV |	Sudan Archives | 03:38 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />
