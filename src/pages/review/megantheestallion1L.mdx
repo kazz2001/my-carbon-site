@@ -11,8 +11,12 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
+
+import Review1 from "../review/megantheestallion2.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -30,16 +34,21 @@ import { Link } from "gatsby";
 	</Column>
 	<Column colMd={4} colLg={8} noGutterMdLeft="">
 	<p>
-	Houston出身、25歳のRapper, Megan Thee Stallionのメジャーデビュー作。前2作(MixTapeとEP)で既に話題になっており、今年2020年にBeyonceとの⑮でチャート1位を獲得、Grammyにもノミネートと、今、最も波に乗る女性Rapperである。
-  <br/>自己主張が強く、低めで押し出しのよいRapと、ややSexualなビジュアルが印象的で、Trackはサウスっぽさを残しながら、Trapは抑え目になっている。逆に耳障りの良いメロウな曲やPopな曲も後半に配されていて、Producerとしては、Juicy Jがいい仕事をしてると思う。
-  <br/>Guestも豪華で、⑦のSZAなんかは、雰囲気持ってるな、感心する。</p>
+	  Houston出身、25歳のRapper, Megan Thee Stallionのメジャーデビュー作。前2作(MixTapeとEP)で既に話題になっており、今年2020年にBeyonceとの⑮でチャート1位を獲得、Grammyにもノミネートと、今、最も波に乗る女性Rapperである。
+    <br/>自己主張が強く、低めで押し出しのよいRapと、ややSexualなビジュアルが印象的で、Trackはサウスっぽさを残しながら、Trapは抑え目になっている。逆に耳障りの良いメロウな曲やPopな曲も後半に配されていて、Producerとしては、Juicy Jがいい仕事をしてると思う。
+    <br/>Guestも豪華で、⑦のSZAなんかは、雰囲気持ってるな、感心する。
+  </p>
 	<div>
 	  <Button className="button-right-mergin"  href="https://amzn.to/38XMlD1" renderIcon={ArrowUpRight} size='sm' kind='primary'>
       amazon.com
     </Button>
+    <Button className="button-right-mergin"  href="https://amzn.to/43Vb05Z" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+      amazon.co.jp
+    </Button>
     <Button className="button-right-mergin"  href="https://apple.co/3b62Tf1" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
       apple music
     </Button>
+    <AdvJS2/>
 	</div>
 	</Column>
 </Row>
