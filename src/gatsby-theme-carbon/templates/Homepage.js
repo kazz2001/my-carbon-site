@@ -17,25 +17,28 @@ const FirstRightText = () => (
       <br/>R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。
       <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search size={32} />をクリックで検索できます。
       <div style={{marginTop: '0.5rem',}}>
-        <Button className="button-right-mergin" href="/cd/2022/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        <Button className="button-right-mergin" href="/cd/2023/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+          2023
+        </Button>
+        <Button className="button-right-mergin" href="/cd/2022/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2022
         </Button>
-        <Button className="button-right-mergin" href="/cd/2021/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+        <Button className="button-right-mergin" href="/cd/2021/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2021
         </Button>
-        <Button className="button-right-mergin" href="/cd/2020/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+        <Button className="button-right-mergin" href="/cd/2020/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2020
         </Button>
-        <Button className="button-right-mergin" href="/cd/2019/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        <Button className="button-right-mergin" href="/cd/2019/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2019
         </Button>
-        <Button className="button-right-mergin" href="/cd/2018/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+        <Button className="button-right-mergin" href="/cd/2018/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2018
         </Button>
-        <Button className="button-right-mergin" href="/cd/2017/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+        <Button className="button-right-mergin" href="/cd/2017/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2017
         </Button>
-        <Button className="button-right-mergin" href="/cd/2016/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        <Button className="button-right-mergin" href="/cd/2016/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2016
         </Button>
 	    </div>
