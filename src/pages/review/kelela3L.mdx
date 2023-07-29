@@ -1,0 +1,113 @@
+---
+title: Kelela / Raven
+description: Album Review of Kelela / Raven
+keywords: "Kelela, Raven, ケレラ, レイヴン"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/kelela2.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Kelela / Raven](../../images/cd/kelela3L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			Kelelaのなんと6年ぶりとなるオリジナル2作目。アンビエントで静謐なサウンドは継承しつつ、エレクトリックでハウス色を強め、時にダンサブルで、メロディアスだったりするのが特徴的な作品となっている。
+			<br/>ドイツにわたり、 LSDXOXO, Yo Van Lenz, Florian TM Zeisigといった彼の地のProducerと制作したとのことで、ミニマルなサウンドは独特のものがあり、Kelelaの揺蕩うような透明感のあるVocalと一体化している。
+			<br/>本人は、”社会の中で制度的に抑圧されてきた黒人女性の脆弱性が力に転じたことを象徴するサウンド”と語っているが、鬱屈や苛立ちは感じられず、あくまでも安らかで心が洗われる作品になっている。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/43LbJ9I" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3KgUHsQ" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3rHiuf8" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	    apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+		</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="1" />
+			<SliderJS3 value="2" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Yo Van Lenz(1)
+				<br/>LSDXOXO(2,5,6,11)
+				<br/>Yo Van Lenz, Florian TM Zeisig and Kelela(3)
+				<br/>Yo Van Lenz, Kelela, Kaytranada and Bamnii(4)
+				<br/>LSDXOXO and Asmara(7)
+				<br/>Khali(8)
+				<br/>Yo Van Lenz and Florian TM Zeisig(9,13)
+				<br/>Acemo, Falizia and Kelela(10)
+				<br/>Yo Van Lenz, Kelela, Paris Strother and Bamnii(12)
+				<br/>Yo Van Lenz, Florian TM Zeisig and Badsista(14)
+				<br/>Yo Van Lenz(15)
+			</p>
+			<h3>Guests</h3>
+			<p>
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title           | Composers                           | Performer | Time  |
+| --- | --------------- | ----------------------------------- | --------- | ----- |
+| 1   | Washed Away     | Janiva Ellis / Kelela               | Kelela    | 03:36 |
+| 2   | Happy Ending    | Kelela                              | Kelela    | 04:08 |
+| 3   | Let It Go       | Janiva Ellis / Kelela               | Kelela    | 04:22 |
+| 4   | On the Run      | Janiva Ellis / Junglepussy / Kelela | Kelela    | 04:52 |
+| 5   | Missed Call     | Asmara / Kelela / LSDXOXO           | Kelela    | 03:51 |
+| 6   | Closure         | RahRah Gabor / Kelela               | Kelela    | 03:29 |
+| 7   | Contact         | Asmara / Kelela                     | Kelela    | 04:00 |
+| 8   | Fooley          | Janiva Ellis / Kelela               | Kelela    | 03:34 |
+| 9   | Holier          | Kelela                              | Kelela    | 04:14 |
+| 10  | Raven           | Kelela                              | Kelela    | 04:36 |
+| 11  | Bruises         | Kelela                              | Kelela    | 04:15 |
+| 12  | Sorbet          | Kelela                              | Kelela    | 05:29 |
+| 13  | Divorce         | Janiva Ellis / Kelela / Shygirl     | Kelela    | 03:21 |
+| 14  | Enough for Love | Janiva Ellis / Kelela               | Kelela    | 04:25 |
+| 15  | Far Away        | Kelela                              | Kelela    | 04:21 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />

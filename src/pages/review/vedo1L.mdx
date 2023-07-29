@@ -1,0 +1,105 @@
+---
+title: "Vedo / Mood Swings"
+description: "Album review of Vedo / Mood Swings"
+keywords: "Vedo, Mood Swings"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/vincestaples5.mdx";
+import Review2 from "../review/vincestaples4.mdx";
+import Review3 from "../review/vincestaples3.mdx";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Vedo / Mood Swings](../../images/cd/vedo1L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			ミシガン出身のR&Bシンガー, Vedoの6作目。2015年あたりから本格的活動を始め、今年でちょうど30歳ということで、経験的には中堅の域に達している人のようだ。20歳のころに出演したオーディション番組でUsherに気に入られ、今でもメンター的な存在とのこと。そんなUsherの後を継ぐような、少し青臭さも残る、やや細めで甘いVocalが特徴である。
+			<br/>サウンドは、90年代当たりの、今となってはクラシカルな感じであり、スローでロマンチックな曲が多い構成になっている。多くのProducerが制作にあたっているが、有名どころではTroy Taylorが2曲に参加している。ゲストでは同系のChris Brownに、最近客演の多いTinkが可愛らしい声を聞かせてくれている。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/43OGqum" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3rTqsSs" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3OfoAuL" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="8" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Gabriel Lambirth and Vontae Thomas(1)
+				<br/>Troy Taylor and 2Smooth(2,3)
+				<br/>Lou Xtwo and &K(4)
+				<br/>Spiff Sinatra , Herothaproducer and Itaal Shur(5)
+				<br/>Coop The Truth and Herothaproducer(6)
+				<br/>Troy Taylor, ChiChi and Fridayyy(7)
+				<br/>Needlz, Tristan J Meinsma and Saint Luca(8)
+				<br/>Beezo, Soundsfrommikey and Pianogotkeys(9)
+				<br/>Phenom(10)
+				<br/>Tharealjfkbeatz and Tharealcstylez(11,12)
+				<br/>Beezo and Soundsfrommikey(13)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Chris Brown, Tink
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title          | Composers                                                                                                                                                   | Performer              | Time  |
+| --- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ----- |
+| 1   | Waterfalls     | Darrell Alston / Gabriel Lambirth / Wilbart McCoy                                                                                                           | VEDO                   | 05:06 |
+| 2   | Celebrate      | Rafael Ishman / Kerry Marshall / Wilbart McCoy / Jaybree Shaw / Shanice Sykes / Troy Taylor / Trevon Waters                                                 | VEDO                   | 03:13 |
+| 3   | Somebody Else  | Billy Garcia / Dylan Graham / Rafael Ishman / Jaylyn Denaie Macdonld / Wilbart McCoy / Jaybree Shaw                                                         | VEDO                   | 02:20 |
+| 4   | Soul           | Wilbart McCoy / John McGee / Lasse Qvist                                                                                                                    | VEDO                   | 02:37 |
+| 5   | Do You Mind    | Chris Brown / Sterling White, Jr. / Charles McAllister / Wilbart McCoy / Patrizio Pigliapoco / Randy Samba / Jaybree Shaw / Demetrius Sims                  | VEDO feat: Chris Brown | 02:20 |
+| 6   | Consistency    | Karim Hutton / Wilbart McCoy / Cooper Douglas McGill / Demetrius Sims / Justin Zim                                                                          | VEDO                   | 02:31 |
+| 7   | You and Me     | Nicolas Barnett / Rickie Carley / Francis LeBlanc / Wilbart McCoy / Chidi Osondu / Ivory Scott / Jaybree Shaw / Shanice Sykes / Troy Taylor / Trevon Waters | VEDO                   | 03:31 |
+| 8   | FOREVER        | Khari Cain / Brandon Hesson / James Foye III / Anders Lunoe / Wilbart McCoy / Tristan Meinsma / Lewis Shoates / Antonio Stith                               | VEDO                   | 04:00 |
+| 9   | Tell Me        | Shaquille Brown / Isaac Copeland / Bishop Grinnage / Rafael Ishman / Jaylyn Denaie Macdonld / Wilbart McCoy / Jaybree Shaw                                  | VEDO                   | 02:50 |
+| 10  | D.A.F.         | Javiere Boswell / Rafael Ishman / Wilbart McCoy                                                                                                             | VEDO                   | 03:02 |
+| 11  | C.O.B [Reason] | Jared Grace / Wilbart McCoy / Shanice Sykes / Christopher Wilson                                                                                            | VEDO                   | 02:34 |
+| 12  | Somebody       | Jared Grace / Wilbart McCoy / Tink / Christopher Wilson                                                                                                     | VEDO feat. Tink        | 02:39 |
+| 13  | Only           | Isaac Copeland / Bishop Grinnage / Rafael Ishman / Wilbart McCoy / Jaybree Shaw                                                                             | VEDO                   | 02:25 |
+
+<AdvJS3 />

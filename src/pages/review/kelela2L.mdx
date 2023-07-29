@@ -11,8 +11,12 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
+
+import Review1 from "../review/kelela3.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -43,6 +47,7 @@ import { Link } from "gatsby";
     </Button>
 	</div>
 	<a href="https://geo.music.apple.com/jp/album/take-me-apart/1263529879?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2017-10-06&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
+	<AdvJS2/>
 	</Column>
 </Row>
 <Row >
@@ -92,3 +97,13 @@ import { Link } from "gatsby";
 | 12  | Turn to Dust  | Arca / Jam City / Romy Madley Croft / Kelela           | Kelela    | 04:29 |
 | 13  | Bluff         | Will Boston / Kelela                                   | Kelela    | 01:12 |
 | 14  | Altadena      | Will Boston / Kelela / Mocky / Sabina Sciubba          | Kelela    | 05:10 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3/>
