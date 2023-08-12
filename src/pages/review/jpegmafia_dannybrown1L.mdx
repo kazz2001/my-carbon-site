@@ -16,6 +16,11 @@ import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
 
+import Review2-1 from "../review/jpegmafia1.mdx";
+
+import Review3-1 from "../review/dannybrown3.mdx";
+import Review3-2 from "../review/dannybrown4.mdx";
+
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
 
@@ -62,11 +67,11 @@ import { Link } from "gatsby";
 		<div>
 			<h3>Producers</h3>
 			<p>
-				Raul Midon(all)Barrington Hendricks(all)
+				JPEGMAFIA(all)
 			</p>
 			<h3>Guests</h3>
 			<p>
-				Helelna Deland, Buzzy Lee, Abdu Ali
+				Redveil
 			</p>
 		</div>
 	</Column>
@@ -74,26 +79,38 @@ import { Link } from "gatsby";
 
 <h3>Tracks</h3>
 
-| No  | Title                                     | Composer                                                                     | Performer                           | Time |
-| --- | ----------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------- | ---- |
-| 1   | Jesus Forgive Me, I Am a Thot             | Barrington Hendricks                                                         | JPEGMAFIA                           | 2:36 |
-| 2   | Kenan Vs. Kel                             | Barrington Hendricks                                                         | JPEGMAFIA                           | 3:01 |
-| 3   | Beta Male Strategies                      | Barrington Hendricks                                                         | JPEGMAFIA                           | 3:18 |
-| 4   | JPEGMAFIA TYPE BEAT                       | Barrington Hendricks                                                         | JPEGMAFIA                           | 0:54 |
-| 5   | Grimy Waifu                               | Barrington Hendricks                                                         | JPEGMAFIA                           | 2:55 |
-| 6   | PTSD                                      | Barrington Hendricks                                                         | JPEGMAFIA                           | 2:28 |
-| 7   | Rap Grow Old & Die x No Child Left Behind | Barrington Hendricks                                                         | JPEGMAFIA                           | 2:47 |
-| 8   | All My Heroes Are Cornballs               | Barrington Hendricks                                                         | JPEGMAFIA                           | 3:23 |
-| 9   | BBW                                       | Barrington Hendricks                                                         | JPEGMAFIA                           | 1:36 |
-| 10  | PRONE!                                    | Barrington Hendricks                                                         | JPEGMAFIA                           | 2:42 |
-| 11  | Lifes Hard, Here's a Song About Sorrel    | Barrington Hendricks                                                         | JPEGMAFIA                           | 1:01 |
-| 12  | Thot Tactics                              | Barrington Hendricks                                                         | JPEGMAFIA                           | 2:50 |
-| 13  | Free the Frail                            | Barrington Hendricks, Helena Deland                                          | JPEGMAFIA feat. Helelna Deland      | 3:30 |
-| 14  | Post Verified Lifestyle                   | Barrington Hendricks                                                         | JPEGMAFIA                           | 3:35 |
-| 15  | BasicBitchTearGas                         | Kandi Burruss, Kevin Briggs, Tameka Cottle, Lisa Lopes, Barrington Hendricks | JPEGMAFIA                           | 1:16 |
-| 16  | DOTS [Freestyle Remix]                    | Barrington Hendricks                                                         | JPEGMAFIA feat. Buzzy Lee, Abdu Ali | 2:07 |
-| 17  | BUTTERMILK JESUS TYPE BEAT                | Barrington Hendricks                                                         | JPEGMAFIA                           | 1:09 |
-| 18  | Papi I Missed U                           | Barrington Hendricks                                                         | JPEGMAFIA                           | 4:02 |
+| No. | Title                             | Composers               | Performer                             | Time  |
+| --- | --------------------------------- | ----------------------- | ------------------------------------- | ----- |
+| 1   | Lean Beef Patty                   | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 01:47 |
+| 2   | Steppa Pig                        | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 03:27 |
+| 3   | SCARING THE HOES                  | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 02:22 |
+| 4   | Garbage Pale Kids                 | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 02:48 |
+| 5   | Fentanyl Tester                   | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 02:37 |
+| 6   | Burfict!                          | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 02:21 |
+| 7   | Shut Yo Bitch Ass Up/Muddy Waters | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 02:54 |
+| 8   | Orange Juice Jones                | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 02:21 |
+| 9   | Kingdom Hearts Key                | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA feat. Redveil | 03:25 |
+| 10  | God Loves You                     | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 02:28 |
+| 11  | Run the Jewels                    | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 01:04 |
+| 12  | Jack Harlow Combo Meal            | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 02:18 |
+| 13  | HOE (Heaven on Earth)             | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 03:23 |
+| 14  | Where Ya Get Ya Coke From?        | JPEGMAFIA & Danny Brown | Danny Brown / JPEGMAFIA               | 02:57 |
 
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2-1 />
+  </Column>
+</Row>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review3-1 />
+  </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+  	<Review3-2 />
+  </Column>
+</Row>
 
 <AdvJS3 />
