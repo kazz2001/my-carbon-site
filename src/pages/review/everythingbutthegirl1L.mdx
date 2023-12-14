@@ -1,0 +1,90 @@
+---
+title: Everything But The Girl / Fuse
+description: Album Review of Everything But The Girl / Fuse
+keywords: "Everything But The Girl, Fuse"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Everything But The Girl / Fuse](../../images/cd/everythingbutthegirl1L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+	  <p>
+	  	UKのPop, Duo, Everything But The Girlのなんと24年ぶりのアルバム。1982年に結成し、1999年のアルバムリリースが最後となっていたが、私生活でもパートナーである二人にとっての3人の子育てが終わったのか、本当に久々の新作リリースとなった。
+      <br/>全体的にはエレクトリックなサウンドによるソウル作品であり、曲調はメランコリックで、ゆったりと落ち着いたものが多く、抑え気味のVocalとも相俟って、心の奥底に染みてくる。また、ときにはハウスっぽさも感じられる。音響的な統一感にも、だいぶ、こだわって作られていることも感じられる。
+      <br/>去年、還暦を迎えた二人ではあるが、成熟を感じつつも、若々しさもあって、これからも、まだまだ活躍してくれそうだ。
+    </p>
+	  <div>
+	    <Button className="button-right-mergin"  href="https://amzn.to/3R37Xp0" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        amazon.com
+      </Button>
+      <Button className="button-right-mergin"  href="https://amzn.to/3SL2YKG" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+        amazon.co.jp
+      </Button>
+	  	<Button className="button-right-mergin"  href="https://apple.co/3QSoWJs" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+        apple music
+      </Button>
+	  	<AdvJS2/>
+	  </div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+    <div>
+      <h3>Score card</h3>
+    	<SliderJS1 value="5" />
+      <SliderJS2 value="1" />
+    	<SliderJS3 value="1" />
+      <SliderJS4 value="9" />
+    </div>
+  </Column>
+  <Column colMd={8} colLg={8} noGutterMdLeft="">
+    <div>
+      <h3>Producers</h3>
+      <p>
+      	Everything But The Girl(all)
+      </p>
+      <h3>Guests</h3>
+      <p>
+      </p>
+    </div>
+  </Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                      | Composers               | Performer               | Time  |
+| --- | -------------------------- | ----------------------- | ----------------------- | ----- |
+| 1   | Nothing Left to Lose       | Tracey Thorn / Ben Watt | Everything But the Girl | 03:45 |
+| 2   | Run a Red Light            | Ben Watt                | Everything But the Girl | 03:39 |
+| 3   | Caution to the Wind        | Tracey Thorn / Ben Watt | Everything But the Girl | 04:06 |
+| 4   | When You Mess Up           | Tracey Thorn / Ben Watt | Everything But the Girl | 03:48 |
+| 5   | Time and Time Again        | Tracey Thorn / Ben Watt | Everything But the Girl | 02:51 |
+| 6   | No One Knows We're Dancing | Tracey Thorn / Ben Watt | Everything But the Girl | 04:09 |
+| 7   | Lost                       | Tracey Thorn / Ben Watt | Everything But the Girl | 03:25 |
+| 8   | Forever                    | Tracey Thorn / Ben Watt | Everything But the Girl | 03:41 |
+| 9   | Interior Space             | Tracey Thorn / Ben Watt | Everything But the Girl | 02:24 |
+| 10  | Karaoke                    | Tracey Thorn / Ben Watt | Everything But the Girl | 03:53 |
+
+<h3>Other Reviews</h3>
+
+<AdvJS3 />
