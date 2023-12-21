@@ -1,0 +1,95 @@
+---
+title: "Yazmin Lacey / Voice Notes"
+description: "Album review of Yazmin Lacey / Voice Notes"
+keywords: "Yazmin Lacey, Voice Notes"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "./slider1";
+import SliderJS2 from "./slider2";
+import SliderJS3 from "./slider3";
+import SliderJS4 from "./slider4";
+import AdvJS2 from "./adv2";
+import AdvJS3 from "./adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Yazmin Lacey / Voice Notes](../../images/cd/yazminlacey1L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			UK中部の出身でLondonで活動するSinger, Song Writer、Yazmin Laceyの初フルアルバム。Gilles Petersonにフックアップされ、Jorja Smith, Jordan Rakei, Alpha Mistなど若手アーティストとのコラボや、3枚のEPリリースを経て、アルバムデビューに至っている。
+			<br/>33歳と決して若くはないが、当作を聴くと、既に自身のスタイルを得ていることが判る。全体の印象としては、穏やかなネオソウルで、UKのProducerによるスローなTrackにJazz, Raggae, Bosaなどが入り交じり、ゆったりと落ち着いた空気が流れる。
+			<br/>Erykah Baduから毒気を取り除いた感じでもある。Yazminの声は柔らかく、語りかけるような唄がサウンドに溶け込んでいる。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3NtL3F8" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3v5L8YZ" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/48hPzhW" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Dave Okumu(1,2,3,6,7,8,9)
+				<br/>Dave Okumu and Melo-Zed(4,5)
+				<br/>Dave Okumu and Craigie Dodds(10,11)
+				<br/>Melo-Zed(12,14)JD Reid(13)
+			</p>
+			<h3>Guests</h3>
+			<p>
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title              | Composers                                                              | Performer    | Time  |
+| --- | ------------------ | ---------------------------------------------------------------------- | ------------ | ----- |
+| 1   | Flylo Tweet        | Yazmin Lacey and Melo Zed                                              | Yazmin Lacey | 02:00 |
+| 2   | Bad Company        | Yazmin Lacey, Dave Okumu, Dan See, Sam Crowe and Avi Barath            | Yazmin Lacey | 03:38 |
+| 3   | Late Night People  | Yazmin Lacey, Dan See, Sam Crowe                                       | Yazmin Lacey | 05:34 |
+| 4   | Fool's Gold        | Yazmin Lacey, Melo Zed, Jaega Francis Mckenna-Gordon and Tagara Mhizha | Yazmin Lacey | 03:47 |
+| 5   | Where Did You Go?  | Yazmin Lacey, Melo Zed, Renato Paris and Marla Mbemba                  | Yazmin Lacey | 06:21 |
+| 6   | Sign and Signal    | Yazmin Lacey and Z.Cayenne-Elliott                                     | Yazmin Lacey | 04:22 |
+| 7   | From a Lover       | Emanuel Burton, Yazmin Lacey and Melo Zed                              | Yazmin Lacey | 02:55 |
+| 8   | Eye to Eye         | Yazmin Lacey, Dan See, Sam Crowe and Daniele Guilino                   | Yazmin Lacey | 04:37 |
+| 9   | Pieces             | Yazmin Lacey, Sarah Tandy and Dave Okumu                               | Yazmin Lacey | 05:48 |
+| 10  | Pass It Back       | Yazmin Lacey and C.Dodds                                               | Yazmin Lacey | 06:24 |
+| 11  | Tomorrow's Child   | Yazmin Lacey, C.Dodds and Augustus Pablo                               | Yazmin Lacey | 03:37 |
+| 12  | Match in My Pocket | Yazmin Lacey and Z.Cayenne-Elliott                                     | Yazmin Lacey | 02:56 |
+| 13  | Legacy             | Yazmin Lacey                                                           | Yazmin Lacey | 03:32 |
+| 14  | Sea Glass          | Yazmin Lacey and Melo Zed                                              | Yazmin Lacey | 06:10 |
+
+<AdvJS3 />

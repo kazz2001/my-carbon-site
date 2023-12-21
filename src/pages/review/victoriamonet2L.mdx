@@ -1,0 +1,104 @@
+---
+title: "Victoria Monét / Jaguar II"
+description: "Album Review of Victoria Monét / Jaguar II"
+keywords: "Victoria Monét, Jaguar II, ヴィクトリア・モネ"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "./slider1";
+import SliderJS2 from "./slider2";
+import SliderJS3 from "./slider3";
+import SliderJS4 from "./slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/victoriamonet1.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+    <ImageCard>
+
+![Victoria Monét / Jaguar II](../../images/cd/victoriamonet2L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+	  <p>
+	    EPだった前作の続編となるVictoria Monétの今回はフルアルバム。メジャーからのデビューアルバムでもある。引き続きメインでのProduceはD'Mileが担当し、70年代っぽいところも残す現代的で手堅いR&B作に仕上がっている。
+      <br/>Trackの構成はアップ～ミディアム～スローとバランス良く、穏やかで懐かしい感じの曲も多いので、とても聴き易い。唄は抑え気味で、声がやわらかく透明感があるので、一層、心地よく感じる。
+      <br/>Guestのほうは、お馴染みLucky Dayeとの相性の良さもさることながら、Buju BantonやなんとEW&Fと意外なところからの参加も面白い。
+    </p>
+    <div>
+	    <Button className="button-right-mergin"  href="https://amzn.to/41rK8uH" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        amazon.com
+      </Button>
+      <Button className="button-right-mergin"  href="https://amzn.to/3GMclCP" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+        amazon.co.jp
+      </Button>
+      <Button className="button-right-mergin"  href="https://apple.co/48iplM1" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+        apple music
+      </Button>
+      <AdvJS2/>
+	  </div>
+	</Column>
+</Row>
+<Row >
+  <Column colMd={4} colLg={4} noGutterMdLeft="">
+    <div>
+      <h3>Score card</h3>
+	    <SliderJS1 value="5" />
+      <SliderJS2 value="1" />
+	    <SliderJS3 value="1" />
+      <SliderJS4 value="8" />
+    </div>
+  </Column>
+  <Column colMd={4} colLg={8} noGutterMdLeft="">
+    <div>
+      <h3>Producers</h3>
+      <p>
+        Tim Suby and D'mile(1,5,8,9)
+        <br/>D'Mile(2,6,10,11)
+        <br/>D'Miile, Dready and xSDTRK(3)
+        <br/>KAYTRANADA(4)
+        <br/>Deputy and Jeff “Gitty” Gitelman(7)
+      </p>
+      <h3>Guests</h3>
+      <p>
+        Lucky Daye, Buju Banton, Earth, Wind & Fire, Hazel Monet
+      </p>
+    </div>
+  </Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                      | Composers                                                                                                                       | Performer                                           | Time  |
+| --- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ----- |
+| 1   | Smoke                      | David Brown / Dernst Emile II / Victoria Monét / Tim Suby / Yogi Tulsiani / Maurice White                                       | Victoria Monét 　 feat. Lucky Daye                  | 03:01 |
+| 2   | Smoke (Reprise)            | Dernst Emile II / Victoria Monét                                                                                                | Victoria Monét                                      | 01:37 |
+| 3   | Party Girls                | Yonatan Ayal / Karl Daniel / Dernst Emile II / Tommy Lumpkins / Victoria Monét / Mark Myrie / Elena Pinderhughes / Theron Thoma | Victoria Monét feat. Buju Banton                    | 04:03 |
+| 4   | Alright                    | Louis Kevin Celestin / Victoria Monét                                                                                           | Victoria Monét                                      | 02:54 |
+| 5   | Cadillac (A Pimp's Anthem) | Dernst Emile II / Victoria Monét / Elena Pinderhughes / Tim Suby                                                                | Victoria Monét                                      | 03:01 |
+| 6   | How Does It Make You Feel  | Dernst Emile II / Victoria Monét                                                                                                | Victoria Monét                                      | 03:36 |
+| 7   | On My Mama                 | Jeff Gitelman / Dernst Emile II / Victoria Monét / Kyla Moscovich / Jamil Pierre / Charles Williams                             | Victoria Monét                                      | 03:07 |
+| 8   | I'm the One                | Dernst Emile II / Victoria Monét / Tim Suby                                                                                     | Victoria Monét                                      | 03:29 |
+| 9   | Stop (Askin' Me 4Shyt)     | Yonatan Ayal / James Fauntleroy / Dernst Emile II / Victoria Monét / Tim Suby                                                   | Victoria Monét                                      | 02:52 |
+| 10  | Hollywood                  | Dernst Emile II / Hazel Monet / Victoria Monét / Tim Suby                                                                       | Victoria Monét feat. Earth, Wind & Fire, Hazel Mone | 03:38 |
+| 11  | Good Bye                   | Dernst Emile II / Victoria Monét                                                                                                | Victoria Monét                                      | 04:10 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />
