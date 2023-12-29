@@ -11,10 +11,15 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
 
 import Review1 from "../review/kamasiwashington3.mdx";
+
+import Review2_1 from "../review/dinnerparty2.mdx";
+import Review2_2 from "../review/dinnerparty1.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -46,6 +51,7 @@ import Review1 from "../review/kamasiwashington3.mdx";
     </Button>
 	</div>
 	<a href="https://geo.music.apple.com/jp/album/harmony-of-difference-ep/1263764280?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2017-09-29&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
+	<AdvJS2/>
 	</Column>
 </Row>
 <Row >
@@ -99,3 +105,14 @@ import Review1 from "../review/kamasiwashington3.mdx";
     <Review1 />
   </Column>
 </Row>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2_1 />
+  </Column>
+	  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2_2 />
+  </Column>
+</Row>
+
+<AdvJS3 />

@@ -14,8 +14,15 @@ import SliderJS4 from "../review/slider4";
 
 import { Link } from "gatsby";
 
-import Review2_1 from "../review/robertglasper3.mdx";
-import Review2_2 from "../review/robertglasper2.mdx";
+import Review1_1 from "../review/dinnerparty2.mdx";
+
+import Review2_1 from "../review/terracemartin1.mdx";
+
+import Review3_1 from "../review/robertglasper3.mdx";
+import Review3_2 from "../review/robertglasper2.mdx";
+
+import Review4_1 from "../review/kamasiwashington3.mdx";
+import Review4_2 from "../review/kamasiwashington2.mdx";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -25,7 +32,7 @@ import Review2_2 from "../review/robertglasper2.mdx";
 	<Column colMd={3} colLg={4} noGutterMdLeft="">
        <ImageCard>
 
-![Terrace Martin, Robert Glasper, 9th Wonder, Kamasi Washington / Dinner Party: Dessert](../../images/cd/martinglasperwonderwashington1L.jpg)
+![Terrace Martin, Robert Glasper, 9th Wonder, Kamasi Washington / Dinner Party: Dessert](../../images/cd/dinnerparty1L.jpg)
 
 </ImageCard>
 	</Column>
@@ -89,10 +96,31 @@ import Review2_2 from "../review/robertglasper2.mdx";
 
 <Row>
   <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1_1 />
+  </Column>
+</Row>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
     <Review2_1 />
   </Column>
+</Row>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review3_1 />
+  </Column>
 	<Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review2_2 />
+    <Review3_2 />
+  </Column>
+</Row>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review4_1 />
+  </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review4_2 />
   </Column>
 </Row>
 
