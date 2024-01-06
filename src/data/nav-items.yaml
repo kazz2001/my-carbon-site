@@ -21,6 +21,8 @@
       path: /cd/2016
 - title: Best 50 Albums 
   pages:
+    - title: 2023
+      path: /best50/2023
     - title: 2022
       path: /best50/2022
     - title: 2021
