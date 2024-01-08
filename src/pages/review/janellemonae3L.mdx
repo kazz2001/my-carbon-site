@@ -11,8 +11,12 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
+
+import Review1 from "../review/janellemonae4.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -41,6 +45,7 @@ import { Link } from "gatsby";
     <Button className="button-right-mergin"  href="https://amzn.to/2B6mtHM" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
       amazon.co.jp
     </Button>
+	<AdvJS2/>
 	</div>
 	<a style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2018-04-27&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;" href="https://geo.music.apple.com/jp/album/dirty-computer/1350021308?mt=1&app=music&ls=1&at=11lcug"></a>
 	</Column>
@@ -93,3 +98,13 @@ import { Link } from "gatsby";
 | 12  | Don't Judge Me       | Joshua Dean / Roman GianArthur / Dr. Nathaniel Irvin III / Taylor Parks / Janelle Monae Robinson                                            | Janelle Monae                         | 00:46 |
 | 13  | So Afraid            | Dr. Nathaniel Irvin III / Janelle Monae Robinson                                                                                            | Janelle Monae                         | 04:04 |
 | 14  | Americans            | Charles Joseph II / Dr. Nathaniel Irvin III / John Webb Jr. / Janelle Monae Robinson                                                        | Janelle Monae                         | 04:06 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />

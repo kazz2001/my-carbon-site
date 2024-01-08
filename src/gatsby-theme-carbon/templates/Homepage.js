@@ -46,25 +46,28 @@ const FirstRightText = () => (
       <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
       <br/>下のボタンをクリックで年ごとのBest50へ。
       <div style={{marginTop: '0.5rem',}}>
-        <Button className="button-right-mergin" href="/best50/2022/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        <Button className="button-right-mergin" href="/best50/2023/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+          2023
+        </Button>
+        <Button className="button-right-mergin" href="/best50/2022/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2022
         </Button>
-        <Button className="button-right-mergin" href="/best50/2021/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+        <Button className="button-right-mergin" href="/best50/2021/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2021
         </Button>
-        <Button className="button-right-mergin" href="/best50/2020/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+	      <Button className="button-right-mergin" href="/best50/2020/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2020
         </Button>
-	      <Button className="button-right-mergin" href="/best50/2019/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        <Button className="button-right-mergin" href="/best50/2019/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2019
         </Button>
-        <Button className="button-right-mergin" href="/best50/2018/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+        <Button className="button-right-mergin" href="/best50/2018/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2018
         </Button>
-        <Button className="button-right-mergin"href="/best50/2017/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+        <Button className="button-right-mergin" href="/best50/2017/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2017
-        </Button>
-        <Button className="button-right-mergin" href="/best50/2016/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        </Button> 
+        <Button className="button-right-mergin" href="/best50/2016/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2016
         </Button> 
 	    </div>
