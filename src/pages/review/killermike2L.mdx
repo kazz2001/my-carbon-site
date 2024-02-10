@@ -1,0 +1,122 @@
+---
+title: Killer Mike / Michael
+description: Album Review of Killer Mike / Michael
+keywords: "Killer Mike, Michael"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "./slider1";
+import SliderJS2 from "./slider2";
+import SliderJS3 from "./slider3";
+import SliderJS4 from "./slider4";
+import AdvJS2 from "./adv2";
+import AdvJS3 from "./adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/runthejewels4.mdx";
+import Review2 from "../review/runthejewels3.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2023/">2023 Black Music Album Best No.11</Link>
+</p>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Killer Mike / Michael](../../images/cd/killermike2L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			Killer Mikeのなんと、11年ぶりのアルバム。近年はRun The Jewelsや、アクティヴィストとしての活動で、もの言うRapperの第一人者的存在になっているが、ソロ作としては久々のリリースとなる。
+			<br/>サンプリングを多用したTrackは硬派で、ストレート。Gospel, Funk, Soul, Bluesといった南部サウンドを総結集したようなTrackは、どれもかなりのクオリティになっており、Cee-Lo, André 3000, FutureといったDungeon Family勢などATL中心にメジャーなGuestを迎えて、高揚感のあるスケールの大きな作品になっている。
+			<br/>Killer MikeのRapは、相変わらず力強く、本人のこれまでの半生を振り返っている。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3UwNGKJ" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/49lBNeI" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3wc2Kmw" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	    apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="4" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="2" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Cory Mo(1)
+				<br/>No ID(2,3,12
+				<br/>Cool & Dre(4,6
+				<br/>DJ Paul and TWHY Xclusive(5)
+				<br/>André 3000, FUture and Eryn Allen Kane(7)
+				<br/>Don Cannon(8)
+				<br/>Honorble C.N.O.T.E.(9)
+				<br/>Beat Butcha snd Willy Will Yanez(10)
+				<br/>Don Cannon, AUdio ANthem, J Dot, No ID and Little Shalimar(11)
+				<br/>No ID, El-P and Little Shalimar(13)
+				<br/>Tec Beatz(14)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				CeeLo Green, Lena Byrd Miles, Mozzy, Dave Chappelle, Young Thug, 6LACK, Eryn Allen Kane, Jagged Edge, André 3000, Future, Eryn Allen Kane, Ty Dolla $ign, 2 Chainz, Curren$y, Kaash Paige, Blxst, Fabo, El-P, Thankugoodsir
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                  | Composers                                                                                                                                       | Performer                                              | Time  |
+| --- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ----- |
+| 1   | DOWN BY LAW            | Thomas Callaway / Warryn Campbell / Dammo Farmer / Curtis Mayfield / Corey Moore / Michael Render                                               | Killer Mike feat: CeeLo Green                          | 03:31 |
+| 2   | SHED TEARS             | Warryn Campbell / Dammo Farmer / Timothy Patterson / Michael Render / Dion Wilson                                                               | Killer Mike feat: Lena Byrd Miles / Mozzy              | 04:49 |
+| 3   | RUN                    | Dennis Brown / Warryn Campbell / Dave Chappelle / Dammo Farmer / Bryan Jones / Michael Render / Jeffery Williams / Dion Wilson                  | Killer Mike feat: Dave Chappelle / Young Thug          | 04:45 |
+| 4   | NRICH                  | 6LACK / Bryan Jones / Rayshon Cobbs Jr. / Eryn Allen Kane / Andre Lyon / Nathaniel Phillips / Michael Render / Bruce Smith / Marcello Valenzano | Killer Mike feat: 6LACK / Eryn Allen Kane              | 04:40 |
+| 5   | TALK'N THAT SHIT!      | Paul Beauregard / Tim Moore / Michael Render                                                                                                    | Killer Mike                                            | 02:54 |
+| 6   | SLUMMER                | Brian Casey / Rayshon Cobbs Jr. / Andre Lyon / Michael Render / Roger S. / Marcello Valenzano                                                   | Killer Mike feat: Jagged Edge                          | 04:35 |
+| 7   | SCIENTISTS & ENGINEERS | Paul Beauregard / Andr Benjamin / James Blake / Eryn Allen Kane / Tim Moore / Michael Render / Dion Wilson                                      | Killer Mike feat: André 3000 / Future / Eryn Allen Kan | 04:13 |
+| 8   | TWO DAYS               | Don Cannon / Michael Render                                                                                                                     | Killer Mike feat: Ty Dolla $ign                        | 02:14 |
+| 9   | SPACESHIP VIEWS        | Warryn Campbell / Curren$y / Tauheed Epps / Dammo Farmer / Carlton Mays Jr. / Michael Render / D'kyla Woolen                                    | Killer Mike feat: 2 Chainz / Curren$y / Kaash Paige    | 03:12 |
+| 10  | EXIT 9                 | Matthew Burdette / Warryn Campbell / Eliot Dubock / Dammo Farmer / Michael Render / Will Yanez                                                  | Killer Mike feat: Blxst                                | 02:42 |
+| 11  | SOMETHING FOR JUNKIES  | Warryn Campbell / Don Cannon / Dammo Farmer / Louis Farrakhan / Michael Render / Torbitt Schwartz / Lefabian Williams                           | Killer Mike feat: Fabo                                 | 04:38 |
+| 12  | MOTHERLESS             | Warryn Campbell / Dammo Farmer / Eryn Allen Kane / Michael Render / Dion Wilson                                                                 | Killer Mike feat: Eryn Allen Kane                      | 03:53 |
+| 13  | DON'T LET THE DEVIL    | Marshall Boxley / Willie Cooper / Harold Lilly / Jaime Meline / Michael Render / Torbitt Schwartz / Dion Wilson                                 | Killer Mike feat: El-P / Thankugoodsir                 | 02:45 |
+| 14  | HIGH & HOLY            | Brandon Sewell "Tec Beatz" / Warryn Campbell / Dammo Farmer / Bryan Jones / Michael Render                                                      | Killer Mikefeat: Ty Dolla $ign                         | 04:53 |
+
+<AdvJS3 />
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+</Row>
+
+<AdvJS3 />
