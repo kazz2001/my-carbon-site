@@ -1,0 +1,117 @@
+---
+title: "Jorja Smith / Falling Or Flying"
+description: "Album Review of Jorja Smith / Falling Or Flying"
+keywords: "Jorja Smith, Falling Or Flying, ジョルジャ・スミス"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "./slider1";
+import SliderJS2 from "./slider2";
+import SliderJS3 from "./slider3";
+import SliderJS4 from "./slider4";
+import AdvJS2 from "./adv2";
+import AdvJS3 from "./adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "./jorjasmith2.mdx";
+import Review2 from "./jorjasmith1.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2023/">2023 Black Music Best No.22</Link>
+</p>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Jorja Smith / Falling Or Flying](../../images/cd/jorjasmith3L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			前作が8曲入りEPだったので、アルバムとしては5年ぶりとなるJorJa Smithの2作目。
+			<br/>冒頭、ビートを前面に押し出したトライバルな曲があったり、レゲエを取り入れた曲が続いたりと、過去の作品に比べると、音楽の幅が大分、広がっている。ただ、後半にかけては、今までの路線を継承したゆったりとしたR&Bやギターをフィーチャーした曲が多くなっている。また、全体的にはハウスに近づいている気もする。
+			<br/>Guestは少な目で、J HusがRapだけなく、唄を披露しているのがちょっとしたサプライズ。制作を、女性Duoで無名に近いDAMEDAME*がメインであるが、能力は十分で、今後が期待できそう。
+			<br/>Jorjaのの憂いを帯びた唄は、表現力が増してるし、ときどきAliciaっぽいところも感じられる。あと、パッケージとしてのCDが、厚めのブックレット含めて、出来が良いです。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3wlZxRA" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3UKYaWJ" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/49yWZ1r" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				DAMEDAME*(1,2,5,6,7,8,12,13)
+				<br/>P2J and New Nachine(3)
+				<br/>DAMEDAME* and P2J(9)
+				<br/>P2J(10,11,15)
+				<br/>Blue May and Jodi Millner(16)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				J Hus, Lila Iké
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                           | Composers                                                                                                       | Performer                 | Time  |
+| --- | ------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------- | ----- |
+| 1   | Try Me                          | Barbara Boko-Hyouyhat / Edith Nelson / Jorja Smith                                                              | Jorja Smith               | 03:34 |
+| 2   | She Feels                       | Barbara Boko-Hyouyhat / Edith Nelson / Jorja Smith                                                              | Jorja Smith               | 03:12 |
+| 3   | Little Things                   | Barbara Boko-Hyouyhat / Richard Isong / Adam Jordan / Edith Nelson / Jorja Smith / Michael Stafford             | Jorja Smith               | 03:24 |
+| 4   | Flights Skit                    | Barbara Boko-Hyouyhat / Momodou Jallow / Edith Nelson / Jorja Smith                                             | Jorja Smith               | 00:17 |
+| 5   | Feelings                        | Barbara Boko-Hyouyhat / Edith Nelson / Jorja Smith                                                              | Jorja Smith feat. J Hus   | 03:57 |
+| 6   | Falling or Flying               | Barbara Boko-Hyouyhat / Edith Nelson / Jorja Smith                                                              | Jorja Smith               | 03:24 |
+| 7   | Go Go Go                        | Barbara Boko-Hyouyhat / Edith Nelson / Jorja Smith                                                              | Jorja Smith               | 02:25 |
+| 8   | Try and Fit In                  | Barbara Boko-Hyouyhat / Adam Jordan / Edith Nelson / Jorja Smith / Michael Stafford                             | Jorja Smith               | 01:56 |
+| 9   | Greatest Gift                   | Barbara Boko-Hyouyhat / Alecia Grey / Richard Isong / Edith Nelson / Jorja Smith / Michael Stafford             | Jorja Smith feat. Lila Ik | 03:12 |
+| 10  | Broken Is the Man               | Farra Blake / Richard Isong / Marlon Roudette / Jorja Smith                                                     | Jorja Smith               | 02:12 |
+| 11  | Make Sense                      | Barbara Boko-Hyouyhat / Richard Isong / Edith Nelson / Rory O'Brien / Jorja Smith                               | Jorja Smith               | 02:21 |
+| 12  | Too Many Times                  | Barbara Boko-Hyouyhat / Edith Nelson / Jorja Smith                                                              | Jorja Smith               | 02:38 |
+| 13  | Lately                          | Barbara Boko-Hyouyhat / Wesley Joseph / Edith Nelson / Marlon Roudette / Jorja Smith                            | Jorja Smith               | 02:07 |
+| 14  | BT69 JJY                        | Barbara Boko-Hyouyhat / Edith Nelson / Jorja Smith                                                              | Jorja Smith               | 00:13 |
+| 15  | Backwards                       | Marco Bernardis / Richard Isong / Edith Nelson / Rory O'Brien / Matthew James Roberts / Jorja Smith / Ed Thomas | Jorja Smith               | 03:56 |
+| 16  | What if My Heart Beats Faster ? | Blue May / Jodi Milliner / Jorja Smith                                                                          | Jorja Smith               | 04:53 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+</Row>
+
+<AdvJS3 />
