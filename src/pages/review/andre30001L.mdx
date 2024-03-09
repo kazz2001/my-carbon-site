@@ -1,0 +1,89 @@
+---
+title: "André 3000 / New Blue Sun"
+description: "Album Review of André 3000 / New Blue Sun"
+keywords: "André 3000, New Blue Sun"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "./slider1";
+import SliderJS2 from "./slider2";
+import SliderJS3 from "./slider3";
+import SliderJS4 from "./slider4";
+import AdvJS2 from "./adv2";
+import AdvJS3 from "./adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2023/">2023 Black Music Best No.28</Link>
+</p>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![André 3000 / New Blue Sun](../../images/cd/andre30001L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+	  <p>
+	    最近、あまり耳にする機会のなかったAndré 3000のソロ作。ソロとしては、Class of 3000という幼児向けアルバム以来となりそう。
+      <br/>ただ、これまでの音楽活動の中心であったHip-Hop色は皆無で、アンビエントでニューエイジ作品となっている。昨2023年に、André 3000もゲスト参加し、アルバムをリリースしたCarlos Niñoとの二人三脚によって制作されている。
+      <br/>唄も一切なく、インストロメンタルのみで、André もアルバムジャケットにあるようにフルートっぽいWind Controller / Sinthesizerを演奏している。サウンドは幻想的で、スピリチュアル。ユートピアっぽいものを表現しているような印象を受ける。
+    </p>
+    <div>
+	    <Button className="button-right-mergin"  href="https://amzn.to/3IdcOi4" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        amazon.com
+      </Button>
+      <Button className="button-right-mergin"  href="https://amzn.to/49uifoS" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+        amazon.co.jp
+      </Button>
+      <Button className="button-right-mergin"  href="https://apple.co/49qTABu" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+        apple music
+      </Button>
+	  </div>
+	</Column>
+  <AdvJS2/>
+</Row>
+<Row >
+  <Column colMd={4} colLg={4} noGutterMdLeft="">
+    <div>
+      <h3>Score card</h3>
+      <SliderJS2 value="4" />
+	    <SliderJS3 value="3" />
+      <SliderJS4 value="7" />
+    </div>
+  </Column>
+  <Column colMd={4} colLg={8} noGutterMdLeft="">
+    <div>
+      <h3>Producers</h3>
+      <p>
+        André 3000 and Carlos Niño(1,2,3,4,5,6,7)
+        <br/>André 3000, Surya Botofasina, Nate Mercereau and Carlos Niño(8)
+      </p>
+      <h3>Guests</h3>
+      <p>
+      </p>
+    </div>
+  </Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                                                                                                                                           | Composers                                                            | Performer | Time  |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | --------- | ----- |
+| 1   | I Swear, I Really Wanted to Make A "Rap" Album But This Is Literally the Way the Wind Blew Me This Time                                         | André 3000 / Surya Botofasina / Nate Mercereau / Carlos Niño         | André 300 | 12:20 |
+| 2   | The Slang Word P(\*)ssy Rolls Off the Tongue With Far Better Ease Than the Proper Word Vagina . Do You Agree?                                   | André 3000 / Surya Botofasina / Nate Mercereau / Carlos Niño         | André 300 | 13:50 |
+| 3   | That Night in Hawaii When I Turned Into a Panther and Started Making These Low Register Purring Tones That I Couldn't Control ... Sh\t Was Wild | André 3000 / Nate Mercereau / Carlos Niño / Deantoni Parks           | André 300 | 10:29 |
+| 4   | BuyPoloDisorder's Daughter Wears a 3000® Button Down Embroidered                                                                                | André 3000 / Surya Botofasina / Nate Mercereau / Carlos Niño         | André 300 | 13:06 |
+| 5   | Ninety Three 'Til Infinity and Beyoncé                                                                                                          | André 3000 / Diego Gaeta / Matthewdavid / Carlos Niño / VCR          | André 300 | 03:49 |
+| 6   | Ghandi, Dalai Lama, Your Lord & Savior J.C./Bundy, Jeffrey Dahmer, and John Wayne Gacy                                                          | André 3000 / Diego Gaeta / Carlos Niño / Jesse Peterson / Mia Doi To | André 300 | 10:15 |
+| 7   | Ants to You, Gods to Who ?                                                                                                                      | André 3000 / Diego Gaeta / Carlos Niño / Jesse Peterson / Mia Doi To | André 300 | 06:42 |
+| 8   | Dreams Once Buried Beneath the Dungeon Floor Slowly Sprout Into Undying Gardens                                                                 | André 3000 / Surya Botofasina / Nate Mercereau / Carlos Niño         | André 300 | 17:11 |
+
+<AdvJS3 />
