@@ -7,6 +7,10 @@ const AdvJS3 = (props) => {
       <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=2249009&pid=890147020" rel="nofollow">
         <img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2249009&pid=890147020" border="0" />
       </a>
+      <br/><br/>
+      <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=2249009&pid=890368482" rel="nofollow">
+        <img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2249009&pid=890368482" border="0" />
+      </a>
     </p>
   );
 };

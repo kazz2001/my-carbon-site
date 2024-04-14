@@ -1,0 +1,115 @@
+---
+title: "Nas / Magic 3"
+description: "Album review of Nas / Magic 3"
+keywords: "Nas, Magic 3"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/nas10.mdx";
+import Review2 from "../review/nas9.mdx";
+import Review3 from "../review/nas8.mdx";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2023/">2023 Black Music Album Best No.23</Link>
+</p>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Nas / Magic 3](../../images/cd/nas11L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			King's Deseaseシリーズと並行してリリースしてきたMagicシリーズの最終作にして3作目となるNasの16thアルバム。2021からの4年で6つ目のアルバムリリースであり、全てを今や盟友と言えそうなHit-BoyがProduceしている。
+			<br/>ほぼ全曲、SamplingをベースにしたTrackにNasのストレートで力強いフローを組み合わせたベーシックなBoom Bap作品であるが、Sampling, フローとも非常に高いレベルでデリバーされており、アルバムとしての完成度も高い。
+			<br/>LyricはHip-Hop50周年を意識してか、Hip-Hopや自身のRapper人生などを振り返ったものになっている。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3vNWdin" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/4cZ6uJ6" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/4cZrn6X" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="2" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Hit-Boy(all)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Lil Wayne
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                       | Composers                                                                                                                                     | Performer           | Time  |
+| --- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----- |
+| 1   | Fever                       | Nas, Hit-Boy, Steve Duboff                                                                                                                    | Nas                 | 02:47 |
+| 2   | TSK                         | Nas, Hit-Boy, Alex Callier                                                                                                                    | Nas                 | 03:04 |
+| 3   | Superhero Status            | Nas, Hit-Boy, Penelope McLendon                                                                                                               | Nas                 | 02:51 |
+| 4   | I Love This Feeling         | Nas, Hit-Boy, Dexter Wansel                                                                                                                   | Nas                 | 03:17 |
+| 5   | No Tears                    | Nas, Hit-Boy                                                                                                                                  | Nas                 | 03:11 |
+| 6   | Never Die                   | Nas, Lil Wayne, Hit-Boy, Deke Richards, Beatrice Verdi                                                                                        | Nas feat. Lil Wayne | 03:10 |
+| 7   | Pretty Young Girl           | Nas, Hit-Boy, Sugarfoot, Junie Morrison, Marshall “Rock” Jones, Ralph Middlebrooks, Marvin Pierce, Greg Webster, Norman Napier, Andrew Noland | Nas                 | 02:20 |
+| 8   | Based on True Events        | Nas, Hit-Boy                                                                                                                                  | Nas                 | 02:44 |
+| 9   | Based on True Events, Pt. 2 | Nas, Hit-Boy                                                                                                                                  | Nas                 | 03:14 |
+| 10  | Sitting With My Thoughts    | Nas, Hit-Boy                                                                                                                                  | Nas                 | 03:00 |
+| 11  | Blue Bentley                | Nas, Hit-Boy                                                                                                                                  | Nas                 | 02:35 |
+| 12  | Jodeci Member               | Nas, Hit-Boy, George Kerr                                                                                                                     | Nas                 | 02:47 |
+| 13  | Speechless, Pt. 2           | Nas, Hit-Boy, George Patterson                                                                                                                | Nas                 | 03:05 |
+| 14  | Japanese Soul Bar           | Nas, Hit-Boy                                                                                                                                  | Nas                 | 03:01 |
+| 15  | 1-800-Nas&Hit               | Nas, Hit-Boy, Randy Muller, Larry Payton                                                                                                      | Nas                 | 04:37 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review3 />
+  </Column>
+</Row>
+
+<AdvJS3 />
