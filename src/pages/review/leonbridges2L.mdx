@@ -4,12 +4,14 @@ description: "Album review of Leon Bridges / Good Thing"
 keywords: 'Leon Bridges, Good Thing, レオン・ブリッジス, グッド・シング'
 ---
 import { Slider, Button } from '@carbon/react';
-import { ArrowUpRight  } from '@carbon/icons-react';
+import { ArrowUpRight } from '@carbon/icons-react';
 
 import SliderJS1 from "../review/slider1"
 import SliderJS2 from "../review/slider2"
 import SliderJS3 from "../review/slider3"
 import SliderJS4 from "../review/slider4"
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby"
 
@@ -29,7 +31,7 @@ import Review1 from "../review/leonbridges3.mdx";
 	</Column>
 	<Column colMd={4} colLg={8} noGutterMdLeft="">
 	<p>
-	デビュー作が好評だったLeon Bridgesの3年振り、2作目。レトロ・ソウル(60年代前半風)を彷彿させたデビュー作の流れを汲ん作品であるが、本人も言っているように音楽の幅を広げ進化させている。確かに、明るいアップな曲があったり、爽やかな曲があったりという変化はあると思うし、Hornも入った②なんかJazzっぽくてカッコよい。このあたりは、ProduceをRicky Readに任せたおかげか。ただ、①④のようなスローバラードがメインであることに間違いはなく、本当に沁みてくる。
+		デビュー作が好評だったLeon Bridgesの3年振り、2作目。レトロ・ソウル(60年代前半風)を彷彿させたデビュー作の流れを汲ん作品であるが、本人も言っているように音楽の幅を広げ進化させている。確かに、明るいアップな曲があったり、爽やかな曲があったりという変化はあると思うし、Hornも入った②なんかJazzっぽくてカッコよい。このあたりは、ProduceをRicky Readに任せたおかげか。ただ、①④のようなスローバラードがメインであることに間違いはなく、本当に沁みてくる。
 	</p>
 	<div>
 	  <Button className="button-right-mergin"  href="https://amzn.to/3eTxNGr" renderIcon={ArrowUpRight} size='sm' kind='primary'>
@@ -38,9 +40,11 @@ import Review1 from "../review/leonbridges3.mdx";
     <Button className="button-right-mergin"  href="https://amzn.to/3glFIN6" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
       amazon.co.jp
     </Button>
+		<Button className="button-right-mergin"  href="https://apple.co/3Kix5nA" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+			apple music
+		</Button>
+		<AdvJS2/>
 	</div>
-	<a href="https://geo.music.apple.com/jp/album/good-thing/1356338660?mt=1&app=music&ls=1&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/lockup.svg?releaseDate=2018-05-04&kind=album&bubble=apple_music&style=mono-black) no-repeat;width:180px;height:45px;"></a>
-	<a href="https://geo.music.apple.com/jp/album/good-thing/1356338660?app=itunes&at=11lcug" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/ja-jp/badge-lrg.svg?releaseDate=2018-05-04T00:00:00Z&kind=album&bubble=itunes_music) no-repeat;width:140px;height:45px;"></a>
 	</Column>
 </Row>
 <Row >
