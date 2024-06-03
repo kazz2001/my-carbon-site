@@ -1,0 +1,102 @@
+---
+title: "Little Simz / Drop 7"
+description: "Album review of Little Simz / Drop 7"
+keywords: "Little Simz, Drop 7, リトル・シムズ"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/littlesimz3.mdx";
+import Review2 from "../review/littlesimz2.mdx";
+import Review3 from "../review/littlesimz1.mdx";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Little Simz / Drop 7](../../images/cd/littlesimz4L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			2014年から続くEPシリーズ"Drop"の7作目。Infloプロデュースのアルバムのほうは、オーガニックな方向性で、どれも高評価であるが、今回のDrop 7は、Jakwobの制作となっている。
+			<br/>Little Simzらしさは残しつつも、だいぶエレクトロニックな、UK Garage, Dub Step作品になっているところに意外性がある。1曲目から、アフロビートも取り入れているところも、特徴と言えそうだ。また、曲も2分前後で、全体で15分弱であり、あっという間に聴き終えてしまうが、中身は濃いと思う。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3X59X3d" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/4aJnrFd" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/4aJ1HJx" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="2" />
+		  <SliderJS2 value="1" />
+			<SliderJS3 value="2" />
+		  <SliderJS4 value="8" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Jakob(all)
+			</p>
+			<h3>Guests</h3>
+			<p>
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title             | Composers           | Performer   | Time  |
+| --- | ----------------- | ------------------- | ----------- | ----- |
+| 1   | Mood Swings       | Little Simz, Jakwob | Little Simz | 02:20 |
+| 2   | Fever             | Little Simz, Jakwob | Little Simz | 01:27 |
+| 3   | Torch             | Little Simz, Jakwob | Little Simz | 02:11 |
+| 4   | SOS               | Little Simz, Jakwob | Little Simz | 03:02 |
+| 5   | I Ain’t Feelin It | Little Simz, Jakwob | Little Simz | 01:47 |
+| 6   | Power             | Little Simz, Jakwob | Little Simz | 00:55 |
+| 7   | Far Away          | Little Simz, Jakwob | Little Simz | 03:07 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review3 />
+  </Column>
+</Row>
+
+<AdvJS3 />

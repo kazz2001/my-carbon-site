@@ -177,6 +177,12 @@ svg.svg-white {
   font-weight: 500;
 }
 
+.smallP {
+  font-size: 0.8em;
+  font-family: "IBM Plex Sans JP";
+  font-weight: 300;
+}
+
 .largeP-less-margin {
   font-size: 1.5em;
   margin-bottom: -25px;

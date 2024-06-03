@@ -13,7 +13,7 @@ const FirstLeftText = () =>
     <h2>Contents</h2>
 ;
 const FirstRightText = () => (
-  <p className="p500J">
+  <p className="p300J">
       <code>Black Music Album Review</code>
       <br/>R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。
       <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search size={32} />をクリックで検索できます。

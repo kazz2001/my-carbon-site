@@ -6,6 +6,7 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/components/Layouts/Homepag
 import Carbon from './carbon.jpg';
 import { Button } from '@carbon/react';
 import { ArrowUpRight, Search } from '@carbon/icons-react';
+import PageDescription, { Grid, Row, Column } from 'gatsby-theme-carbon/src/components/PageDescription';
 // import { Launch } from '@carbon/pictograms-react';
 // import { Link } from "gatsby"
 
@@ -13,10 +14,12 @@ const FirstLeftText = () =>
     <h2>Contents</h2>
 ;
 const FirstRightText = () => (
-  <p className="p500J">
+   <p className="smallP">
       <code>Black Music Album Review</code>
-      <br/>R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。
-      <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search size={32} />をクリックで検索できます。
+      <PageDescription  className="smallP">
+        R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。
+        <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search size={32} />をクリックで検索できます。
+      </PageDescription>
       <div style={{marginTop: '0.5rem',}}>
         <Button className="button-right-mergin" href="/cd/2023/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2023
@@ -44,8 +47,10 @@ const FirstRightText = () => (
         </Button>
 	    </div>
       <br/><code>Black Music Best 50 albums</code>
-      <br/>同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
-      <br/>下のボタンをクリックで年ごとのBest50へ。
+      <PageDescription  className="smallP">
+        同じく、Black Musicのアルバム年間ベスト50です。順位は当サイトのオリジナルです。様々な音楽サイトを参考にしつつ、決めてます。
+        <br/>下のボタンをクリックで年ごとのBest50へ。
+      </PageDescription>
       <div style={{marginTop: '0.5rem',}}>
         <Button className="button-right-mergin" href="/best50/2023/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2023
@@ -73,7 +78,9 @@ const FirstRightText = () => (
         </Button> 
 	    </div>
       <br/><code>Book Review</code>
-      <br/>R&amp;BやHip-Hopをテーマにした書籍のレビューです。
+      <PageDescription  className="smallP">
+        R&amp;BやHip-Hopをテーマにした書籍のレビューです。
+      </PageDescription>
       <div style={{marginTop: '0.5rem',}}>
 	      <Button className="button-right-mergin" href="/book/bookreview1/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           Book Review
@@ -85,13 +92,19 @@ const FirstRightText = () => (
 const SecondLeftText = () => <h2> Contents</h2>; 
 
 const SecondRightText = () => (
-    <p>
+    <p  className="smallP">
         <code>Black Music Album Review</code>
-        <br/> This site introduces Album reviews of Black Music, such as R&amp;B and Hip-Hop since 1998.
-        <br/><code>Black Music album Best 50</code>
-        <br/>Black Music album annual Best 50 since. Ranking is original.
-        <br/><code>Book Review</code>
-        <br/>Book review of Black Music, such as R&B and Hip-Hop.
+        <PageDescription  className="smallP">
+          This site introduces Album reviews of Black Music, such as R&amp;B and Hip-Hop since 1998.
+        </PageDescription>
+        <code>Black Music album Best 50</code>
+        <PageDescription  className="smallP"> 
+          Black Music album annual Best 50 since. Ranking is original.
+        </PageDescription>
+        <code>Book Review</code>
+        <PageDescription  className="smallP">
+          Book review about Black Music, such as R&B and Hip-Hop.
+        </PageDescription>
     </p>
 );
 
