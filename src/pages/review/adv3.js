@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Row, Column } from 'gatsby-theme-carbon/src/components/Grid';
+import { Row, Column } from 'gatsby-theme-carbon/src/components/Grid';
 
 const AdvJS3 = (props) => {
   return (

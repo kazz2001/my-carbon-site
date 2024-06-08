@@ -21,28 +21,31 @@ const FirstRightText = () => (
         <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search size={24} />をクリックで検索できます。
       </PageDescription>
       <div style={{marginTop: '0.5rem',}}>
-        <Button className="button-right-mergin" href="/cd/2023/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        <Button className="button-right-mergin" href="/cd/2024/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+          2024
+        </Button>
+        <Button className="button-right-mergin" href="/cd/2023/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2023
         </Button>
-        <Button className="button-right-mergin" href="/cd/2022/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+        <Button className="button-right-mergin" href="/cd/2022/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2022
         </Button>
-        <Button className="button-right-mergin" href="/cd/2021/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+        <Button className="button-right-mergin" href="/cd/2021/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2021
         </Button>
-        <Button className="button-right-mergin" href="/cd/2020/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        <Button className="button-right-mergin" href="/cd/2020/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2020
         </Button>
-        <Button className="button-right-mergin" href="/cd/2019/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+        <Button className="button-right-mergin" href="/cd/2019/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2019
         </Button>
-        <Button className="button-right-mergin" href="/cd/2018/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+        <Button className="button-right-mergin" href="/cd/2018/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
           2018
         </Button>
-        <Button className="button-right-mergin" href="/cd/2017/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+        <Button className="button-right-mergin" href="/cd/2017/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
           2017
         </Button>
-        <Button className="button-right-mergin" href="/cd/2016/" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+        <Button className="button-right-mergin" href="/cd/2016/" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
           2016
         </Button>
 	    </div>
@@ -95,11 +98,11 @@ const SecondRightText = () => (
     <p  className="smallP">
         <code>Black Music Album Review</code>
         <PageDescription  className="smallP">
-          This site introduces Album reviews of Black Music, such as R&amp;B and Hip-Hop since 1998.
+          This site introduces Album reviews of Black Music, such as R&amp;B and Hip-Hop.
         </PageDescription>
         <code>Black Music album Best 50</code>
         <PageDescription  className="smallP"> 
-          Black Music album annual Best 50 since. Ranking is original.
+          Black Music album annual Best 50. Ranking is original.
         </PageDescription>
         <code>Book Review</code>
         <PageDescription  className="smallP">

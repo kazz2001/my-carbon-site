@@ -11,8 +11,12 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
+
+import Review1 from "../review/kamaiyah2.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -44,6 +48,7 @@ import { Link } from "gatsby";
 			<Button className="button-right-mergin"  href="https://apple.co/4aCdVUm" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
 				apple music	
 			</Button>
+			<AdvJS2/>
 		</div>
 	</Column>
 </Row>
@@ -98,3 +103,12 @@ import { Link } from "gatsby";
 | 14  | Freaky Freaks             | Kamaiyah  | 02:47 |
 | 15  | One Love                  | Kamaiyah  | 03:13 |
 | 16  | For My Dawg               | Kamaiyah  | 03:30 |
+
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3/>

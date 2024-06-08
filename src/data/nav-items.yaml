@@ -3,6 +3,8 @@
     - path: /latest
 - title: Album Reviews 
   pages:
+    - title: 2024
+      path: /cd/2024
     - title: 2023
       path: /cd/2023
     - title: 2022
