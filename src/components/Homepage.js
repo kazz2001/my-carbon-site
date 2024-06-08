@@ -6,7 +6,7 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/components/Layouts/Homepag
 import Carbon from './carbon.jpg';
 import { Button } from '@carbon/react';
 import { ArrowUpRight, Search } from '@carbon/icons-react';
-import PageDescription, { Grid, Row, Column } from 'gatsby-theme-carbon/src/components/PageDescription';
+import PageDescription from 'gatsby-theme-carbon/src/components/PageDescription';
 // import { Launch } from '@carbon/pictograms-react';
 // import { Link } from "gatsby"
 
@@ -18,7 +18,7 @@ const FirstRightText = () => (
       <code>Black Music Album Review</code>
       <PageDescription  className="smallP">
         R&amp;BやHip-HopなどBlack MusicのAlbum Reviewを載せています。
-        <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search size={32} />をクリックで検索できます。
+        <br/>下のボタンをクリックで年ごとのレビュー一覧へ。右上の<Search size={24} />をクリックで検索できます。
       </PageDescription>
       <div style={{marginTop: '0.5rem',}}>
         <Button className="button-right-mergin" href="/cd/2023/" renderIcon={ArrowUpRight} size='sm' kind='primary'>
