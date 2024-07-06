@@ -9,8 +9,7 @@ const Logo = () => (
 const Content = ({ buildTime }) => (
   <>
     <p>
-      The <code>Content</code> component receives a <code>buildTime</code> prop
-      that to display your site's build time: {buildTime}
+      build time: {buildTime}
     </p>
   </>
 );

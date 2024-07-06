@@ -1,0 +1,98 @@
+---
+title: "Shaé Universe / Love's Letter"
+description: "Album review of Shaé Universe / Love's Letter"
+keywords: "Shaé Universe, Love's Letter"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![SShaé Universe / Love's Letter](../../images/cd/shaeuniverse1L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			Nigeria出身、UKで活動するSinger, Song Writer、Shaé Universeの2ndアルバム。R'n Drillを標榜していた前作までとは違い、ゆったりとした空気の流れるNeo-Soul作品になっている。
+			<br/>出自であるアフリカンな要素はあまりなく、サウンドは比較的都会的で、UKよりはUS Soul寄りな印象を受ける。スロー中心でオーソドックスな、夜が似合いそうなTrackが多く、ギターなど楽器中心の編成となっている。
+			<br/>唄は、抑制のきいた落ち着いた唄い方であり、声はアーシーで、やや中世的なところもあったりする。アルバムジャケットの写真はLauryn Hill似な気がするが、唄い方に多少の影響を感じることができる。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/4cn6SQB" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3VI09Ls" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/4cnbd6a" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Paya(1)
+				<br/>Blake Strauss and JiKay(2)
+				<br/>Sons of Sonix(3)
+				<br/>Ari PenSmith, Akeel and Blake Straus(4)
+				<br/>Nick French and Cameron Bloomfield(5)
+				<br/>Fred Cox(6)
+				<br/>TobiShyBoy(7)
+				<br/>Sean Hamilton(8)
+				<br/>Chord Lord(9)
+				<br/>Prodigal Son & Sons of Sonix(10)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Lalah Hathaway
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title               | Composers                     | Performer                          | Time  |
+| --- | ------------------- | ----------------------------- | ---------------------------------- | ----- |
+| 1   | Love Self           | Shaé Universe                 | Shaé Universe                      | 02:40 |
+| 2   | Summertime          | Shaé Universe                 | Shaé Universe                      | 03:33 |
+| 3   | LOML L              | Shaé Universe                 | Shaé Universe                      | 03:00 |
+| 4   | Oh, Wait...         | Shaé Universe                 | Shaé Universe                      | 04:10 |
+| 5   | Warzone (Interlude) | Shaé Universe                 | Shaé Universe                      | 02:44 |
+| 6   | What's Luv?         | Shaé Universe                 | Shaé Universe                      | 02:46 |
+| 7   | Passenger Princess  | Shaé Universe                 | Shaé Universe                      | 03:37 |
+| 8   | No Capacity         | Shaé Universe                 | Shaé Universe                      | 02:50 |
+| 9   | More Than Enough    | Shaé Universe, Lalah Hathaway | Shaé Universe feat. Lalah Hathaway | 03:26 |
+| 10  | Sincerely,          | Shaé Universe                 | Shaé Universe                      | 02:47 |
+
+<AdvJS3 />
