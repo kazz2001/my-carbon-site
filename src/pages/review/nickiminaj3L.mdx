@@ -1,0 +1,99 @@
+---
+title: Nicki Minaj / Pink Friday 2
+description: Album review of Nicki Minaj / Pink Friday 2
+keywords: "Nicki Minaj, Pink Friday 2"
+---
+
+import { Slider, Button, Tag } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<br/>
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Nicki Minaj / Pink Friday 2](../../images/cd/nickiminaj3L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			2023年暮れにリリースされたNicki Minajの約5年ぶりのアルバム。タイトルにあるようにデビュー作の続編的な位置づけであり、本人も原点回帰と言っている。
+			<br/>40歳を越え、貫禄もついてきてはいるが、まだまだ頑張っているという印象。Rapと唄は半々くらいで、⑦では可憐な歌声も聞かせてくれている。Trackは全体的にPopで判りやすい曲が多く、全体通して楽しめる。また、④⑧⑨では大ネタ使いでのサービスも忘れていない。
+			<br/>今や一線級の女性MCがたくさんいるのが当たり前になったが、その走りとなったNickiの歴史的価値を改めて思い起こすことにもなる作品でもある。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3WaQH3u" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://amzn.to/4f2PLG2" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3W8IAEK" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+				apple music
+			</Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="4" />
+		  <SliderJS2 value="1" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="8" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+		<h3>Producers</h3>
+		<p>
+			Bone Collector and Habib Defoundoux(1)
+			<br/>Slade Da Monsta, FNZ, Keanu Beats and BoogzDaBeast(2)
+			<br/>Go Grizzly, Cheeze Beatz and Tate Kobang(3)
+			<br/>Don Cannon and Sean Momberger(4)
+			<br/>YG! Beats, Dystinkt Beats and Tate Kobang(5)
+			<br/>ATL Jacob, DB! & Ashilee Ashilee(6)
+			<br/>Hendrix Smoke, ATL Jacob, Bak, Frankie Bash and TooDope(7)
+			<br/>DJ Smallz 732(8)
+			<br/>Dr. Luke, Malibu Babie, Vaughn Oliver and Aaron Joseph(9)
+			<br/>Tate Kobang and Jess Carp(10)
+		</p>
+		<h3>Guests</h3>
+		<p>
+			Lil Wayne, Tate Kobang,, Lil Uzi Vert
+		</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title               | Composers                                                                                                                                                                       | Performer                                | Time  |
+| --- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ----- |
+| 1   | Just the Memories   | Nicki Minaj, Collin “Bulby” York, Bone Collector, Beenie Man, John Glover, Lynford “Fatta” Marshall, Johnny Bristol, Habib Defoundoux, Jerry Butler, James Dean, Derrick Milano | Nicki Minaj                              | 03:55 |
+| 2   | Big Difference      | Nicki Minaj, Derrick Milano, BoogzDaBeast, Finatik, Zac, Keanu Beats, Slade Da Monsta                                                                                           | Nicki Minaj                              | 03:11 |
+| 3   | Red Ruby Da Sleaze  | Lumidee, Nicki Minaj, Tate Kobang, Kirsten Spencer, Go Grizzly, Cheeze Beatz, Teddy Mendez, Steven “Lenky” Marsden, Josiah Nasir Muhammad, Irvin Winslow, Edwin Perez           | Nicki Minaj                              | 03:34 |
+| 4   | My Life             | Chris Stein, Debbie Harry, Don Cannon, Nicki Minaj, Sean Momberger, Tate Kobang "                                                                                               | Nicki Minaj                              | 02:35 |
+| 5   | RNB                 | Nicki Minaj, Lil Wayne, Tate Kobang, YG! Beats, Dystinkt Beats                                                                                                                  | Nicki Minaj feat. Lil Wayne, Tate Kobang | 03:04 |
+| 6   | Falling 4 U         | DB!, ATL Jacob, Nicki Minaj                                                                                                                                                     | Nicki Minaj                              | 03:48 |
+| 7   | Last Time I Saw You | Nicki Minaj, Hendrix Smoke, ATL Jacob, TooDope, Bak, Frankie Bash                                                                                                               | Nicki Minaj                              | 03:04 |
+| 8   | Everybody           | Nicki Minaj, Lil Uzi Vert, Isaiah Henry, Jesper “Junior” Mortensen, Tate Kobang                                                                                                 | Nicki Minaj feat. Lil Uzi Vert           | 02:05 |
+| 9   | Super Freaky Girl   | Nicki Minaj, Dr. Luke, Rick James, Alonzo Miller, Aaron Joseph, Lauren Miller, LunchMoney Lewis, Vaughn Oliver                                                                  | Nicki Minaj                              | 03:55 |
+| 10  | Bahm Bahm           | Nicki Minaj, Jess Carp, Tate Kobang                                                                                                                                             | Nicki Minaj                              | 02:21 |
+
+    <AdvJS3/>

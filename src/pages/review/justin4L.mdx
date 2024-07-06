@@ -12,7 +12,12 @@ import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
 
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
 import { Link } from "gatsby";
+
+import Review1 from "../review/justin5.mdx";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -41,6 +46,7 @@ import { Link } from "gatsby";
 		  <Button className="button-right-mergin"  href="https://apple.co/3wLQYjJ" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
   	    apple music
   	  </Button>
+			<AdvJS2/>
 		</div>
 	</Column>
 </Row>
@@ -93,3 +99,13 @@ import { Link } from "gatsby";
 | 14  | Livin' Off the Land | Chad Hugo / Justin Timberlake / Pharrell Williams                                    | Justin Timberlake                     | 04:53 |
 | 15  | The Hard Stuff      | Eric Hudson / Elliott Ives / Chris Stapleton / Robin Tadross / Justin Timberlake     | Justin Timberlake                     | 03:15 |
 | 16  | Young Man           | James Fauntleroy / Jerome Harmon / Timothy Mosley / Justin Timberlake                | Justin Timberlake                     | 03:45 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />
