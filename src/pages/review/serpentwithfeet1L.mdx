@@ -1,29 +1,35 @@
 ---
 title: "Serpentwithfeet / Soil"
 description: "Album review of Serpentwithfeet / Soil"
-keywords: 'Serpentwithfeet, Soil'
+keywords: "Serpentwithfeet, Soil"
 ---
-import { Slider, Button } from '@carbon/react';
-import { ArrowUpRight  } from '@carbon/icons-react';
 
-import SliderJS1 from "../review/slider1"
-import SliderJS2 from "../review/slider2"
-import SliderJS3 from "../review/slider3"
-import SliderJS4 from "../review/slider4"
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
 
-import { Link } from "gatsby"
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
-import Review1 from "../review/serpentwithfeet2.mdx";
+import { Link } from "gatsby";
+
+import Review1 from "../review/serpentwithfeet3.mdx";
+import Review2 from "../review/serpentwithfeet2.mdx";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
-<p className="largeP"><Link to="/best50/2018/">2018 Black Music Best No.17</Link></p>
+<p className="largeP">
+  <Link to="/best50/2018/">2018 Black Music Best No.17</Link>
+</p>
 
 <Row  className="image-card-group">
 	<Column colMd={3} colLg={4} noGutterMdLeft="">
        <ImageCard>
 
-![Serpentwithfeet / Soil](../../images/cd/serpentwithfeet1L.jpg) 
+![Serpentwithfeet / Soil](../../images/cd/serpentwithfeet1L.jpg)
 
 </ImageCard>
 	</Column>
@@ -41,6 +47,7 @@ import Review1 from "../review/serpentwithfeet2.mdx";
 			<Button className="button-right-mergin"  href="https://apple.co/3UWn5Ft" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
 				apple music
 			</Button>
+			<AdvJS2/>
 		</div>
 	</Column>
 </Row>
@@ -74,19 +81,19 @@ Katie Gately and serpentwithfeet(1,10,11)
 
 <h3>Tracks</h3>
 
-| No. |	 Title         | Composers                    	| Performer       |	 Time |
-| --- |	-------------- | ------------------------------ | --------------- |	----- |
-| 1	  |	Whisper        | Katie Gately / serpentwithfeet	| serpentwithfeet |	04:21 |
-| 2	  |	Messy          | serpentwithfeet               	| serpentwithfeet |	03:31 |
-| 3	  |	Wrong Tree     | serpentwithfeet               	| serpentwithfeet |	03:43 |
-| 4	  |	Fragrant       | serpentwithfeet               	| serpentwithfeet |	03:14 |
-| 5	  |	Mourning Song  | serpentwithfeet               	| serpentwithfeet |	03:19 |
-| 6	  |	Cherubim       | serpentwithfeet               	| serpentwithfeet |	03:38 |
-| 7	  |	Seedless       | serpentwithfeet               	| serpentwithfeet |	03:29 |
-| 8	  |	Invoice        | Paul Epworth / serpentwithfeet	| serpentwithfeet |	04:01 |
-| 9	  |	Waft           | serpentwithfeet               	| serpentwithfeet |	02:48 |
-| 10  |	Slow Syrup     | serpentwithfeet               	| serpentwithfeet |	03:20 |
-| 11  |	Bless Ur Heart | serpentwithfeet               	| serpentwithfeet |	04:23 |
+| No. | Title          | Composers                      | Performer       | Time  |
+| --- | -------------- | ------------------------------ | --------------- | ----- |
+| 1   | Whisper        | Katie Gately / serpentwithfeet | serpentwithfeet | 04:21 |
+| 2   | Messy          | serpentwithfeet                | serpentwithfeet | 03:31 |
+| 3   | Wrong Tree     | serpentwithfeet                | serpentwithfeet | 03:43 |
+| 4   | Fragrant       | serpentwithfeet                | serpentwithfeet | 03:14 |
+| 5   | Mourning Song  | serpentwithfeet                | serpentwithfeet | 03:19 |
+| 6   | Cherubim       | serpentwithfeet                | serpentwithfeet | 03:38 |
+| 7   | Seedless       | serpentwithfeet                | serpentwithfeet | 03:29 |
+| 8   | Invoice        | Paul Epworth / serpentwithfeet | serpentwithfeet | 04:01 |
+| 9   | Waft           | serpentwithfeet                | serpentwithfeet | 02:48 |
+| 10  | Slow Syrup     | serpentwithfeet                | serpentwithfeet | 03:20 |
+| 11  | Bless Ur Heart | serpentwithfeet                | serpentwithfeet | 04:23 |
 
 <h3>Other Reviews</h3>
 
@@ -94,4 +101,9 @@ Katie Gately and serpentwithfeet(1,10,11)
   <Column colMd={3} colLg={3} noGutterMdLeft>
     <Review1 />
   </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
 </Row>
+
+<AdvJS3 />

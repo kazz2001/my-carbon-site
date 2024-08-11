@@ -1,0 +1,106 @@
+---
+title: "Serpentwithfeet / Grip"
+description: "Album review of Serpentwithfeet / Grip"
+keywords: "Serpentwithfeet, Grip"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/serpentwithfeet2.mdx";
+import Review2 from "../review/serpentwithfeet1.mdx";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Serpentwithfeet / Grip](../../images/cd/serpentwithfeet3L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+	<p>
+		Serpentwithfeetの3年ぶり、3作目。黒人のゲイのカップルを主人公にした演劇作品"Heart of Brick"のサントラとして数曲披露済みで、これをもとにアルバム化したようだ。
+		<br/>前作もそうだったが、サウンドはさらに穏やかな空気感に包まれた耳にやさしいアルバムになっている。全体的にはスローなエレクトリック曲がベースになるが、ラテンっぽく郷愁を誘う②や、Trap、アコースティックな曲などもあって、様々。
+		<br/>うっすらとAutotuneがかかったSerpentの唄は美しく儚げで、愛とやさしさに満ちている。CDジャケットはより過激になるが、逆に中身はより平和になっている。
+	</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/3At7Woe" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3ypBXoB" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3WF4PBm" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	    apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+    	<h3>Score card</h3>
+			<SliderJS1 value="5" />
+    	<SliderJS2 value="2" />
+			<SliderJS3 value="2" />
+    	<SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Nosaj Thing, I Like That and Serpent(1)
+				<br/>I Like That(2,4,5,9,10)
+				<br/>Sensei Bueno(3)
+				<br/>I Like That and Serpent(6)
+				<br/>Stwo and Nosaj Thing, I Like That(7)
+				<br/>ThankGod4Cody(8)
+			</p>
+			<h3>Guests</h3>
+				Ty Dolla $ign, Yanga Yaya, Mick Jenkins, Orion Sun
+			<p>
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title           | Composers                                  | Performer                                       | Time  |
+| --- | --------------- | ------------------------------------------ | ----------------------------------------------- | ----- |
+| 1   | Damn Gloves     | Ty Dolla $ign, Yanga Yaya, serpentwithfeet | serpentwithfeet feat. Ty Dolla $ign, Yanga Yaya | 02:32 |
+| 2   | Safe Word       | serpentwithfeet                            | serpentwithfeet                                 | 02:46 |
+| 3   | Spades          | Sensei Bueno, serpentwithfeet              | serpentwithfeet                                 | 03:25 |
+| 4   | Deep End        | serpentwithfeet                            | serpentwithfeet                                 | 02:46 |
+| 5   | Rum/Throwback   | serpentwithfeet                            | serpentwithfeet                                 | 03:42 |
+| 6   | Black Air Force | Mick Jenkins, serpentwithfeet              | serpentwithfeet feat. Mick Jenkins              | 02:48 |
+| 7   | Hummin'         | serpentwithfeet                            | serpentwithfeet                                 | 02:54 |
+| 8   | Ellipsis        | Orion Sun, serpentwithfeet                 | serpentwithfeet frat. Orion Sun                 | 03:21 |
+| 9   | Lucky Me        | serpentwithfeet                            | serpentwithfeet                                 | 02:27 |
+| 10  | 1 To 10         | serpentwithfeet                            | serpentwithfeet                                 | 02:31 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+</Row>
