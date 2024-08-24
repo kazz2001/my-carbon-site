@@ -10,8 +10,12 @@ import SliderJS1 from "../review/slider1"
 import SliderJS2 from "../review/slider2"
 import SliderJS3 from "../review/slider3"
 import SliderJS4 from "../review/slider4"
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby"
+
+import Review1 from "../review/schoolboyq4.mdx";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -39,6 +43,7 @@ import { Link } from "gatsby"
 			<Button className="button-right-mergin"  href="https://apple.co/3UUtwIY" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
 				apple music
 			</Button>
+			<AdvJS2/>
 		</div>
 	</Column>
 </Row>
@@ -68,8 +73,8 @@ Nez & Rio(1,13,17)
 <br/>Tyler The Creator(11)
 <br/>DJ Dahi and Larrance Dopson(12)
 <br/>Willie B(14)
-<br/>Sounwave and Tony Russell(15
-<br/>Cardo, Yex and Frank Dukes(16
+<br/>Sounwave and Tony Russell(15)
+<br/>Cardo, Yex and Frank Dukes(16)
 </p>
 <h3>Guests</h3>
 <p>
@@ -100,3 +105,13 @@ Kanye West, Jadakiss, Lance Skiiiwalker, Vince Staples, Candice Pillay, E-40, Th
 |	15	|	Blank Face             | Quincy Hanley / Tony Russell / Mark Spears                                                                                                                                                                                                                      | ScHoolboy Q feat. Anserson.Paak       | 03:14 |
 |	16	|	Overtime               | Kendrick Duckworth / Frank Dukes / Quincy Hanley / Daveon Jackson / Charles Hinshaw, Jr. / Ronald Latour / Miguel Pimentel / Justine Skyers                                                                                                                     | ScHoolboy Q feat. Miguel, Justin Skye | 04:38 |
 |	17	|	Tookie Knows II        | Derraile Cail / Quincy Hanley / Mychal Hatch / Mario Loving / Nesbitt Wesonga                                                                                                                                                                                   | ScHoolboy Q feat. Traffic, TF         | 04:45 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />
