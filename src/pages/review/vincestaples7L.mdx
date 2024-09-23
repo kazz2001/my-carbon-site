@@ -1,0 +1,123 @@
+---
+title: "Vince Staples / Dark Times"
+description: "Album review of Vince Staples / Dark Times"
+keywords: "Vince Staples, Dark Times"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1 from "../review/vincestaples6.mdx";
+import Review2 from "../review/vincestaples5.mdx";
+import Review3 from "../review/vincestaples4.mdx";
+import Review4 from "../review/vincestaples3.mdx";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Vince Staples / Dark Times](../../images/cd/vincestaples7L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			2年ぶりとなるVince Staplesの6作目で、Def Jamでの最後の作品となるとのこと。最近ではNetflixドラマに主演し、活動の幅を広げたりもしている。
+			<br/>前作のRamona Park Broke My Heartの続編的なアルバムで、一層内省的で、感傷的なものとなっている。スロー中心のTrackも、同じくメランコリックでエモーショナルなトーンで統一されており、メロディックで美しいトラックも少なくない。
+			<br/>メジャーなProducer, Guestの参加もなく、本人によるLyricとフローでここまでのアルバムを作ってしまうのは流石。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/4etLZEm" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3TD5lPm" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3XAEcxJ" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="1" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="2" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Tyler Page, LeKen Taylor and Brazzen(1)
+				<br/>Alex Goose, Michael Uzowuru, RⱯHM ⚉ and LeKen Taylor(2)
+				<br/>LeKen Taylor(3,8)
+				<br/>SAINT MINO, Teej, Michael Uzowuru, Tyler Page and LeKen Taylor(4)
+				<br/>SAINT MINO, Tyler Page, Joe Harrison & Michael Uzowuru(5)
+				<br/>Mike Hector, Jay Versace and Whosantoine(6)
+				<br/>RⱯHM ⚉(7)
+				<br/>Cardo, J.LBS, Tyler Page and LeKen Taylor(9)
+				<br/>LeKen Taylor, Michael Uzowuru and Tyler Page(10)
+				<br/>LeKen Taylor and Kaelin Ellis(11)
+				<br/>SAINT MINO, Matty Michna, Xavi, Michael Uzowuru, Zack Sekoff and LeKen Taylor(12)
+				<br/>The Kimba Unit, Benny Bock, Caleb Laven, Tyler Page and Ely Rise(13)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Babe Rose, Maddy Davis, Santigold
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                       | Composers                                                                                                                                                        | Performer     | Time  |
+| --- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----- |
+| 1   | Close Your Eyes and Swing   | Grecia Alfaro, Tyler Page, Vincent Staples, Leken Taylor                                                                                                         | Vince Staples | 00:31 |
+| 2   | Black&Blue                  | Robert Davis, Marcus Edwards, Alejandro Garcia, Alex Garcia, Alex Goose, Josh Lane, Sal Samano, Rahm Silverglade, Vincent Staples, Leken Taylor, Michael Uzowuru | Vince Staples | 03:19 |
+| 3   | Government Cheese           | Frank Dukes, Vincent Staples, Leken Taylor                                                                                                                       | Vince Staples | 02:45 |
+| 4   | Children's Song             | Mino Drerup, Afolabi Osinulu, Tyler Page, Vincent Staples, Leken Taylor, Michael Uzowuru                                                                         | Vince Staples | 02:13 |
+| 5   | Shame on the Devil          | Mino Drerup, Joseph Harrison, Tyler Page, Vincent Staples, Michael Uzowuru                                                                                       | Vince Staples | 03:25 |
+| 6   | Étouffée                    | Jahlil Gunter, Mike Hector, Antoine Lee Bennett Jr, Vincent Staples                                                                                              | Vince Staples | 04:28 |
+| 7   | Liars                       | James Baldwin, Rahm Silverglade, Vincent Staples, Darian Thomas, Kiah Victoria                                                                                   | Vince Staples | 00:57 |
+| 8   | Justin                      | Vincent Staples                                                                                                                                                  | Vince Staples | 02:04 |
+| 9   | "Radio"                     | Cardo, Marvin Gaye, Tom Merriman, Tyler Page, Jason Pounds, Vincent Staples, Leken Taylor                                                                        | Vince Staples | 02:57 |
+| 10  | Nothing Matters             | Tyler Page, Vincent Staples, Leken Taylor, Michael Uzowuru                                                                                                       | Vince Staples | 02:42 |
+| 11  | Little Homies               | Kaelin Ellis, Vincent Staples, Leken Taylor                                                                                                                      | Vince Staples | 03:45 |
+| 12  | Freeman                     | Mino Drerup, Xavier Herrera, Matty Michna, Manny Salas, Zack Sekoff, Manny Solas, Vincent Staples, Leken Taylor, Michael Uzowuru                                 | Vince Staples | 02:35 |
+| 13  | Why Won't the Sun Come Out? | Benjamin Bock, Caleb Laven, Tyler Page, Julian Rapaport, Vincent Staples, Ely Weisfeld, Santi White                                                              | Vince Staples | 03:25 |
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review3 />
+  </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review4 />
+  </Column>
+</Row>
+
+<AdvJS3 />
