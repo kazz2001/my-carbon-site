@@ -1,0 +1,98 @@
+---
+title: "SiA / Reasonable Woman"
+description: "Album review of SiA / Reasonable Woman"
+keywords: "SiA, Reasonable Woman"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![SSiA / Reasonable Woman](../../images/cd/sia1L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			オーストラリアはアデレード出身のシンガー、SiAの6年ぶりとなるオリジナルアルバム。声を聴く限りでは、もっと若いかと思っていたが、1990年代から音楽活動していて、48歳(@2024)になる。CDジャケットで、だんだん、素顔を隠すようになってきたのも彼女の特徴となっている。
+			<br/>サウンドはPopでありながら、硬質なところがあって、流し聴きを許さないような切実な印象を受ける。音が隙間なく押し寄せてくる壮大な感じの曲も多くなっている。
+			<br/>SiAの声は高音は澄んでいて、中低音には迫力があり、パーソナルなことや恋愛を感情豊かに唄っている。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/41vXtUy" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3ZyBCJI" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/4gdZt8x" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	   	apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Jesse Shatkin(1,4,5,6,7,9,12,15)
+				<br/>Greg Kurstin(2,10,11,13)
+				<br/>Jesse Shatkin and Jim-E Stack(3)
+				<br/>Labrinth and Nathaniel Ledwidge(8)
+				<br/>Jesse Shatkin and Benny Blancs(14)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Chaka Khan, Kylie Minogue, Labrinth, Tierra Whack, Kaliii, Jimmy Jolliff, Paris Hilton
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title               | Composers                                                                                        | Performer                                     | Time  |
+| --- | ------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------- | ----- |
+| 1   | Little Wing         | Sia Furler / Jesse Shatkin                                                                       | Sia                                           | 03:18 |
+| 2   | Immortal Queen      | Sia Furler / Chaka Khan / Greg Kurstin                                                           | Sia feat. Chaka Khan                          | 03:19 |
+| 3   | Dance Alone         | Sia Furler / Jesse Shatkin                                                                       | Siafeat. Kylie Minogue                        | 02:52 |
+| 4   | I Had a Heart       | Sia Furler / Jesse Shatkin / Rosalia Vila Tobella                                                | Sia                                           | 02:48 |
+| 5   | Gimme Love          | Sia Furler / Jesse Shatkin                                                                       | Sia                                           | 03:34 |
+| 6   | Nowhere To Be       | Sia Furler / Jesse Shatkin                                                                       | Sia                                           | 03:16 |
+| 7   | Towards the Sun     | Sia Furler / Jesse Shatkin                                                                       | Sia                                           | 02:47 |
+| 8   | Incredible          | Sia Furler / Labrinth                                                                            | Sia feat. Labrinth                            | 03:33 |
+| 9   | Champion            | Sia Furler / Joshua Goods / Charlie Heat / James Jolliff / Kaliii / Jesse Shatkin / Tierra Whack | Sia feat. Tierra Whack, Kaliii, Jimmy Jolliff | 02:40 |
+| 10  | I Forgive You       | Sia Furler / Greg Kurstin                                                                        | Sia                                           | 04:19 |
+| 11  | Wanna Be Known      | Sia Furler / Greg Kurstin                                                                        | Sia                                           | 03:46 |
+| 12  | One Night           | B?low / Sia Furler / Gabriel Noel / Jesse Shatkin / Max Wolfgang                                 | Sia                                           | 02:58 |
+| 13  | Fame Won’t Love You | Sia Furler / Greg Kurstin                                                                        | Sia feat. Paris Hilton                        | 03:19 |
+| 14  | Go On               | Sia Furler / Jasper Lee Harris / Magnus August H?iberg / Benjamin Levin / Jesse Shatkin          | Sia                                           | 03:14 |
+| 15  | Rock and Balloon    | Sia Furler / Jesse Shatkin                                                                       | Sia                                           | 04:00 |
+
+<AdvJS3 />
