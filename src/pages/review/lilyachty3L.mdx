@@ -16,8 +16,10 @@ import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
 
-import Review2 from "../review/lilyachty1.mdx";
-import Review1 from "../review/lilyachty2.mdx";
+import Review1_2 from "../review/lilyachty1.mdx";
+import Review1_1 from "../review/lilyachty2.mdx";
+
+import Review2_1 from "../review/jamesblake_lilyachty1.mdx";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -84,10 +86,16 @@ import Review1 from "../review/lilyachty2.mdx";
 
 <Row>
   <Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review1 />
+    <Review1_1 />
   </Column>
 	<Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review2 />
+    <Review1_2 />
+  </Column>
+</Row>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2_1 />
   </Column>
 </Row>
 

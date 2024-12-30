@@ -1,0 +1,109 @@
+---
+title: "James Blake & Lil Yachty / Bad Cameo"
+description: "Album review of James Blake & Lil Yachty / Bad Cameo"
+keywords: "Lil Yachty, James Blake & Lil Yachty, James Blake, リル・ヤッティ, Bad Cameo"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+import Review1_1 from "../review/lilyachty3.mdx";
+import Review1_2 from "../review/lilyachty2.mdx";
+import Review1_3 from "../review/lilyachty1.mdx";
+
+<p className="largeP">Album review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![James Blake & Lil Yachty / Bad Cameo](../../images/cd/jamesblake_lilyachty1L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			才人というか異端というかな二人、James BlakeとLil YachtyによるDuo作。
+			<br/>Lil Yachty自身が良い意味で強固なスタイルを持たない人なので、どうしてもJames Blakeのトーンが強くなっている。逆にLil Yachtyとしては、また新たなバリエーションを得たというところだろうか。
+			<br/>静謐で茫洋としてアンビエントな全体感に、ところどころエレクトロニック、ジャングル、ジューク、ドリルにジャズ的な音を組み込んだサウンドは十分に刺激的。そんなトラック群にときどきエフェクトを効かした二人のVocalが溶け込んでいる。
+			<br/>Lil Yachtyは、④⑧などを除いて、だいぶRapper色を抑えているので、Hip-Hopファンにとっては物足りないかもしれない。
+		</p>
+		<div>
+			<Button className="button-right-mergin"  href="https://amzn.to/41MKgqM" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+      	amazon.com
+    	</Button>
+    	<Button className="button-right-mergin"  href="https://amzn.to/4fvVPG6" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+      	amazon.co.jp
+    	</Button>
+			<Button className="button-right-mergin"  href="https://apple.co/4gOcJ3s" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+				apple music
+			</Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="1" />
+			<SliderJS3 value="2" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Lil Yachty, James Blake and Dom Maker(1,3,4,6,7,8,9)
+				<br/>Lil Yachty and James Blake(2,10)
+				<br/>BNYX®, SADPONY, Lil Yachty, James Blake and Dom Maker(5)
+			</p>
+			<h3>Guests</h3>
+			<p>
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                    | Composers                                                                            | Performer                | Time  |
+| --- | ------------------------ | ------------------------------------------------------------------------------------ | ------------------------ | ----- |
+| 1   | Save the Savior          | James Blake / Dominic Maker / Miles McCollum                                         | James Blake / Lil Yachty | 04:05 |
+| 2   | In Grey                  | James Blake / Miles McCollum                                                         | James Blake / Lil Yachty | 06:10 |
+| 3   | Midnight                 | James Blake / Daniel Worrall Jacobs / Dominic Maker / Miles McCollum                 | James Blake / Lil Yachty | 04:59 |
+| 4   | Woo                      | James Blake / Dominic Maker / Miles McCollum                                         | James Blake / Lil Yachty | 02:50 |
+| 5   | Bad Cameo                | James Blake / Benjamin Saint Fort / Dominic Maker / Miles McCollum / Jeremiah Raisen | James Blake / Lil Yachty | 03:52 |
+| 6   | Missing Man              | James Blake / Dominic Maker / Miles McCollum                                         | James Blake / Lil Yachty | 03:57 |
+| 7   | Twice                    | James Blake / Daniel Worrall Jacobs / Dominic Maker / Miles McCollum                 | James Blake / Lil Yachty | 04:57 |
+| 8   | Transport Me             | James Blake / Barrington Levy / Paul Love / Dominic Maker / Miles McCollum           | James Blake / Lil Yachty | 04:56 |
+| 9   | Run Away From the Rabbit | James Blake / Dominic Maker / Miles McCollum                                         | James Blake / Lil Yachty | 03:47 |
+| 10  | Red Carpet               | James Blake / Miles McCollum                                                         | James Blake / Lil Yachty | 04:09 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1_1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1_2 />
+  </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+  	<Review1_3 />
+  </Column>
+</Row>
+
+<AdvJS3 />
