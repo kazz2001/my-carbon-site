@@ -1,0 +1,110 @@
+---
+title: "FKA Twigs / EUSEXUA"
+description: "Album Review of FKA Twigs / EUSEXUA"
+keywords: "FKA Twigs, Magdalene, FKA・ツィッグス"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import Review1 from "../review/fkatwigs3.mdx";
+import Review2 from "../review/fkatwigs2.mdx";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![FKA Twigs / EUSEXUA](../../images/cd/fkatwigs4L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			前作がMixtape扱いだったので、オリジナルアルバムとしては6年ぶりとなるFKA Twigsの3作目。タイトルのEUSEXUAは多幸感を意味するEuphoriaにsexを混ぜ合わせた彼女による造語だそうで、アルバムノートに辞書風な記述があり、冒頭には"存在の状態：アート、音楽、セックス、そして結束によって往々に呼び起される瞬間的な超越の感覚"とある。
+			<br/>そんなタイトルにあるような解放感を印象付けるアルバムになっている。KorelessがメインでProduceしており、UKガラージ、ベースライン、テクノなどを取り入れたダンサブルでアンビエントなTrackが並ぶ。
+			<br/>なお、享楽的な⑧ではKanye WestのNorthが日本語でラップしている。FKA Twigsはソフトで、かつ、ときに官能的な唄声を聴かせてくれている。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/43IfGOj" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/43FNFXv" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/454eAig" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    apple music
+  	  </Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="1" />
+			<SliderJS3 value="2" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Koreless, FKA Twigs and Eartheater(1)
+				<br/>Koreless, Ojivolta and FKA Twigs(2,11)
+				<br/>Koreless, Stargate, Ojivolta and FKA Twigs(3)
+				<br/>Koreless(4,10)
+				<br/>Koreless and FKA Twigs(5,6,7)
+				<br/>Koreless and Ojivolta(8)
+				<br/>Koreless, Ojivolta and FKA Twigs, Marius De Vries(9)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Koreless, North West
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title            | Composers                                                                                                                               | Performer                  | Time  |
+| --- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ----- |
+| 1   | Eusexua          | Tahliah Barnett / Alexandra Drewchin / Ethan P. Flynn / Koreless                                                                        | FKA twigs                  | 04:23 |
+| 2   | Girl Feels Good  | Tahliah Barnett / Raul Cubina / Douglas Ford / Alastair O'Donnell / Lewis Roberts / Mark Williams                                       | FKA twigs                  | 03:56 |
+| 3   | Perfect Stranger | Tahliah Barnett / Raul Cubina / Mikkel S. Eriksen / Tor Erik Hermansen / Lewis Roberts / Mark Williams                                  | FKA twigs                  | 03:17 |
+| 4   | Drums of Death   | Tahliah Barnett / Robin L. Cho / Tintin Freeman / G-DRAGON / Lewis Roberts                                                              | FKA twigs feat: Koreless   | 03:11 |
+| 5   | Room of Fools    | Tahliah Barnett / Lewis Roberts / De Vries                                                                                              | FKA twigs                  | 04:25 |
+| 6   | Sticky           | Tahliah Barnett / Raul Cubina / Jimmy Napes / Lewis Roberts / Mark Williams                                                             | FKA twigs                  | 02:57 |
+| 7   | Keep It, Hold It | Tahliah Barnett / Nicolas Jaar / Lewis Roberts / De Vries                                                                               | FKA twigs                  | 04:32 |
+| 8   | Childlike Things | Tahliah Barnett / Mike Chapman / Simon Pilton                                                                                           | FKA twigs feat. North West | 02:30 |
+| 9   | Striptease       | Tahliah Barnett / Dylan Brady / Raul Cubina / Lewis Roberts / De Vries / Mark Williams                                                  | FKA twigs                  | 04:37 |
+| 10  | 24HR Dog         | Tahliah Barnett / Raul Cubina / Ethan P. Flynn / Lewis Roberts / Mark Williams                                                          | FKA twigs                  | 04:41 |
+| 11  | Wanderlust       | Tahliah Barnett / Raul Cubina / Amanda Ghost / Emile Haynie / Stuart Price / Lewis Roberts / Ed Thomas / Mark Williams / Timmaz Zolleyn | FKA twigs                  | 04:17 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+</Row>
+
+<AdvJS3 />
