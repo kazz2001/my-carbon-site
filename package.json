@@ -19,17 +19,10 @@
   },
   "dependencies": {
     "@carbon/pictograms-react": "^11.86.0",
-<<<<<<< HEAD
-    "@carbon/react": "^1.91.1",
-    "gatsby": "^5.15.0",
-    "gatsby-plugin-google-analytics": "^5.15.0",
-    "gatsby-theme-carbon": "4.2.5",
-=======
     "@carbon/react": "^1.91.0",
     "gatsby": "^5.15.0",
     "gatsby-plugin-google-analytics": "^5.15.0",
     "gatsby-theme-carbon": "4.2.21",
->>>>>>> bf7ad4f7adf97f9c12482e99615ddd230f81e2ec
     "react": "18.3.1",
     "react-dom": "^18.3.1",
     "yarn": "^1.22.22"
