@@ -1,0 +1,30 @@
+{
+  "name": "Black-Music-Album-Review",
+  "private": true,
+  "version": "1.23.11",
+  "license": "Apache 2.0",
+  "scripts": {
+    "develop": "gatsby develop -H 0.0.0.0",
+    "develop:clean": "yarn clean && yarn develop",
+    "build": "gatsby build",
+    "build:clean": "yarn clean && gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "build:analyze": "ANALYZE=true yarn build",
+    "build:prefix": "gatsby build --prefix-paths",
+    "serve:prefix": "gatsby serve --prefix-paths",
+    "test:prefix": "yarn build:prefix && yarn serve:prefix",
+    "cf login": "cf login -a https://api.us-south.cf.cloud.ibm.com --sso",
+    "cf push": "cf push -f manifest.yml"
+  },
+  "dependencies": {
+    "@carbon/pictograms-react": "^11.86.0",
+    "@carbon/react": "^1.91.0",
+    "gatsby": "^5.15.0",
+    "gatsby-plugin-google-analytics": "^5.15.0",
+    "gatsby-theme-carbon": "4.2.21",
+    "react": "18.3.1",
+    "react-dom": "^18.3.1",
+    "yarn": "^1.22.22"
+  }
+}
