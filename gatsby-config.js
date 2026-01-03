@@ -2,8 +2,8 @@ module.exports = {
   flags: { FAST_DEV: true, DEV_SSR: true},  
   siteMetadata: {
     title: 'Black Music Album Review',
-    description: 'Album review for Soul and Hip-Hop Music',
-    keywords: 'CD, Album, CD Review, Album Review, Black Music, Soul, Hip-Hop',
+    description: 'Album review for R&B and Hip-Hop Music',
+    keywords: 'CD, Album, CD Review, Album Review, Black Music, Soul, Hip-Hop, R&B',
   },
   pathPrefix: `/gtc`,
   plugins: [
