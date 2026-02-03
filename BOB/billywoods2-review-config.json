@@ -1,0 +1,175 @@
+{
+  "artistName": "billy woods",
+  "artistNameJa": "",
+  "albumTitle": "GOLLIWOG",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "billywoods2",
+  "reviewPara1": "NYアンダーグラウンドの雄、billy woodsのソロとしては3年ぶりのアルバム。この間、Kenny Segalとの共作やArmand Hammerでの活動もあり、常にシーンを賑わしている。",
+  "reviewPara2": "今回も、そのKenny\n            SegalやThe Alchemistなどお馴染みの人たちを制作に迎えたホラーコア作品になっている。GOLLIWOGは人種差別的キャラクターのことで、差別や暴力、個人的トラウマなどを自身のリアルや虚構を織り交ぜて、展開している。",
+  "reviewPara3": "Trackはゆったりとした不穏で不吉なものばかりで、Lyricと合わせて、リスナーの不安感を煽ってくる。なお⑤のラストでは日本語のモノローグもサンプリングされている。",
+  "reviewPara4": "\n            2026/1/31のリキッドルームでのライブを見ましたが、照明暗めな閉塞的な空間にマッチしてました。",
+  "score1": "1",
+  "score2": "2",
+  "score3": "3",
+  "score4": "4",
+  "producers": "Steel Tipped Dove(1,14)\n\n            Conductor Williams(2)\n\n            Kenny Segal(3,8,16)\n\n            Sadhu Gold(4)\n\n            Preservation(5)\n\n            The Alchemist(6)\n\n            El‐P(7)\n\n            DJ Haram and Shabaka Hutchings(9)\n\n            Saint Abdullah(10)\n\n            Jeff Markey and Messiah Musik(11,15)\n\n            Messiah Musik(12)\n\n            ANT(13)\n\n            Willie Green (17)\n\n            HUMAN ERROR CLUB(18)\n\n            THERAVADA(19)",
+  "guests": "Bruiser Wolf, , Despot, E L U C I D, al.divin, Yolanda, Cavalier",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1793411266",
+  "best50Year": "2025",
+  "best50Rank": "6",
+  "relatedReviews": [
+    {
+      "identifier": "billywoods1",
+      "artistName": "Billy Woods",
+      "albumTitle": "Aethiopes"
+    },
+    {
+      "identifier": "billywoodskennysegal1",
+      "artistName": "Billy Woods and Kenny Segal",
+      "albumTitle": "Maps"
+    },
+    {
+      "identifier": "armandhammeralchemist1",
+      "artistName": "Armand Hammer and The Alchemist",
+      "albumTitle": "Haram"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Jumpscare",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "3:17"
+    },
+    {
+      "num": 2,
+      "title": "STAR87",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "2:37"
+    },
+    {
+      "num": 3,
+      "title": "Misery",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "2:12"
+    },
+    {
+      "num": 4,
+      "title": "BLK XMAS",
+      "composers": "billy woods",
+      "performer": "billy woods feat. Bruiser Wolf",
+      "time": "3:10"
+    },
+    {
+      "num": 5,
+      "title": "Waterproof Mascara",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "2:53"
+    },
+    {
+      "num": 6,
+      "title": "Counterclockwise",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "2:10"
+    },
+    {
+      "num": 7,
+      "title": "Corinthians",
+      "composers": "billy woods",
+      "performer": "billy woods feat. Despot",
+      "time": "3:23"
+    },
+    {
+      "num": 8,
+      "title": "Pitchforks &amp; Halos",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "2:21"
+    },
+    {
+      "num": 9,
+      "title": "All These Worlds Are Yours",
+      "composers": "billy woods",
+      "performer": "billy woods feat. E L U C I D",
+      "time": "2:43"
+    },
+    {
+      "num": 10,
+      "title": "Maquiladoras",
+      "composers": "billy woods",
+      "performer": "billy woods feat. al.divin",
+      "time": "3:07"
+    },
+    {
+      "num": 11,
+      "title": "A Doll Fulla Pins",
+      "composers": "billy woods",
+      "performer": "billy woods feat. Yolanda",
+      "time": "3:30"
+    },
+    {
+      "num": 12,
+      "title": "Golgotha",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "3:02"
+    },
+    {
+      "num": 13,
+      "title": "Cold Sweat",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "2:23"
+    },
+    {
+      "num": 14,
+      "title": "BLK ZMBY",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "2:14"
+    },
+    {
+      "num": 15,
+      "title": "Make No Mistake",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "2:31"
+    },
+    {
+      "num": 16,
+      "title": "Born Alone",
+      "composers": "billy woods",
+      "performer": "billy woods",
+      "time": "2:57"
+    },
+    {
+      "num": 17,
+      "title": "Lead Paint Test",
+      "composers": "billy woods",
+      "performer": "billy woods feat. E L U C I D, Cavalier",
+      "time": "4:25"
+    },
+    {
+      "num": 18,
+      "title": "Dislocated",
+      "composers": "billy woods",
+      "performer": "billy woods feat. E L U C I D",
+      "time": "5:43"
+    },
+    {
+      "num": 19,
+      "title": "Zaire (Andrew Broder mix)",
+      "composers": "billy woods",
+      "performer": "billy woods feat. E L U C I D",
+      "time": "1:46"
+    }
+  ]
+}

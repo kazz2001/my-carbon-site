@@ -1,0 +1,127 @@
+{
+  "comment": "このファイルは書籍レビュー用です。アルバムレビューの例として bloodorange5L.mdx を参考にしたJSONを作成します",
+  "bloodorange5_example": {
+    "artistName": "Blood Orange",
+    "artistNameJa": "ブラッド・オレンジ",
+    "albumTitle": "Essex Honey",
+    "albumTitleJa": "",
+    "albumNumber": "5",
+    "identifier": "bloodorange5",
+    "reviewPara1": "Blood Orangeのオリジナルアルバムとしては7年ぶりとなる5作目。2023年に母を失った喪失感と幼少期を過ごしたUKのEssexをモチーフにしており、スローかつ静謐で切ない曲が続く。",
+    "reviewPara2": "TrackもBlack Musicっぽいところはあまり無く、かつてないほどUKらしい印象だが、ドラムンベース、Jazz、R&Bなどの要素も感じられる。Pianoやアコースティックギターなど生楽器が茫洋としたサウンドの印象を決めているが、ところどころで奏でられるチェロによって物悲しさが押し寄せてくる。",
+    "reviewPara3": "これに美しいメロディと柔らかいVocal、ゲストによるコーラスが加わり、よりエモーショナルな作品へと昇華している。",
+    "reviewPara4": "最後の⑭では克服していこうという意思が感じられ、次へとつながっていくのだと思う。",
+    "score1": "5",
+    "score2": "1",
+    "score3": "1",
+    "score4": "9",
+    "producers": "Devonte Hynes(all)",
+    "guests": "The Durutti Column, Tariq Al-Sabir, Caroline Polachek, Daniel Caesar, Caroline Polachek, Lorde, Mustafa, Eva Tolkin, Liam Benzvi, Ian Isiah, Brendan Yates, Ben Watt, Mabe Fratti",
+    "amazonCom": "https://amzn.to/4pjkAdx",
+    "amazonJp": "https://amzn.to/3LmrAIr",
+    "appleMusic": "https://apple.co/3LhqGgp",
+    "best50Year": "2025",
+    "best50Rank": "4",
+    "relatedReviews": ["bloodorange4", "bloodorange3", "bloodorange2"],
+    "tracks": [
+      {
+        "num": 1,
+        "title": "Look at You",
+        "composers": "Devonté Hynes",
+        "performer": "Blood Orange",
+        "time": "02:59"
+      },
+      {
+        "num": 2,
+        "title": "Thinking Clean",
+        "composers": "Devonté Hynes",
+        "performer": "Blood Orange",
+        "time": "03:34"
+      },
+      {
+        "num": 3,
+        "title": "Somewhere in Between",
+        "composers": "Devonté Hynes",
+        "performer": "Blood Orange",
+        "time": "03:23"
+      },
+      {
+        "num": 4,
+        "title": "The Field",
+        "composers": "Devonté Hynes / Caroline Polachek / Vini Reilly / Ashton Simmonds / Tariq al-Sabir",
+        "performer": "Blood Orange feat. The Durutti Column, Tariq Al-Sabir, Caroline Polachek, Daniel Caesar",
+        "time": "03:19"
+      },
+      {
+        "num": 5,
+        "title": "Mind Loaded",
+        "composers": "Mustafa Ahmed / Devonté Hynes / Ella Yelich O'Connor / Caroline Polachek",
+        "performer": "Blood Orange feat. Caroline Polachek, Lorde, Mustafa",
+        "time": "03:37"
+      },
+      {
+        "num": 6,
+        "title": "Vivid Light",
+        "composers": "Devonté Hynes",
+        "performer": "Blood Orange",
+        "time": "04:22"
+      },
+      {
+        "num": 7,
+        "title": "Countryside",
+        "composers": "Liam Benzvi / Georgia Hubley / Devonté Hynes / Ian Isiah / Ira Kaplan / James McNew / Eva Tolki",
+        "performer": "Blood Orange feat. Eva Tolkin, Liam Benzvi, Ian Isiah",
+        "time": "03:10"
+      },
+      {
+        "num": 8,
+        "title": "Last of England",
+        "composers": "Devonté Hynes",
+        "performer": "Blood Orange",
+        "time": "03:53"
+      },
+      {
+        "num": 9,
+        "title": "Life",
+        "composers": "Devonté Hynes / Tirzah Mastin / Charlotte Dos Santos",
+        "performer": "Blood Orange",
+        "time": "02:52"
+      },
+      {
+        "num": 10,
+        "title": "Westerberg",
+        "composers": "Liam Benzvi / Devonté Hynes / Chris Mars / Tommy Stinson / Eva Tolkin / Paul Westerberg",
+        "performer": "Blood Orange feat. Eva Tolkin, Liam Benzvi",
+        "time": "03:26"
+      },
+      {
+        "num": 11,
+        "title": "The Train (King's Cross)",
+        "composers": "Devonté Hynes / Caroline Polachek",
+        "performer": "Blood Orange feat. Caroline Polachek",
+        "time": "02:48"
+      },
+      {
+        "num": 12,
+        "title": "Scared of It",
+        "composers": "Devonté Hynes / Ben Watt / Brendan Yates",
+        "performer": "Blood Orange feat. Brendan Yates, Ben Watt",
+        "time": "02:41"
+      },
+      {
+        "num": 13,
+        "title": "I Listened (Every Night)",
+        "composers": "Lotti Golden / Devonté Hynes / Richard Scher",
+        "performer": "Blood Orange",
+        "time": "03:35"
+      },
+      {
+        "num": 14,
+        "title": "I Can Go",
+        "composers": "Mustafa Ahmed / Devonté Hynes / Maria Belen Fratti Sierra",
+        "performer": "Blood Orange feat. Mabe Fratti, Mustafa",
+        "time": "02:51"
+      }
+    ]
+  }
+}

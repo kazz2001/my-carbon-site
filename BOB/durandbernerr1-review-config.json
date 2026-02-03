@@ -1,0 +1,131 @@
+{
+  "artistName": "Durand Bernerr",
+  "artistNameJa": "",
+  "albumTitle": "BLOOM",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "durandbernerr1",
+  "reviewPara1": "2000年代終盤より活動するOhio出身のSinger, Durand Bernerrの2025年春リリースのアルバム。リリース時で37歳と中堅の域にいるが、2020年代より客演で知られるようになり、2020年代にはいってアルバムが評価されて、当アルバムではグラミー3部門と日の目をみるまでに至った。",
+  "reviewPara2": "サウンドはビンテージでオーソドックスなソウルをベースに、ファンクやロック寄りの曲もあり、曲調はミディアムが多めで、アップ、バラードと様々。",
+  "reviewPara3": "1曲以外は5分以上であり、各曲をじっくり聞かせようという意思も感じられる。",
+  "reviewPara4": "DurandのVocalは、表現力高く、ところどころ粘着質なところがあるのが特徴的だ。",
+  "score1": "5",
+  "score2": "2",
+  "score3": "1",
+  "score4": "4",
+  "producers": "Chuck Harmony(1)d \n\n            Poe Leos and Stanley Randolph(2,3)\n\n            Brittany &quot;b.kae&quot; Habermehl(4)\n\n            Runako 'Narx' Bedeau and Emmanuel 'E-Whizz' Mukungu(5)\n\n            Chase Worrell(6)\n\n            Blake Straus(7)\n\n            Michael Barney(8)\n\n            Claude Kelly (9,10)\n\n            Timothy Bloom(11)\n\n            Durand Bernarr(12)\n\n            Faheem Najm(13)\n\n            Stanley Randolph(14)\n\n            Jonathan Yoni Asperil(15)",
+  "guests": "GAWD, T‐Pain",
+  "amazonCom": "https://amzn.to/B000062U6N",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1793435961",
+  "best50Year": "2025",
+  "best50Rank": "28",
+  "relatedReviews": [],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "GENEROUS",
+      "composers": "Bernarr Durand Ferebee, Jr., Chuck Harmony, Parson James, Claude Kelly",
+      "performer": "Durand Bernarr",
+      "time": "6:09"
+    },
+    {
+      "num": 2,
+      "title": "Flounce",
+      "composers": "Bernarr Durand Ferebee, Jr., Brittany Habermehl, Alana Linsey, Alayna Rodgers",
+      "performer": "Durand Bernarr feat. GAWD",
+      "time": "4:40"
+    },
+    {
+      "num": 3,
+      "title": "Impact",
+      "composers": "Bernarr Durand Ferebee, Jr., Brittany Habermehl, Alana Linsey, Alayna Rodgers",
+      "performer": "Durand Bernarr",
+      "time": "5:00"
+    },
+    {
+      "num": 4,
+      "title": "Jump",
+      "composers": "Bernarr Durand Ferebee, Jr., Jerome Castille, Kolesta &quot;Choklate&quot;\n                  Moore",
+      "performer": "Durand Bernarr",
+      "time": "4:23"
+    },
+    {
+      "num": 5,
+      "title": "No Business",
+      "composers": "Bernarr Durand Ferebee, Jr.",
+      "performer": "Durand Bernarr",
+      "time": "5:20"
+    },
+    {
+      "num": 6,
+      "title": "Overqualified",
+      "composers": "Bernarr Durand Ferebee, Jr.",
+      "performer": "Durand Bernarr",
+      "time": "5:20"
+    },
+    {
+      "num": 7,
+      "title": "Unspoken",
+      "composers": "Bernarr Durand Ferebee, Jr., James Abrahart?(trance singer, songwriter,\n                  producer &amp; arranger James Abrahart)",
+      "performer": "Durand Bernarr",
+      "time": "3:29"
+    },
+    {
+      "num": 8,
+      "title": "Completed",
+      "composers": "Bernarr Durand Ferebee, Jr.",
+      "performer": "Durand Bernarr",
+      "time": "5:49"
+    },
+    {
+      "num": 9,
+      "title": "Reaching",
+      "composers": "Bernarr Durand Ferebee, Jr.",
+      "performer": "Durand Bernarr",
+      "time": "4:31"
+    },
+    {
+      "num": 10,
+      "title": "PSST!",
+      "composers": "Bernarr Durand Ferebee, Jr.",
+      "performer": "Durand Bernarr",
+      "time": "4:33"
+    },
+    {
+      "num": 11,
+      "title": "Here We Are",
+      "composers": "Bernarr Durand Ferebee, Jr., Timothy Bloom",
+      "performer": "Durand Bernarr",
+      "time": "4:39"
+    },
+    {
+      "num": 12,
+      "title": "BLAST!",
+      "composers": "Bernarr Durand Ferebee, Jr., Ingrid Burley",
+      "performer": "Durand Bernarr",
+      "time": "5:01"
+    },
+    {
+      "num": 13,
+      "title": "THAT!",
+      "composers": "Bernarr Durand Ferebee, Jr., Faheem Najm",
+      "performer": "Durand Bernarr feat. T‐Pain",
+      "time": "4:21"
+    },
+    {
+      "num": 14,
+      "title": "Specialty",
+      "composers": "Bernarr Durand Ferebee, Jr., Ekela Dixon",
+      "performer": "Durand Bernarr",
+      "time": "6:26"
+    },
+    {
+      "num": 15,
+      "title": "Home Alone",
+      "composers": "Bernarr Durand Ferebee, Jr.",
+      "performer": "Durand Bernarr",
+      "time": "7:03"
+    }
+  ]
+}
