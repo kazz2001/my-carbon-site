@@ -159,8 +159,8 @@ function generateLVersion(data) {
   // 関連レビューのインポート文生成
   let relatedImports = '';
   if (relatedReviews.length > 0) {
-    relatedImports = '\n' + relatedReviews.map((review, index) => 
-      `import Review${index + 1} from "../review/${review}.mdx";`
+    relatedImports = '\n' + relatedReviews.map((review, index) =>
+      `import Review${index + 1} from "../review/${review.identifier}.mdx";`
     ).join('\n');
   }
   
@@ -181,15 +181,42 @@ function generateLVersion(data) {
   // トラックリスト生成
   let tracklistSection = '';
   if (tracks.length > 0) {
-    const trackRows = tracks.map(track => 
-      `| ${String(track.num).padEnd(3)} | ${track.title.padEnd(23)} | ${track.composers.padEnd(64)} | ${track.performer.padEnd(9)} | ${track.time} |`
-    ).join('\n');
+    // 各列の最大長を計算
+    let maxNumLen = 3; // "No."の最小長
+    let maxTitleLen = 5; // "Title"の最小長
+    let maxComposersLen = 9; // "Composers"の最小長
+    let maxPerformerLen = 9; // "Performer"の最小長
+    let maxTimeLen = 4; // "Time"の最小長
+    
+    tracks.forEach(track => {
+      const cleanTitle = track.title.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+      const cleanComposers = track.composers.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+      const cleanPerformer = track.performer.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+      
+      maxNumLen = Math.max(maxNumLen, String(track.num).length);
+      maxTitleLen = Math.max(maxTitleLen, cleanTitle.length);
+      maxComposersLen = Math.max(maxComposersLen, cleanComposers.length);
+      maxPerformerLen = Math.max(maxPerformerLen, cleanPerformer.length);
+      maxTimeLen = Math.max(maxTimeLen, track.time.length);
+    });
+    
+    const trackRows = tracks.map(track => {
+      // 改行を削除してスペースに置き換え
+      const cleanTitle = track.title.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+      const cleanComposers = track.composers.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+      const cleanPerformer = track.performer.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
+      
+      return `| ${String(track.num).padEnd(maxNumLen)} | ${cleanTitle.padEnd(maxTitleLen)} | ${cleanComposers.padEnd(maxComposersLen)} | ${cleanPerformer.padEnd(maxPerformerLen)} | ${track.time.padEnd(maxTimeLen)} |`;
+    }).join('\n');
+    
+    // セパレーター行を動的に生成
+    const separator = `| ${'-'.repeat(maxNumLen)} | ${'-'.repeat(maxTitleLen)} | ${'-'.repeat(maxComposersLen)} | ${'-'.repeat(maxPerformerLen)} | ${'-'.repeat(maxTimeLen)} |`;
     
     tracklistSection = `
 <h3>Tracks</h3>
 
-| No. | Title                   | Composers                                                        | Performer | Time  |
-| --- | ----------------------- | ---------------------------------------------------------------- | --------- | ----- |
+| ${'No.'.padEnd(maxNumLen)} | ${'Title'.padEnd(maxTitleLen)} | ${'Composers'.padEnd(maxComposersLen)} | ${'Performer'.padEnd(maxPerformerLen)} | ${'Time'.padEnd(maxTimeLen)} |
+${separator}
 ${trackRows}
 `;
   }
@@ -269,7 +296,7 @@ import { Link } from "gatsby";${relatedImports}
 \t\t\t<SliderJS1 value="${score1}" />
 \t\t  <SliderJS2 value="${score2}" />
 \t\t\t<SliderJS3 value="${score3}" />
-\t\t  <SliderJS4 value="${score4}" />
+\t\t  <SliderJS4 value="${score4 * 2}" />
 \t\t</div>
 \t</Column>
 \t<Column colMd={4} colLg={8} noGutterMdLeft="">

@@ -1,0 +1,154 @@
+{
+  "artistName": "Milton Nascimento &amp; Esperanza Spalding",
+  "artistNameJa": "",
+  "albumTitle": "Milton + esperanza",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "milton_esperanza1",
+  "reviewPara1": "Esperanza Spaldingがブラジルの至宝Milton Nascimentoと組んだ年齢差40歳オーバーのDuo作。Esperanzaが全曲Produceし、フォームとしてはJazzがベースではあるが、Miltonの楽曲数曲含めて半数近くはポルトガル語の唄になる。",
+  "reviewPara2": "全体的には静謐なトーンとなっているが、ところどころアバンギャルドなところもあって、Espelanzaの趣向が現れている。",
+  "reviewPara3": "渋さマックスのMiltonの声と可憐なEsperanzaの声は絶妙な親密感があって染みてくる。ゲストはDianne Reeves, Lianne La Havasといった女性Vocalに加え、Miltonの旧友、Paul Simonに、Wayne Shorterの⑯ではWayneの元妻のCarolinaと後半にかけて聴きどころも増えてくる。",
+  "reviewPara4": "80歳を越えて衰えが隠せないMiltonではあるが、Esperanzaの敬愛の念がそれを上回って、心暖まる作品になっている。",
+  "score1": "5",
+  "score2": "2",
+  "score3": "2",
+  "score4": "4",
+  "producers": "Esperanza Spalding(all)",
+  "guests": "Guinga, Elena,Pinderhughes, Orquestra Ouro Preto, Dianne Reeves, Lianne\n            La Havas, Maria Gadú, Tim Bernardes, Lula Galvão, Paul Simon, Carolina\n            Shorter, Shabaka Hutchings",
+  "amazonCom": "https://amzn.to/B000062U6N",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1742067922",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "espalding3",
+      "artistName": "Esperanza Spaldng",
+      "albumTitle": "12 Little Spells"
+    },
+    {
+      "identifier": "espalding2",
+      "artistName": "Esperanza Spalding",
+      "albumTitle": "Emily's D+Evolution"
+    },
+    {
+      "identifier": "espalding1",
+      "artistName": "Esperanza Spalding",
+      "albumTitle": "Radio Music Society"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "The Music was there",
+      "composers": "Justin Tyson",
+      "performer": "Milton Nascimento / Esperanza Spalding",
+      "time": "0:57"
+    },
+    {
+      "num": 2,
+      "title": "Cais",
+      "composers": "Milton Nascimento, Ronaldo Bastos",
+      "performer": "Milton Nascimento / Esperanza Spalding",
+      "time": "3:41"
+    },
+    {
+      "num": 3,
+      "title": "Late September",
+      "composers": "Esperanza Spalding",
+      "performer": "Milton Nascimento / Esperanza Spalding",
+      "time": "1:26"
+    },
+    {
+      "num": 4,
+      "title": "Outubro",
+      "composers": "Milton Nascimento",
+      "performer": "Milton Nascimento / Esperanza Spalding",
+      "time": "5:17"
+    },
+    {
+      "num": 5,
+      "title": "A Day in the Life",
+      "composers": "John Lennon, Paul McCartney",
+      "performer": "Milton Nascimento / Esperanza Spalding",
+      "time": "4:36"
+    },
+    {
+      "num": 6,
+      "title": "Interlude for Saci",
+      "composers": "Corey King",
+      "performer": "Milton Nascimento / Esperanza Spalding",
+      "time": "1:41"
+    },
+    {
+      "num": 7,
+      "title": "Saci",
+      "composers": "Guinga, Paulo César Pinheiro",
+      "performer": "Milton Nascimento / Esperanza Spalding feat. Guinga",
+      "time": "3:29"
+    },
+    {
+      "num": 8,
+      "title": "Wings for the Thought Bird",
+      "composers": "Esperanza Spalding",
+      "performer": "Milton Nascimento / Esperanza Spalding feat. Elena,Pinderhughes, Orquestra\n                  Ouro Preto",
+      "time": "3:06"
+    },
+    {
+      "num": 9,
+      "title": "The Way You Are",
+      "composers": "Esperanza Spalding",
+      "performer": "Milton Nascimento / Esperanza Spalding",
+      "time": "0:43"
+    },
+    {
+      "num": 10,
+      "title": "Earth Song",
+      "composers": "Michael Jackson",
+      "performer": "Milton Nascimento / Esperanza Spalding feat. Dianne Reeves",
+      "time": "6:42"
+    },
+    {
+      "num": 11,
+      "title": "Morro Velho",
+      "composers": "Milton Nascimento",
+      "performer": "Milton Nascimento / Esperanza Spalding feat. Orquestra Ouro Preto",
+      "time": "5:15"
+    },
+    {
+      "num": 12,
+      "title": "Saudade Dos Aviões Da Panair (Conversando No Bar)",
+      "composers": "Milton Nascimento, Fernando Brant",
+      "performer": "Milton Nascimento / Esperanza Spalding feat. Lianne La Havas, Maria Gadú,\n                  Tim Bernardes, Lula Galvão",
+      "time": "5:24"
+    },
+    {
+      "num": 13,
+      "title": "Um Vento Passou (Para Paul Simon)",
+      "composers": "Márcio Borges, Milton Nascimento",
+      "performer": "Milton Nascimento / Esperanza Spalding feat. Paul Simon",
+      "time": "4:36"
+    },
+    {
+      "num": 14,
+      "title": "Get It by Now",
+      "composers": "Esperanza Spalding",
+      "performer": "Milton Nascimento / Esperanza Spalding",
+      "time": "2:24"
+    },
+    {
+      "num": 15,
+      "title": "outro planeta",
+      "composers": "Justin Tyson",
+      "performer": "Milton Nascimento / Esperanza Spalding",
+      "time": "2:06"
+    },
+    {
+      "num": 16,
+      "title": "When You Dream",
+      "composers": "Wayne Shorter, Eddy Lee",
+      "performer": "Milton Nascimento / Esperanza Spalding feat. Carolina Shorter",
+      "time": "9:26"
+    }
+  ]
+}

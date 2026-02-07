@@ -1,0 +1,145 @@
+{
+  "artistName": "BadBadNotGood",
+  "artistNameJa": "",
+  "albumTitle": "Mid Spiral",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "badbadnotgood1",
+  "reviewPara1": "Torontoを拠点に活動するJazzユニット、BadBadNotGoodの2024年リリース作。3つのEP(Chaos, Order, Growth)を一枚のアルバムとしてまとめたもので、結果的に17曲、74分強の大作になっている。",
+  "reviewPara2": "メンバー3人に��要なサポーティンングメンバー3人を加えた6人がメインとなっており、ストレートなJazzというより、Jazzバンド編成によるインスト・ミュージック的な印象を受ける。演奏もアドリブよりメロディに重きが置かれている。",
+  "reviewPara3": "Vocal曲はコミカルな⑨のみ。Hip-Hopアーティストとの共演が多いユニットではあるが、Hip-Hopよりというわけではなく、逆にLatinなどっぽい曲があったりする。",
+  "reviewPara4": "肩ひじ張らず、ゆったりと聴くのが良さそうな作品である。",
+  "score1": "2",
+  "score2": "2",
+  "score3": "2",
+  "score4": "4",
+  "producers": "BadBadNotGood(all)",
+  "guests": "",
+  "amazonCom": "https://amzn.to/B000062U6N",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1755430264",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Eyes on Me",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "4:41"
+    },
+    {
+      "num": 2,
+      "title": "Take Me With You",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "3:18"
+    },
+    {
+      "num": 3,
+      "title": "Weird &amp; Wonderful",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "4:46"
+    },
+    {
+      "num": 4,
+      "title": "Mid Spiral",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "3:51"
+    },
+    {
+      "num": 5,
+      "title": "Last Laugh",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "3:08"
+    },
+    {
+      "num": 6,
+      "title": "Your Soul &amp; Mine",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "4:18"
+    },
+    {
+      "num": 7,
+      "title": "Playgroup",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "6:55"
+    },
+    {
+      "num": 8,
+      "title": "Juan's World",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "4:23"
+    },
+    {
+      "num": 9,
+      "title": "Taco Taco",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "2:13"
+    },
+    {
+      "num": 10,
+      "title": "S?tima Regra",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "5:31"
+    },
+    {
+      "num": 11,
+      "title": "Sunday Afternoon's Dream",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "3:36"
+    },
+    {
+      "num": 12,
+      "title": "Rewind Your Mind",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "4:49"
+    },
+    {
+      "num": 13,
+      "title": "First Love",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "4:45"
+    },
+    {
+      "num": 14,
+      "title": "Audacia",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "3:31"
+    },
+    {
+      "num": 15,
+      "title": "Celestial Hands",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "5:33"
+    },
+    {
+      "num": 16,
+      "title": "Ways of Seeing",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "5:32"
+    },
+    {
+      "num": 17,
+      "title": "White Light",
+      "composers": "BadBadNotGood, Felix Fox-Pappas / Juan Carlos Medrano / Kae Murphy",
+      "performer": "BadBadNotGood",
+      "time": "3:23"
+    }
+  ]
+}

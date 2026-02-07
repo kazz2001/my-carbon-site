@@ -79,13 +79,16 @@ function extractScore(html, editRegion) {
 }
 
 // 評点（星の数）を抽出
+// 大きな星 x1 + 小さな星 x0.5 で計算
 function extractRating(html) {
   const pattern = /<!-- #BeginEditable "F" -->(.*?)<!-- #EndEditable -->/s;
   const match = html.match(pattern);
   if (!match) return '0';
   
-  const stars = (match[1].match(/biz3_b3\.gif/g) || []).length;
-  return String(stars);
+  const bigStars = (match[1].match(/biz3_b3\.gif/gi) || []).length;
+  const smallStars = (match[1].match(/biz3_b3h\.gif/gi) || []).length;
+  const rating = bigStars + (smallStars * 0.5);
+  return String(rating);
 }
 
 // トラックリストを抽出
@@ -181,30 +184,36 @@ function extractRelatedReviews(html) {
   
   const otherReviewsSection = otherReviewsMatch[1];
   
-  // 各レビューのテーブルを抽出
-  const reviewPattern = /<table class="t4">.*?<a href="([^"]+)".*?<img src="([^"]+)".*?alt="\[([^\]]+)\]".*?<a href="[^"]+">([^<]+)<\/a>.*?<\/table>/gs;
+  // 各レビューの<tr>要素を個別に抽出（より柔軟なパターン）
+  const rowPattern = /<tr>\s*<td>\s*<a href="([^"]+)"[^>]*>\s*<img[^>]+alt="([^"]*)"[^>]*>\s*<\/a>\s*<\/td>\s*<td>\s*<a href="[^"]+">([^<]+)<\/a>\s*<\/td>\s*<\/tr>/gs;
   
   let match;
-  while ((match = reviewPattern.exec(otherReviewsSection)) !== null) {
+  while ((match = rowPattern.exec(otherReviewsSection)) !== null) {
     const url = match[1];
-    const imageUrl = match[2];
-    const altText = match[3];
-    const title = match[4].trim();
+    const altText = match[2];
+    let title = match[3].trim();
+    
+    // HTMLエンティティをデコード
+    title = decodeHTML(title);
     
     // URLから識別子を抽出（.htmまたは.htmlを除去）
     const identifierMatch = url.match(/([^\/]+)\.html?$/);
     const identifier = identifierMatch ? identifierMatch[1] : '';
     
     // タイトルからアーティスト名とアルバム名を分離
+    // "Meshell Ndegeocello / The Omnichord Real Book" のような形式
     const titleParts = title.split(' / ');
     const artistName = titleParts[0] ? titleParts[0].trim() : '';
     const albumTitle = titleParts[1] ? titleParts[1].trim() : '';
     
-    relatedReviews.push({
-      identifier: identifier,
-      artistName: artistName,
-      albumTitle: albumTitle
-    });
+    // 空のエントリは追加しない
+    if (identifier && artistName) {
+      relatedReviews.push({
+        identifier: identifier,
+        artistName: artistName,
+        albumTitle: albumTitle
+      });
+    }
   }
   
   return relatedReviews;

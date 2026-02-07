@@ -77,7 +77,7 @@ node generate-review-from-json.js config.json
   "score1": "4",
   "score2": "1",
   "score3": "1",
-  "score4": "9",
+  "score4": "4",
   "producers": "Anderson.Paak(1,5,7)\nDJ Khalil(2,12)\nMadlib(3)",
   "guests": "BJ The Chicago Kid, ScHoolboy Q, Rhapsody",
   "amazonCom": "https://amzn.to/3q7Qon9",
@@ -121,7 +121,7 @@ node generate-review-from-json.js config.json
 | `score1` | string | 評価指標1（0-10） | "4" |
 | `score2` | string | 評価指標2（0-10） | "1" |
 | `score3` | string | 評価指標3（0-10） | "1" |
-| `score4` | string | 総合評価（0-10） | "9" |
+| `score4` | string | 総合評価（0-5）※出力時に2倍される | "4" |
 
 ### オプションフィールド
 
@@ -168,7 +168,7 @@ node generate-review-from-json.js config.json
   "score1": "5",
   "score2": "1",
   "score3": "1",
-  "score4": "9"
+  "score4": "4"
 }
 ```
 
@@ -248,6 +248,46 @@ chmod +x generate-review-from-json.js
    ```
 
 5. 生成されたファイルを確認・編集
+
+## 🆕 最新の機能（2026-02-04更新）
+
+### 1. SliderJS4の自動2倍変換
+`score4`フィールドの値は、出力時に自動的に2倍されます。
+
+**例:**
+- JSONで`"score4": "4"`と指定 → 出力は`<SliderJS4 value="8" />`
+- JSONで`"score4": "5"`と指定 → 出力は`<SliderJS4 value="10" />`
+
+これにより、0-5の範囲で評価を入力すると、0-10の範囲で表示されます。
+
+### 2. 関連レビューのインポート文の改善
+`relatedReviews`配列に指定したidentifierが正しくインポート文に変換されます。
+
+**例:**
+```json
+"relatedReviews": ["ndegeocelllo5", "ndegeocelllo4", "ndegeocelllo3"]
+```
+
+**出力:**
+```javascript
+import Review1 from "../review/ndegeocelllo5.mdx";
+import Review2 from "../review/ndegeocelllo4.mdx";
+import Review3 from "../review/ndegeocelllo3.mdx";
+```
+
+### 3. トラックリストの改行処理
+トラックリストの各フィールド（title、composers、performer）に含まれる改行文字が自動的に削除され、スペースに置き換えられます。これにより、Markdownテーブルが正しく表示されます。
+
+### 4. トラックリストのセパレーター行の動的調整
+各列の最大長を自動計算し、セパレーター行（"-"の行）の長さを適切に調整します。
+
+**例:**
+```
+| No. | Title                   | Composers                                                                                                                                                        | Performer           | Time |
+| --- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- |
+```
+
+Composersカラムが長い場合、セパレーターも自動的に長くなります。
 
 ## 💡 Tips
 
