@@ -17,7 +17,9 @@ node scrape-review-to-json.js <URL>
 node scrape-review-to-json.js https://bm.planetky.com/durandbernerr1.html
 ```
 
-これにより、`durandbernerr1-review-config.json` が自動生成されます。
+これにより、`Bob/Bob_output/durandbernerr1-review-config.json` が自動生成されます。
+
+**注意**: 出力ファイルは `Bob/Bob_output` フォルダー内に保存されます。このフォルダーが存在しない場合は自動的に作成されます。
 
 ### 出力ファイル名を指定する場合
 
@@ -29,6 +31,8 @@ node scrape-review-to-json.js <URL> <出力ファイル名>
 ```bash
 node scrape-review-to-json.js https://bm.planetky.com/durandbernerr1.html custom-config.json
 ```
+
+この場合、`Bob/Bob_output/custom-config.json` が生成されます。
 
 ### 実行権限を付与して使用
 
@@ -84,10 +88,12 @@ HTMLを取得中...
 情報を抽出中...
 ✓ 情報抽出完了
 
+✓ 出力ディレクトリを作成しました: Bob/Bob_output
+
 ============================================================
 ✅ JSON設定ファイルを生成しました！
 ============================================================
-出力ファイル: durandbernerr1-review-config.json
+出力ファイル: Bob/Bob_output/durandbernerr1-review-config.json
 
 抽出された情報:
   アーティスト: Durand Bernerr
@@ -99,7 +105,7 @@ HTMLを取得中...
 
 ### 2. 生成されたJSONファイルを編集
 
-`durandbernerr1-review-config.json` を開いて、手動編集が必要な項目を入力：
+`Bob/Bob_output/durandbernerr1-review-config.json` を開いて、手動編集が必要な項目を入力：
 
 ```json
 {
@@ -119,7 +125,7 @@ HTMLを取得中...
 ### 3. レビューページを生成
 
 ```bash
-node generate-review-from-json.js durandbernerr1-review-config.json
+node generate-review-from-json.js Bob/Bob_output/durandbernerr1-review-config.json
 ```
 
 ### 4. アルバムジャケット画像を配置

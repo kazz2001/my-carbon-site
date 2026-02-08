@@ -298,8 +298,17 @@ async function main() {
     
     console.log('✓ 情報抽出完了\n');
     
+    // 出力ディレクトリの作成（スクリプトと同じディレクトリ内のBob_output）
+    const scriptDir = __dirname;
+    const outputDir = path.join(scriptDir, 'Bob_output');
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+      console.log(`✓ 出力ディレクトリを作成しました: ${outputDir}\n`);
+    }
+    
     // 出力ファイル名の決定
-    const outputFile = outputFilename || `${identifier}-review-config.json`;
+    const filename = outputFilename || `${identifier}-review-config.json`;
+    const outputFile = path.join(outputDir, filename);
     
     // JSONファイルに書き込み
     fs.writeFileSync(outputFile, JSON.stringify(config, null, 2), 'utf8');
