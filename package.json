@@ -22,8 +22,7 @@
     "@carbon/react": "^1.91.0",
     "gatsby": "^5.15.0",
     "gatsby-plugin-google-analytics": "^5.15.0",
-    "gatsby-theme-carbon": "4.2.21",
-    "puppeteer": "^24.37.2",
+    "gatsby-theme-carbon": "4.3.36",
     "react": "18.3.1",
     "react-dom": "^18.3.1",
     "yarn": "^1.22.22"

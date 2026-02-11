@@ -20,9 +20,23 @@ if (!reviewName || !year) {
   process.exit(1);
 }
 
-const cdYearPath = path.join(__dirname, 'src', 'pages', 'cd', `${year}.mdx`);
-const reviewPath = path.join(__dirname, 'src', 'pages', 'review', `${reviewName}.mdx`);
-const reviewAPath = path.join(__dirname, 'src', 'pages', 'review', `${reviewName}A.mdx`);
+// Validate year format (4 digits)
+if (!/^\d{4}$/.test(year)) {
+  console.error(`Error: Year must be a 4-digit number (e.g., 2025), got: ${year}`);
+  process.exit(1);
+}
+
+// Validate review name format (no special characters that could break file paths)
+if (!/^[a-zA-Z0-9_-]+$/.test(reviewName)) {
+  console.error(`Error: Review name can only contain letters, numbers, hyphens, and underscores, got: ${reviewName}`);
+  process.exit(1);
+}
+
+// Fix path resolution - go up one directory from Bob/ to project root
+const projectRoot = path.join(__dirname, '..');
+const cdYearPath = path.join(projectRoot, 'src', 'pages', 'cd', `${year}.mdx`);
+const reviewPath = path.join(projectRoot, 'src', 'pages', 'review', `${reviewName}.mdx`);
+const reviewAPath = path.join(projectRoot, 'src', 'pages', 'review', `${reviewName}A.mdx`);
 
 // Check if year file exists
 if (!fs.existsSync(cdYearPath)) {
@@ -42,7 +56,13 @@ if (!fs.existsSync(reviewAPath)) {
 }
 
 // Read the current year file
-let content = fs.readFileSync(cdYearPath, 'utf8');
+let content;
+try {
+  content = fs.readFileSync(cdYearPath, 'utf8');
+} catch (error) {
+  console.error(`Error: Failed to read year file: ${error.message}`);
+  process.exit(1);
+}
 
 // Split content into lines
 const lines = content.split('\n');
@@ -61,7 +81,7 @@ for (let i = 0; i < lines.length; i++) {
 
 const newReviewNumber = highestReviewNumber + 1;
 
-// Step 1: Add the new import at the top
+// Step 1: Add the new import at the top of Review imports
 const newLines = [];
 let firstReviewImportFound = false;
 
@@ -71,12 +91,19 @@ for (let i = 0; i < lines.length; i++) {
   // Check if we're at the first Review import
   if (!firstReviewImportFound && line.match(/^import Review\d+\s+from/)) {
     firstReviewImportFound = true;
-    // Insert the new review import at the top
+    // Insert the new review import at the top with consistent formatting (2 spaces after ReviewN)
     newLines.push(`import Review${newReviewNumber}  from "../review/${reviewName}.mdx";`);
   }
   
   // Add the current line
   newLines.push(line);
+}
+
+// Verify that we found at least one Review import
+if (!firstReviewImportFound) {
+  console.error('Error: No existing Review imports found in the year file');
+  console.error('The file may be corrupted or in an unexpected format');
+  process.exit(1);
 }
 
 // Step 2: Shift all Review numbers in Rows by 1
@@ -111,7 +138,7 @@ for (let i = 0; i < newLines.length; i++) {
   }
 }
 
-// Step 3: Add the new review to the first Row
+// Step 3: Add the new review to the first Row after PageDescription
 const finalLines = [];
 let firstRowFound = false;
 let firstRowStartIndex = -1;
@@ -135,15 +162,22 @@ for (let i = 0; i < shiftedLines.length; i++) {
       firstRowStartIndex = i;
       finalLines.push(line);
       
-      // Add the new review as the first column in this row
+      // Add the new review as the first column in this row (with space before />)
       finalLines.push('  <Column colMd={2} colLg={3} noGutterMdLeft>');
-      finalLines.push(`    <Review${newReviewNumber}/>`);
+      finalLines.push(`    <Review${newReviewNumber} />`);
       finalLines.push('  </Column>');
       continue;
     }
   }
   
   finalLines.push(line);
+}
+
+// Verify that we found the first Row
+if (!firstRowFound) {
+  console.error('Error: Could not find the first Row after PageDescription');
+  console.error('The file may be corrupted or in an unexpected format');
+  process.exit(1);
 }
 
 // Step 4: Add a new Row at the end for Review1
@@ -156,7 +190,12 @@ finalLines.push('</Row>');
 
 // Write the updated content back to the file
 const newContent = finalLines.join('\n');
-fs.writeFileSync(cdYearPath, newContent, 'utf8');
+try {
+  fs.writeFileSync(cdYearPath, newContent, 'utf8');
+} catch (error) {
+  console.error(`Error: Failed to write to year file: ${error.message}`);
+  process.exit(1);
+}
 
 console.log(`✓ Successfully added ${reviewName} to cd/${year}.mdx`);
 console.log(`  - Added import for Review${newReviewNumber}`);
