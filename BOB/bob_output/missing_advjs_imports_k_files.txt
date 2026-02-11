@@ -1,0 +1,66 @@
+Files in src/pages/review starting with 'k' and ending with 'L.mdx' that are MISSING the required import statements
+====================================================================================================
+
+Required statements that should be present:
+1. import AdvJS2 from "../review/adv2";
+2. import AdvJS3 from "../review/adv3";
+3. <AdvJS2/>
+4. <AdvJS3/>
+
+Files MISSING these statements (0 files):
+--------------------------------------------------
+
+None - All files have the required statements!
+
+
+Files that HAVE all required statements (38 files):
+--------------------------------------------------
+
+1. kaliuchis1L.mdx
+2. kaliuchis2L.mdx
+3. kaliuchis3L.mdx
+4. kaliuchis4L.mdx
+5. kamaiyah1L.mdx
+6. kamaiyah2L.mdx
+7. kamasiwashington2L.mdx
+8. kamasiwashington3L.mdx
+9. kamasiwashington4L.mdx
+10. kanyewest10L.mdx
+11. kanyewest11L.mdx
+12. kanyewest8L.mdx
+13. kanyewest9L.mdx
+14. kaytramine1L.mdx
+15. kaytranada1L.mdx
+16. kaytranada2L.mdx
+17. kehlani1L.mdx
+18. kehlani2L.mdx
+19. kehlani3L.mdx
+20. kehlani4L.mdx
+21. kehlani5L.mdx
+22. kelela2L.mdx
+23. kelela3L.mdx
+24. kendricklamar4L.mdx
+25. kendricklamar5L.mdx
+26. kendricklamar6L.mdx
+27. kendricklamar7L.mdx
+28. kfranklin3L.mdx
+29. khalid1L.mdx
+30. khalid2L.mdx
+31. kianalede1L.mdx
+32. kidcudi3L.mdx
+33. kidsseeghosts1L.mdx
+34. killermike2L.mdx
+35. kimgordon1L.mdx
+36. king1L.mdx
+37. kingprincess1L.mdx
+38. kojeyradical1L.mdx
+
+
+Summary:
+--------------------------------------------------
+Total files checked: 38
+Files missing statements: 0
+Files with statements: 38
+Missing rate: 0.0%
+
+Generated: 2026-02-11

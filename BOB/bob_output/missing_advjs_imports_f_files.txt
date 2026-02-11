@@ -1,0 +1,41 @@
+Files in src/pages/review starting with 'f' and ending with 'L.mdx' that are MISSING the required import statements
+====================================================================================================
+
+Required statements that should be present:
+1. import AdvJS2 from "../review/adv2";
+2. import AdvJS3 from "../review/adv3";
+3. <AdvJS2/>
+4. <AdvJS3/>
+
+Files MISSING these statements (0 files):
+--------------------------------------------------
+
+None - All files have the required statements!
+
+
+Files that HAVE all required statements (13 files):
+--------------------------------------------------
+
+1. fgibbsalchemist1L.mdx
+2. fgibbsalchemist2L.mdx
+3. fgibsandmadlib2L.mdx
+4. fkatwigs2L.mdx
+5. fkatwigs3L.mdx
+6. fkatwigs4L.mdx
+7. flyinglotus3L.mdx
+8. flyinglotus4L.mdx
+9. frankocean3L.mdx
+10. freddiegibbs1L.mdx
+11. future4L.mdx
+12. future5L.mdx
+13. future_metroboomin1L.mdx
+
+
+Summary:
+--------------------------------------------------
+Total files checked: 13
+Files missing statements: 0
+Files with statements: 13
+Missing rate: 0.0%
+
+Generated: 2026-02-11

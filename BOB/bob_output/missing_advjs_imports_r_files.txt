@@ -1,0 +1,49 @@
+Files in src/pages/review starting with 'r' and ending with 'L.mdx' that are MISSING the required import statements
+====================================================================================================
+
+Required statements that should be present:
+1. import AdvJS2 from "../review/adv2";
+2. import AdvJS3 from "../review/adv3";
+3. <AdvJS2/>
+4. <AdvJS3/>
+
+Files MISSING these statements (0 files):
+--------------------------------------------------
+
+None - All files have the required statements!
+
+
+Files that HAVE all required statements (21 files):
+--------------------------------------------------
+
+1. rapsody1L.mdx
+2. rapsody2L.mdx
+3. rapsody3L.mdx
+4. raulmidon1L.mdx
+5. ravynlenae1L.mdx
+6. ravynlenae2L.mdx
+7. raye1L.mdx
+8. redveil1L.mdx
+9. remiwolf1L.mdx
+10. remiwolf2L.mdx
+11. rihanna3L.mdx
+12. rinasawayama1L.mdx
+13. rinasawayama2L.mdx
+14. robertglasper2L.mdx
+15. robertglasper3L.mdx
+16. robinthicke4L.mdx
+17. rplusrequalnow1L.mdx
+18. rplusrequalnow2L.mdx
+19. rsaadiq6L.mdx
+20. runthejewels3L.mdx
+21. runthejewels4L.mdx
+
+
+Summary:
+--------------------------------------------------
+Total files checked: 21
+Files missing statements: 0
+Files with statements: 21
+Missing rate: 0.0%
+
+Generated: 2026-02-11
