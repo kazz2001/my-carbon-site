@@ -1,0 +1,95 @@
+---
+title: "Nourished By Time / The Passionate Ones"
+description: "Album Review of Nourished By Time / The Passionate Ones"
+keywords: "Nourished By Time, The Passionate Ones"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2025/">2025 Black Music Best No.10</Link>
+</p>
+
+<Row className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+  <ImageCard>
+
+![Nourished By Time / The Passionate Ones](../../images/cd/nourishedbytime1L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			Marcus Brownによるソロプロジェクト、Nourished By Timeの2ndアルバム。Baltimore出身ながらLondonを拠点に活動しているので、全体感はUK寄りに思える。
+			<br/>全曲、Song WritingとProduceも自分でこなし、DIY的に作ったものだが、完成度と統一感の高い作品になっている。
+			<br/>シンセポップをベースに、ヒップホップ、R&amp;B、Jazz、エレクトロなど様々なものをミックスしたジャンルレスな作風で、ミディアム中心にポップでメロディアスな曲が多数。都会の夜を想起させる印象だ。
+			<br/>Vocalも、少し濁った唄声で軽やかにアンニョイに唄っており、特徴になっている。
+		</p>
+		<div>
+			<Button className="button-right-mergin" href="https://amzn.to/4bWS0vk" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+				amazon.com
+			</Button>
+			<Button className="button-right-mergin" href="https://amzn.to/4kAyUgZ" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+				amazon.co.jp
+			</Button>
+			<Button className="button-right-mergin" href="https://apple.co/3MKfgCv" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+				apple music
+			</Button>
+			<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row>
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+			<h3>Score card</h3>
+			<SliderJS1 value="5" />
+			<SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+			<SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Nourished By Time(all)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                | Composers         | Performer         | Time  |
+| --- | -------------------- | ----------------- | ----------------- | ----- |
+| 1   | Automatic Love       | Nourished By Time | Nourished By Time | 04:04 |
+| 2   | Idiot in the Park    | Nourished By Time | Nourished By Time | 03:21 |
+| 3   | Max Potential        | Nourished By Time | Nourished By Time | 03:54 |
+| 4   | It's Time            | Nourished By Time | Nourished By Time | 04:11 |
+| 5   | Cult Interlude       | Nourished By Time | Nourished By Time | 02:01 |
+| 6   | 9 2 5                | Nourished By Time | Nourished By Time | 04:31 |
+| 7   | Crazy People         | Nourished By Time | Nourished By Time | 03:48 |
+| 8   | Jojo                 | Nourished By Time | Nourished By Time | 03:38 |
+| 9   | BABY BABY            | Nourished By Time | Nourished By Time | 03:19 |
+| 10  | Tossed Away          | Nourished By Time | Nourished By Time | 04:52 |
+| 11  | When the War Is Over | Nourished By Time | Nourished By Time | 03:31 |
+| 12  | The Passionate Ones  | Nourished By Time | Nourished By Time | 04:26 |
+
+<AdvJS3 />

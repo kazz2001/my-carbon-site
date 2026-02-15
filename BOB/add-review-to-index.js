@@ -2,8 +2,11 @@
 
 /**
  * Script to add a review to src/pages/index.mdx (Homepage)
+ * Reads from C:\Users\user\Documents\gatsby_v5\src\pages\review folder
  * Usage: node add-review-to-index.js <review-name>
  * Example: node add-review-to-index.js addisonrae1
+ *
+ * If no review name is provided, it will list available reviews from the review folder
  */
 
 const fs = require('fs');
@@ -12,6 +15,9 @@ const path = require('path');
 // Maximum number of reviews to keep on homepage
 const MAX_REVIEWS = 4;
 
+// Define the review folder path
+const reviewFolderPath = path.join('C:', 'Users', 'user', 'Documents', 'gatsby_v5', 'src', 'pages', 'review');
+
 // Get review name from command line argument
 const reviewName = process.argv[2];
 
@@ -19,12 +25,29 @@ if (!reviewName) {
   console.error('Error: Please provide a review name');
   console.log('Usage: node add-review-to-index.js <review-name>');
   console.log('Example: node add-review-to-index.js addisonrae1');
+  console.log('\nAvailable reviews in the review folder:');
+  
+  // List available reviews from the review folder
+  try {
+    const files = fs.readdirSync(reviewFolderPath);
+    const reviewFiles = files.filter(f => f.endsWith('.mdx') && !f.endsWith('A.mdx') && !f.endsWith('L.mdx'));
+    const reviewNames = reviewFiles.map(f => f.replace('.mdx', '')).sort();
+    
+    if (reviewNames.length > 0) {
+      reviewNames.forEach(name => console.log(`  - ${name}`));
+    } else {
+      console.log('  (No review files found)');
+    }
+  } catch (err) {
+    console.error(`Error reading review folder: ${err.message}`);
+  }
+  
   process.exit(1);
 }
 
-const indexPath = path.join(__dirname, 'src', 'pages', 'index.mdx');
-const reviewPath = path.join(__dirname, 'src', 'pages', 'review', `${reviewName}.mdx`);
-const reviewAPath = path.join(__dirname, 'src', 'pages', 'review', `${reviewName}A.mdx`);
+const indexPath = path.join(__dirname, '..', 'src', 'pages', 'index.mdx');
+const reviewPath = path.join(reviewFolderPath, `${reviewName}.mdx`);
+const reviewAPath = path.join(reviewFolderPath, `${reviewName}A.mdx`);
 
 // Check if review files exist
 if (!fs.existsSync(reviewPath)) {

@@ -2,8 +2,12 @@
 
 /**
  * Script to add a review to src/pages/latest/index.mdx
- * Usage: node add-review-to-latest.js <review-name>
+ * Usage: node add-review-to-latest.js [review-name]
  * Example: node add-review-to-latest.js addisonrae1
+ *
+ * If no review name is provided, the script will read from:
+ * C:\Users\user\Documents\gatsby_v5\src\pages\review
+ * and find the most recently modified review file pair (base + A variant)
  */
 
 const fs = require('fs');
@@ -12,19 +16,58 @@ const path = require('path');
 // Maximum number of reviews to keep
 const MAX_REVIEWS = 10;
 
-// Get review name from command line argument
-const reviewName = process.argv[2];
+// Define the review folder path
+const reviewFolderPath = path.join(__dirname, '..', 'src', 'pages', 'review');
+
+// Get review name from command line argument or auto-detect from folder
+let reviewName = process.argv[2];
 
 if (!reviewName) {
-  console.error('Error: Please provide a review name');
-  console.log('Usage: node add-review-to-latest.js <review-name>');
-  console.log('Example: node add-review-to-latest.js addisonrae1');
-  process.exit(1);
+  console.log('No review name provided. Scanning review folder for latest review...');
+  
+  // Read all files from the review folder
+  const files = fs.readdirSync(reviewFolderPath);
+  
+  // Filter for .mdx files that have both base and A variant
+  const reviewPairs = [];
+  const baseFiles = files.filter(f => f.endsWith('.mdx') && !f.endsWith('A.mdx') && !f.endsWith('L.mdx'));
+  
+  for (const baseFile of baseFiles) {
+    const baseName = baseFile.replace('.mdx', '');
+    const aFile = `${baseName}A.mdx`;
+    
+    if (files.includes(aFile)) {
+      const baseFilePath = path.join(reviewFolderPath, baseFile);
+      const aFilePath = path.join(reviewFolderPath, aFile);
+      
+      // Get the most recent modification time of the pair
+      const baseStats = fs.statSync(baseFilePath);
+      const aStats = fs.statSync(aFilePath);
+      const mostRecentTime = Math.max(baseStats.mtimeMs, aStats.mtimeMs);
+      
+      reviewPairs.push({
+        name: baseName,
+        time: mostRecentTime
+      });
+    }
+  }
+  
+  if (reviewPairs.length === 0) {
+    console.error('Error: No valid review pairs found in the review folder');
+    console.log('A valid review pair consists of: <name>.mdx and <name>A.mdx');
+    process.exit(1);
+  }
+  
+  // Sort by most recent and pick the latest
+  reviewPairs.sort((a, b) => b.time - a.time);
+  reviewName = reviewPairs[0].name;
+  
+  console.log(`✓ Found latest review: ${reviewName}`);
 }
 
-const latestIndexPath = path.join(__dirname, 'src', 'pages', 'latest', 'index.mdx');
-const reviewPath = path.join(__dirname, 'src', 'pages', 'review', `${reviewName}.mdx`);
-const reviewAPath = path.join(__dirname, 'src', 'pages', 'review', `${reviewName}A.mdx`);
+const latestIndexPath = path.join(__dirname, '..', 'src', 'pages', 'latest', 'index.mdx');
+const reviewPath = path.join(reviewFolderPath, `${reviewName}.mdx`);
+const reviewAPath = path.join(reviewFolderPath, `${reviewName}A.mdx`);
 
 // Check if review files exist
 if (!fs.existsSync(reviewPath)) {
