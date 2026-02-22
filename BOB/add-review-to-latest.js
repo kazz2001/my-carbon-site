@@ -86,11 +86,25 @@ let content = fs.readFileSync(latestIndexPath, 'utf8');
 // Split content into lines
 const lines = content.split('\n');
 
-// Find the import section
+// Find the "# Latest Album Reviews" line - we only modify content before this line
+let latestAlbumReviewsIndex = -1;
+for (let i = 0; i < lines.length; i++) {
+  if (lines[i].trim() === '# Latest Album Reviews') {
+    latestAlbumReviewsIndex = i;
+    break;
+  }
+}
+
+if (latestAlbumReviewsIndex === -1) {
+  console.error('Error: Could not find "# Latest Album Reviews" section in index.mdx');
+  process.exit(1);
+}
+
+// Find the import section (only before "# Latest Album Reviews")
 let importEndIndex = -1;
 let lastReviewNumber = 0;
 
-for (let i = 0; i < lines.length; i++) {
+for (let i = 0; i < latestAlbumReviewsIndex; i++) {
   const line = lines[i];
   
   // Find the last import Review line
@@ -109,11 +123,11 @@ if (importEndIndex === -1) {
   process.exit(1);
 }
 
-// Shift all existing imports down by 1, skip Review11 and above
-const newLines = [];
+// Process only the lines before "# Latest Album Reviews"
+const beforeSection = [];
 let inImportSection = false;
 
-for (let i = 0; i < lines.length; i++) {
+for (let i = 0; i < latestAlbumReviewsIndex; i++) {
   const line = lines[i];
   
   // Check if we're in the import section
@@ -122,8 +136,8 @@ for (let i = 0; i < lines.length; i++) {
     
     // If this is the first Review import, insert the new review before it
     if (line.match(/^import Review1\s+from/)) {
-      newLines.push(`import Review1    from "../review/${reviewName}.mdx";`);
-      newLines.push(`import Review1A   from "../review/${reviewName}A.mdx";`);
+      beforeSection.push(`import Review1    from "../review/${reviewName}.mdx";`);
+      beforeSection.push(`import Review1A   from "../review/${reviewName}A.mdx";`);
     }
     
     // Shift the existing review number up by 1, but skip if it would become Review11 or higher
@@ -138,82 +152,23 @@ for (let i = 0; i < lines.length; i++) {
       if (newNum <= MAX_REVIEWS) {
         // Preserve spacing
         const spaces = line.match(/Review\d+(A?)\s+/)[0].replace(/Review\d+A?/, '');
-        newLines.push(`import Review${newNum}${suffix}${spaces}from "${importPath}";`);
+        beforeSection.push(`import Review${newNum}${suffix}${spaces}from "${importPath}";`);
       }
     }
   } else if (inImportSection && line.trim() === '') {
     // End of import section
     inImportSection = false;
-    newLines.push(line);
-  } else if (line.match(/<Row>/)) {
-    // In the Row section, we need to shift Review numbers
-    const nextLine = lines[i + 1];
-    if (nextLine && nextLine.match(/<Review\d+/)) {
-      // This is a Review Row, shift the numbers
-      const reviewMatch = nextLine.match(/<Review(\d+)(\s*\/?>)/);
-      if (reviewMatch) {
-        const oldNum = parseInt(reviewMatch[1]);
-        const newNum = oldNum + 1;
-        
-        // Skip this Row if it would become Review11 or higher
-        if (newNum > MAX_REVIEWS) {
-          // Skip the entire Row block
-          while (i < lines.length - 1) {
-            i++;
-            if (lines[i].match(/<\/Row>/)) {
-              break;
-            }
-          }
-          continue;
-        }
-        
-        // Add the row with shifted number
-        newLines.push(line);
-        i++;
-        newLines.push(nextLine.replace(`<Review${oldNum}`, `<Review${newNum}`));
-        
-        // Process the rest of the Row
-        while (i < lines.length - 1) {
-          i++;
-          const currentLine = lines[i];
-          
-          // Shift Review numbers in this line
-          const shiftedLine = currentLine.replace(/<Review(\d+)(A?)(\s*\/?>)/g, (match, num, suffix, rest) => {
-            return `<Review${parseInt(num) + 1}${suffix}${rest}`;
-          });
-          
-          newLines.push(shiftedLine);
-          
-          // Check if this is the end of the Row
-          if (currentLine.match(/<\/Row>/)) {
-            break;
-          }
-        }
-        continue;
-      }
-    }
-    newLines.push(line);
+    beforeSection.push(line);
   } else {
-    newLines.push(line);
+    beforeSection.push(line);
   }
 }
 
-// Now insert the new Review1 Row at the beginning of the Row section
-const rowSectionStart = newLines.findIndex(line => line.match(/<Row>/));
-if (rowSectionStart !== -1) {
-  const newRow = [
-    '<Row>',
-    '  <Column colMd={2} colLg={3} noGutterMdLeft>',
-    '    <Review1 />',
-    '  </Column>',
-    '  <Column colMd={5} colLg={8} noGutterMdLeft>',
-    '    <Review1A />',
-    '  </Column>',
-    '</Row>'
-  ];
-  
-  newLines.splice(rowSectionStart, 0, ...newRow);
-}
+// Keep everything from "# Latest Album Reviews" onwards unchanged
+const afterSection = lines.slice(latestAlbumReviewsIndex);
+
+// Combine the sections
+const newLines = [...beforeSection, ...afterSection];
 
 // Write the updated content back to the file
 const newContent = newLines.join('\n');
@@ -221,8 +176,8 @@ fs.writeFileSync(latestIndexPath, newContent, 'utf8');
 
 console.log(`✓ Successfully added ${reviewName} to latest/index.mdx`);
 console.log(`  - Added imports for Review1 and Review1A`);
-console.log(`  - Shifted all existing reviews down by 1`);
-console.log(`  - Added Row component for the new review`);
-console.log(`  - Removed Review11 and Review11A (keeping max ${MAX_REVIEWS} reviews)`);
+console.log(`  - Shifted all existing imports down by 1`);
+console.log(`  - Removed Review11 and Review11A imports (keeping max ${MAX_REVIEWS} reviews)`);
+console.log(`  - Content after "# Latest Album Reviews" remains unchanged`);
 
 // Made with Bob

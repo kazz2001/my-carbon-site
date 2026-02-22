@@ -92,6 +92,7 @@ if (importEndIndex === -1) {
 // Shift all existing imports down by 1, skip Review5 and above
 const newLines = [];
 let inReviewImportSection = false;
+let newReviewInserted = false;
 
 for (let i = 0; i < lines.length; i++) {
   const line = lines[i];
@@ -100,10 +101,11 @@ for (let i = 0; i < lines.length; i++) {
   if (line.match(/^import Review\d+\s+from/)) {
     inReviewImportSection = true;
     
-    // If this is the first Review import, insert the new review before it
-    if (line.match(/^import Review1\s+from/)) {
+    // If this is the first Review import and we haven't inserted the new review yet
+    if (line.match(/^import Review1\s+from/) && !newReviewInserted) {
       newLines.push(`import Review1   from "./review/${reviewName}.mdx";`);
       newLines.push(`import Review1A  from "./review/${reviewName}A.mdx";`);
+      newReviewInserted = true;
     }
     
     // Shift the existing review number up by 1, but skip if it would become Review5 or higher
@@ -182,7 +184,7 @@ for (let i = 0; i < lines.length; i++) {
 // Find the first Row after the "最新アルバムレビュー" heading
 let foundAlbumHeading = false;
 for (let i = 0; i < newLines.length; i++) {
-  if (newLines[i].includes('最新アルバムレビュー') || newLines[i].includes('Latest Album Reviews')) {
+  if (newLines[i].includes('最新アルバムレビュー')) {
     foundAlbumHeading = true;
   }
   
