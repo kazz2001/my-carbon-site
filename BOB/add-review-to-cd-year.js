@@ -106,87 +106,79 @@ if (!firstReviewImportFound) {
   process.exit(1);
 }
 
-// Step 2: Shift all Review numbers in Rows by 1
-const shiftedLines = [];
-let inRow = false;
+// Step 2 & 3: Collect all Column blocks from all Rows after PageDescription,
+// prepend the new review Column, then redistribute into Rows of 4 columns each.
+const COLUMNS_PER_ROW = 4;
 
+// Find the index where PageDescription ends and content Rows begin
+let pageDescEndIndex = -1;
 for (let i = 0; i < newLines.length; i++) {
-  const line = newLines[i];
-  
-  if (line.match(/<Row>/)) {
-    inRow = true;
-    shiftedLines.push(line);
-    continue;
-  }
-  
-  if (line.match(/<\/Row>/)) {
-    inRow = false;
-    shiftedLines.push(line);
-    continue;
-  }
-  
-  if (inRow && line.match(/<Review\d+/)) {
-    // Shift the Review number by 1
-    const shiftedLine = line.replace(/<Review(\d+)(\s*\/?>)/g, (match, num, rest) => {
-      const oldNum = parseInt(num);
-      const newNum = oldNum + 1;
-      return `<Review${newNum}${rest}`;
-    });
-    shiftedLines.push(shiftedLine);
-  } else {
-    shiftedLines.push(line);
+  if (newLines[i].includes('</PageDescription>')) {
+    pageDescEndIndex = i;
+    break;
   }
 }
 
-// Step 3: Add the new review to the first Row after PageDescription
-const finalLines = [];
-let firstRowFound = false;
-let firstRowStartIndex = -1;
-
-for (let i = 0; i < shiftedLines.length; i++) {
-  const line = shiftedLines[i];
-  
-  // Find the first Row after PageDescription
-  if (!firstRowFound && line.match(/<Row>/) && i > 0) {
-    // Check if we're past the PageDescription
-    let pastDescription = false;
-    for (let j = 0; j < i; j++) {
-      if (shiftedLines[j].includes('</PageDescription>')) {
-        pastDescription = true;
-        break;
-      }
-    }
-    
-    if (pastDescription) {
-      firstRowFound = true;
-      firstRowStartIndex = i;
-      finalLines.push(line);
-      
-      // Add the new review as the first column in this row (with space before />)
-      finalLines.push('  <Column colMd={2} colLg={3} noGutterMdLeft>');
-      finalLines.push(`    <Review${newReviewNumber} />`);
-      finalLines.push('  </Column>');
-      continue;
-    }
-  }
-  
-  finalLines.push(line);
-}
-
-// Verify that we found the first Row
-if (!firstRowFound) {
-  console.error('Error: Could not find the first Row after PageDescription');
-  console.error('The file may be corrupted or in an unexpected format');
+if (pageDescEndIndex === -1) {
+  console.error('Error: Could not find </PageDescription> in the year file');
   process.exit(1);
 }
 
-// Step 4: Add a new Row at the end for Review1
-finalLines.push('');
-finalLines.push('<Row>');
-finalLines.push('  <Column colMd={2} colLg={3} noGutterMdLeft>');
-finalLines.push('    <Review1 />');
-finalLines.push('  </Column>');
-finalLines.push('</Row>');
+// Collect all Column blocks from content Rows (after PageDescription)
+// A Column block is the lines from <Column ...> to </Column>
+const allColumnBlocks = [];
+let firstContentRowIndex = -1;
+let lastContentRowEndIndex = -1;
+
+for (let i = pageDescEndIndex + 1; i < newLines.length; i++) {
+  if (newLines[i].match(/<Row>/)) {
+    if (firstContentRowIndex === -1) firstContentRowIndex = i;
+    // Collect columns in this Row
+    let j = i + 1;
+    while (j < newLines.length && !newLines[j].match(/<\/Row>/)) {
+      if (newLines[j].match(/<Column/)) {
+        const colBlock = [newLines[j]];
+        j++;
+        while (j < newLines.length && !newLines[j].match(/<\/Column>/)) {
+          colBlock.push(newLines[j]);
+          j++;
+        }
+        colBlock.push(newLines[j]); // </Column>
+        allColumnBlocks.push(colBlock);
+      }
+      j++;
+    }
+    lastContentRowEndIndex = j;
+    i = j;
+  }
+}
+
+if (firstContentRowIndex === -1) {
+  console.error('Error: Could not find any content Rows after PageDescription');
+  process.exit(1);
+}
+
+// Prepend the new review Column
+const newColumn = [
+  '  <Column colMd={2} colLg={3} noGutterMdLeft>',
+  `    <Review${newReviewNumber} />`,
+  '  </Column>'
+];
+allColumnBlocks.unshift(newColumn);
+
+// Rebuild lines: everything before first content Row, then new Rows, then nothing after last Row end
+const finalLines = newLines.slice(0, firstContentRowIndex);
+
+// Redistribute columns into Rows of COLUMNS_PER_ROW
+for (let i = 0; i < allColumnBlocks.length; i += COLUMNS_PER_ROW) {
+  const rowCols = allColumnBlocks.slice(i, i + COLUMNS_PER_ROW);
+  if (i > 0) finalLines.push('');
+  finalLines.push('<Row>');
+  for (const col of rowCols) {
+    for (const l of col) finalLines.push(l);
+  }
+  finalLines.push('</Row>');
+}
 
 // Write the updated content back to the file
 const newContent = finalLines.join('\n');
@@ -197,11 +189,14 @@ try {
   process.exit(1);
 }
 
+const totalRows = Math.ceil(allColumnBlocks.length / COLUMNS_PER_ROW);
+const lastRowCols = allColumnBlocks.length % COLUMNS_PER_ROW || COLUMNS_PER_ROW;
+
 console.log(`✓ Successfully added ${reviewName} to cd/${year}.mdx`);
 console.log(`  - Added import for Review${newReviewNumber}`);
-console.log(`  - Shifted all existing reviews down by 1`);
-console.log(`  - Added Review${newReviewNumber} to the first Row`);
-console.log(`  - Added new Row at the end for Review1`);
+console.log(`  - Added Review${newReviewNumber} as first Column in the first Row`);
+console.log(`  - Redistributed all ${allColumnBlocks.length} reviews into ${totalRows} Rows of ${COLUMNS_PER_ROW}`);
+console.log(`  - Last Row has ${lastRowCols} column(s)`);
 console.log(`  - Total reviews: ${newReviewNumber}`);
 
 // Made with Bob

@@ -98,7 +98,7 @@ for (let i = 0; i < lines.length; i++) {
   const line = lines[i];
   
   // Check if we're in the Review import section (not BookReview)
-  if (line.match(/^import Review\d+\s+from/)) {
+  if (line.match(/^import Review\d+A?\s+from/)) {
     inReviewImportSection = true;
     
     // If this is the first Review import and we haven't inserted the new review yet
@@ -149,6 +149,19 @@ for (let i = 0; i < lines.length; i++) {
           continue;
         }
         
+        // If this is the first Review Row (Review1), insert new Review1 Row before shifting
+        if (oldNum === 1 && !newReviewInserted) {
+          newLines.push('<Row>');
+          newLines.push('  <Column colMd={2} colLg={3} noGutterMdLeft>');
+          newLines.push('    <Review1 />');
+          newLines.push('  </Column>');
+          newLines.push('  <Column colMd={5} colLg={8} noGutterMdLeft>');
+          newLines.push('    <Review1A />');
+          newLines.push('  </Column>');
+          newLines.push('</Row>');
+          newReviewInserted = true;
+        }
+        
         // Add the row with shifted number
         newLines.push(line);
         i++;
@@ -177,31 +190,6 @@ for (let i = 0; i < lines.length; i++) {
     newLines.push(line);
   } else {
     newLines.push(line);
-  }
-}
-
-// Now insert the new Review1 Row at the beginning of the Row section
-// Find the first Row after the "最新アルバムレビュー" heading
-let foundAlbumHeading = false;
-for (let i = 0; i < newLines.length; i++) {
-  if (newLines[i].includes('最新アルバムレビュー')) {
-    foundAlbumHeading = true;
-  }
-  
-  if (foundAlbumHeading && newLines[i].match(/<Row>/)) {
-    const newRow = [
-      '<Row>',
-      '  <Column colMd={2} colLg={3} noGutterMdLeft>',
-      '    <Review1 />',
-      '  </Column>',
-      '  <Column colMd={5} colLg={8} noGutterMdLeft>',
-      '    <Review1A />',
-      '  </Column>',
-      '</Row>'
-    ];
-    
-    newLines.splice(i, 0, ...newRow);
-    break;
   }
 }
 
