@@ -1,11 +1,43 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+const path = require('path');
 
-async function fetchAppleMusicCreditsUrls(songUrl) {
-  console.log(`アクセス中: ${songUrl}\n`);
+// Chromeの実行可能ファイルパスを検索
+function findChromePath() {
+  const possiblePaths = [
+    process.env.CHROME_PATH,
+    'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+    'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe',
+    'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
+    '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', // macOS
+    '/usr/bin/google-chrome', // Linux
+    '/usr/bin/chromium-browser' // Linux
+  ];
+
+  for (const chromePath of possiblePaths) {
+    if (chromePath && fs.existsSync(chromePath)) {
+      return chromePath;
+    }
+  }
+
+  return undefined; // デフォルトのChromiumを使用
+}
+
+async function fetchAppleMusicCreditsUrls(inputUrl) {
+  console.log(`アクセス中: ${inputUrl}\n`);
+  
+  const chromePath = findChromePath();
+  if (chromePath) {
+    console.log(`使用するブラウザ: ${chromePath}\n`);
+  } else {
+    console.log('警告: ChromeまたはEdgeが見つかりません。デフォルトのChromiumを使用します。');
+    console.log('コンテキストメニューが表示されない場合は、CHROME_PATH環境変数を設定してください。\n');
+  }
   
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: false, // ログインが必要な場合があるため、ブラウザを表示
+    executablePath: chromePath,
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
   
@@ -13,28 +45,50 @@ async function fetchAppleMusicCreditsUrls(songUrl) {
     const page = await browser.newPage();
     await page.setViewport({ width: 1920, height: 3840 });
     
-    // 最初の曲のページにアクセス
-    await page.goto(songUrl, { waitUntil: 'networkidle2', timeout: 60000 });
+    let albumUrl;
     
-    // アルバムリンクを見つけてクリック
-    console.log('アルバムページに移動中...');
-    await page.waitForSelector('a[href*="/album/"]', { timeout: 10000 });
-    
-    // アルバムURLを取得
-    const albumUrl = await page.evaluate(() => {
-      const albumLink = document.querySelector('a[href*="/album/"]');
-      return albumLink ? albumLink.href : null;
-    });
-    
-    if (!albumUrl) {
-      throw new Error('アルバムURLが見つかりませんでした');
+    // URLがアルバムURLかどうかを判定
+    if (inputUrl.includes('/album/')) {
+      console.log('アルバムURLが指定されました');
+      albumUrl = inputUrl;
+    } else {
+      // 曲URLの場合、アルバムページに移動
+      console.log('曲URLからアルバムページに移動中...');
+      await page.goto(inputUrl, { waitUntil: 'networkidle2', timeout: 60000 });
+      await page.waitForSelector('a[href*="/album/"]', { timeout: 10000 });
+      
+      // アルバムURLを取得
+      albumUrl = await page.evaluate(() => {
+        const albumLink = document.querySelector('a[href*="/album/"]');
+        return albumLink ? albumLink.href : null;
+      });
+      
+      if (!albumUrl) {
+        throw new Error('アルバムURLが見つかりませんでした');
+      }
+      
+      console.log(`アルバムURL: ${albumUrl}`);
     }
-    
-    console.log(`アルバムURL: ${albumUrl}`);
     
     // アルバムページに移動
     await page.goto(albumUrl, { waitUntil: 'networkidle2', timeout: 60000 });
-    await page.waitForTimeout(3000);
+    await new Promise(resolve => setTimeout(resolve, 3000));
+    
+    // ログインを促すメッセージ
+    console.log('='.repeat(80));
+    console.log('重要: Apple Musicにログインしてください');
+    console.log('ブラウザが起動しています。Apple IDでログインしてから、');
+    console.log('このターミナルでEnterキーを押して続行してください。');
+    console.log('='.repeat(80));
+    
+    // ユーザーの入力を待つ
+    await new Promise(resolve => {
+      process.stdin.once('data', () => {
+        resolve();
+      });
+    });
+    
+    console.log('\n処理を続行します...\n');
     
     // アルバム情報を取得
     const albumInfo = await page.evaluate(() => {
@@ -54,12 +108,47 @@ async function fetchAppleMusicCreditsUrls(songUrl) {
     console.log('トラックリストを取得中...');
     
     const tracks = await page.evaluate(() => {
-      const trackElements = document.querySelectorAll('[data-testid="track-list"] [role="button"]');
       const trackList = [];
       
+      // 複数のセレクタパターンを試す
+      let trackElements = document.querySelectorAll('[data-testid="track-list"] [role="button"]');
+      
+      // 代替セレクタ1: トラック行を直接探す
+      if (trackElements.length === 0) {
+        trackElements = document.querySelectorAll('[data-testid="track-list-row"]');
+      }
+      
+      // 代替セレクタ2: より汎用的なセレクタ
+      if (trackElements.length === 0) {
+        trackElements = document.querySelectorAll('div[role="row"][data-testid*="track"]');
+      }
+      
+      // 代替セレクタ3: さらに汎用的
+      if (trackElements.length === 0) {
+        const trackListContainer = document.querySelector('[data-testid="track-list"]');
+        if (trackListContainer) {
+          trackElements = trackListContainer.querySelectorAll('[role="button"]');
+        }
+      }
+      
       trackElements.forEach((element, index) => {
-        const titleElement = element.querySelector('[data-testid="track-title"]');
-        if (titleElement) {
+        // 複数のタイトルセレクタパターンを試す
+        let titleElement = element.querySelector('[data-testid="track-title"]');
+        
+        if (!titleElement) {
+          titleElement = element.querySelector('[data-testid*="title"]');
+        }
+        
+        if (!titleElement) {
+          // テキストコンテンツから直接取得
+          const textContent = element.textContent.trim();
+          if (textContent) {
+            trackList.push({
+              number: index + 1,
+              title: textContent.split('\n')[0].trim()
+            });
+          }
+        } else {
           trackList.push({
             number: index + 1,
             title: titleElement.textContent.trim()
@@ -80,23 +169,57 @@ async function fetchAppleMusicCreditsUrls(songUrl) {
       console.log(`処理中: ${track.number}. ${track.title}`);
       
       try {
-        // トラックの「...」メニューボタンをクリック
-        const menuButtons = await page.$$('[data-testid="track-list"] [role="button"]');
+        // トラック要素を再取得（複数のセレクタパターンを試す）
+        let trackElements = await page.$$('[data-testid="track-list"] [role="button"]');
         
-        if (menuButtons[i]) {
-          // トラック行の「...」ボタンを探す
-          const moreButton = await menuButtons[i].$('button[aria-label*="More"]');
+        if (trackElements.length === 0) {
+          trackElements = await page.$$('[data-testid="track-list-row"]');
+        }
+        
+        if (trackElements.length === 0) {
+          trackElements = await page.$$('div[role="row"][data-testid*="track"]');
+        }
+        
+        if (trackElements.length === 0) {
+          const trackListContainer = await page.$('[data-testid="track-list"]');
+          if (trackListContainer) {
+            trackElements = await trackListContainer.$$('[role="button"]');
+          }
+        }
+        
+        if (trackElements[i]) {
+          // トラック要素全体の境界ボックスを取得
+          const box = await trackElements[i].boundingBox();
           
-          if (moreButton) {
-            await moreButton.click();
-            await page.waitForTimeout(500);
+          if (box) {
+            // トラック要素の右端付近を右クリック
+            const x = box.x + box.width - 50; // 右端から50px左
+            const y = box.y + box.height / 2; // 垂直方向の中央
+            
+            await page.mouse.click(x, y, { button: 'right' });
+            await new Promise(resolve => setTimeout(resolve, 1500));
+            
+            // デバッグ: メニュー項目を確認
+            const menuInfo = await page.evaluate(() => {
+              const menuItems = Array.from(document.querySelectorAll('[role="menuitem"]'));
+              return {
+                count: menuItems.length,
+                texts: menuItems.map(item => item.textContent.trim())
+              };
+            });
+            
+            console.log(`  メニュー項目数: ${menuInfo.count}`);
+            if (menuInfo.count > 0) {
+              console.log(`  メニュー項目: ${menuInfo.texts.join(', ')}`);
+            }
             
             // 「View Credits」メニュー項目を探してクリック
             const clicked = await page.evaluate(() => {
               const menuItems = Array.from(document.querySelectorAll('[role="menuitem"]'));
               const viewCreditsItem = menuItems.find(item =>
                 item.textContent.includes('View Credits') ||
-                item.textContent.includes('クレジットを表示')
+                item.textContent.includes('クレジットを表示') ||
+                item.textContent.includes('クレジット')
               );
               
               if (viewCreditsItem) {
@@ -107,7 +230,7 @@ async function fetchAppleMusicCreditsUrls(songUrl) {
             });
             
             if (clicked) {
-              await page.waitForTimeout(2000);
+              await new Promise(resolve => setTimeout(resolve, 2000));
               
               // 現在のURLを取得
               const creditsUrl = page.url();
@@ -122,7 +245,7 @@ async function fetchAppleMusicCreditsUrls(songUrl) {
               
               // アルバムページに戻る
               await page.goBack();
-              await page.waitForTimeout(1000);
+              await new Promise(resolve => setTimeout(resolve, 1000));
             } else {
               console.log('  View Creditsボタンが見つかりませんでした');
               results.push({
@@ -132,13 +255,20 @@ async function fetchAppleMusicCreditsUrls(songUrl) {
               });
             }
           } else {
-            console.log('  メニューボタンが見つかりませんでした');
+            console.log('  トラック要素の位置が取得できませんでした');
             results.push({
               number: track.number,
               title: track.title,
-              creditsUrl: 'メニューボタンが見つかりませんでした'
+              creditsUrl: 'トラック要素の位置が取得できませんでした'
             });
           }
+        } else {
+          console.log('  トラック要素が見つかりませんでした');
+          results.push({
+            number: track.number,
+            title: track.title,
+            creditsUrl: 'トラック要素が見つかりませんでした'
+          });
         }
       } catch (error) {
         console.error(`  エラー: ${error.message}`);
@@ -161,20 +291,21 @@ async function main() {
   const args = process.argv.slice(2);
   
   if (args.length < 1) {
-    console.error('使い方: node fetch_apple_music_credits_urls.js <Apple Music曲URL>');
-    console.error('例: node fetch_apple_music_credits_urls.js https://music.apple.com/jp/song/the-birds-dont-sing/1816313640?l=en-US');
+    console.error('使い方: node fetch_apple_music_credits_urls.js <Apple Music URL>');
+    console.error('例1 (曲URL): node fetch_apple_music_credits_urls.js https://music.apple.com/jp/song/the-birds-dont-sing/1816313640');
+    console.error('例2 (アルバムURL): node fetch_apple_music_credits_urls.js https://music.apple.com/jp/album/the-art-of-loving/1817609404');
     process.exit(1);
   }
   
-  const songUrl = args[0];
+  const inputUrl = args[0];
   
-  if (!songUrl.includes('music.apple.com')) {
+  if (!inputUrl.includes('music.apple.com')) {
     console.error('エラー: 有効なApple Music URLを指定してください');
     process.exit(1);
   }
   
   try {
-    const { results, albumInfo } = await fetchAppleMusicCreditsUrls(songUrl);
+    const { results, albumInfo } = await fetchAppleMusicCreditsUrls(inputUrl);
     
     if (results.length === 0) {
       console.error('曲が見つかりませんでした。');

@@ -1,19 +1,21 @@
 # Fetch Album Producers
 
-Geniusからアルバムの全曲のプロデューサー情報を自動取得するNode.jsスクリプト
+GeniusのアルバムURLから全曲のプロデューサー情報を自動取得するNode.jsスクリプト
 
 ## 概要
 
-このスクリプトは、Genius.comからアルバムページにアクセスし、収録曲のリストを取得した後、各曲のページから個別にプロデューサー情報を抽出します。取得した情報はテキストファイルとして保存されます。
+このスクリプトは、GeniusのアルバムURLを入力として受け取り、アルバムページにアクセスして収録曲のリストを取得した後、各曲のページから個別にプロデューサー情報を抽出します。取得した情報はテキストファイルとして保存されます。
 
 ## 機能
 
-- ✅ Geniusのアルバムページから全曲リストを自動抽出
+- ✅ GeniusアルバムURLから直接情報を取得
+- ✅ アルバムページから全曲リストを自動抽出
 - ✅ 各曲のプロデューサー情報を個別に取得
 - ✅ 複数プロデューサーの場合は「&」で連結
 - ✅ 結果をテキストファイルに自動保存
 - ✅ レート制限対策（各リクエスト間に1秒の待機時間）
 - ✅ エラーハンドリング機能
+- ✅ 旧形式（アーティスト名 アルバム名）との後方互換性
 
 ## 必要要件
 
@@ -22,26 +24,30 @@ Geniusからアルバムの全曲のプロデューサー情報を自動取得�
 
 ## 使い方
 
-### 基本的な使用方法
+### 基本的な使用方法（推奨）
 
 ```bash
-node fetch_album_producers.js <アーティスト名> <アルバム名>
+node fetch_album_producers.js <Genius アルバムURL>
 ```
 
 ### 実行例
 
+**推奨: URL形式**
+```bash
+node fetch_album_producers.js https://genius.com/albums/Olivia-dean/The-art-of-loving
+```
+
+**旧形式（後方互換性のため）**
 ```bash
 node fetch_album_producers.js Addison-rae Addison
 ```
 
-**注意**: アーティスト名とアルバム名は、GeniusのURLで使用されている形式（ハイフン区切り）で指定してください。
-
-### GeniusのURL形式の確認方法
+### GeniusのアルバムURLの取得方法
 
 1. Genius.comでアルバムを検索
-2. アルバムページのURLを確認
-   - 例: `https://genius.com/albums/Addison-rae/Addison`
-   - この場合、アーティスト名は `Addison-rae`、アルバム名は `Addison`
+2. アルバムページを開く
+3. ブラウザのアドレスバーからURLをコピー
+   - 例: `https://genius.com/albums/Olivia-dean/The-art-of-loving`
 
 ## 出力形式
 
@@ -49,24 +55,38 @@ node fetch_album_producers.js Addison-rae Addison
 
 `<アーティスト名>_<アルバム名>_producers.txt`
 
-例: `addison_rae_addison_producers.txt`
+例: `olivia_dean_the_art_of_loving_producers.txt`
 
 ### ファイル内容
 
 ```
-アルバム「Addison」- Addison-rae
-取得日時: 2026/2/7 21:37:43
-総曲数: 12曲
+アルバム「The art of loving」- Olivia dean
+取得日時: 2026/2/22 14:18:45
+総曲数: 13曲
 ============================================================
 
-1. Track Title
-   Producer: Producer Name & Co-Producer Name
+1. The Art of Loving (Intro)
+   Producer: PRGRSHN
 
-2. Another Track
-   Producer: Another Producer
+2. Nice To Each Other
+   Producer: PRGRSHN
+
+3. Lady Lady
+   Producer: PRGRSHN & Shawn Lee
 
 ...
 ```
+
+## 処理の流れ
+
+1. **URL解析**: 指定されたGeniusアルバムURLからアーティスト名とアルバム名を抽出
+2. **アルバムページにアクセス**: GeniusのアルバムページにHTTPリクエストを送信
+3. **トラックリスト取得**: アルバムページから全トラックのタイトルとURLを抽出
+4. **各トラックのプロデューサー情報取得**:
+   - 各トラックの歌詞ページにアクセス
+   - "Producers"セクションからプロデューサー名を抽出
+   - レート制限を避けるため、各リクエスト間に1秒の待機時間を設定
+5. **結果をファイルに保存**: 取得した情報をテキストファイルに出力
 
 ## コード構造
 
@@ -76,8 +96,9 @@ node fetch_album_producers.js Addison-rae Addison
 - HTTPSリクエストを実行してHTMLを取得
 - Promise形式で結果を返す
 
-#### `extractTracks(html)`
+#### `extractTracks(html, artistSlug)`
 - アルバムページのHTMLから曲のリストを抽出
+- アーティストスラッグを使用して柔軟にマッチング
 - 各曲のタイトルとURLを配列で返す
 - 重複を自動的に除外
 
@@ -86,19 +107,26 @@ node fetch_album_producers.js Addison-rae Addison
 - 複数のプロデューサーは「&」で連結
 - プロデューサー情報がない場合は「プロデューサー情報なし」を返す
 
-#### `fetchAlbumProducers(artistName, albumName)`
+#### `parseGeniusUrl(url)`
+- GeniusのアルバムURLを解析
+- アーティストスラッグ、アルバムスラッグ、表示名を抽出
+- 無効なURLの場合はエラーをスロー
+
+#### `fetchAlbumProducers(albumUrl)`
 - メイン処理関数
 - アルバムの全曲のプロデューサー情報を取得
 - 各リクエスト間に1秒の待機時間を設定
 
 #### `main()`
 - コマンドライン引数の処理
+- URL形式と旧形式の両方に対応
 - 結果のファイル出力
 - エラーハンドリング
 
 ## エラーハンドリング
 
 - 引数が不足している場合は使用方法を表示
+- 無効なURLの場合はエラーメッセージを表示
 - 曲が見つからない場合はエラーメッセージを表示
 - 個別の曲の取得に失敗した場合は「エラー: 取得失敗」と記録して続行
 - ネットワークエラーなどの致命的なエラーはキャッチして表示
@@ -114,19 +142,28 @@ node fetch_album_producers.js Addison-rae Addison
 - Geniusのページ構造が変更された場合、動作しなくなる可能性があります
 - より堅牢な実装が必要な場合は、HTMLパーサーライブラリ（cheerio等）の使用を検討してください
 
-### アーティスト名の形式
-- Geniusで使用されているURL形式（通常はハイフン区切り）で指定する必要があります
-- スペースやアンダースコアではなく、ハイフンを使用してください
+### URL形式
+- 推奨: `https://genius.com/albums/Artist-name/Album-name` 形式のURLを使用
+- 旧形式（アーティスト名とアルバム名を別々に指定）も後方互換性のためサポートしていますが、URL形式の使用を推奨します
 
 ## トラブルシューティング
 
-### 「曲が見つかりませんでした」と表示される
+### 「無効なGenius URLです」と表示される
 
-**原因**: アーティスト名またはアルバム名が正しくない可能性があります
+**原因**: URLの形式が正しくありません
 
 **解決方法**:
-1. Genius.comで該当アルバムを検索
-2. URLを確認して正しい形式を使用
+- 正しい形式: `https://genius.com/albums/Artist-name/Album-name`
+- ブラウザでGeniusのアルバムページを開き、URLをコピーして使用してください
+
+### 「曲が見つかりませんでした」と表示される
+
+**原因**: アルバムページにトラック情報が見つからない、またはURLが間違っている可能性があります
+
+**解決方法**:
+1. ブラウザでURLを開いて、正しいアルバムページが表示されるか確認
+2. アルバムページに曲のリストが表示されているか確認
+3. URLが正確かどうか再確認
 
 ### プロデューサー情報が「プロデューサー情報なし」と表示される
 
@@ -138,56 +175,22 @@ node fetch_album_producers.js Addison-rae Addison
 
 ### ネットワークエラー
 
-**原因**: インターネット接続の問題、またはGeniusのサーバーが応答していない
+**原因**: インターネット接続の問題、またはGeniusのサーバーが応答していない可能性があります
 
 **解決方法**:
 - インターネット接続を確認
-- しばらく時間を置いてから再試行
+- しばらく待ってから再試行
+- Genius.comが正常に動作しているか確認
 
-## カスタマイズ
+## 関連スクリプト
 
-### 待機時間の変更
-
-91行目の待機時間を変更できます：
-
-```javascript
-await new Promise(resolve => setTimeout(resolve, 1000)); // 1000ミリ秒 = 1秒
-```
-
-### 出力形式の変更
-
-134-137行目で出力形式をカスタマイズできます：
-
-```javascript
-results.forEach(track => {
-  output += `${track.number}. ${track.title}\n`;
-  output += `   Producer: ${track.producer}\n\n`;
-});
-```
-
-### 対象アーティストの変更
-
-19行目の正規表現を変更することで、異なるアーティストに対応できます：
-
-```javascript
-const trackRegex = /<a[^>]*href="(https:\/\/genius\.com\/Addison-rae-[^"]*-lyrics)"[^>]*>([\s\S]*?)<\/a>/gi;
-```
-
-`Addison-rae` の部分を対象アーティストに変更してください。
-
-## 関連ツール
-
-- `fetch_producers_by_url.js` - 個別の曲URLからプロデューサー情報を取得
-- `allmusic_track_scraper.js` - AllMusicからトラックリスト情報を取得
+- [`fetch_producers_by_url.js`](fetch_producers_by_url.js:1) - 個別の曲URLからプロデューサー情報を取得
+- [`fetch_apple_music_credits.js`](fetch_apple_music_credits.js:1) - Apple Musicからクレジット情報を取得
 
 ## ライセンス
 
-このスクリプトは教育目的で作成されています。Geniusの利用規約を遵守して使用してください。
-
-## 作成者
-
-Made with Bob
+このスクリプトは個人利用を目的としています。Geniusの利用規約を遵守してください。
 
 ---
 
-**最終更新**: 2026年2月7日
+Made with Bob

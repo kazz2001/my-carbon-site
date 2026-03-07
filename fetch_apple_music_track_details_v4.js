@@ -1,8 +1,14 @@
 const https = require('https');
 const fs = require('fs');
+const path = require('path');
 
 // Read the JSON file
-const jsonData = JSON.parse(fs.readFileSync('apple-music-view-details-urls.json', 'utf8'));
+const inputFile = 'apple-music-view-details-urls.json';
+const jsonData = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
+
+// Generate output filename based on input filename
+const inputBasename = path.basename(inputFile, path.extname(inputFile));
+const outputBasename = `${inputBasename}-track-details`;
 
 // Function to fetch HTML content from a URL
 function fetchUrl(url) {
@@ -149,8 +155,9 @@ async function processAllTracks() {
     tracks: results
   };
   
-  fs.writeFileSync('apple-music-track-details.json', JSON.stringify(outputJson, null, 2));
-  console.log('\n✓ Results saved to apple-music-track-details.json');
+  const jsonOutputFile = `${outputBasename}.json`;
+  fs.writeFileSync(jsonOutputFile, JSON.stringify(outputJson, null, 2));
+  console.log(`\n✓ Results saved to ${jsonOutputFile}`);
   
   // Create a readable markdown file
   let markdown = `# ${jsonData.albumTitle} - Track Details\n\n`;
@@ -187,8 +194,9 @@ async function processAllTracks() {
     markdown += `---\n\n`;
   });
   
-  fs.writeFileSync('apple-music-track-details.md', markdown);
-  console.log('✓ Results saved to apple-music-track-details.md');
+  const mdOutputFile = `${outputBasename}.md`;
+  fs.writeFileSync(mdOutputFile, markdown);
+  console.log(`✓ Results saved to ${mdOutputFile}`);
   
   // Create a simple text list
   let textList = `${jsonData.albumTitle} by ${jsonData.albumArtist}\n`;
@@ -222,8 +230,9 @@ async function processAllTracks() {
     textList += `\n`;
   });
   
-  fs.writeFileSync('apple-music-track-details.txt', textList);
-  console.log('✓ Results saved to apple-music-track-details.txt');
+  const txtOutputFile = `${outputBasename}.txt`;
+  fs.writeFileSync(txtOutputFile, textList);
+  console.log(`✓ Results saved to ${txtOutputFile}`);
   
   console.log('\n✓ All done!');
 }
