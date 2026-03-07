@@ -1,0 +1,93 @@
+---
+title: "Addison Rae / Addison"
+description: "Album Review of Addison Rae / Addison"
+keywords: "Addison Rae, Addison"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+<p className="largeP">
+  <Link to="/best50/2025/">2025 Black Music Best No.8</Link>
+</p>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Addison Rae / Addison](../../images/cd/addisonrae1L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			Tik Tokのインフルエンサーとして活躍し、Netflixでの映画主演までこなしたAddison Raeのアルバムデビュー作。音楽面でのブレイクも果たし、2026年のグラミーでBest New Artistにもノミネートされている。
+			<br/>そんな出自もあって、シンセを多用した軽快なエレクトロポップが中心となる。それだけでなく、ドリーミーな曲や、ダークなトーンの曲など曲調は様々。この辺は全曲ProduceしているElvira Anderfjärdの手腕のおかげか。
+			<br/>Addisonは囁くようなエアリーな感じで都会的な孤独を感じさせる。年齢的に20年代半ばを迎えて、Lyricは意外と内省的なものも多い。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/4qoPAJw" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/4qZ4mI1" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/4tprRLO" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	    apple music
+  	  </Button>
+		<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="1" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Elvira Anderfjärd and Luka Kloser(all)
+			</p>
+			<h3>Guests</h3>
+			<p>
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                              | Composers                                                   | Performer   | Time |
+| --- | ---------------------------------- | ----------------------------------------------------------- | ----------- | ---- |
+| 1   | New York                           | Elvira Anderfjärd / Luka Kloser / Addison Rae               | Addison Rae | 2:34 |
+| 2   | Diet Pepsi                         | Elvira Anderfjärd / Luka Kloser / Addison Rae               | Addison Rae | 2:49 |
+| 3   | Money Is Everything                | Elvira Anderfjärd / Luka Kloser / Addison Rae               | Addison Rae | 2:49 |
+| 4   | Aquamarine                         | Elvira Anderfjärd / Luka Kloser / Addison Rae               | Addison Rae | 2:43 |
+| 5   | Lost &amp; Found                   | Elvira Anderfjärd / Tove Burman / Luka Kloser / Addison Rae | Addison Rae | 0:48 |
+| 6   | High Fashion                       | Elvira Anderfjärd / Tove Burman / Luka Kloser / Addison Rae | Addison Rae | 3:18 |
+| 7   | Summer Forever                     | Elvira Anderfjärd / Luka Kloser / Addison Rae               | Addison Rae | 3:48 |
+| 8   | In the Rain                        | Elvira Anderfjärd / Luka Kloser / Addison Rae               | Addison Rae | 3:34 |
+| 9   | Fame Is a Gun                      | Elvira Anderfjärd / Luka Kloser / Addison Rae               | Addison Rae | 3:03 |
+| 10  | Times Like These                   | Elvira Anderfjärd / Luka Kloser / Addison Rae               | Addison Rae | 3:54 |
+| 11  | Life's No Fun Through Clear Waters | Elvira Anderfjärd / Luka Kloser / Addison Rae               | Addison Rae | 0:57 |
+| 12  | Headphones On                      | Elvira Anderfjärd / Luka Kloser / Addison Rae               | Addison Rae | 4:00 |
+
+<AdvJS3 />

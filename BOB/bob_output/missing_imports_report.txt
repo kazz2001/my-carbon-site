@@ -1,0 +1,65 @@
+src\pages\reviewフォルダー内の「a」で始まり「L.mdx」で終わるファイルの確認結果
+================================================================================
+
+以下のファイルに、指定されたimport文とコンポーネントが不足しています：
+
+1. anthonyhamilton5L.mdx
+   - 不足: import AdvJS2 from "../review/adv2";
+   - 不足: import AdvJS3 from "../review/adv3";
+   - 不足: <AdvJS2/> コンポーネントの使用
+   - 不足: <AdvJS3/> コンポーネントの使用
+
+2. arianagrande4L.mdx
+   - 不足: import AdvJS2 from "../review/adv2";
+   - 不足: import AdvJS3 from "../review/adv3";
+   - 不足: <AdvJS2/> コンポーネントの使用
+   - 不足: <AdvJS3/> コンポーネントの使用
+
+3. arianagrande5L.mdx
+   - 不足: import AdvJS2 from "../review/adv2";
+   - 不足: import AdvJS3 from "../review/adv3";
+   - 不足: <AdvJS2/> コンポーネントの使用
+   - 不足: <AdvJS3/> コンポーネントの使用
+
+4. arianagrande6L.mdx
+   - 不足: import AdvJS2 from "../review/adv2";
+   - 不足: import AdvJS3 from "../review/adv3";
+   - 不足: <AdvJS2/> コンポーネントの使用
+   - 不足: <AdvJS3/> コンポーネントの使用
+
+5. arianagrande7L.mdx
+   - 不足: import AdvJS2 from "../review/adv2";
+   - 不足: import AdvJS3 from "../review/adv3";
+   - 不足: <AdvJS2/> コンポーネントの使用
+   - 不足: <AdvJS3/> コンポーネントの使用
+
+6. atcq2L.mdx
+   - 不足: import AdvJS2 from "../review/adv2";
+   - 不足: import AdvJS3 from "../review/adv3";
+   - 不足: <AdvJS2/> コンポーネントの使用
+   - 不足: <AdvJS3/> コンポーネントの使用
+
+================================================================================
+
+完全に揃っているファイル（16ファイル）:
+- addisonrae1L.mdx
+- adele4L.mdx
+- aliciakeys6L.mdx
+- aliciakeys7L.mdx
+- aliciakeys8L.mdx
+- amaarae1L.mdx
+- amaarae2L.mdx
+- ambermark1L.mdx
+- andersonpaak2L.mdx
+- andersonpaak3L.mdx
+- andersonpaak4L.mdx
+- andre30001L.mdx
+- arilennox1L.mdx
+- arilennox2L.mdx
+- armandhammer1L.mdx
+- armandhammeralchemist1L.mdx
+
+================================================================================
+合計: 22ファイル確認
+不足: 6ファイル
+完全: 16ファイル

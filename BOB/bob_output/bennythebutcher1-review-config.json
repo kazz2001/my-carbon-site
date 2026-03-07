@@ -1,0 +1,110 @@
+{
+  "artistName": "Benny The Butcher",
+  "artistNameJa": "",
+  "albumTitle": "Everybody Can't Go",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "bennythebutcher1",
+  "reviewPara1": "NY州Buffalo出身でアラフォーなRapper, Benny The Butcherによる2024初頭にリリースされたアルバム。2021年にDef\n            Jamに移籍後、初となる。",
+  "reviewPara2": "ProducerにThe Alchemist, Hit-Boy, GuestにLil Wayne、Snoop、Griselda勢のWestsied\n            Gunn, Conway The Machineなどと万全の構えによって作られた、硬質でストレートな作品になっている。",
+  "reviewPara3": "Benny The ButcherのRapも力強く、これぞ、ブーンバップという感じ。",
+  "reviewPara4": "同じような曲調のTrackが並び、変化に乏しいところもあるが、全体のクオリティは高いと思う。",
+  "score1": "1",
+  "score2": "2",
+  "score3": "2",
+  "score4": "4",
+  "producers": "The Alchemist(1,3,,5,8,11)\n\n            HIt-Boy(2,6,7,9,10,12)\n\n            HIt-Boy and Corbett(4)",
+  "guests": "Lil Wayne, Kyle Banks, Snoop Dogg, Stove God Cooks, Armani Caesar, Jadakiss,\n            Babyface Ray, Rick Hyde, Westsied Gunn, Conway The Machine, Peezy",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1720038043",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Jermanie's Graduation",
+      "composers": "Alan Maman / Jeremie Pennick",
+      "performer": "Benny the Butcher",
+      "time": "3:37"
+    },
+    {
+      "num": 2,
+      "title": "Bron",
+      "composers": "Chauncey Hollis / Jeremie Pennick / Francisco Rodriguez",
+      "performer": "Benny the Butcher",
+      "time": "2:28"
+    },
+    {
+      "num": 3,
+      "title": "Big Dog",
+      "composers": "Dwayne Carter Jr. / Maman / Pennick",
+      "performer": "Benny the Butcher feat. Lil Wayne",
+      "time": "4:11"
+    },
+    {
+      "num": 4,
+      "title": "Everybody Can't Go",
+      "composers": "Kyle Banks / Dustin Corbett / Hollis Jr. / Pennick",
+      "performer": "Benny the Butcher feat. Kyle Banks",
+      "time": "2:24"
+    },
+    {
+      "num": 5,
+      "title": "TMVTL",
+      "composers": "Maman / Pennick",
+      "performer": "Benny the Butcher",
+      "time": "4:03"
+    },
+    {
+      "num": 6,
+      "title": "Back Again",
+      "composers": "Calvin Broadus Jr. / Hollis Jr. / Pennick",
+      "performer": "Benny the Butcher feat. Snoop Dogg",
+      "time": "3:20"
+    },
+    {
+      "num": 7,
+      "title": "One Foot In",
+      "composers": "Aaron Cooks / Hollis Jr. / Pennick",
+      "performer": "Benny the Butcher feat. Stove God Cooks",
+      "time": "2:44"
+    },
+    {
+      "num": 8,
+      "title": "Buffalo Kitchen Club",
+      "composers": "Joclynn Clyburn / Maman / Pennick",
+      "performer": "Benny the Butcher feat. Armani Caesar",
+      "time": "2:24"
+    },
+    {
+      "num": 9,
+      "title": "Pillow Talk &amp; Slander",
+      "composers": "Hollis Jr. / Pennick / Jason Phillips / Marcellus Register",
+      "performer": "Benny the Butcher feat. Jadakiss, Babyface Ray",
+      "time": "3:07"
+    },
+    {
+      "num": 10,
+      "title": "How To Rap",
+      "composers": "Hollis Jr. / Pennick",
+      "performer": "Benny the Butcher",
+      "time": "2:42"
+    },
+    {
+      "num": 11,
+      "title": "Griselda Express",
+      "composers": "Rick Hyde / Maman / Pennick / Demond Price / Alvin Worthy",
+      "performer": "Benny the Butcher feat. Rick Hyde, Westsied Gunn, Conway The Machine",
+      "time": "5:45"
+    },
+    {
+      "num": 12,
+      "title": "Big Tymers",
+      "composers": "Hollis Jr. / Phillip Peaks / Pennick",
+      "performer": "Benny the Butcher feat. Peezy",
+      "time": "3:32"
+    }
+  ]
+}

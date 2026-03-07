@@ -11,57 +11,59 @@ import SliderJS1 from "../review/slider1";
 import SliderJS2 from "../review/slider2";
 import SliderJS3 from "../review/slider3";
 import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
 <p className="largeP">
-  <Link to="/best50/2021/">2021 Black Music Best No.27</Link>
+	<Link to="/best50/2021/">2021 Black Music Best No.27</Link>
 </p>
 
 <Row  className="image-card-group">
 	<Column colMd={3} colLg={4} noGutterMdLeft="">
-       <ImageCard>
+		<ImageCard>
 
 ![Celeste / Not Your Muse](../../images/cd/celeste1L.jpg)
 
-</ImageCard>
+		</ImageCard>
 	</Column>
 	<Column colMd={4} colLg={8} noGutterMdLeft="">
 		<p>
 			California出身、UK育ちのシンガー、Celesteの1stアルバム。デビューは大分前から期待されていたそうで、26歳でやっとのリリースにこぎつけたとのこと。その分、デビューアルバムとは思えない落ち着きと完成度の高さを感じるUKソウル/ポップの秀作である。ジャマイカとイギリスのハーフということだが、あまり黒っぽくはないそのスモーキーな歌声でAmy Winehouseに比べられることが多いようだが、彼女のような破天荒なところはなく、どちらかといったら優等生っぽく感じる。Trackは語り掛けてくるようなしっとりとしたスローが多く、ミディアム、アップも数曲。Lyricは恋愛のことを唄っていて、せつなさがひしひしと伝わってくる。
 		</p>
 		<div>
-		  <Button className="button-right-mergin"  href="https://amzn.to/3wEhSUQ" renderIcon={ArrowUpRight} size='sm' kind='primary'>
-  	    amazon.com
-  	  </Button>
-  	  <Button className="button-right-mergin"  href="https://amzn.to/3uxSoHa" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
-  	    amazon.co.jp
-  	  </Button>
+			<Button className="button-right-mergin"  href="https://amzn.to/3wEhSUQ" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+				amazon.com
+			</Button>
+			<Button className="button-right-mergin"  href="https://amzn.to/3uxSoHa" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+				amazon.co.jp
+			</Button>
 			<Button className="button-right-mergin"  href="https://geo.music.apple.com/us/album/not-your-muse-deluxe/1552047198?itsct=music_box_link&itscg=30200&at=11lcug&ct=albums_not_your_muse_%28deluxe%29&ls=1&app=music" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
-  	    apple music
-  	  </Button>
+				apple music
+			</Button>
+			<AdvJS2/>
 		</div>
 	</Column>
 </Row>
 <Row >
-  <Column colMd={4} colLg={4} noGutterMdLeft="">
-    <div>
-    <h3>Score card</h3>
-		<SliderJS1 value="5" />
-    <SliderJS2 value="2" />
-		<SliderJS3 value="1" />
-    <SliderJS4 value="9" />
-    </div>
-  </Column>
-  <Column colMd={8} colLg={8} noGutterMdLeft="">
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+			<h3>Score card</h3>
+			<SliderJS1 value="5" />
+			<SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+			<SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={8} colLg={8} noGutterMdLeft="">
 		<div>
 			<h3>Producers</h3>
 			<p>
 				Josh Crocker(1,7,9)
 				<br/>Jamie Hartman(2,11,12)
-				<br/>Chalie Hugall, Kid Harpoon and Josh Crocker(8,10)
 				<br/>Jamie Hartman and John Hill(4)
 				<br/>Chalie Hugall(5,6)
 				<br/>Chalie Hugall and Josh Crocker(8,10)
@@ -89,3 +91,5 @@ import { Link } from "gatsby";
 | 10  | The Promise                    | Holly Millman / Mark Mollison / Celeste Waite                   | Celeste   | 03:45 |
 | 11  | A Little Love                  | Jamie Hartman / Celeste Waite                                   | Celeste   | 02:59 |
 | 12  | Some Goodbyes Come With Hellos | Jamie Hartman / Gregory Hein / Sam Romans / Celeste Waite       | Celeste   | 03:26 |
+
+<AdvJS3 />

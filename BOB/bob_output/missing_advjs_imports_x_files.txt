@@ -1,0 +1,29 @@
+Files in src/pages/review starting with 'x' and ending with 'L.mdx' that are MISSING the required import statements
+====================================================================================================
+
+Required statements that should be present:
+1. import AdvJS2 from "../review/adv2";
+2. import AdvJS3 from "../review/adv3";
+3. <AdvJS2/>
+4. <AdvJS3/>
+
+Files MISSING these statements (0 files):
+--------------------------------------------------
+
+None - All files have the required statements!
+
+
+Files that HAVE all required statements (1 files):
+--------------------------------------------------
+
+1. xxxtentacion1L.mdx
+
+
+Summary:
+--------------------------------------------------
+Total files checked: 1
+Files missing statements: 0
+Files with statements: 1
+Missing rate: 0.0%
+
+Generated: 2026-02-11

@@ -1,0 +1,183 @@
+#!/usr/bin/env node
+
+/**
+ * Script to add a review to src/pages/latest/index.mdx
+ * Usage: node add-review-to-latest.js [review-name]
+ * Example: node add-review-to-latest.js addisonrae1
+ *
+ * If no review name is provided, the script will read from:
+ * C:\Users\user\Documents\gatsby_v5\src\pages\review
+ * and find the most recently modified review file pair (base + A variant)
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+// Maximum number of reviews to keep
+const MAX_REVIEWS = 10;
+
+// Define the review folder path
+const reviewFolderPath = path.join(__dirname, '..', 'src', 'pages', 'review');
+
+// Get review name from command line argument or auto-detect from folder
+let reviewName = process.argv[2];
+
+if (!reviewName) {
+  console.log('No review name provided. Scanning review folder for latest review...');
+  
+  // Read all files from the review folder
+  const files = fs.readdirSync(reviewFolderPath);
+  
+  // Filter for .mdx files that have both base and A variant
+  const reviewPairs = [];
+  const baseFiles = files.filter(f => f.endsWith('.mdx') && !f.endsWith('A.mdx') && !f.endsWith('L.mdx'));
+  
+  for (const baseFile of baseFiles) {
+    const baseName = baseFile.replace('.mdx', '');
+    const aFile = `${baseName}A.mdx`;
+    
+    if (files.includes(aFile)) {
+      const baseFilePath = path.join(reviewFolderPath, baseFile);
+      const aFilePath = path.join(reviewFolderPath, aFile);
+      
+      // Get the most recent modification time of the pair
+      const baseStats = fs.statSync(baseFilePath);
+      const aStats = fs.statSync(aFilePath);
+      const mostRecentTime = Math.max(baseStats.mtimeMs, aStats.mtimeMs);
+      
+      reviewPairs.push({
+        name: baseName,
+        time: mostRecentTime
+      });
+    }
+  }
+  
+  if (reviewPairs.length === 0) {
+    console.error('Error: No valid review pairs found in the review folder');
+    console.log('A valid review pair consists of: <name>.mdx and <name>A.mdx');
+    process.exit(1);
+  }
+  
+  // Sort by most recent and pick the latest
+  reviewPairs.sort((a, b) => b.time - a.time);
+  reviewName = reviewPairs[0].name;
+  
+  console.log(`✓ Found latest review: ${reviewName}`);
+}
+
+const latestIndexPath = path.join(__dirname, '..', 'src', 'pages', 'latest', 'index.mdx');
+const reviewPath = path.join(reviewFolderPath, `${reviewName}.mdx`);
+const reviewAPath = path.join(reviewFolderPath, `${reviewName}A.mdx`);
+
+// Check if review files exist
+if (!fs.existsSync(reviewPath)) {
+  console.error(`Error: Review file not found: ${reviewPath}`);
+  process.exit(1);
+}
+
+if (!fs.existsSync(reviewAPath)) {
+  console.error(`Error: Review A file not found: ${reviewAPath}`);
+  process.exit(1);
+}
+
+// Read the current index file
+let content = fs.readFileSync(latestIndexPath, 'utf8');
+
+// Split content into lines
+const lines = content.split('\n');
+
+// Find the "# Latest Album Reviews" line - we only modify content before this line
+let latestAlbumReviewsIndex = -1;
+for (let i = 0; i < lines.length; i++) {
+  if (lines[i].trim() === '# Latest Album Reviews') {
+    latestAlbumReviewsIndex = i;
+    break;
+  }
+}
+
+if (latestAlbumReviewsIndex === -1) {
+  console.error('Error: Could not find "# Latest Album Reviews" section in index.mdx');
+  process.exit(1);
+}
+
+// Find the import section (only before "# Latest Album Reviews")
+let importEndIndex = -1;
+let lastReviewNumber = 0;
+
+for (let i = 0; i < latestAlbumReviewsIndex; i++) {
+  const line = lines[i];
+  
+  // Find the last import Review line
+  const match = line.match(/^import Review(\d+)\s+from/);
+  if (match) {
+    const num = parseInt(match[1]);
+    if (num > lastReviewNumber) {
+      lastReviewNumber = num;
+    }
+    importEndIndex = i;
+  }
+}
+
+if (importEndIndex === -1) {
+  console.error('Error: Could not find import section in index.mdx');
+  process.exit(1);
+}
+
+// Process only the lines before "# Latest Album Reviews"
+const beforeSection = [];
+let inImportSection = false;
+
+for (let i = 0; i < latestAlbumReviewsIndex; i++) {
+  const line = lines[i];
+  
+  // Check if we're in the import section
+  if (line.match(/^import Review\d+/)) {
+    inImportSection = true;
+    
+    // If this is the first Review import, insert the new review before it
+    if (line.match(/^import Review1\s+from/)) {
+      beforeSection.push(`import Review1    from "../review/${reviewName}.mdx";`);
+      beforeSection.push(`import Review1A   from "../review/${reviewName}A.mdx";`);
+    }
+    
+    // Shift the existing review number up by 1, but skip if it would become Review11 or higher
+    const match = line.match(/^import Review(\d+)(A?)\s+from "(.+)";/);
+    if (match) {
+      const oldNum = parseInt(match[1]);
+      const newNum = oldNum + 1;
+      const suffix = match[2];
+      const importPath = match[3];
+      
+      // Only add if the new number is 10 or less
+      if (newNum <= MAX_REVIEWS) {
+        // Preserve spacing
+        const spaces = line.match(/Review\d+(A?)\s+/)[0].replace(/Review\d+A?/, '');
+        beforeSection.push(`import Review${newNum}${suffix}${spaces}from "${importPath}";`);
+      }
+    }
+  } else if (inImportSection && line.trim() === '') {
+    // End of import section
+    inImportSection = false;
+    beforeSection.push(line);
+  } else {
+    beforeSection.push(line);
+  }
+}
+
+// Keep everything from "# Latest Album Reviews" onwards unchanged
+const afterSection = lines.slice(latestAlbumReviewsIndex);
+
+// Combine the sections
+const newLines = [...beforeSection, ...afterSection];
+
+// Write the updated content back to the file
+const newContent = newLines.join('\n');
+fs.writeFileSync(latestIndexPath, newContent, 'utf8');
+
+console.log(`✓ Successfully added ${reviewName} to latest/index.mdx`);
+console.log(`  - Added imports for Review1 and Review1A`);
+console.log(`  - Shifted all existing imports down by 1`);
+console.log(`  - Removed Review11 and Review11A imports (keeping max ${MAX_REVIEWS} reviews)`);
+console.log(`  - Content after "# Latest Album Reviews" remains unchanged`);
+
+// Made with Bob

@@ -22,34 +22,34 @@ import { Link } from "gatsby";
 
 <p className="largeP">Album Review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
-<Row  className="image-card-group">
+<Row className="image-card-group">
 	<Column colMd={3} colLg={4} noGutterMdLeft="">
-       <ImageCard>
+		<ImageCard>
 
 ![Camila Cabello / Familia](../../images/cd/camilacabello3L.jpg)
 
-</ImageCard>
+		</ImageCard>
 	</Column>
 	<Column colMd={4} colLg={8} noGutterMdLeft="">
 		<p>
 			Camila Cabelloの約3年ぶりの3作目。ロックダウン中の制作となるが、家族や自身を見つめなおすことが多く、このようなタイトルの作品につながったとのこと。なので、メキシコ系キューバ人としてのアイデンティティが今まで以上に投影されたラテン色の濃い作品になっている。
-			<br/>フラメンゴやキューバ音楽など、様々なラテン要素がとりいれられているようで、曲調もPopで明るいものから哀愁を帯びたスローまでと様々。スペイン語の曲も3曲ほどある。Camilaのキュートで甘い声が心地よい。
+			<br/>フラメンコやキューバ音楽など、様々なラテン要素がとりいれられているようで、曲調もPopで明るいものから哀愁を帯びたスローまでと様々。スペイン語の曲も3曲ほどある。Camilaのキュートで甘い声が心地よい。
 		</p>
 		<div>
-		  <Button className="button-right-mergin"  href="https://amzn.to/3TLaMJz" renderIcon={ArrowUpRight} size='sm' kind='primary'>
-  	    amazon.com
-  	  </Button>
-  	  <Button className="button-right-mergin"  href="https://amzn.to/3G9Pr9e" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
-  	    amazon.co.jp
-  	  </Button>
-			<Button className="button-right-mergin"  href="https://apple.co/3Erm3dy" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
-  	    apple music
-  	  </Button>
+			<Button className="button-right-mergin" href="https://amzn.to/3TLaMJz" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+				amazon.com
+			</Button>
+			<Button className="button-right-mergin" href="https://amzn.to/3G9Pr9e" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+				amazon.co.jp
+			</Button>
+			<Button className="button-right-mergin" href="https://apple.co/3Erm3dy" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+				apple music
+			</Button>
 			<AdvJS2/>
 		</div>
 	</Column>
 </Row>
-<Row >
+<Row>
 	<Column colMd={4} colLg={4} noGutterMdLeft="">
 		<div>
 			<h3>Score card</h3>
@@ -60,23 +60,23 @@ import { Link } from "gatsby";
 		</div>
 	</Column>
 	<Column colMd={8} colLg={8} noGutterMdLeft="">
-	<div>
-	<h3>Producers</h3>
-	<p>
-		Ricky Reed(1,7,8,12)
-		<br/>Ricky Reed and Jose Castillo(2)
-		<br/>Ricky Reed and Tom Peyton(3)
-		<br/>Ricky Reed, Cheche Alara and Edgar Barrera(4)
-		<br/>Ricky Reed and Cheche Alara(5)
-		<br/>Ricky Reed and Scott Harris(6)
-		<br/>Ricky Reed and Mike Sabath(9,10)
-		<br/>Mike Sabath(11)
-	</p>
-	<h3>Guests</h3>
-	<p>
-		Willow, Ed Sheeran, Maria Becerra, Yotuel
-	</p>
-	</div>
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Ricky Reed(1,7,8,12)
+				<br/>Ricky Reed and Jose Castillo(2)
+				<br/>Ricky Reed and Tom Peyton(3)
+				<br/>Ricky Reed, Cheche Alara and Edgar Barrera(4)
+				<br/>Ricky Reed and Cheche Alara(5)
+				<br/>Ricky Reed and Scott Harris(6)
+				<br/>Ricky Reed and Mike Sabath(9,10)
+				<br/>Mike Sabath(11)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Willow, Ed Sheeran, Maria Becerra, Yotuel
+			</p>
+		</div>
 	</Column>
 </Row>
 
@@ -100,15 +100,15 @@ import { Link } from "gatsby";
 <h3>Other Reviews</h3>
 
 <Row>
-  <Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review1 />
-  </Column>
-  <Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review2 />
-  </Column>
 	<Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review3 />
-  </Column>
+		<Review1 />
+	</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review2 />
+	</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review3 />
+	</Column>
 </Row>
 
 <AdvJS3 />

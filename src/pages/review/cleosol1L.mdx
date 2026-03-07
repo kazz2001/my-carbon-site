@@ -26,16 +26,16 @@ import Review2_4 from "../review/sault1.mdx";
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
 <p className="largeP">
-  <Link to="/best50/2021/">2021 Black Music Album Best No.16</Link>
+	<Link to="/best50/2021/">2021 Black Music Album Best No.16</Link>
 </p>
 
-<Row  className="image-card-group">
+<Row className="image-card-group">
 	<Column colMd={3} colLg={4} noGutterMdLeft="">
-       <ImageCard>
+		<ImageCard>
 
 ![Cleo Sol / Mother](../../images/cd/cleosol1L.jpg)
 
-</ImageCard>
+		</ImageCard>
 	</Column>
 	<Column colMd={4} colLg={8} noGutterMdLeft="">
 		<p>
@@ -44,27 +44,27 @@ import Review2_4 from "../review/sault1.mdx";
 			<br/>美メロが曲も多く、一方、最終曲⑫の中盤、急に盛り上がってEndingを迎えるところは格好良い。
 		</p>
 		<div>
-		  <Button className="button-right-mergin"  href="https://amzn.to/3kdKBM0" renderIcon={ArrowUpRight} size='sm' kind='primary'>
-  	    amazon.com
-  	  </Button>
-  	  <Button className="button-right-mergin"  href="https://amzn.to/3LdJ9Fk" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
-  	    amazon.co.jp
-  	  </Button>
-			<Button className="button-right-mergin"  href="https://apple.co/3LpzfRi" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
-  	   	apple music
-  	  </Button>
+			<Button className="button-right-margin" href="https://amzn.to/3kdKBM0" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+				amazon.com
+			</Button>
+			<Button className="button-right-margin" href="https://amzn.to/3LdJ9Fk" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+				amazon.co.jp
+			</Button>
+			<Button className="button-right-margin" href="https://apple.co/3LpzfRi" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+				apple music
+			</Button>
 			<AdvJS2/>
 		</div>
 	</Column>
 </Row>
-<Row >
+<Row>
 	<Column colMd={4} colLg={4} noGutterMdLeft="">
 		<div>
-		  <h3>Score card</h3>
+			<h3>Score card</h3>
 			<SliderJS1 value="5" />
-		  <SliderJS2 value="1" />
+			<SliderJS2 value="1" />
 			<SliderJS3 value="1" />
-		  <SliderJS4 value="9" />
+			<SliderJS4 value="9" />
 		</div>
 	</Column>
 	<Column colMd={8} colLg={8} noGutterMdLeft="">
@@ -100,24 +100,24 @@ import Review2_4 from "../review/sault1.mdx";
 <h3>Other Reviews</h3>
 
 <Row>
-  <Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review1_1 />
-  </Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review1_1 />
+	</Column>
 </Row>
 
 <Row>
-  <Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review2_1 />
-  </Column>
-  <Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review2_2 />
-  </Column>
-  <Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review2_3 />
-  </Column>
 	<Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review2_4 />
-  </Column>
+		<Review2_1 />
+	</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review2_2 />
+	</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review2_3 />
+	</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review2_4 />
+	</Column>
 </Row>
 
 <AdvJS3 />

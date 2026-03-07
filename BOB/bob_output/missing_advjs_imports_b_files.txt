@@ -1,0 +1,58 @@
+Files in src/pages/review starting with 'b' and ending with 'L.mdx' that are MISSING the required import statements
+====================================================================================================
+
+Required statements that should be present:
+1. import AdvJS2 from "../review/adv2";
+2. import AdvJS3 from "../review/adv3";
+3. <AdvJS2/>
+4. <AdvJS3/>
+
+Files MISSING these statements (0 files):
+--------------------------------------------------
+
+None - All files have the required statements!
+
+
+Files that HAVE all required statements (30 files):
+--------------------------------------------------
+
+1. babyface3L.mdx
+2. backxwash1L.mdx
+3. badbadnotgood1L.mdx
+4. banksandsteelz1L.mdx
+5. bennythebutcher1L.mdx
+6. beyonce5L.mdx
+7. beyonce6L.mdx
+8. beyonce7L.mdx
+9. bigboi3L.mdx
+10. bigkrit3L.mdx
+11. billywoods1L.mdx
+12. billywoods2L.mdx
+13. billywoodskennysegal1L.mdx
+14. blackmilk1L.mdx
+15. blackpantherL.mdx
+16. bloodorange2L.mdx
+17. bloodorange3L.mdx
+18. bloodorange4L.mdx
+19. bloodorange5L.mdx
+20. brandoncoleman1L.mdx
+21. brandy5L.mdx
+22. brentfaiyaz1L.mdx
+23. brentfaiyaz2L.mdx
+24. brittanyhoward1L.mdx
+25. brockhampton1L.mdx
+26. brockhampton2L.mdx
+27. brunomars3L.mdx
+28. brysontiller1L.mdx
+29. burnaboy1L.mdx
+30. bustarhymes6L.mdx
+
+
+Summary:
+--------------------------------------------------
+Total files checked: 30
+Files missing statements: 0
+Files with statements: 30
+Missing rate: 0.0%
+
+Generated: 2026-02-11
