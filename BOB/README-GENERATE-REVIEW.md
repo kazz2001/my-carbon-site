@@ -11,7 +11,7 @@
 質問に答えていくだけでファイルを生成します。
 
 ```bash
-node generate-review.js
+node BOb/generate-review.js
 ```
 
 #### 入力項目
@@ -55,7 +55,7 @@ node generate-review.js
 JSONファイルに情報を記述して一括生成します。
 
 ```bash
-node generate-review-from-json.js config.json
+node Bob/generate-review-from-json.js config.json
 ```
 
 #### JSONファイルの例

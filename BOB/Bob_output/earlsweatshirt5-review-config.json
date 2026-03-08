@@ -1,0 +1,129 @@
+{
+  "artistName": "Earl Sweatshirt",
+  "artistNameJa": "",
+  "albumTitle": "Live Laugh Love",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "earlsweatshirt5",
+  "reviewPara1": "The Alchemistとの共作をはさんで、Earl Sweatshirtの3年ぶり、5作目のアルバム。",
+  "reviewPara2": "ゆったりとして、意図的なリズムのずれのあるアブストラクトなTrackなのは、いままで変わりないが、厭世的な雰囲気が薄れ、開放的で温かみなところが最大の特徴で、自身が家庭を持ち、父となり、飲酒もやめて安定的な生活を送っていることが反映されていて、タイトルにも現れている。",
+  "reviewPara3": "少々ソウルフルにもなって聴き易くもなっていると思う。",
+  "reviewPara4": "ラストのErykah\n            Badu参加曲で、&quot;自身がどうあるか&quot;と問いかけて、締めくくっている。",
+  "score1": "1",
+  "score2": "2",
+  "score3": "2",
+  "score4": "4",
+  "producers": "Theravada(1,2,3,4,9,11)\n\n            Navy Blue(5,8)\n\n            Black Noi$e(6,7)\n\n            Child Actor(10)\n\n            Navy Blue and Earl Sweatshirt(11)",
+  "guests": "The MANDAL MAN, Erykah Badu",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1828396279",
+  "best50Year": "2025",
+  "best50Rank": "14",
+  "relatedReviews": [
+    {
+      "identifier": "earlsweatshirt4",
+      "artistName": "Earl Sweatshirt",
+      "albumTitle": "Sick!"
+    },
+    {
+      "identifier": "earlsweatshirt_alchemist1",
+      "artistName": "Earl Sweatshirt &amp; The Alchemist",
+      "albumTitle": "Voir Dire"
+    },
+    {
+      "identifier": "earlsweatshirt3",
+      "artistName": "Earl Sweatshirt",
+      "albumTitle": "Some Rap Song"
+    },
+    {
+      "identifier": "earlsweatshirt2",
+      "artistName": "Earl Sweatshirt",
+      "albumTitle": "I don't Lke Shit, I Don't Go Outside"
+    },
+    {
+      "identifier": "earlsweatshirt1",
+      "artistName": "Earl Sweatshirt",
+      "albumTitle": "Doris"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "gsw vs sac",
+      "composers": "Thebe Kgositsile / Xenophon Yialias",
+      "performer": "Earl Sweatshirt feat. The MANDAL MAN",
+      "time": "1:56"
+    },
+    {
+      "num": 2,
+      "title": "FORGE",
+      "composers": "Thebe Kgositsile / Xenophon Yialias",
+      "performer": "Earl Sweatshirt",
+      "time": "1:23"
+    },
+    {
+      "num": 3,
+      "title": "INFATUATION",
+      "composers": "Thebe Kgositsile / Xenophon Yialias",
+      "performer": "Earl Sweatshirt",
+      "time": "1:35"
+    },
+    {
+      "num": 4,
+      "title": "Gamma (need the ˂3)",
+      "composers": "Thebe Kgositsile / Xenophon Yialias",
+      "performer": "Earl Sweatshirt",
+      "time": "2:00"
+    },
+    {
+      "num": 5,
+      "title": "WELL DONE!",
+      "composers": "Thebe Kgositsile / Sage Elsesser",
+      "performer": "Earl Sweatshirt",
+      "time": "1:10"
+    },
+    {
+      "num": 6,
+      "title": "Live",
+      "composers": "Thebe Kgositsile / Robert Mansel",
+      "performer": "Earl Sweatshirt",
+      "time": "3:29"
+    },
+    {
+      "num": 7,
+      "title": "Static",
+      "composers": "Thebe Kgositsile / Robert Mansel",
+      "performer": "Earl Sweatshirt",
+      "time": "1:22"
+    },
+    {
+      "num": 8,
+      "title": "CRISCO",
+      "composers": "Thebe Kgositsile / Sage Elsesser",
+      "performer": "Earl Sweatshirt",
+      "time": "2:38"
+    },
+    {
+      "num": 9,
+      "title": "TOURMALINE",
+      "composers": "Thebe Kgositsile / Xenophon Yialias",
+      "performer": "Earl Sweatshirt",
+      "time": "2:53"
+    },
+    {
+      "num": 10,
+      "title": "Heavy Metal aka ejecto seato!",
+      "composers": "Thebe Kgositsile / Max Heath",
+      "performer": "Earl Sweatshirt",
+      "time": "3:06"
+    },
+    {
+      "num": 11,
+      "title": "exhaust",
+      "composers": "Thebe Kgositsile / Sage Elsesser",
+      "performer": "Earl Sweatshirt feat. Erykah Badu",
+      "time": "2:29"
+    }
+  ]
+}

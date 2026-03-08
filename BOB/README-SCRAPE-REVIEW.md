@@ -9,12 +9,12 @@
 ### 基本的な使い方
 
 ```bash
-node scrape-review-to-json.js <URL>
+node BOb/scrape-review-to-json.js <URL>
 ```
 
 例：
 ```bash
-node scrape-review-to-json.js https://bm.planetky.com/durandbernerr1.html
+node Bob/scrape-review-to-json.js https://bm.planetky.com/durandbernerr1.html
 ```
 
 これにより、`Bob/bob_output/durandbernerr1-review-config.json` が自動生成されます。
