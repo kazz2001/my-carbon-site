@@ -5,13 +5,13 @@
 ## 使い方
 
 ```bash
-node add-review-to-cd-year.js <review-name> <year>
+node Bob/add-review-to-cd-year.js <review-name> <year>
 ```
 
 ### 例
 
 ```bash
-node add-review-to-cd-year.js addisonrae1 2025
+node Bob/add-review-to-cd-year.js addisonrae1 2025
 ```
 
 ## 動作
