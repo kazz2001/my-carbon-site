@@ -6,10 +6,10 @@ src\pages\review\dvsn1L.mdx
 を整形して。インデントはタブだよ。テーブルの乱れも直してね。
 
 # 3
-src\pages\review下で、先頭だdrで終わりがL.mdxの全ファイルを整形して。インデントはタブだよ。テーブルの乱れも直してね。
+src\pages\review下で、先頭だ"g"で終わりがL.mdxの全ファイルを整形して。インデントはタブだよ。テーブルの乱れも直してね。
 
 # 成形
-F
+G
 
 # 5
 src\pages\review\future5L.mdx
