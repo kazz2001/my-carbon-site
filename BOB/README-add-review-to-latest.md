@@ -5,13 +5,13 @@
 ## 使い方
 
 ```bash
-node add-review-to-latest.js <review-name>
+node Bob/add-review-to-latest.js <review-name>
 ```
 
 ### 例
 
 ```bash
-node add-review-to-latest.js addisonrae1
+node Bob/add-review-to-latest.js addisonrae1
 ```
 
 ## 動作

@@ -31,12 +31,12 @@ node add-review-to-best50.js <filePathOrYear> <reviewId>
 
 **年号のみで指定（推奨）:**
 ```bash
-node add-review-to-best50.js 2025 addisonrae1
+node Bob/add-review-to-best50.js 2025 addisonrae1
 ```
 
 **フルパスで指定:**
 ```bash
-node add-review-to-best50.js src/pages/best50/2025.mdx addisonrae1
+node Bob/add-review-to-best50.js src/pages/best50/2025.mdx addisonrae1
 ```
 
 **他の年のファイルにも対応:**
