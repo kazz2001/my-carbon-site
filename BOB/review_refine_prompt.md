@@ -1,5 +1,5 @@
 # 1
-file1=src\pages\review\gunna1L.mdx
+file1=src\pages\review\hudsonmohawke2L.mdx
 File1を読んで、問題があったら、修正点を教えて。修正点はナンバリングして。ただし、修正はしないで。
 最後にBOB\review_refine_prompt.mdの18行目に、File1を上書きで書き込んで。ほかの行は変更しないで。
 File1をVSCodeのエクスプローラービューでロケートして

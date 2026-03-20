@@ -16,7 +16,7 @@ const path = require('path');
 const MAX_REVIEWS = 4;
 
 // Define the review folder path
-const reviewFolderPath = path.join('C:', 'Users', 'user', 'Documents', 'gatsby_v5', 'src', 'pages', 'review');
+const reviewFolderPath = path.join(__dirname, '..', 'src', 'pages', 'review');
 
 // Get review name from command line argument
 const reviewName = process.argv[2];

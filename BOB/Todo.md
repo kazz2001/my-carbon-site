@@ -2,11 +2,12 @@
 ```bash
 node BOb/scrape-review-to-json.js <URL>
 ```
-# 2 HTML作成
+# 2 MDX作成
 ```bash
 node Bob/generate-review-from-json.js config.json
 ```
 # 3 手動で修正
+affiliate link,画像の配置,Aファイル
 # 4 Index.htmに追加
 ```bash
 node Bob/add-review-to-index.js <review-name>

@@ -14,8 +14,8 @@ const path = require('path');
  */
 
 // Define paths
-const reviewFolderPath = path.join('C:', 'Users', 'user', 'Documents', 'gatsby_v5', 'src', 'pages', 'review');
-const best50FolderPath = path.join('C:', 'Users', 'user', 'Documents', 'gatsby_v5', 'src', 'pages', 'best50');
+const reviewFolderPath = path.join(__dirname, '..', 'src', 'pages', 'review');
+const best50FolderPath = path.join(__dirname, '..', 'src', 'pages', 'best50');
 
 /**
  * Extract metadata from review L file
