@@ -1,8 +1,8 @@
 # 1
 file1=src\pages\review\hudsonmohawke2L.mdx
 File1を読んで、問題があったら、修正点を教えて。修正点はナンバリングして。ただし、修正はしないで。
-最後にBOB\review_refine_prompt.mdの18行目に、File1を上書きで書き込んで。ほかの行は変更しないで。
-File1をVSCodeのエクスプローラービューでロケートして
+最後にBOB\review_refine_prompt.mdの20行目に、File1を上書きで書き込んで。ほかの行は変更しないで。
+
 
 # 2 
 src\pages\review\dvsn1L.mdx
@@ -14,10 +14,10 @@ src\pages\review下で、先頭だ"g"で終わりがL.mdxの全ファイルを�
 修正したファイルをBOB\review_refine_prompt.mdの20行目以降に、上書きで書き込んで。ほかの行は変更しないで。
 
 # 成形
-h
+k
 
 # 5
-src\pages\review\jamilawoods3L.mdx
+src\pages\review\kehlani5L.mdx
 
 # 整形済みファイル一覧
 
