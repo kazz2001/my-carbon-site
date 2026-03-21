@@ -3,10 +3,9 @@ file1=src\pages\review\hudsonmohawke2L.mdx
 File1を読んで、問題があったら、修正点を教えて。修正点はナンバリングして。ただし、修正はしないで。
 最後にBOB\review_refine_prompt.mdの20行目に、File1を上書きで書き込んで。ほかの行は変更しないで。
 
-
 # 2 
 src\pages\review\dvsn1L.mdx
-を整形して。インデントはタブだよ。テーブルの乱れも直してね。
+を整形して。インデントはタブに統一。テーブルの乱れも直してね。
 
 # 3
 src\pages\review下で、先頭だ"g"で終わりがL.mdxの全ファイルを整形して。インデントはタブだよ。
