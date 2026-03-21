@@ -16,7 +16,7 @@ src\pages\review下で、先頭だ"g"で終わりがL.mdxの全ファイルを�
 k
 
 # 5
-src\pages\review\kehlani5L.mdx
+src\pages\review\kehlani5L.mdx 
 
 # 整形済みファイル一覧
 
