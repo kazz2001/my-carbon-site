@@ -1,0 +1,159 @@
+{
+  "artistName": "Keiyaa",
+  "artistNameJa": "",
+  "albumTitle": "hooke’s law",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "keiyaa1",
+  "reviewPara1": "Chicago出身でNYを拠点に活動するシンガーソングライターKeiyaAの2ndアルバム。マルチ奏者でもあり、当作ではSaxやFluteも演奏している。",
+  "reviewPara2": "デビュー作リリース時の年齢は28歳と遅咲きではあるが、そのぶん、確固とした才能を示している。\n            自身が全曲制作に携わるトラックはジャズやR&amp;Bを核に、ジャングル、IDM、日本のアニメ・電子音楽等の要素を重層的にコラージュしていて、機材を駆使したエクスペリメンタルなものになっている。",
+  "reviewPara3": "これとメロディアスな曲との絶妙な一体感が特徴となっている。\n            Vocalでは滑らかな声と囁くようなシーツな声を使い分け、ところどころでは「メカスーツ」と呼ぶAuto-Tuneを用いている。",
+  "reviewPara4": "\n            タイトルにもある「下方への螺旋は力を蓄えたバネである」という物理法則を再生の比喩に採用し、黒人女性への伝統的な役割期待や搾取的な社会システムへの怒りや葛藤を表現している。",
+  "score1": "5",
+  "score2": "1",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "KeiyaA, Dj cowriiie(1,2,15,19)\n\nKeiyaA(3,4,5,6,7,8,9,10,11,12,13,14,16,17,18)",
+  "guests": "RahRah Gabor",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1834907065",
+  "best50Year": "2025",
+  "best50Rank": "25",
+  "relatedReviews": [],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Waltz D'hethert",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "0:52"
+    },
+    {
+      "num": 2,
+      "title": "I H8 U",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "2:59"
+    },
+    {
+      "num": 3,
+      "title": "Stupid Prizes",
+      "composers": "Percy Faith / Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "3:11"
+    },
+    {
+      "num": 4,
+      "title": "Take It",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "3:24"
+    },
+    {
+      "num": 5,
+      "title": "Be Quiet!!!",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "2:49"
+    },
+    {
+      "num": 6,
+      "title": "Think About It/What U Think?",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "3:26"
+    },
+    {
+      "num": 7,
+      "title": "K.i.s.s.",
+      "composers": "Chakeiya Richmond / Scott Storch",
+      "performer": "Keiyaa",
+      "time": "1:20"
+    },
+    {
+      "num": 8,
+      "title": "Make Good",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "3:44"
+    },
+    {
+      "num": 9,
+      "title": "This Time",
+      "composers": "RahRah Gabor / Chakeiya Richmond",
+      "performer": "Keiyaa feat. RahRah Gabor",
+      "time": "2:59"
+    },
+    {
+      "num": 10,
+      "title": "Lateeee",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "2:41"
+    },
+    {
+      "num": 11,
+      "title": "Get Close 2 Me",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "3:11"
+    },
+    {
+      "num": 12,
+      "title": "Fire Sign Oath",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "1:42"
+    },
+    {
+      "num": 13,
+      "title": "Motions",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "2:20"
+    },
+    {
+      "num": 14,
+      "title": "Motions (Reprise)",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "0:36"
+    },
+    {
+      "num": 15,
+      "title": "Break It",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "3:36"
+    },
+    {
+      "num": 16,
+      "title": "Thirsty",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "1:18"
+    },
+    {
+      "num": 17,
+      "title": "Devotions",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "4:34"
+    },
+    {
+      "num": 18,
+      "title": "Nobody Show",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "2:40"
+    },
+    {
+      "num": 19,
+      "title": "Until We Meet Again",
+      "composers": "Chakeiya Richmond",
+      "performer": "Keiyaa",
+      "time": "5:06"
+    }
+  ]
+}
