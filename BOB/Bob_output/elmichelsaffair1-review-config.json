@@ -1,0 +1,144 @@
+{
+  "artistName": "El Michels Affair",
+  "artistNameJa": "",
+  "albumTitle": "24 Hr Sports",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "elmichelsaffair1",
+  "reviewPara1": "Leon Michels率いるNYで活動するユニット、El Michels Affiairの2025年秋リリースのアルバム。Leon Michelsが文字通り中心となり、全曲制作に加え、複数楽器をこなし、これに気心知れたバンドメンバーが加わるという編成となている。",
+  "reviewPara2": "\n            「1980〜90年代のスポーツ文化」をコンセプトにし、架空のラジオ番組のような構成となっている。 ナカミチのカセットデッキを通すことで高音域を削り、中音域に厚みを持たせたローファイな質感を生み出しラジオ風な音にしている。",
+  "reviewPara3": "\n            また、シネマティック・ソウルと言われるだけあって、映画音楽のようなところもあり、特に杉並児童合唱団が参加する⑧などは、エヴァンゲリオンの最終盤に流れていそう。\n            Trackは、ビンテージなソウルをベースとし、ところどころサイケな味付けをしたもので、インスト多めであり、構成要素の一つとしてVocalを加えたような曲が多い。",
+  "reviewPara4": "\n            GuestはNora JonesやThe RootsからDave Guy, ブラジルのRogêなどに加え、坂本慎太郎が⑫では大きくフィーチャーされ、日本語で唄と語りを提供している。",
+  "score1": "5",
+  "score2": "2",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "Leon Michels(all)",
+  "guests": "Rogê, Florence Adooni, Dave Guy, Clairo, Shintaro Sakamoto, Norah Jones,\n            Rahsaan Roland Kirk, Lady Wray, Suginami Children's Choir",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1816303048",
+  "best50Year": "2025",
+  "best50Rank": "30",
+  "relatedReviews": [
+    {
+      "identifier": "elmichelsaffairblackthought1",
+      "artistName": "El Michles Affiar &amp; Black Thought",
+      "albumTitle": "Glorious Game"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Drumline",
+      "composers": "Leon Michels, Ray Mason",
+      "performer": "El Michels Affair",
+      "time": "1:39"
+    },
+    {
+      "num": 2,
+      "title": "Mágica",
+      "composers": "Leon Michels, Rogê, Marco Benevento, Thomas Brenneck",
+      "performer": "El Michels Affair feat. Rogê",
+      "time": "2:35"
+    },
+    {
+      "num": 3,
+      "title": "24 Hr Sports Theme No. 1",
+      "composers": "Leon Michels, Marco Benevento, Lee Falco",
+      "performer": "El Michels Affair",
+      "time": "0:26"
+    },
+    {
+      "num": 4,
+      "title": "Say Goodbye",
+      "composers": "Leon Michels, Florence Adooni, Nick Movshon, Homer Steinweiss, Max Weissenfelt",
+      "performer": "El Michels Affair feat. Florence Adooni",
+      "time": "3:21"
+    },
+    {
+      "num": 5,
+      "title": "Oakley's Car Wash",
+      "composers": "Leon Michels, Dave Guy, Nick Movshon, Homer Steinweiss, Marco Benevento",
+      "performer": "El Michels Affair feat. Dave Guy",
+      "time": "2:00"
+    },
+    {
+      "num": 6,
+      "title": "Anticipate",
+      "composers": "Leon Michels, Claire Cottrill, Marco Benevento, Paul Castelluzzo",
+      "performer": "El Michels Affair feat. Clairo",
+      "time": "3:09"
+    },
+    {
+      "num": 7,
+      "title": "Eastside",
+      "composers": "Leon Michels, Michael Leonhart",
+      "performer": "El Michels Affair",
+      "time": "3:09"
+    },
+    {
+      "num": 8,
+      "title": "Clean the Line",
+      "composers": "Leon Michels, Claire Cottrill, Marco Benevento, Ludvig Forssell",
+      "performer": "El Michels Affair",
+      "time": "3:24"
+    },
+    {
+      "num": 9,
+      "title": "Cortex",
+      "composers": "Leon Michels, Nick Movshon, Homer Steinweiss, Paul Castelluzzo",
+      "performer": "El Michels Affair",
+      "time": "1:54"
+    },
+    {
+      "num": 10,
+      "title": "Shining",
+      "composers": "Leon Michels, Marco Benevento",
+      "performer": "El Michels Affair",
+      "time": "3:12"
+    },
+    {
+      "num": 11,
+      "title": "24 Hr Sports Theme No. 2",
+      "composers": "Leon Michels, Marco Benevento, Lee Falco",
+      "performer": "El Michels Affair",
+      "time": "0:25"
+    },
+    {
+      "num": 12,
+      "title": "Indifference",
+      "composers": "Leon Michels, Shintaro Sakamoto, Marco Benevento, Paul Castelluzzo",
+      "performer": "El Michels Affair feat. Shintaro Sakamoto",
+      "time": "3:23"
+    },
+    {
+      "num": 13,
+      "title": "Carry Me Away",
+      "composers": "Leon Michels, Norah Jones, Marco Benevento",
+      "performer": "El Michels Affair feat. Norah Jones",
+      "time": "2:23"
+    },
+    {
+      "num": 14,
+      "title": "Take My Hand",
+      "composers": "Leon Michels, Nick Movshon, Homer Steinweiss, Marco Benevento,Nicole Wray,\n                  Kevin Martin, Dave Guy, Ray Mason",
+      "performer": "El Michels Affair feat. Rahsaan Roland Kirk",
+      "time": "2:53"
+    },
+    {
+      "num": 15,
+      "title": "Open Season",
+      "composers": "Leon Michels, Marco Benevento, Kevin Martin",
+      "performer": "El Michels Affair",
+      "time": "3:22"
+    },
+    {
+      "num": 16,
+      "title": "Victory Lap",
+      "composers": "Leon Michels, Marco Benevento, Kevin Martin",
+      "performer": "El Michels Affair",
+      "time": "3:12"
+    }
+  ]
+}

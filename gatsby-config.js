@@ -23,13 +23,13 @@ module.exports = {
         background_color: '#ffffff',
         theme_color: '#0062ff',
         display: 'browser',
-        icon: "src/images/music.png", 
+        icon: "src/images/favicon.png", 
       },
     },
     {
       resolve: 'gatsby-theme-carbon',
       options: {
-        iconPath: './src/images/music.png', 
+        iconPath: './src/images/favicon.png', 
         isSwitcherEnabled: false,
         repository: {
           baseUrl:

@@ -1,0 +1,142 @@
+{
+  "artistName": "JID",
+  "artistNameJa": "",
+  "albumTitle": "God Does Like Ugly",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "jid2",
+  "reviewPara1": "JIDの約3年ぶりとなる4枚目のスタジオアルバム。グラミー賞で2部門にノミネートされるなど、高評価を得ている。",
+  "reviewPara2": "\n            亡き祖母が遺した「神は醜いものも好む（God does like ugly）」という、不条理な現実への洞察をもとに、自身の「醜さ」を直視しして、自らコントロールすることを描き、ポスト・アポカリプスのアトランタを舞台に、聖と俗が混在する物語を展開している。",
+  "reviewPara3": "\n            サウンドは、盟友Christoを製作総指揮に迎え、南部トラップを軸にゴスペル、ジャズ、インダストリアル、ファンク等を融合させており、曲調もバラエティに富んだものになっている。\n            多彩な声色、緩急交えたラップやスペイン語での高速ラップなど、変幻自在なフローも特徴的で、人脈を活かして、ゲストもかなり豪華。",
+  "reviewPara4": "\n            最終曲で父親になったことを明かすなど、極めて内省的で誠実な内容になっている���。",
+  "score1": "5",
+  "score2": "2",
+  "score3": "2",
+  "score4": "4.5",
+  "producers": "Childish Major, Christo, Luke Crowder, Lex Luger, Rodney Akil Pratt, Shroom\n            and Tú(1)\n\n            Beatnick Dee and Lex Luger(2)\n\n            Pluss and Christo(3)\n\n            Frankie P. and Mario Luciano(4)\n\n            Christo and Trakgirl(5)\n\n            Jay Versace(6)\n\n            Jay Card and Nice Rec(7)\n\n            Ambezza, Nik D, Cameone and Buddy Ross(8)\n\n            Benji, Yuli and Christo(9)\n\n            Timothy Suby(10)\n\n            Gordon Ritchie-Haughton and Thundercat(11)\n\n            BOI 1DA, VINYLZ, Cubeatz and Scotty Lavell Coleman(12)\n\n            Mereba, Childish Major, Trey Lander, Eli Macedon, TRYBISHOP, Gib DJ, Noah\n            Scharf and Christo(13)\n\n            Muzikman Sam, Major Seven and Christo(14)\n\n            Tú and STEALTHISMETAL(15)",
+  "guests": "Westside Gunn, Clipse, Vince Staples, Ciara, EarthGang, Clipse, Don Toliver, Jessie Reyez, Baby Kia, Mereba, Pastor Troy",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1812517697",
+  "best50Year": "2025",
+  "best50Rank": "20",
+  "relatedReviews": [
+    {
+      "identifier": "jid1",
+      "artistName": "JID",
+      "albumTitle": "The Forever Story"
+    },
+    {
+      "identifier": "spillagevillage1",
+      "artistName": "Spillage Village",
+      "albumTitle": "Spilligion"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "YouUgly",
+      "composers": "Luke Crowder, Destin Route, Alvin Worthy, Neal Pogue II, Tim Schoegje, John Welch, Markus Randle, Akil Pratt",
+      "performer": "JID feat. Westside Gunn, Clipse, Vince Staples",
+      "time": "4:43"
+    },
+    {
+      "num": 2,
+      "title": "Glory",
+      "composers": "Destin Route, Nicholas Doherty, Lexus Lewis",
+      "performer": "JID",
+      "time": "3:59"
+    },
+    {
+      "num": 3,
+      "title": "WRK",
+      "composers": "Destin Route, Asheton Hogan, John Christopher Welch III",
+      "performer": "JID",
+      "time": "3:14"
+    },
+    {
+      "num": 4,
+      "title": "Community",
+      "composers": "Destin Route, Frank Parra, TERRENCE THORNTON,  Gene Thornton, Mario Dragoi",
+      "performer": "JID feat. Clipse",
+      "time": "4:25"
+    },
+    {
+      "num": 5,
+      "title": "Gz",
+      "composers": "Destin Route, John Welch, Shakari Linder",
+      "performer": "JID",
+      "time": "3:28"
+    },
+    {
+      "num": 6,
+      "title": "VCRs",
+      "composers": "Destin Route, Jahlil Gunter, Vince Staples",
+      "performer": "JID feat. Vince Staples",
+      "time": "3:58"
+    },
+    {
+      "num": 7,
+      "title": "Sk8",
+      "composers": "John Christopher Welch III, Destin Route, Ciara Harris, Olu Fann, Eian Parker, Jackson Card, Peter Mudge, Jason Harris",
+      "performer": "JID feat. Ciara, EarthGang",
+      "time": "3:10"
+    },
+    {
+      "num": 8,
+      "title": "What We On",
+      "composers": "Destin Route, Caleb Toliver, Mathias Daniel Liyew, Chase Benjamin, Nik Frascona, Michael Cerda, Josiah Sherman, Derek &quot;206derek&quot; Anderson, Edgar Panford Nabeyin",
+      "performer": "JID feat. Don Toliver",
+      "time": "3:58"
+    },
+    {
+      "num": 9,
+      "title": "Wholeheartedly",
+      "composers": "Ian Welch, Margaux Whitney, Destin Route, Tyrone Griffin Jr, John Welch,\n                  6LACK",
+      "performer": "JID, Ty Dolla $ign, 6LACK",
+      "time": "3:45"
+    },
+    {
+      "num": 10,
+      "title": "No Boo",
+      "composers": "Destin Route, Tim Suby",
+      "performer": "JID feat. Jessie Reyez",
+      "time": "3:35"
+    },
+    {
+      "num": 11,
+      "title": "And We Vibing (Interlude)",
+      "composers": "Gordon Ritchie-Haughton, Stephen Bruner, Destin Route",
+      "performer": "JID",
+      "time": "0:41"
+    },
+    {
+      "num": 12,
+      "title": "On McAfee",
+      "composers": "Mereba, Jeremy Hicks, Gibson Alcott, Destin Route, Markus Randle, Donald B. Lander III, Elijah Sinclair Forbes",
+      "performer": "JID feat. Baby Kia",
+      "time": "2:50"
+    },
+    {
+      "num": 13,
+      "title": "Of Blue",
+      "composers": "Destin Route",
+      "performer": "JID feat. Mereba",
+      "time": "6:36"
+    },
+    {
+      "num": 14,
+      "title": "K-Word",
+      "composers": "Destin Route, Micah Troy, O. Walker, Samuel Williams John Welch",
+      "performer": "JID feat. Pastor Troy",
+      "time": "5:11"
+    },
+    {
+      "num": 15,
+      "title": "For Keeps",
+      "composers": "Destin Route, Neal Pogue II, Robert Harry Cannady",
+      "performer": "JID",
+      "time": "3:45"
+    }
+  ]
+}
