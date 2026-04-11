@@ -7,13 +7,9 @@
  * 例:
  * node BOB/generate-book-review.js "https://www.amazon.co.jp/dp/4781624898"
  * node BOB/generate-book-review.js "https://www.amazon.co.jp/dp/4781624898" "hiphopmeiban100"
- * 
- * 必要なパッケージ:
- * npm install node-fetch@2 cheerio
  */
 
-const fetch = require('node-fetch');
-const cheerio = require('cheerio');
+const puppeteer = require('puppeteer');
 const fs = require('fs').promises;
 const path = require('path');
 
@@ -37,150 +33,106 @@ class BookInfo {
  * Amazon URLから書籍情報を取得
  */
 async function fetchBookInfo(url) {
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
+
   try {
-    console.log('Amazonページにアクセス中...');
+    const page = await browser.newPage();
+    await page.setViewport({ width: 1280, height: 800 });
     
-    // User-Agentを設定してリクエスト
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
-      }
-    });
-
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-
-    const html = await response.text();
-    const $ = cheerio.load(html);
+    console.log('Amazonページにアクセス中...');
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+    
+    // ページが読み込まれるまで待機
+    await page.waitForSelector('h1', { timeout: 10000 });
 
     const bookInfo = new BookInfo();
     bookInfo.amazonUrl = url;
 
     // タイトルを取得
     try {
-      const title = $('#productTitle').text().trim() || 
-                    $('h1[id*="title"]').text().trim() ||
-                    $('span[id="productTitle"]').text().trim();
-      if (title) {
-        bookInfo.title = title;
-        console.log('タイトル:', bookInfo.title);
-      }
+      bookInfo.title = await page.$eval('#productTitle, h1[id*="title"]', el => el.textContent.trim());
+      console.log('タイトル:', bookInfo.title);
     } catch (e) {
       console.log('タイトル取得エラー:', e.message);
     }
 
     // 著者を取得
     try {
-      const author = $('.author a').first().text().trim() ||
-                     $('.contributorNameID').first().text().trim() ||
-                     $('a[class*="author"]').first().text().trim();
-      if (author) {
-        bookInfo.author = author;
-        console.log('著者:', bookInfo.author);
-      }
+      bookInfo.author = await page.$eval('.author a, .contributorNameID', el => el.textContent.trim());
+      console.log('著者:', bookInfo.author);
     } catch (e) {
       console.log('著者取得エラー:', e.message);
     }
 
+    // 「すべての詳細を表示」をクリック
+    try {
+      const detailsButton = await page.$('a[href*="#detailBullets"]');
+      if (detailsButton) {
+        await detailsButton.click();
+        await page.waitForTimeout(2000);
+      }
+    } catch (e) {
+      console.log('詳細ボタンクリックエラー:', e.message);
+    }
+
     // 詳細情報を取得
     try {
-      const detailBullets = $('#detailBullets_feature_div li, .detail-bullet-list li');
-      
-      detailBullets.each((i, elem) => {
-        const text = $(elem).text();
+      const details = await page.evaluate(() => {
+        const info = {};
+        const rows = document.querySelectorAll('#detailBullets_feature_div li, .detail-bullet-list li');
         
-        // 出版社
-        if (text.includes('出版社')) {
-          const match = text.match(/出版社[:\s]*([^\n(]+)/);
-          if (match) {
-            bookInfo.publisher = match[1].trim();
+        rows.forEach(row => {
+          const text = row.textContent;
+          if (text.includes('出版社')) {
+            const match = text.match(/出版社[:\s]*([^\n]+)/);
+            if (match) info.publisher = match[1].trim();
           }
-        }
+          if (text.includes('ページ数')) {
+            const match = text.match(/(\d+)ページ/);
+            if (match) info.pages = match[1];
+          }
+          if (text.includes('発売日')) {
+            const match = text.match(/(\d{4}\/\d{1,2}\/\d{1,2})/);
+            if (match) info.releaseDate = match[1];
+          }
+          if (text.includes('ISBN-13')) {
+            const match = text.match(/ISBN-13[:\s]*(\d{3}-\d+)/);
+            if (match) info.isbn = match[1];
+          }
+          if (text.includes('梱包サイズ') || text.includes('寸法')) {
+            const match = text.match(/([\d.]+\s*x\s*[\d.]+\s*x\s*[\d.]+\s*cm)/);
+            if (match) info.size = match[1].trim();
+          }
+        });
         
-        // ページ数
-        if (text.includes('ページ数')) {
-          const match = text.match(/(\d+)ページ/);
-          if (match) {
-            bookInfo.pages = match[1];
-          }
-        }
-        
-        // 発売日
-        if (text.includes('発売日')) {
-          const match = text.match(/(\d{4}\/\d{1,2}\/\d{1,2})/);
-          if (match) {
-            bookInfo.releaseDate = match[1];
-          }
-        }
-        
-        // ISBN
-        if (text.includes('ISBN-13')) {
-          const match = text.match(/ISBN-13[:\s]*(\d{3}-\d+)/);
-          if (match) {
-            bookInfo.isbn = match[1];
-          }
-        }
-        
-        // サイズ
-        if (text.includes('梱包サイズ') || text.includes('寸法')) {
-          const match = text.match(/([\d.]+\s*x\s*[\d.]+\s*x\s*[\d.]+\s*cm)/);
-          if (match) {
-            bookInfo.size = match[1].trim();
-          }
-        }
+        return info;
       });
 
-      // 別の詳細情報セクションも確認
-      const productDetails = $('#detailBulletsWrapper_feature_div .a-list-item, #productDetails_detailBullets_sections1 tr');
-      productDetails.each((i, elem) => {
-        const text = $(elem).text();
-        
-        if (text.includes('出版社') && !bookInfo.publisher) {
-          const match = text.match(/出版社[:\s]*([^\n(]+)/);
-          if (match) bookInfo.publisher = match[1].trim();
-        }
-        
-        if (text.includes('ページ数') && !bookInfo.pages) {
-          const match = text.match(/(\d+)ページ/);
-          if (match) bookInfo.pages = match[1];
-        }
-        
-        if (text.includes('発売日') && !bookInfo.releaseDate) {
-          const match = text.match(/(\d{4}\/\d{1,2}\/\d{1,2})/);
-          if (match) bookInfo.releaseDate = match[1];
-        }
-      });
-
-      console.log('詳細情報取得完了');
+      Object.assign(bookInfo, details);
+      console.log('詳細情報:', details);
     } catch (e) {
       console.log('詳細情報取得エラー:', e.message);
     }
 
     // 価格を取得
     try {
-      const priceText = $('.a-price .a-offscreen').first().text().trim() ||
-                        $('#price').text().trim() ||
-                        $('.a-color-price').first().text().trim();
-      
-      if (priceText) {
-        const priceMatch = priceText.match(/[¥￥]?([\d,]+)/);
-        if (priceMatch) {
-          bookInfo.price = priceMatch[1].replace(/,/g, '');
-          console.log('価格:', bookInfo.price);
-        }
+      const priceText = await page.$eval('.a-price .a-offscreen, #price', el => el.textContent.trim());
+      const priceMatch = priceText.match(/[¥￥]?([\d,]+)/);
+      if (priceMatch) {
+        bookInfo.price = priceMatch[1].replace(',', '');
       }
+      console.log('価格:', bookInfo.price);
     } catch (e) {
       console.log('価格取得エラー:', e.message);
     }
 
     return bookInfo;
 
-  } catch (error) {
-    console.error('書籍情報の取得に失敗しました:', error.message);
-    throw error;
+  } finally {
+    await browser.close();
   }
 }
 
