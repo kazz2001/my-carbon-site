@@ -24,12 +24,12 @@ import Review4 from "../review/littlesimz1.mdx";
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
 <p className="largeP">
-  <Link to="/best50/2022/">2022 Black Music Album Best No.30</Link>
+	<Link to="/best50/2022/">2022 Black Music Album Best No.30</Link>
 </p>
 
 <Row  className="image-card-group">
 	<Column colMd={3} colLg={4} noGutterMdLeft="">
-       <ImageCard>
+			<ImageCard>
 
 ![Little Simz / No Thank You](../../images/cd/littlesimz3L.jpg)
 
@@ -44,14 +44,14 @@ import Review4 from "../review/littlesimz1.mdx";
 		</p>
 		<div>
 		  <Button className="button-right-mergin"  href="https://amzn.to/3SihBoM" renderIcon={ArrowUpRight} size='sm' kind='primary'>
-  	    amazon.com
-  	  </Button>
-  	  <Button className="button-right-mergin"  href="https://amzn.to/40vtPfX" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
-  	    amazon.co.jp
-  	  </Button>
+		    amazon.com
+		  </Button>
+		  <Button className="button-right-mergin"  href="https://amzn.to/40vtPfX" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+		    amazon.co.jp
+		  </Button>
 			<Button className="button-right-mergin"  href="https://apple.co/3FBZORS" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
-  	   	apple music
-  	  </Button>
+		   	apple music
+		  </Button>
 			<AdvJS2/>
 		</div>
 	</Column>
@@ -98,18 +98,18 @@ import Review4 from "../review/littlesimz1.mdx";
 <h3>Other Reviews</h3>
 
 <Row>
-  <Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review1 />
-  </Column>
 	<Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review2 />
-  </Column>
+		<Review1 />
+	</Column>
 	<Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review3 />
-  </Column>
+		<Review2 />
+	</Column>
 	<Column colMd={3} colLg={3} noGutterMdLeft>
-    <Review4 />
-  </Column>
+		<Review3 />
+	</Column>
+	<Column colMd={3} colLg={3} noGutterMdLeft>
+		<Review4 />
+	</Column>
 </Row>
 
 <AdvJS3 />
