@@ -97,12 +97,12 @@ relatedReviews.forEach(reviewName => {
     console.log(`  ✓ import文を追加: Review${nextReviewNumber}`);
     
     // 2. Other Reviewsセクションに追加
-    const otherReviewsRegex = /<h3>Other Reviews<\/h3>\s*\n\s*<Row>([\s\S]*?)<\/Row>/;
+    const otherReviewsRegex = /<h3>Other Reviews<\/h3>\s*\n+\s*<Row>([\s\S]*?)<\/Row>/;
     const otherReviewsMatch = content.match(otherReviewsRegex);
     
     if (otherReviewsMatch) {
       const rowContent = otherReviewsMatch[1];
-      const newColumn = `\n  <Column colMd={3} colLg={3} noGutterMdLeft>\n    <Review${nextReviewNumber} />\n  </Column>`;
+      const newColumn = `\n\t<Column colMd={3} colLg={3} noGutterMdLeft>\n\t\t<Review${nextReviewNumber} />\n\t</Column>`;
       
       // </Row>の直前に新しいColumnを追加
       const updatedRow = rowContent + newColumn + '\n';

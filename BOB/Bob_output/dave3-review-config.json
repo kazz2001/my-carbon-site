@@ -1,0 +1,107 @@
+{
+  "artistName": "Dave",
+  "artistNameJa": "",
+  "albumTitle": "The Boy Who Played the Harp",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "dave3",
+  "reviewPara1": "UKのRapper, Daveの2年ぶりとなる3作目。メディアでは高い評価を受け、Brit Awards最優秀ヒップホップ／グライム／ラップ賞を受賞している。",
+  "reviewPara2": "\n            アルバム全体として非常に内省的で、静かで、聴き手に問いかけるような雰囲気が漂っており、成功の影にある孤独や不安、実存的危機を深く掘り下げるようなリリックとなっていて、聖書に登場するダビデ王がハープでサウル王を癒やした物語をモチーフに、「自身の使命」を問い直しているす。\n            サウンド面では、ピアノの旋律を軸にした最小限で繊細な編曲が特徴で、抑制的でゆったりとした全体感がある。",
+  "reviewPara3": "ハープ、ダブルベース、チェロといった生楽器が多用されたチェンバー・ラップといえるもので、これにゴスペルやアフロビーツの要素も織り交ぜ、幽玄な空気感を作り出している。これにDaveの真摯な語り口のRapが加わる。",
+  "reviewPara4": "\n            制作はDave自身（Santan名義）に加え、Jo CalebやJonny Leslieらが主導していてる。ゲストには、複数曲でWritingにも参加しているJames\n            BlakeやTems、重鎮Kano、Jim Legxacyなど。",
+  "score1": "2",
+  "score2": "1",
+  "score3": "2",
+  "score4": "4.5",
+  "producers": "James Blake(1,11)\n\n            Santan(2,4,7)\n\n            Santan, Jim Legxacy, Jo Caleb, Jonny Leslie, Kyle Evans(3)\n\n            Kyle Evans(5)\nSantan and James Blake(6)\n\n            Jo Caleb and Kyle Evans(8)\n\n            Santan, Jo Caleb and Kyle Evans(9)\n\nFraser T. Smith(10)&lt;br&gt;",
+  "guests": "James Blake, Jim Legxacy, Kano, Tems, Nicole Blakk",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1847992481",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "dave2",
+      "artistName": "Dave",
+      "albumTitle": "We're All Alone In This Together"
+    },
+    {
+      "identifier": "dave1",
+      "artistName": "Dave",
+      "albumTitle": "Psychodrama"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "History",
+      "composers": "David Omoregie, James Blake",
+      "performer": "Dave feat. James Blake",
+      "time": "4:06"
+    },
+    {
+      "num": 2,
+      "title": "175 Months",
+      "composers": "David Omoregie, James Blake, Harrison Fisher, Jamil Pierre, Boy Matthews",
+      "performer": "Dave",
+      "time": "4:34"
+    },
+    {
+      "num": 3,
+      "title": "No Weapons",
+      "composers": "David Omoregie, Jim Legxacy, Jo Caleb, Jonny Leslie, Kyle Evans",
+      "performer": "Dave feat. Jim Legxacy",
+      "time": "3:18"
+    },
+    {
+      "num": 4,
+      "title": "Chapter 16",
+      "composers": "David Omoregie, Kane Robinson, James Blake",
+      "performer": "Dave feat. Kano",
+      "time": "6:20"
+    },
+    {
+      "num": 5,
+      "title": "Raindance",
+      "composers": "David Omoregie, Temilade Openiyi, Kyle Evans",
+      "performer": "Dave feat. Tems",
+      "time": "3:39"
+    },
+    {
+      "num": 6,
+      "title": "Selfish",
+      "composers": "David Omoregie, James Blake",
+      "performer": "Dave feat. James Blake",
+      "time": "4:31"
+    },
+    {
+      "num": 7,
+      "title": "My 27th Birthday",
+      "composers": "David Omoregie, Jo Caleb, Jonny Leslie, Elijah Fox, Grayson Lane",
+      "performer": "Dave",
+      "time": "7:51"
+    },
+    {
+      "num": 8,
+      "title": "Marvellous",
+      "composers": "David Omoregie, Jo Caleb, Kyle Evans",
+      "performer": "Dave",
+      "time": "3:01"
+    },
+    {
+      "num": 9,
+      "title": "Fairchild",
+      "composers": "David Omoregie, Jo Caleb, Kyle Evans",
+      "performer": "Dave",
+      "time": "5:46"
+    },
+    {
+      "num": 10,
+      "title": "The Boy Who Played the Harp",
+      "composers": "David Omoregie, Fraser T. Smith, John Lennon, Paul McCartney",
+      "performer": "Dave",
+      "time": "4:37"
+    }
+  ]
+}

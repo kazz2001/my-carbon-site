@@ -1,0 +1,121 @@
+{
+  "artistName": "Daniel Caesar",
+  "artistNameJa": "",
+  "albumTitle": "Son of Spergy",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "danielcaesar3",
+  "reviewPara1": "Daniel Caesarの2年ぶり4作目となるスタジオ・アルバム。Billboard 200で自身最高位の4位を記録し、Top R&amp;B/Hip-Hop\n            Albumsチャートでは初の1位に輝いている\n            タイトルの「Spergy」はゴスペルシンガーだった父の愛称で、かつて反発した父の姿に自分を重ね合わせ、和解する過程が核となっており、極めて内省的で成熟したアルバムになっている。",
+  "reviewPara2": "Daniel本人が「家族こそがすべて」と悟った「より純粋な場所」から生まれた作品であり、世代間の絆と自己の再発見を促す、静謐なムードに包まれている。\n            Trackは「静かなゴスペル」を基調としつつ、インディー・フォークやサイケデリックな要素が融合している。",
+  "reviewPara3": "Brian Wilsonや少しだけBeatlesを彷彿とさせる甘美で複雑なハーモニーや、独特の空気感が特徴的で、アコースティックな親密さと精緻にデザインされた音響とが絶妙なバランスで共存している。\n            Executive ProducerにはMustafa, Jordan Evans, Matthew Burnettが名を連ね、Sampha,\n            Bon Iver, Yebba, Blood Orange,Clairoなど作品の世界観にマッチしたゲスト陣となっている。",
+  "reviewPara4": "作品のコンセプトに沿って、実父のNorwill\n            Simmonds(なんと美声)や弟の646yf4tも加わっている。\n            Vocalは落ち着いて、心��響いてくるようなもので、合唱的な多重録音や重厚なコーラスが特徴的で、神聖な響きを添えている。",
+  "score1": "1",
+  "score2": "3",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "Aver Ray, Tiana Kruškić and Dylan Wiggins(1)\n\n            Simon Hessman, Jordan Evans and Dylan Wiggins(2)\n\n            Jordan Evans, Matthew Burnett, Daniel Caesar and Rami Dawod(3)\n\n            Daniel Caesar and Dylan Wiggins(4,5)\n\n            Daniel Caesar and Matthew Burnett(6)\n\n            Daniel Caesar, Rami Dawod, Simon Hessman and Dylan Wiggins(7)\n\n            Daniel Caesar, Rex Orange County, Aver Ray, Romil Hemnani, Dylan Wiggins\n            and Tiana Kruškić(8)\n\n            Daniel Caesar, Romil Hemnani, Rami Dawod and Dylan Wiggins(9)\n\n            Daniel Caesar, Dylan Wiggins and Sean Leon(10)\n\n            Zachary Simmonds and Dylan Wiggins(11)\n\n            Daniel Caesar, Tiana Kruškić and Aver Ray(12)",
+  "guests": "Sampha, Norwill Simmonds, Bon Iver, Yebba &amp; Blood Orange, 646by4ft",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1839352404",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "danielcaesar2",
+      "artistName": "Daniel Caesar",
+      "albumTitle": "Never Enough"
+    },
+    {
+      "identifier": "danielcaesar1",
+      "artistName": "Daniel Caesar",
+      "albumTitle": "Freudian"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Rain Down",
+      "composers": "Ashton Simmonds, Sampha Lahai Sisey, Billy Ray Schlag, Dylan Wiggins",
+      "performer": "Daniel Caesar, feat. Sampha",
+      "time": "3:07"
+    },
+    {
+      "num": 2,
+      "title": "Have A Baby (With Me)",
+      "composers": "Ashton Simmonds, Mustafa Ahmed, Jordan Evans",
+      "performer": "Daniel Caesar",
+      "time": "3:45"
+    },
+    {
+      "num": 3,
+      "title": "Call On Me",
+      "composers": "Ashton Simmonds, Matthew Burnett, Jordan Evans, Isaac Stalling, Rami Dawod",
+      "performer": "Daniel Caesar",
+      "time": "2:49"
+    },
+    {
+      "num": 4,
+      "title": "Baby Blue",
+      "composers": "Ashton Simmonds, Norwill Simmonds, Dylan Wiggins, Billy Ray Schlag, Simon\n                  Hessman, Richard Uglow, Devonté Hynes",
+      "performer": "Daniel Caesar feat. Norwill Simmonds",
+      "time": "5:57"
+    },
+    {
+      "num": 5,
+      "title": "Root of all Evil",
+      "composers": "Ashton Simmonds, Billy Ray Schlag, Claire Cottrill, Mustafa Ahmed, Dylan\n                  Wiggins, Simon Hessman",
+      "performer": "Daniel Caesar",
+      "time": "4:25"
+    },
+    {
+      "num": 6,
+      "title": "Who Knows",
+      "composers": "Alex O'Connor, Ashton Simmonds, Dylan Wiggins, Justin Vernon, Matthew Burnett,\n                  Mustafa Ahmed, Romil Hemnani",
+      "performer": "Daniel Caesar",
+      "time": "3:50"
+    },
+    {
+      "num": 7,
+      "title": "Moon",
+      "composers": "Ashton Simmonds, Matthew Burnett, Isaac Stalling, Simon Hessman, Dylan\n                  Wiggins, Justin Vernon, Rami Dawod",
+      "performer": "Daniel Caesar feat. Bon Iver",
+      "time": "5:17"
+    },
+    {
+      "num": 8,
+      "title": "Touching God",
+      "composers": "Abigail Smith, Alex O'Connor, Ashton Simmonds, Billy Ray Schlag, Devonté\n                  Hynes, Dylan Wiggins, Mustafa Ahmed, Romil Hemnani, Tiana Kruškić",
+      "performer": "Daniel Caesar feat. Yebba &amp; Blood Orange",
+      "time": "4:41"
+    },
+    {
+      "num": 9,
+      "title": "Sign Of the Times",
+      "composers": "Ashton Simmonds, Billy Ray Schlag, Dylan Wiggins, Rami Dawod, Matthew Burnett,\n                  Romil Hemnani",
+      "performer": "Daniel Caesar",
+      "time": "3:51"
+    },
+    {
+      "num": 10,
+      "title": "Emily&#39;s Song",
+      "composers": "Ashton Simmonds, Axel Benamar, Dylan Wiggins, Matthew Sean Leon",
+      "performer": "Daniel Caesar",
+      "time": "2:54"
+    },
+    {
+      "num": 11,
+      "title": "No More Loving (On Women I Don't Love)",
+      "composers": "Ashton Simmonds, Dylan Wiggins, Zachary Simmonds",
+      "performer": "Daniel Caesar feat. 646by4ft",
+      "time": "3:18"
+    },
+    {
+      "num": 12,
+      "title": "Sins Of The Father",
+      "composers": "Ashton Simmonds, Billy Ray Schlag, Justin Vernon",
+      "performer": "Daniel Caesar feat. Bon Iver",
+      "time": "7:50"
+    }
+  ]
+}
