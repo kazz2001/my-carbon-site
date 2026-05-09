@@ -12,7 +12,7 @@ node Bob/generate-review-from-json.js config.json
 
 # 3 手動で修正
 
-affiliate link,画像の配置,Aファイル修正
+affiliate link,画像の配置, レビューコメント整形、Aファイル修正
 
 # 4 Index.htmに追加
 

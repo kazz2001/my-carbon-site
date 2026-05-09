@@ -32,7 +32,7 @@ console.log(`処理開始: ${targetReview}L.mdx を解析します...`);
 const targetLContent = fs.readFileSync(targetLFile, 'utf-8');
 
 // import文から関連レビューファイルを抽出
-const importRegex = /import\s+\w+\s+from\s+["']\.\.\/review\/(\w+)\.mdx["'];?/g;
+const importRegex = /import\s+\w+\s+from\s+["']\.\.\/review\/([^"']+)\.mdx["'];?/g;
 const relatedReviews = [];
 let match;
 
@@ -73,7 +73,7 @@ relatedReviews.forEach(reviewName => {
 
   // 1. import文を追加
   // 最後のimport文を見つける
-  const lastImportMatch = content.match(/import\s+(\w+)\s+from\s+["']\.\.\/review\/\w+\.mdx["'];?\n/g);
+  const lastImportMatch = content.match(/import\s+(\w+)\s+from\s+["']\.\.\/review\/([^"']+)\.mdx["'];?/g);
   if (lastImportMatch) {
     const lastImport = lastImportMatch[lastImportMatch.length - 1];
     const lastImportIndex = content.lastIndexOf(lastImport);

@@ -88,9 +88,9 @@ function addReviewToTableOnly(reviewId, year = '2025') {
   const escapedArtist = escapeRegex(artistName);
   const escapedAlbum = escapeRegex(albumTitle);
   
-  // Find and update the table entry
-  const tableEntryPattern = new RegExp(`^\\|\\s*${position}\\s*\\|\\s*${escapedArtist}\\s*-\\s*${escapedAlbum}\\s*\\|`);
-  const tableEntryLinkPattern = new RegExp(`^\\|\\s*${position}\\s*\\|\\s*\\[${escapedArtist}\\s*-\\s*${escapedAlbum}\\]`);
+  // Find and update the table entry (case-insensitive matching)
+  const tableEntryPattern = new RegExp(`^\\|\\s*${position}\\s*\\|\\s*${escapedArtist}\\s*-\\s*${escapedAlbum}\\s*\\|`, 'i');
+  const tableEntryLinkPattern = new RegExp(`^\\|\\s*${position}\\s*\\|\\s*\\[${escapedArtist}\\s*-\\s*${escapedAlbum}\\]`, 'i');
   let tableUpdated = false;
   
   for (let i = 0; i < lines.length; i++) {
