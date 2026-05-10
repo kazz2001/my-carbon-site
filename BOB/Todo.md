@@ -1,3 +1,9 @@
+# 1と2を続けて実行する
+
+```bash
+node BOB/scrape-and-generate.js <URL> [output-filename.json]
+```
+
 # 1 bmより情報抽出
 
 ```bash
@@ -13,6 +19,12 @@ node Bob/generate-review-from-json.js config.json
 # 3 手動で修正
 
 affiliate link,画像の配置, レビューコメント整形、Aファイル修正
+
+# 4,5,7を続けて実行するスクリプト
+
+```bash
+node BOB/add-review-to-all.js addisonrae1 2025
+```
 
 # 4 Index.htmに追加
 

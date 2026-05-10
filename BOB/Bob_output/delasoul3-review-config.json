@@ -1,0 +1,172 @@
+{
+  "artistName": "De La Soul",
+  "artistNameJa": "",
+  "albumTitle": "Cabin In the Sky",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "delasoul3",
+  "reviewPara1": "De La Soul の9年ぶり、9作目となるスタジオアルバム。前作より長いインターバルとなったが、権利問題の解決に時間を要したとのこと。",
+  "reviewPara2": "また、2023年にメンバーの1人、Trugoy\n            the Dove (David Jude Jolicoeur)を病気で失った悲しみを乗り越えての追悼と結束を兼ねた作品でもある。\n            ①のアルバムイントロで、参加ゲストや制作陣の点呼をすすめ、最後にDaveの返事が無く、物悲しい導入部の②へとつながる構成になっているが、その後はDe\n            La Soulらしい、ソウルフルで軽快、軽妙な続く。",
+  "reviewPara3": "メローな曲やGospelっぽい曲も含め、アルバム自体は楽しく、賑やか。\n            とにかく、Guest(Nas, Q-Tip, Slick Rick, Common, Black Thoughtなど)、制作陣(DJ Premere,\n            Pete Rock, Supa Dave Westなど)が豪華で、リジェンド級の大物が集結している。",
+  "reviewPara4": "Yummy BinghamやYukimiなどの女性Vocalによって彩りも加わっている。\n            ラストの⑳で”そのころ、空の上のキャビンでは”のナレーションとともに、DaveのRapが始まり、アルバムを完結させている。",
+  "score1": "3",
+  "score2": "2",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "De La Soul(1)\n\n            Dove of De La Soul(2,20)\n\n            DJ Premier(3,14,15)\n\n            Supa Dave West(4,10,11,16,19)\n\n            Pos of De La Soul(5)\n\n            Pete Rock(6,12,17)\n\n            Nottz(7)\n\n            ERIK &amp; JOSHUA(8)\n\n            Pos and Dave of De La Soul(9)\n\n            Jake One and Sam Wish(13)\n\n            Pete Rock and Kiefer Shackelford(18)",
+  "guests": "Giancarlo Esposito, Yummy Bingham, Killer Mike, Jay Pharoah, Gareth Donkin,\n            Yukimi, Q-Tip, Nas, Gina Loring, Black Thought, Lady Stout, K. Butler &amp;\n            The Collective, Common, Slick Rick, Bilal",
+  "amazonCom": "https://amzn.to/B00005RGMQ",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1850512301",
+  "best50Year": "2025",
+  "best50Rank": "29",
+  "relatedReviews": [
+    {
+      "identifier": "delasoul1",
+      "artistName": "De La Soul",
+      "albumTitle": "Art Official Intelligence : Mosaic Thump"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Cabin Talk",
+      "composers": "Pos Plug Won",
+      "performer": "De La Soul feat. Giancarlo Esposito",
+      "time": "3:38"
+    },
+    {
+      "num": 2,
+      "title": "YUHDONTSTOP",
+      "composers": "Kelvin Mercer, David Jolicoeur, Vincent Mason, Burt Bacharach, Hal David",
+      "performer": "De La Soul",
+      "time": "4:06"
+    },
+    {
+      "num": 3,
+      "title": "Sunny Storms",
+      "composers": "Kelvin Mercer, Vincent Mason, Chris Martin, Jean Carn, Charles Stepney,\n                  Rose Johnson, Terry Lewis, Samuel Harris, Ricky Walters, Douglas Davis",
+      "performer": "De La Soul",
+      "time": "3:24"
+    },
+    {
+      "num": 4,
+      "title": "Good Health",
+      "composers": "Kelvin Mercer, David Jolicoeur, Vincent Mason, David West",
+      "performer": "De La Soul",
+      "time": "2:27"
+    },
+    {
+      "num": 5,
+      "title": "Will Be",
+      "composers": "Kelvin Mercer, Vincent Mason, Paul Baptiste, Charles Jackson, Victor Orsbron,\n                  Eric Robinson, Marvin Yancy",
+      "performer": "De La Soul feat. Yummy Bingham",
+      "time": "1:26"
+    },
+    {
+      "num": 6,
+      "title": "The Package",
+      "composers": "Kelvin Mercer, David Jolicoeur, Vincent Mason, Peter O'Phillips, VS Veacey,\n                  Curtis Mayfield",
+      "performer": "De La Soul",
+      "time": "3:13"
+    },
+    {
+      "num": 7,
+      "title": "A Quick 16 for Mama",
+      "composers": "Kelvin Mercer, Vincent Mason, Dominick Lamb, Michael Render",
+      "performer": "De La Soul, feat. Killer Mike",
+      "time": "2:59"
+    },
+    {
+      "num": 8,
+      "title": "Just How It Is (Sometimes)",
+      "composers": "Kelvin Mercer, Vincent Mason, Erik Bodin, Joshua Crumbly, Prince Rogers\n                  Nelson",
+      "performer": "De La Soul feat. Jay Pharoah, Gareth Donkin",
+      "time": "4:29"
+    },
+    {
+      "num": 9,
+      "title": "Cruel Summers Bring FIRE LIFE!!",
+      "composers": "Kelvin Mercer, David Jolicoeur, Vincent Mason, Stephanie Andrews, Roy Ayers,\n                  Sara Dallin, Siobhan Fahey, Steve Jolley, Tony Swain, Stevie Wonder, Keren\n                  Woodward",
+      "performer": "De La Soul feat. Yukimi",
+      "time": "2:19"
+    },
+    {
+      "num": 10,
+      "title": "Tip &amp; Yummy Bingham – Day In The Sun (Gettin&#39; Wit U)",
+      "composers": "Kelvin Mercer, Vincent Mason, Kamaal Fareed, James Mtume, Reggie Lucas,\n                  David West",
+      "performer": "De La Soul, Q-Tip, Yummy Bingham",
+      "time": "4:17"
+    },
+    {
+      "num": 11,
+      "title": "Run It Back!!",
+      "composers": "Kelvin Mercer, Vincent Mason, Nasir Jones, Gordon Sumner, David West",
+      "performer": "De La Soul feat. Nas",
+      "time": "3:30"
+    },
+    {
+      "num": 12,
+      "title": "Different World",
+      "composers": "Kelvin Mercer, Vincent Mason, Lamont Dozier, Brian Holland, Edward Holland,\n                  Gina Loring, Peter O'Phillips",
+      "performer": "De La Soul feat. Gina Loring",
+      "time": "3:38"
+    },
+    {
+      "num": 13,
+      "title": "Patty Cake",
+      "composers": "Kelvin Mercer, David Jolicoeur, Vincent Mason, Jacob Dutton, Sam Wish",
+      "performer": "De La Soul",
+      "time": "3:43"
+    },
+    {
+      "num": 14,
+      "title": "The Silent Life Of A Truth",
+      "composers": "Kelvin Mercer, Vincent Mason, Chris Martin",
+      "performer": "De La Soul",
+      "time": "3:39"
+    },
+    {
+      "num": 15,
+      "title": "EN EFF",
+      "composers": "Kelvin Mercer, Vincent Mason, David Gates, Chris Martin, Tariq Trotter",
+      "performer": "De La Soul feat. Black Thought",
+      "time": "4:19"
+    },
+    {
+      "num": 16,
+      "title": "Believe (In Him)",
+      "composers": "Kelvin Mercer, Vincent Mason, David West",
+      "performer": "De La Soul feat. Lady Stout, K. Butler &amp; The Collective",
+      "time": "4:12"
+    },
+    {
+      "num": 17,
+      "title": "Yours",
+      "composers": "Kelvin Mercer, Vincent Mason, Hans-J&uuml;rgen Arkona, Frank Bornemann,\n                  Hannes Folberth, Lonnie Lynn, Klaus-Peter Matziol, Peter O'Phillips, Ricky\n                  Walters",
+      "performer": "De La Soul feat. Common, Slick Rick",
+      "time": "4:02"
+    },
+    {
+      "num": 18,
+      "title": "Palm Of His Hands",
+      "composers": "Kelvin Mercer, Vincent Mason, Peter O'Phillips, Kiefer Shackelford",
+      "performer": "De La Soul feat. Bilal",
+      "time": "3:48"
+    },
+    {
+      "num": 19,
+      "title": "Cabin In The Sky",
+      "composers": "Kelvin Mercer, Vincent Mason, Mort Garson, Tom Scholz, David West",
+      "performer": "De La Soul",
+      "time": "3:48"
+    },
+    {
+      "num": 20,
+      "title": "Don&#39;t Push Me",
+      "composers": "Kelvin Mercer, David Jolicoeur, Vincent Mason, Clifton Chase, Edward G.\n                  Fletcher, Melvin Glover, Sylvia Robinson",
+      "performer": "De La Soul",
+      "time": "3:43"
+    }
+  ]
+}

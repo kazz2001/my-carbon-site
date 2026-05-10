@@ -125,9 +125,10 @@ function addReviewToTableOnly(reviewId, year = '2025') {
   console.log(`\n⏳ Formatting file with Prettier...`);
   try {
     const { execSync } = require('child_process');
+    const projectRoot = path.join(__dirname, '..');
     execSync(`npx prettier --write "${filePath}"`, {
       stdio: 'inherit',
-      cwd: path.join('C:', 'Users', 'user', 'Documents', 'gatsby_v5')
+      cwd: projectRoot
     });
     console.log(`✓ File formatted successfully`);
   } catch (error) {
