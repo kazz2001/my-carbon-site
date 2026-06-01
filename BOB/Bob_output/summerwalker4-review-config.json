@@ -1,0 +1,168 @@
+{
+  "artistName": "Summer Walker",
+  "artistNameJa": "",
+  "albumTitle": "Finally Over It",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "summerwalker4",
+  "reviewPara1": "Summer Walkerの4年ぶりの3rdアルバム。&quot;Over It&quot;三部作の完結編となる。",
+  "reviewPara2": "2026年のGrammyでは、&quot;Heart\n            of a Woman&quot;が2部門にノミネートされた。\n            失恋や痛みを乗り越え、自己愛と幸福を掴み取ろうとする感情の進化を描いており、自分を優先する「For Better」と、無条件の愛を捨て去る「For\n            Worse」の2部構成になっている。",
+  "reviewPara3": "\n            スロー曲中心の構成なっていて、90年代中盤から00年代前半のR&amp;Bへのオマージュが軸となっており、これにTrapっぽさが加わった感じで、温かみのある洗練されたプロダクションが特徴と言えそう。穏やかで落ち着いた曲も多い。",
+  "reviewPara4": "\n            Summer Walkerのしっとり成熟したVocalは、終始抑え気味で、感情の揺れを繊細に伝えている。\n            \n            多くのProducerと豪華なゲスト陣が参加しているが、全員で三部作の完成を盛り立てている印象もある。",
+  "score1": "5",
+  "score2": "1",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "David &quot;Dos Dias&quot;Bishop, Ojikae and Rami Dawod(1)\n\n            David &quot;Dos Dias&quot;Bishop, A, Archer, Rami Dawod and Nineteen85(2)\n\n            Slimwav and Terrace Martin(3)\n\n            David &quot;Dos Dias&quot;Bishop, Nineteen85, Roger Kleinman, Terrace Martin,\n            Zach Ess and Flippa(4)\n\n            A. Archer, David &quot;Dos Dias&quot;Bishop, Nineteen85, Terrace Martin(5)\n\n            David &quot;Dos Dias&quot;Bishop, Montell Fish and Ojikae(6)\n\n            Terrace Martin(7)\n\n            Bryan-Michael Cox, David &quot;Dos Dias&quot;Bishop, Isaiah &quot;ibmixing&quot;Brown,\n            J2M and Spiff Sinatra(8)\n\n            Jeremih and Nineteen85(9)\n\n            f a l l e n(10)\n\n            Adam Krevlin, Anoop D’Souza and Zach Ezzy(11)\n\n            Ben10k, David &quot;Dos Dias&quot;Bishop, Mike Baretz, Nineteen85, SADPONY,\n            Lil Yachty and Kavi(12)\n\n            David &quot;Dos Dias&quot;Bishop, Xabian Woods, Slimwav, WillNoSleep and\n            Avo(13)\n\n            Yogic(14)\n\n            Elliott &quot;1stFrom92&quot; Davy, Mikaili, Chris Beach(15)\n\n            Rami Dawod, David &quot;Dos Dias&quot;Bishop, Slimwav(16)\n\n            Bongo ByTheWay and Bonxu(17)\n\n            300it and Rami Dawod(18)",
+  "guests": "Mariah the Scientist, Latto, 21 Savage, Anderson .Paak, SAILORR, GloRilla,\n            Sexyy Red, Brent Faiyaz",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1845569485",
+  "best50Year": "2025",
+  "best50Rank": "31",
+  "relatedReviews": [
+    {
+      "identifier": "summerwalker3",
+      "artistName": "Summer Walker",
+      "albumTitle": "Clear: The Series"
+    },
+    {
+      "identifier": "summerwalker2",
+      "artistName": "Summer Walker",
+      "albumTitle": "Still Over It"
+    },
+    {
+      "identifier": "summerwalker1",
+      "artistName": "Summer Walker",
+      "albumTitle": "Over It"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Scars",
+      "composers": "Summer Walker / David &quot;David &quot;Dos Dias&quot;Bishop&quot;Bishop / Rami Dawod / Matthew Cicero",
+      "performer": "Summer Walker",
+      "time": "0:51"
+    },
+    {
+      "num": 2,
+      "title": "Robbed You",
+      "composers": "Summer Walker / Mariah Amani Buckles / Nija Charles / David &quot;David &quot;Dos Dias&quot;Bishop&quot;Bishop / Anthony Paul Jefferies / Rami Dawod / Arsenio Archer / Curtis Jackson / David Darrell Brown / Rondell Turner",
+      "performer": "Summer Walker with Mariah the Scientist",
+      "time": "3:18"
+    },
+    {
+      "num": 3,
+      "title": "No",
+      "composers": "Summer Walker / Terrace Martin / Jerome Monroe Jr. / Beyonc&eacute; Knowles\n                  / Shawn Carter / Bernard Edwards Jr.",
+      "performer": "Summer Walker",
+      "time": "2:26"
+    },
+    {
+      "num": 4,
+      "title": "Go Girl",
+      "composers": "Summer Walker / Alyssa Stephens / David &quot;David &quot;Dos Dias&quot;Bishop&quot;Bishop / Anthony Paul Jefferies / Terrace Martin / Ronald Colson / Zachary Seman / Roger Kleinman / Glenn Bolton / Shahid Wright / Leonardo Roman / Paul Huston / Martin Nemley / Arnold Hamilton / Christopher Smith / Jeremy Felton / Sonyae Elise",
+      "performer": "Summer Walker with Latto",
+      "time": "3:48"
+    },
+    {
+      "num": 5,
+      "title": "Get Yo Boy",
+      "composers": "Summer Walker / Sh&eacute;yaa Bin Abraham-Joseph / Anthony Paul Jefferies / Terrace Martin / David &quot;David &quot;Dos Dias&quot;Bishop&quot;Bishop / Arsenio Archer / Harold Payne / Peter Luboff / James Eubanks",
+      "performer": "Summer Walker with 21 Savage",
+      "time": "3:09"
+    },
+    {
+      "num": 6,
+      "title": "Situationship",
+      "composers": "Summer Walker / Montell Frazier / David &quot;David &quot;Dos Dias&quot;Bishop&quot;Bishop / Matthew Cicero",
+      "performer": "Summer Walker",
+      "time": "2:20"
+    },
+    {
+      "num": 7,
+      "title": "Heart of a Woman",
+      "composers": "Summer Walker / David &quot;David &quot;Dos Dias&quot;Bishop&quot;Bishop",
+      "performer": "Summer Walker",
+      "time": "2:51"
+    },
+    {
+      "num": 8,
+      "title": "1-800-Heartbreak",
+      "composers": "Summer Walker / Brandon Anderson / Bryan-Michael Cox / David &quot;David &quot;Dos Dias&quot;Bishop&quot;Bishop / Sterling White Jr. / Isaiah &quot;ibmixing&quot;Brown / James Owens Jr.",
+      "performer": "Summer Walker with Anderson .Paak",
+      "time": "5:24"
+    },
+    {
+      "num": 9,
+      "title": "Give Me a Reason",
+      "composers": "Summer Walker / Fashxn / Anthony Paul Jefferies / Jeremy Felton / James\n                  Ho",
+      "performer": "Summer Walker",
+      "time": "2:48"
+    },
+    {
+      "num": 10,
+      "title": "FMT",
+      "composers": "Summer Walker / Lee Stashenko",
+      "performer": "Summer Walker",
+      "time": "3:28"
+    },
+    {
+      "num": 11,
+      "title": "How Sway",
+      "composers": "Summer Walker / Kayla Le / Zachary Ezickson / Adam Krevlin / Anoop D'Souza",
+      "performer": "Summer Walker with SAILORR",
+      "time": "2:13"
+    },
+    {
+      "num": 12,
+      "title": "Baller",
+      "composers": "Summer Walker / Gloria Woods / Janae Wherry / Gabrielle Rodgers / Anthony PaulJeffries / Miles McCollum / David &quot;David &quot;Dos Dias&quot;Bishop&quot;Bishop / Jeremiah Raisen / Kavi Kavian Salehi / Benjamin McGregor Wilson / Mike Baretz / James Mtume / Reggie Lucas",
+      "performer": "Summer Walker with GloRilla, Sexyy Red",
+      "time": "3:24"
+    },
+    {
+      "num": 13,
+      "title": "Don't Stop / Tempted",
+      "composers": "Summer Walker / Jocelyn &quot;Jozzy&quot; Donald / David &quot;David &quot;Dos\n                  Dias&quot;Bishop&quot;Bishop / Xabian Woods / Jerome Monroe Jr. / William\n                  Benoit / Avery Halliburton",
+      "performer": "Summer Walker",
+      "time": "4:56"
+    },
+    {
+      "num": 14,
+      "title": "Drown In My Love",
+      "composers": "Summer Walker / Jessie Owasu / Bernie Wayne / David &quot;Dos Dias&quot;Bishop\n                  / Foggieraw / Lee Morris / Luke Johansson",
+      "performer": "Summer Walker with Foggieraw",
+      "time": "4:34"
+    },
+    {
+      "num": 15,
+      "title": "Number One",
+      "composers": "Summer Walker / Christopher Brent Wood / Elliot Davy / Mikaili Aiyan Ector\n                  / Chris Beach",
+      "performer": "Summer Walker with Brent Faiyaz",
+      "time": "2:47"
+    },
+    {
+      "num": 16,
+      "title": "Spend It",
+      "composers": "Summer Walker",
+      "performer": "Summer Walker",
+      "time": "2:45&nbsp;"
+    },
+    {
+      "num": 17,
+      "title": "Take Me Out This Club",
+      "composers": "Summer Walker / Ernest Ose7-Bonsu Jr./ Jocelyn &quot;Jozzy&quot; Donald\n                  / Uforo Ebongo",
+      "performer": "Summer Walker",
+      "time": "2:48"
+    },
+    {
+      "num": 18,
+      "title": "Finally Over It",
+      "composers": "Summer Walker / Gabrielle Rodgers / Rami Dawod / Christopher Martin",
+      "performer": "Summer Walker",
+      "time": "2:23"
+    }
+  ]
+}
