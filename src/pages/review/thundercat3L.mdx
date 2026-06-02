@@ -1,0 +1,113 @@
+---
+title: "Thundercat / Distracted"
+description: "Album Review of Thundercat / Distracted"
+keywords: "Thundercat, Distracted"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+import Review1 from "../review/thundercat2.mdx";
+import Review2 from "../review/thundercat1.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Thundercat / Distracted](../../images/cd/thundercat3L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			Thundercatの6年ぶりとなるソロ通算5作目。親友Mac Millerの死という深い喪失を経て放たれた本作は、本人が語るように「幸せになることを選ぶ」ためのプロセスが刻みつつ、現代人の「注意散漫（Distracted）」な精神状態を描いている。
+			<br/>R&amp;Bやジャズ、ヨットロックなどを適度に融合したポップで耳馴染みの良い響きを持つ曲が多く、これにファルセット中心のThundercatのVocalに加わっている。もちろん超絶技巧のベースプレイも各所で披露している。
+			<br/>Greg Kurstinをパートナーに迎え、盟友Flying LotusやKenny Beats、The Lemon Twigsらが制作に参加。客演にはラッパー陣だけでなく、人脈を活かしてTame Impala、WILLOWなど共通の音楽性を持つ周辺ジャンルの人々も迎えている。
+			<br/>ゆったりとした心地よい曲が多く、ぼおっとしていると頭の中を過ぎ去っていくようなところもあるので、1曲1曲を注意深く聴くのがよさそう。
+		</p>
+		<div>
+		  <Button className="button-right-margin"  href="https://amzn.to/436d0Kw" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+		     amazon.com
+		   </Button>
+		   <Button className="button-right-margin"  href="https://amzn.to/3RVPldg" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+		     amazon.co.jp
+		   </Button>
+		<Button className="button-right-margin"  href="https://apple.co/4x5MGxW" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	    apple music
+  	  </Button>
+		<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Greg Kurstin(1,3,5,7,8,9,10,11,13)
+				<br/>Kevin Parker and Thundercat(2)
+				<br/>Flying Lotus(4,14)
+				<br/>Kenny Beats and The Lemon Twigs(6)
+				<br/>Brian D’Addario, Michael D’Addario and Thundercat(12)
+				<br/>Thundercat(15)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Domi and JD Beck, Tame Impala, Mac Miller, Lil Yachty, A$AP Rocky, Channel Tres, Willow, Lemon Twigs
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                               | Composers                                                                     | Performer                     | Time |
+| --- | ----------------------------------- | ----------------------------------------------------------------------------- | ----------------------------- | ---- |
+| 1   | Candlelight                         | Domi Louna, JD Beck, Greg Kurstin, Stephen Bruner                             | Thundercat                    | 2:35 |
+| 2   | No More Lies                        | Stephen Bruner, Kevin Parker                                                  | Thundercat feat. Tame Impala  | 5:27 |
+| 3   | She Knows Too Much                  | Stephen Bruner, Taylor Graves, Malcolm McCormick                              | Thundercat feat. Mac Miller   | 3:33 |
+| 4   | I Did This to Myself                | Stephen Bruner, Steven Ellison, Miles Parks McCollum                          | Thundercat feat. Lil Yachty   | 2:30 |
+| 5   | Funny Friends                       | Stephen Bruner, Greg Kurstin, Rakim Mayers                                    | Thundercat feat. A$AP Rocky   | 2:35 |
+| 6   | What Is Left to Say                 | Stephen Bruner, Brian D'Addario, Michael D'Addario, Kenneth Charles Blume III | Thundercat                    | 3:39 |
+| 7   | I Wish I Didn't Waste Your Time     | Stephen Bruner, Greg Kurstin                                                  | Thundercat                    | 2:44 |
+| 8   | Anakin Learns His Fate              | Stephen Bruner, Greg Kurstin                                                  | Thundercat                    | 3:22 |
+| 9   | Walking on the Moon                 | Stephen Bruner, Greg Kurstin                                                  | Thundercat                    | 3:25 |
+| 10  | This Thing We Call Love             | Stephen Bruner, Channel Tres                                                  | Thundercat feat. Channel Tres | 3:15 |
+| 11  | ThunderWave                         | Stephen Bruner, Greg Kurstin, Willow                                          | Thundercat feat. Willow       | 3:14 |
+| 12  | Pozole                              | Stephen Bruner, Brian D'Addario, Michael D'Addario                            | Thundercat                    | 2:40 |
+| 13  | A.D.D. Through the Roof             | Stephen Bruner, Greg Kurstin                                                  | Thundercat                    | 3:36 |
+| 14  | Great Americans                     | Stephen Bruner, Steven Ellison                                                | Thundercat                    | 2:13 |
+| 15  | You Left Without Saying Goodbye     | Stephen Bruner                                                                | Thundercat                    | 1:54 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+</Row>
+
+<AdvJS3 />
