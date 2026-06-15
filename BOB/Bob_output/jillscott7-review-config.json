@@ -1,0 +1,190 @@
+{
+  "artistName": "Jill Scott",
+  "artistNameJa": "",
+  "albumTitle": "To Whom This May Concern",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "jillscott7",
+  "reviewPara1": "Jill Scottのなんと11年ぶりとなる6作目のスタジオアルバム。その不在感を埋めるべく19曲58分に及んでおり、デジタルに支配された現代の抵抗と、表層的な繋がりに対し内面性や本物の人間関係、成熟した大人の視点を提唱する骨太な作品になっている。",
+  "reviewPara2": "\n            サウンドは生楽器の演奏とアナログの温かみを優先した豊かな音のパレットが特徴で。R&amp;Bをベースにファンク、ジャズ、ヒップホップ、ハウス、ブルース、ゴスペルまで黒人音楽を横断的に融合させている。",
+  "reviewPara3": "アップからスローまで曲調も様々で即興性と有機的なグルーヴに満ちた構成になっている。\n            ゲストも豪華だが、中でもTierra Whackとの⑤での地元愛溢れるRapの掛け合いが面白い。",
+  "reviewPara4": "\n            Lyricでは自己実現、地元/コミュニティ愛、先達への敬意、現代社会批判など表現しており、これを低音から高音までの独特の質感を持つ、滑らかなVocalで歌い上げている。",
+  "score1": "5",
+  "score2": "2",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "Andre &quot;Dre&quot; Harris and Anthony Bell(1)\n\n            Trombone Shorty, Adam Blackstone, D.K. The Punisher(2)\n\n            Om’Mas Keith(3,17)\n\n            Vincent “VT” Tolan and Riley Geare(4,12)\n\n            DJ Premier(5)\n\n            Jill Scott(6)\n\n            Adam Blackstone and Louis York(7)\n\n            Adam Blackstone and Vincent “VT” Tolan(8)\n\n            Khari Mateen(9)\n\n            Seige Monstracity(10,15,16)\n\n            Camper(11)\n\n            Dwayne “DW” Wright, Eric Wortham(13)\n\n            YOUNG RJ(14)\n\n            Andre Harris(18)\n\n            Marc Bridges, S1(19)",
+  "guests": "Maha Adachi Earth, Trombone Shorty, Tierra Whack, Too $hort, Ab-Soul, JID",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1861385995",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "jillscott6",
+      "artistName": "Jill Scott",
+      "albumTitle": "Woman"
+    },
+    {
+      "identifier": "jillscott5",
+      "artistName": "Jill Scott",
+      "albumTitle": "The Light Of The Sun"
+    },
+    {
+      "identifier": "jillscott4",
+      "artistName": "Jill Scott",
+      "albumTitle": "The Real Thing: Words And Sounds Vol.3"
+    },
+    {
+      "identifier": "jillscott3",
+      "artistName": "Jill Scott",
+      "albumTitle": "Beautifully Human: Word And Sounds Vol.2"
+    },
+    {
+      "identifier": "jillscott2",
+      "artistName": "Jill Scott",
+      "albumTitle": "Experience: Jill Scott 826+"
+    },
+    {
+      "identifier": "jillscott1",
+      "artistName": "Jill Scott",
+      "albumTitle": "Who Is Jill Scott? Words And Soumds Vol. 1"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Dope Shit",
+      "composers": "Andre Harris, Anthony Bell, Hope Ostane-Baucom",
+      "performer": "Jill Scott feat. Maha Adachi Earth",
+      "time": "0:55"
+    },
+    {
+      "num": 2,
+      "title": "Be Great",
+      "composers": "Jill Scott, Troy Andrews, Adam Blackstone, Donovan Knight",
+      "performer": "Jill Scott feat. Trombone Shorty",
+      "time": "3:12"
+    },
+    {
+      "num": 3,
+      "title": "Beautiful People",
+      "composers": "Jill Scott, Om'Mas Keith",
+      "performer": "Jill Scott",
+      "time": "3:47"
+    },
+    {
+      "num": 4,
+      "title": "Offdaback",
+      "composers": "Jill Scott, Riley Geare, Vincent Tolan",
+      "performer": "Jill Scott",
+      "time": "3:28"
+    },
+    {
+      "num": 5,
+      "title": "Norf Side",
+      "composers": "Jill Scott, Chris Martin, Robert Martin, Tierra Whack",
+      "performer": "Jill Scott feat. Tierra Whack",
+      "time": "2:51"
+    },
+    {
+      "num": 6,
+      "title": "Disclaimer",
+      "composers": "Jill Scott",
+      "performer": "Jill Scott",
+      "time": "0:31"
+    },
+    {
+      "num": 7,
+      "title": "Pay U on Tuesday",
+      "composers": "Jill Scott, Adam Blackstone, Charles Harmon, Claude Kelly",
+      "performer": "Jill Scott",
+      "time": "3:04"
+    },
+    {
+      "num": 8,
+      "title": "Pressha",
+      "composers": "Jill Scott, Adam Blackstone, Vincent Tolan, Ayo Brame, Kevin Choice, Richard\n                  Benitez III",
+      "performer": "Jill Scott",
+      "time": "4:16"
+    },
+    {
+      "num": 9,
+      "title": "BPOTY",
+      "composers": "Jill Scott, Khari Mateen, Todd Anthony Shaw",
+      "performer": "Jill Scott feat. Too $hort",
+      "time": "3:04"
+    },
+    {
+      "num": 10,
+      "title": "Me 4",
+      "composers": "Jill Scott, Chad Hugo, Gene Thornton Jr., Terrence Thornton, Marcus Christopher\n                  White, Bryan Williams, Pharrell Williams",
+      "performer": "Jill Scott",
+      "time": "1:34"
+    },
+    {
+      "num": 11,
+      "title": "The Math",
+      "composers": "Jill Scott, Darhyl Camper, Jr., Terrell Roper, Taner&eacute;lle Stephens",
+      "performer": "Jill Scott",
+      "time": "3:28"
+    },
+    {
+      "num": 12,
+      "title": "A Universe",
+      "composers": "Jill Scott, Riley Geare, Vincent Tolan",
+      "performer": "Jill Scott",
+      "time": "3:17"
+    },
+    {
+      "num": 13,
+      "title": "Liftin&#39; Me Up",
+      "composers": "Jill Scott, Eric Wortham, Dwayne Wright",
+      "performer": "Jill Scott",
+      "time": "4:25"
+    },
+    {
+      "num": 14,
+      "title": "Ode to Nikki",
+      "composers": "Jill Scott, Aleksandrs Gr&#299;va, Herbert Anthony Stevens IV, Viktor Vlasov,\n                  Tommy James, Robert King, Craig Lane, Christon Mason, Ralph Rice",
+      "performer": "Jill Scott feat. Ab-Soul",
+      "time": "2:51"
+    },
+    {
+      "num": 15,
+      "title": "Don&#39;t Play",
+      "composers": "Jill Scott, Marcus Christopher White",
+      "performer": "Jill Scott",
+      "time": "2:42"
+    },
+    {
+      "num": 16,
+      "title": "To B Honest",
+      "composers": "Jill Scott, Carol Connors, David Shire, James Di Pasquale, Marcus Christopher\n                  White, Destin Route",
+      "performer": "Jill Scott feat. JID",
+      "time": "4:30"
+    },
+    {
+      "num": 17,
+      "title": "Right Here, Right Now",
+      "composers": "Jill Scott, Lamar Andrews, Carvin Haggins, Om'Mas Keith, Yountie Strickland,\n                  Malek Ben Yisrael",
+      "performer": "Jill Scott",
+      "time": "4:24"
+    },
+    {
+      "num": 18,
+      "title": "À&#7779;&#7865;",
+      "composers": "Jill Scott, Andre Harris",
+      "performer": "Jill Scott",
+      "time": "3:11"
+    },
+    {
+      "num": 19,
+      "title": "Sincerely Do",
+      "composers": "Jill Scott, Larry D. Griffin Jr., Marc Bridges",
+      "performer": "Jill Scott",
+      "time": "2:41"
+    }
+  ]
+}

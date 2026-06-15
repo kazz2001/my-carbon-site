@@ -221,7 +221,7 @@ function extractRelatedReviews(html) {
 
 // アーティスト名とアルバム名を抽出
 function extractTitleInfo(html) {
-  const pattern = /CD Review :<!-- #BeginEditable "B" --> (.*?) \/ (.*?)<!-- #EndEditable -->/;
+  const pattern = /CD Review\s*:\s*<!-- #BeginEditable "B" -->\s*(.*?) \/ (.*?)<!-- #EndEditable -->/;
   const match = html.match(pattern);
   if (!match) return { artist: '', album: '' };
   
