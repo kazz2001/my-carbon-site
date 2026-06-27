@@ -1,0 +1,110 @@
+{
+  "artistName": "Bruno Mars",
+  "artistNameJa": "",
+  "albumTitle": "The Romantic",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "brunomars4",
+  "reviewPara1": "Bruno Marsのソロとしては10年ぶり、DuoだったSik Sonicからは5年ぶりのアルバム。その間、コラボでヒット作を連発していたので不在感は無かったが、随分長いインターバルとなった。",
+  "reviewPara2": "\n            その割には、全9曲・約32分という極めてコンパクトな構成で、コンセプトはタイトルの通り、「恋愛」に焦点を絞っている。\n            サウンドの最大の特徴は、前作やSik Sonucでの音楽感を下敷きにボレロやサルサ、チカーノ・ソウルなどのラテン要素の導入していることである。",
+  "reviewPara3": "生楽器によるアナログな温かみを重視し、70年代ソウルやディスコの熱量を現代的な音圧で再現し、華やかなホーンセクションやコンガが、情熱的で優雅で甘美なグルーヴを刻んでいる。\n            ゲストは無しで、制作陣もD'Mileとの共同プロデュースを軸として、曲とBrunoのVocalを活かした曲作りになっているようだ。",
+  "reviewPara4": "\n            前作やSik Sonicでの大成功を経験し、守りに入った感は否めないが、それでも、曲と唄の良さでは圧倒していると思う。",
+  "score1": "5",
+  "score2": "2",
+  "score3": "1",
+  "score4": "4",
+  "producers": "Bruno Mars, Dernst Emile II(all)",
+  "guests": "",
+  "amazonCom": "https://amzn.to/B00005ABN4",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1866732792",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "brunomars3",
+      "artistName": "Bruno Mars",
+      "albumTitle": "24K Magic"
+    },
+    {
+      "identifier": "brunomars1",
+      "artistName": "Bruno Mars",
+      "albumTitle": "Doo-Wops &amp; Hooligans"
+    },
+    {
+      "identifier": "brunomars2",
+      "artistName": "Bruno Mars",
+      "albumTitle": "Unorthodox Jukebox"
+    },
+    {
+      "identifier": "silksonic1",
+      "artistName": "Silk Sonic",
+      "albumTitle": "An Evening With Silk Sonic"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Risk It All",
+      "composers": "Bruno Mars, Dernst Emile II, James Fauntleroy, Phillip Lawrence",
+      "performer": "Bruno Mars",
+      "time": "3:24"
+    },
+    {
+      "num": 2,
+      "title": "Cha Cha Cha",
+      "composers": "Brody Brown, Bruno Mars, Dernst Emile II, James Fauntleroy, Phillip Lawrence, Terius Gray",
+      "performer": "Bruno Mars",
+      "time": "3:56"
+    },
+    {
+      "num": 3,
+      "title": "I Just Might",
+      "composers": "Brody Brown, Bruno Mars, Dernst Emile II, Phillip Lawrence",
+      "performer": "Bruno Mars",
+      "time": "3:32"
+    },
+    {
+      "num": 4,
+      "title": "God Was Showing Off",
+      "composers": "Bruno Mars, Dernst Emile II, James Fauntleroy, Phillip Lawrence",
+      "performer": "Bruno Mars",
+      "time": "3:31"
+    },
+    {
+      "num": 5,
+      "title": "Why You Wanna Fight?",
+      "composers": "Brody Brown, Bruno Mars, Dernst Emile II",
+      "performer": "Bruno Mars",
+      "time": "4:14"
+    },
+    {
+      "num": 6,
+      "title": "On My Soul",
+      "composers": "Bruno Mars, Dernst Emile II, James Fauntleroy, Phillip Lawrence",
+      "performer": "Bruno Mars",
+      "time": "2:54"
+    },
+    {
+      "num": 7,
+      "title": "Something Serious",
+      "composers": "Bruno Mars, Dernst Emile II",
+      "performer": "Bruno Mars",
+      "time": "2:46"
+    },
+    {
+      "num": 8,
+      "title": "Nothing Left",
+      "composers": "Bruno Mars, Dernst Emile II",
+      "performer": "Bruno Mars",
+      "time": "3:34"
+    },
+    {
+      "num": 9,
+      "title": "Dance With Me",
+      "composers": "Bruno Mars, Dernst Emile II, James Fauntleroy",
+      "performer": "Bruno Mars",
+      "time": "3:39"
+    }
+  ]
+}

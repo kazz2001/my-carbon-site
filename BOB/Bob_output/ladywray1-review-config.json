@@ -1,0 +1,103 @@
+{
+  "artistName": "Lady Wray",
+  "artistNameJa": "",
+  "albumTitle": "Cover Girl",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "ladywray1",
+  "reviewPara1": "アルバムリリース時で46歳となるSinger, Lady Wrayの3年ぶりとなるアルバム。16歳でMissy Elliottに見い出され、Nicole\n            Wrayとしてデビューしたのち、メジャーでの苦難を経てBig Crown Recordsの看板歌手となった。",
+  "reviewPara2": "レーベル主催のLeon Michelsと組むのは3作目となる。タイトルは、子供時代の愛称である「Cover\n            Girl」に由来しているとのことで、波乱万丈な歩みで培われた成熟した表現力を本作で遺憾なく発揮している。",
+  "reviewPara3": "\n            全体の印象はゴスペル色の強いクラシックなソウルであり、Leon Michelsによるアナログ感溢れる骨太なプロダクションが、生演奏の温かみとタイムレスな響きを全編に与えている。ノリの良い曲やしっとりとしたきょくまで曲調は様々。",
+  "reviewPara4": "\n            Lyricではキャリアを経て、自己愛、信仰、そして生きる喜びを再発見する旅を描いている。\n            経験に裏打ちされた深みと力強さを併せ持つVocalもハイライトになっている。",
+  "score1": "5",
+  "score2": "3",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "Leon Michels(all)",
+  "guests": "",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1817621221",
+  "best50Year": "2025",
+  "best50Rank": "32",
+  "relatedReviews": [],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "My Best Step",
+      "composers": "Nicole Monique Wray, Leon Michels, Nick Movshon, Marco Benevento, Homer\n                  Steinweiss, Dante Bacote",
+      "performer": "Lady Wray",
+      "time": "03:27"
+    },
+    {
+      "num": 2,
+      "title": "Be A Witness",
+      "composers": "Nicole Monique Wray, Leon Michels, Nick Movshon, Marco Benevento",
+      "performer": "Lady Wray",
+      "time": "03:20"
+    },
+    {
+      "num": 3,
+      "title": "Where Could I Be",
+      "composers": "Nicole Monique Wray, Leon Michels, Nick Movshon, Marco Benevento",
+      "performer": "Lady Wray",
+      "time": "03:54"
+    },
+    {
+      "num": 4,
+      "title": "Hard Times",
+      "composers": "Nicole Monique Wray, Leon Michels, Elbernita Clark Terrell, Marco Benevento",
+      "performer": "Lady Wray",
+      "time": "03:26"
+    },
+    {
+      "num": 5,
+      "title": "Best For Us",
+      "composers": "Nicole Monique Wray, Leon Michels, Nick Movshon, Marco Benevento, Homer\n                  Steinweiss, Kevin Martin",
+      "performer": "Lady Wray",
+      "time": "03:40"
+    },
+    {
+      "num": 6,
+      "title": "Cover Girl",
+      "composers": "Nicole Monique Wray, Leon Michels, Nick Movshon, Marco Benevento",
+      "performer": "Lady Wray",
+      "time": "03:34"
+    },
+    {
+      "num": 7,
+      "title": "You&#39;re Gonna Win",
+      "composers": "Nicole Monique Wray, Leon Michels, Nick Movshon, Marco Benevento",
+      "performer": "Lady Wray",
+      "time": "04:55"
+    },
+    {
+      "num": 8,
+      "title": "Time",
+      "composers": "Nicole Monique Wray, Leon Michels, Nick Movshon, Homer Steinweiss, Kevin\n                  Martin",
+      "performer": "Lady Wray",
+      "time": "03:26"
+    },
+    {
+      "num": 9,
+      "title": "What It Means",
+      "composers": "Nicole Monique Wray, Leon Michels, Nick Movshon, Homer Steinweiss, Kevin\n                  Martin",
+      "performer": "Lady Wray",
+      "time": "03:06"
+    },
+    {
+      "num": 10,
+      "title": "Higher",
+      "composers": "Nicole Monique Wray, Leon Michels, Marco Benevento, Homer Steinweiss",
+      "performer": "Lady Wray",
+      "time": "03:01"
+    },
+    {
+      "num": 11,
+      "title": "Calm",
+      "composers": "Nicole Monique Wray, Leon Michels, Marco Benevento",
+      "performer": "Lady Wray",
+      "time": "04:00"
+    }
+  ]
+}

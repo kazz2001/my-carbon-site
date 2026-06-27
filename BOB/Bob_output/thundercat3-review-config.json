@@ -1,0 +1,142 @@
+{
+  "artistName": "Thundercat",
+  "artistNameJa": "",
+  "albumTitle": "Distracted",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "thundercat3",
+  "reviewPara1": "Thundercatの6年ぶりとなるソロ通算5作目。親友Mac Millerの死という深い喪失を経て放たれた本作は、本人が語るように「幸せになることを選ぶ」ためのプロセスが刻みつつ、現代人の「注意散漫（Distracted）」な精神状態を描いている。",
+  "reviewPara2": "\n            R&amp;Bやジャズ、ヨットロックなどを適度に融合したポップで耳馴染みの良い響きを持つ曲が多く、これにファルセット中心のThundercatのVocalに加わっている。もちろん超絶技巧のベースプレイも各所で披露している。",
+  "reviewPara3": "\n            Greg Kurstinをパートナーに迎え、盟友Flying LotusやKenny Beats、The Lemon Twigsらが制作に参加。客演にはラッパー陣だけでなく、人脈を活かしてTame\n            Impala、WILLOWなど共通の音楽性を持つ周辺ジャンルの人々も迎えている。",
+  "reviewPara4": "\n            よったりとした心地よい曲が多く、ぼおっとしていると頭の中を過ぎ去っていくようなところもあるので、1曲1曲を注意深く聴くのがよさそう。",
+  "score1": "5",
+  "score2": "2",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "Greg Kurstin(1,3,5,7,8,9,10,11,13)\n\n            Kevin Parker and Thundercat(2)\n\nFlying Lotus(4,14)\n\n            Kenny Beats and The Lemon Twigs(6)\n\n            Brian D’Addario, Michael D’Addario and Thundercat(12)\n\n            Thundercat(15)",
+  "guests": "Domi and JD Beck, Tame Impala, Mac Miller, Lil Yachty, A$AP Rocky, Channel\n            Tres, Willow, Lemon Twigs",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1861531667",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "thundercat2",
+      "artistName": "Thundercat",
+      "albumTitle": "It Is What It Is"
+    },
+    {
+      "identifier": "thundercat1",
+      "artistName": "Thundercat",
+      "albumTitle": "Drunk"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Candlelight",
+      "composers": "Domi Louna, JD Beck, Greg Kurstin, Stephen Bruner",
+      "performer": "Thundercat",
+      "time": "2:35"
+    },
+    {
+      "num": 2,
+      "title": "No More Lies",
+      "composers": "Stephen Bruner, Kevin Parker",
+      "performer": "Thundercat feat. Tame Impala",
+      "time": "5:27"
+    },
+    {
+      "num": 3,
+      "title": "She Knows Too Much",
+      "composers": "Stephen Bruner, Taylor Graves, Malcolm McCormick",
+      "performer": "Thundercat feat. Mac Miller",
+      "time": "3:33"
+    },
+    {
+      "num": 4,
+      "title": "I Did This to Myself",
+      "composers": "Stephen Bruner, Steven Ellison, Miles Parks McCollum",
+      "performer": "Thundercat feat. Lil Yachty",
+      "time": "2:30"
+    },
+    {
+      "num": 5,
+      "title": "Funny Friends",
+      "composers": "Stephen Bruner, Greg Kurstin, Rakim Mayers",
+      "performer": "Thundercat feat. A$AP Rocky",
+      "time": "2:35"
+    },
+    {
+      "num": 6,
+      "title": "What Is Left to Say",
+      "composers": "Stephen Bruner, Brian D'Addario, Michael D'Addario, Kenneth Charles Blume\n                  III",
+      "performer": "Thundercat",
+      "time": "3:39"
+    },
+    {
+      "num": 7,
+      "title": "I Wish I Didn&#39;t Waste Your Time",
+      "composers": "Stephen Bruner, Greg Kurstin",
+      "performer": "Thundercat",
+      "time": "2:44"
+    },
+    {
+      "num": 8,
+      "title": "Anakin Learns His Fate",
+      "composers": "Stephen Bruner, Greg Kurstin",
+      "performer": "Thundercat",
+      "time": "3:22"
+    },
+    {
+      "num": 9,
+      "title": "Walking on the Moon",
+      "composers": "Stephen Bruner, Greg Kurstin",
+      "performer": "Thundercat",
+      "time": "3:25"
+    },
+    {
+      "num": 10,
+      "title": "This Thing We Call Love",
+      "composers": "Stephen Bruner, Channel Tres",
+      "performer": "Thundercat feat. Channel Tres",
+      "time": "3:15"
+    },
+    {
+      "num": 11,
+      "title": "ThunderWave",
+      "composers": "Stephen Bruner, Greg Kurstin, Willow",
+      "performer": "Thundercat feat. Willow",
+      "time": "3:14"
+    },
+    {
+      "num": 12,
+      "title": "Pozole",
+      "composers": "Stephen Bruner, Brian D'Addario, Michael D'Addario",
+      "performer": "Thundercat",
+      "time": "2:40"
+    },
+    {
+      "num": 13,
+      "title": "A.D.D. Through the Roof",
+      "composers": "Stephen Bruner, Greg Kurstin",
+      "performer": "Thundercat",
+      "time": "3:36"
+    },
+    {
+      "num": 14,
+      "title": "Great Americans",
+      "composers": "Stephen Bruner, Steven Ellison",
+      "performer": "Thundercat",
+      "time": "2:13"
+    },
+    {
+      "num": 15,
+      "title": "You Left Without Saying Goodbye",
+      "composers": "Stephen Bruner",
+      "performer": "Thundercat",
+      "time": "1:54"
+    }
+  ]
+}

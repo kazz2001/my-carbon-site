@@ -1,8 +1,10 @@
 - title: Latest Reviews
   pages:
     - path: /latest
-- title: Album Reviews 
+- title: Album Reviews
   pages:
+    - title: 2026
+      path: /cd/2026
     - title: 2025
       path: /cd/2025
     - title: 2024
