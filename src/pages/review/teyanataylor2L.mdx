@@ -14,6 +14,8 @@ import AdvJS2 from "../review/adv2";
 import AdvJS3 from "../review/adv3";
 
 import { Link } from "gatsby"
+import Review1 from "../review/teyanataylor4.mdx";
+import Review2 from "../review/teyanataylor3.mdx";
 
 <p className="largeP">Album review</p>
 <h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
@@ -87,5 +89,14 @@ Nathaniel Alford, Mark Batson, Boogz, Che Pope, Mike Dean and Kanye West(1)
 | 6	  |	Rose In Harlem           | Brittany Coney, Denisia Andrews, Kanye West, Mike Dean, Teyana Taylor                         | Teyana Taylor                   | 03:43 |
 | 7	  |	Never Would Have Made It | Kanye West, Teyana Taylor                                                                     | Teyana Taylor                   | 02:40 |
 | 8	  |	WTP                      | Andrew Dawson, Danielle Balbuena, Kanye West, Michael Quattlebaum*, Teyana Taylor             | Teyana Taylor                   | 02:47 |
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+</Row>
 
 <AdvJS3 />

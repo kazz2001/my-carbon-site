@@ -72,11 +72,16 @@ relatedReviews.forEach(reviewName => {
   }
 
   // 1. import文を追加
-  // 最後のimport文を見つける
-  const lastImportMatch = content.match(/import\s+(\w+)\s+from\s+["']\.\.\/review\/([^"']+)\.mdx["'];?/g);
-  if (lastImportMatch) {
-    const lastImport = lastImportMatch[lastImportMatch.length - 1];
-    const lastImportIndex = content.lastIndexOf(lastImport);
+  // 最後のreviewディレクトリからのimport文を見つける
+  const lastReviewImportMatch = content.match(/import\s+(\w+)\s+from\s+["']\.\.\/review\/([^"']+)\.mdx["'];?/g);
+  
+  let nextReviewNumber = 1;
+  let insertPosition = -1;
+  
+  if (lastReviewImportMatch) {
+    // reviewディレクトリからのimportがある場合
+    const lastImport = lastReviewImportMatch[lastReviewImportMatch.length - 1];
+    insertPosition = content.lastIndexOf(lastImport) + lastImport.length;
     
     // 次のReview番号を決定
     const existingReviewNumbers = [];
@@ -85,40 +90,59 @@ relatedReviews.forEach(reviewName => {
     while ((numberMatch = reviewNumberRegex.exec(content)) !== null) {
       existingReviewNumbers.push(parseInt(numberMatch[1]));
     }
-    const nextReviewNumber = existingReviewNumbers.length > 0 
+    nextReviewNumber = existingReviewNumbers.length > 0 
       ? Math.max(...existingReviewNumbers) + 1 
       : 1;
-    
-    const newImport = `import Review${nextReviewNumber} from "../review/${targetReview}.mdx";\n`;
-    content = content.slice(0, lastImportIndex + lastImport.length) + 
-              newImport + 
-              content.slice(lastImportIndex + lastImport.length);
-    
-    console.log(`  ✓ import文を追加: Review${nextReviewNumber}`);
-    
-    // 2. Other Reviewsセクションに追加
-    const otherReviewsRegex = /<h3>Other Reviews<\/h3>\s*\n+\s*<Row>([\s\S]*?)<\/Row>/;
-    const otherReviewsMatch = content.match(otherReviewsRegex);
-    
-    if (otherReviewsMatch) {
-      const rowContent = otherReviewsMatch[1];
-      const newColumn = `\n\t<Column colMd={3} colLg={3} noGutterMdLeft>\n\t\t<Review${nextReviewNumber} />\n\t</Column>`;
-      
-      // </Row>の直前に新しいColumnを追加
-      const updatedRow = rowContent + newColumn + '\n';
-      content = content.replace(otherReviewsRegex, `<h3>Other Reviews</h3>\n\n<Row>${updatedRow}</Row>`);
-      
-      console.log(`  ✓ Other Reviewsセクションに追加`);
-    } else {
-      console.warn(`  警告: Other Reviewsセクションが見つかりませんでした`);
-    }
-    
-    // ファイルを保存
-    fs.writeFileSync(relatedLFile, content, 'utf-8');
-    console.log(`  ✓ ${reviewName}L.mdx を更新しました`);
   } else {
-    console.warn(`  警告: import文が見つかりませんでした`);
+    // reviewディレクトリからのimportがない場合、全てのimport文の後に追加
+    const allImportsMatch = content.match(/import\s+.*?from\s+["'].*?["'];?/g);
+    if (allImportsMatch) {
+      const lastImport = allImportsMatch[allImportsMatch.length - 1];
+      insertPosition = content.lastIndexOf(lastImport) + lastImport.length;
+    }
   }
+  
+  if (insertPosition === -1) {
+    console.warn(`  警告: import文の挿入位置が見つかりませんでした`);
+    return;
+  }
+  
+  const newImport = `\nimport Review${nextReviewNumber} from "../review/${targetReview}.mdx";`;
+  content = content.slice(0, insertPosition) + 
+            newImport + 
+            content.slice(insertPosition);
+  
+  console.log(`  ✓ import文を追加: Review${nextReviewNumber}`);
+  
+  // 2. Other Reviewsセクションに追加
+  const otherReviewsRegex = /<h3>Other Reviews<\/h3>\s*\n+\s*<Row>([\s\S]*?)<\/Row>/;
+  const otherReviewsMatch = content.match(otherReviewsRegex);
+  
+  if (otherReviewsMatch) {
+    const rowContent = otherReviewsMatch[1];
+    const newColumn = `\n\t<Column colMd={3} colLg={3} noGutterMdLeft>\n\t\t<Review${nextReviewNumber} />\n\t</Column>`;
+    
+    // </Row>の直前に新しいColumnを追加
+    const updatedRow = rowContent + newColumn + '\n';
+    content = content.replace(otherReviewsRegex, `<h3>Other Reviews</h3>\n\n<Row>${updatedRow}</Row>`);
+    
+    console.log(`  ✓ Other Reviewsセクションに追加`);
+  } else {
+    // Other Reviewsセクションが存在しない場合、新規作成
+    console.log(`  → Other Reviewsセクションが見つかりません。新規作成します。`);
+    
+    // ファイルの最後に追加（最後の</Row>や</Column>の後）
+    const newSection = `\n\n<h3>Other Reviews</h3>\n\n<Row>\n\t<Column colMd={3} colLg={3} noGutterMdLeft>\n\t\t<Review${nextReviewNumber} />\n\t</Column>\n</Row>\n`;
+    
+    // ファイルの末尾に追加
+    content = content.trimEnd() + newSection;
+    
+    console.log(`  ✓ Other Reviewsセクションを新規作成しました`);
+  }
+  
+  // ファイルを保存
+  fs.writeFileSync(relatedLFile, content, 'utf-8');
+  console.log(`  ✓ ${reviewName}L.mdx を更新しました`);
 });
 
 console.log('\n処理完了！');
