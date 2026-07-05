@@ -10,8 +10,9 @@ const fs = require('fs');
 const path = require('path');
 
 // Get review name and year from command line arguments
-const reviewName = process.argv[2];
-const year = process.argv[3];
+// Support REVIEW_NAME env var as fallback for shells where $ in args is problematic (e.g. PowerShell)
+const reviewName = process.argv[2] || process.env.REVIEW_NAME;
+const year = process.argv[3] || process.env.REVIEW_YEAR;
 
 if (!reviewName || !year) {
   console.error('Error: Please provide both review name and year');
@@ -27,8 +28,8 @@ if (!/^\d{4}$/.test(year)) {
 }
 
 // Validate review name format (no special characters that could break file paths)
-if (!/^[a-zA-Z0-9_-]+$/.test(reviewName)) {
-  console.error(`Error: Review name can only contain letters, numbers, hyphens, and underscores, got: ${reviewName}`);
+if (!/^[a-zA-Z0-9_$-]+$/.test(reviewName)) {
+  console.error(`Error: Review name can only contain letters, numbers, hyphens, underscores, and dollar signs, got: ${reviewName}`);
   process.exit(1);
 }
 
