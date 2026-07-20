@@ -1,0 +1,106 @@
+---
+title: "Joy Crookes / Juniper"
+description: "Album Review of Joy Crookes / Juniper"
+keywords: "Joy Crookes, Juniper"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+import Review1 from "../review/joycrookes1.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Joy Crookes / Juniper](../../images/cd/joycrookes2L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			2025秋にリリースされたJoy Crookesの2ndアルバム。2021年にデビュー作発表後、心身の不調による休止期間を経て、約4年ぶりとなるスタジオアルバムである。
+      <br/>アルバム名の『Juniper』は、過酷な環境でも生き延びる強靭な常緑樹(ネズ)を意味しており、空白の4年間に彼女が経験した精神的・肉体的な不調と、そこからの回復のプロセスを時系列でマッピングした、「生存と忍耐の記録」というコンセプトを持っている。
+			彼女の内面を深く掘り下げた、非常にパーソナルで力強い作品に仕上がっている。
+      <br/>Blue Mayが全面的に制作を指揮したトラックは前作のレトロ・ソウルの枠を越え、ダークでポップな全体像を持っている。
+			シンセやハープ、オルガンが揺らめく、仄暗くアトモスフェリックなサウンドが特徴である。90年代半ばの実験的なトリップホップやダブ・レゲエ風のエコーを大胆に取り入れ、新鮮で立体的かつ独創的な音作りを展開している。
+			引き続き、Amy Winehouseっぽい④を含め、メロディが良い曲も多い。
+      <br/>Joyの甘い唄声にマッチしたドリーミーな雰囲気の曲も多く、重めなコンセプトと好対照なところが面白い。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/4wJFlmG" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/4pCGme0" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/4fkOFaV" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	    apple music
+  	  </Button>
+		<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="3" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Blue May(1,2,3,5,6,7,8,9,10,12)
+				<br/>Joy Crookes, Blue May, Harvey Grant(11)
+				<br/>Joy Crookes(4)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Vince Staples, Kano
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                 | Composers                                                                                                     | Performer                       | Time |
+| --- | --------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------- | ---- |
+| 1   | Brave                 | Nathan Allen, Sam Beste, Alex Bonfanti, Joy Crookes, Graham Godfrey, Blue May, Steve Pringle, Junior Williams | Joy Crookes                     | 3:55 |
+| 2   | Pass the Salt         | Joy Crookes, Jonny Lattimer, Barney Lister, Vince Staples                                                     | Joy Crookes feat. Vince Staples | 2:47 |
+| 3   | Carmen                | Joy Crookes, Elton John, Jonny Lattimer, Bernie J.P. Taupin                                                   | Joy Crookes                     | 3:03 |
+| 4   | Perfect Crime         | Joy Crookes, Jonny Lattimer, Ntuthuko Nhlumayo                                                                | Joy Crookes                     | 2:33 |
+| 5   | Mathematics           | Sam Beste, Joy Crookes, Kane Robinson, Barney Lister, Matt Maltese                                            | Joy Crookes feat. Kano          | 3:19 |
+| 6   | House With a Pool     | Sam Beste, Joy Crookes, Jonny Lattimer, Barney Lister                                                         | Joy Crookes                     | 3:29 |
+| 7   | I Know You&#39;d Kill | Joy Crookes, Barney Lister, Joel Pott                                                                         | Joy Crookes                     | 2:54 |
+| 8   | First Last Dance      | Joy Crookes, Jonny Lattimer, Ntuthuko Nhlumayo                                                                | Joy Crookes                     | 3:20 |
+| 9   | Mother                | Sam Beste, Joy Crookes, Barney Lister, Joel Pott                                                              | Joy Crookes                     | 3:30 |
+| 10  | Somebody to You       | Joy Crookes, Jonny Lattimer, Barney Lister                                                                    | Joy Crookes                     | 2:57 |
+| 11  | Forever               | Joy Crookes, Nathaniel Jameel Ledwidge                                                                        | Joy Crookes                     | 3:17 |
+| 12  | Paris                 | Sam Beste, Joy Crookes, Barney Lister, Joel Pott                                                              | Joy Crookes                     | 6:19 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+</Row>
+
+<AdvJS3 />

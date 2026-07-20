@@ -1,0 +1,203 @@
+{
+  "artistName": "Drake",
+  "artistNameJa": "",
+  "albumTitle": "ICEMAN",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "drake11",
+  "reviewPara1": "Drakeが2026年5月にリリースしたコンセプトの異なる3枚のアルバムの中核となる作品。ソロのスタジオアルバムとしては約2年7ヶ月ぶりとなる通算9枚目になる。\n            2024年のKendrick Lamarとの熾烈なビーフと敗北を経て、Drakeが自らを「氷のように冷徹な戦略家（Iceman）」と再定義したプロジェクトで、業界内の裏切りへの憤りや忠誠心、復讐をテーマにしており、孤立感と頂点に君臨する不動の自信が入り混じる、ダークな自己神話化の作品になっている。",
+  "reviewPara2": "\n            ダーク・トラップや硬質なヒップホップ、無駄を削ぎ落としたミニマリズムを基調とした、全体的に攻撃的で冷ややかな音像が特徴で、重厚なベースやハードなスネアが、不気味なシンセサイザーと絡み合います。「Whisper\n            My Name」などで見られる、曲の途中でビートが急展開する「ビート・スイッチ」の手法が多用されており、緊張感と威圧感のある不穏なサウンドスケープを構築している。",
+  "reviewPara3": "\n            Lyricでは、Kendrick Lamarに限らず、多くのRapperやバスケット選手までディスの対象とし、憤りの大きさや、敗北感を未だにひきずっていることが判る。逆にTorontoへの地元愛も吐露することで精神のバランスをとっているのかもしれない。",
+  "reviewPara4": "\n            多くのProducerを起用しているが、逆に盟友&quot;Noah &quot;40&quot; Shebib&quot;の関与は減っている。\n            また、Rapは感情を押し殺したような硬質なものになっている。",
+  "score1": "1",
+  "score2": "2",
+  "score3": "2",
+  "score4": "4",
+  "producers": "Boi Yanel, Maneesh, Manny Manhattan, O Lil Angel, Skeyez(1)\n\nBoi Yanel, Hanzbeats, Geminichxld, Manny Manhattan, Sem0r, 20, Max Moise(2)\n\nOz, B4U, Nik D, London Cyr, Azul, Ben10k, Hidde, Sucuki(3)\n\nB4U, FnZ, Rog&#233;t Chahayed, GoodbyeCalev(4)\n\nDez Wright, Jack LoMastro, Mxssivh, Smash David, SkipOnDaBeat, Wheezy, Southside, B4U, Digital Jet, Pyrex, CavMcKnight(5)\n\n40, Maneesh(6)\n\nOvrkast, Flywilliums(7)\n\nSmash David, London Cyr, Alex Lustig, B4U, 2one2, Prodkavin, Digital Jet, 5ebas, Eli Brown(8)\n\nBoi-1da, Oz, London Cyr, Nico Baran, Patron, Fierce, Ambezza, B4U, Ben10k, Ryan Bakalarczyk, Wraith9(9)\n\nLondon Cyr, O Lil Angel, Rog&#233;t Chahayed, Dylan Hyde, Jeek, B4U(10)\n\nLondon Cyr, O Lil Angel, DJ Lewis, Tay Keith, Oz, FnZ, Elyas, Gyz, Patron, Evin K&#252;&#231;&#252;kali, Elkan(11)\n\nLondon Cyr, FnZ, AzizTheShake, Hidde, Jeek, Tom Levesque(12)\n\nOz, Ben10k, Karri, P-Lo, Mars, Thomas Madynski(13)\n\nBoi-1da, Coop the Truth, DrtWrk, Ties(14)\n\n40, DJ Frisco954, RL, London Cyr, Jester Beats, Hidde, Ben10k(15)\n\nB4U, Glitchrealm, O Lil Angel, Spvde, Sledgren, Batmanonthebeatz, Nasamadeit(16)\n\nConductor Williams, Al Hug(17)\n\nOz, LAF Collective, O Lil Angel, 5ebas, Gabe Lucas, Joey Ramirez, Patron, Timothy Rufai, MakeYouKnowLove(18)",
+  "guests": "Future, Molly Santana, 21 Savage",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/6769649287",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "drake10",
+      "artistName": "Drake",
+      "albumTitle": "For All The Dogs"
+    },
+    {
+      "identifier": "drake9",
+      "artistName": "Drake",
+      "albumTitle": "Honestly, Nevermind"
+    },
+    {
+      "identifier": "drake8",
+      "artistName": "Drake",
+      "albumTitle": "Certified Lover Boy"
+    },
+    {
+      "identifier": "drake7",
+      "artistName": "Drake",
+      "albumTitle": "More Life"
+    },
+    {
+      "identifier": "drake6",
+      "artistName": "Drake",
+      "albumTitle": "Views"
+    },
+    {
+      "identifier": "drake5",
+      "artistName": "Drake",
+      "albumTitle": "If You're Reading This It's Too Late"
+    },
+    {
+      "identifier": "drake4",
+      "artistName": "Drake",
+      "albumTitle": "Nothing Was The Same"
+    },
+    {
+      "identifier": "drake3",
+      "artistName": "Drake",
+      "albumTitle": "Take Care"
+    },
+    {
+      "identifier": "drake2",
+      "artistName": "Drake",
+      "albumTitle": "Thank Me Later"
+    },
+    {
+      "identifier": "drake1",
+      "artistName": "Drake",
+      "albumTitle": "So Far Gone"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Make Them Cry",
+      "composers": "Aubrey Graham / Jacob Eliasson / Maneesh Bidaye / Octavian Godji / Emmanuel Nwaroh / Akash Lakhani / Roger Ridley / Douglas Gibbs / Ralph Johnson",
+      "performer": "Drake",
+      "time": "5:07"
+    },
+    {
+      "num": 2,
+      "title": "Dust",
+      "composers": "Aubrey Graham / Jacob Eliasson / Emmanuel Nwaroh / Thomas Br&#229;ttvik / Max Moise / Filip Gunia / Kerion York / Naza Major",
+      "performer": "Drake",
+      "time": "3:09"
+    },
+    {
+      "num": 3,
+      "title": "Whisper My Name",
+      "composers": "Aubrey Graham / Nik Frascona / Bradley Baker / Ozan Yildirim / Amir Stevie / James Cyr / Hidde Alment / Benjamin Wilson / Tim Friedrich",
+      "performer": "Drake",
+      "time": "3:42"
+    },
+    {
+      "num": 4,
+      "title": "Janice STFU",
+      "composers": "Aubrey Graham / Bradley Baker / Rog&#233;t Chahayed / Isaac De Boni / Michael Mule / Aviel Hirschfield / Bj&#246;rn Yttling / Rick Nowels / Lykke Li",
+      "performer": "Drake",
+      "time": "3:57"
+    },
+    {
+      "num": 5,
+      "title": "Ran to Atlanta",
+      "composers": "Aubrey Graham / Bradley Baker / Nayvadius Wilburn / Mya Parks / Jack LoMastro / Wesley Glass / Joshua Luellen / Edgar Ferrera / Tyshane Thompson / Jaden Christodoulou / Dylan Cleary-Krell / Johnathan Bezianis / Marlon Betancourth / Justin Junagadala / Samuel Jimenez / Kobe Hood / Fares Ayass / Kedrick Cannady / 9Jay",
+      "performer": "Drake feat. Future / Molly Santana",
+      "time": "4:07"
+    },
+    {
+      "num": 6,
+      "title": "Shabang",
+      "composers": "Aubrey Graham / Maneesh Bidaye / Noah Shebib / Quavious Marshall",
+      "performer": "Drake",
+      "time": "3:08"
+    },
+    {
+      "num": 7,
+      "title": "Make Them Pay",
+      "composers": "Aubrey Graham / Silas Wilson / Henry Richardson / Deniece Williams / Hank Redd / Nathan Watts / Susaye Greene",
+      "performer": "Drake",
+      "time": "5:01"
+    },
+    {
+      "num": 8,
+      "title": "Burning Bridges",
+      "composers": "Aubrey Graham / Samuel Jimenez / James Cyr / Bradley Baker / Marlon Betancourth / Alex Lustig / Eliel Afari-Brown / Sebastian Lopez / Jesse Gumer / Kavin Smith",
+      "performer": "Drake",
+      "time": "3:45"
+    },
+    {
+      "num": 9,
+      "title": "National Treasures",
+      "composers": "Aubrey Graham / Ozan Yildirim / James Cyr / Bradley Baker / Benjamin Wilson / Stephane Reibaldi / Mathias Liyew / Nicolas Baran / Ryan Bakalarczyk / Matthew Samuels / Amir Sims / Harley Riecansky / Luther Vandross / John Anderson",
+      "performer": "Drake",
+      "time": "3:20"
+    },
+    {
+      "num": 10,
+      "title": "B's on the Table",
+      "composers": "Aubrey Graham / James Cyr / Bradley Baker / Rog&#233;t Chahayed / Octavian Godji / Dylan Hyde / Keegan Lawson / Sh&#233;yaa Abraham-Joseph",
+      "performer": "Drake feat. 21 Savage",
+      "time": "2:17"
+    },
+    {
+      "num": 11,
+      "title": "What Did I Miss?",
+      "composers": "Aubrey Graham / James Cyr / Octavian Godji / Ozan Yildirim / Stephane Reibaldi / Isaac De Boni / Michael Mule / Harold Lewis / Brytavious Chambers / Elias Sticken / G&#246;rkem Aky&#252;z / Evin K&#252;&#231;&#252;kali / Paul Agyei",
+      "performer": "Drake",
+      "time": "3:14"
+    },
+    {
+      "num": 12,
+      "title": "Plot Twist",
+      "composers": "Aubrey Graham / James Cyr / Michael Mule / Isaac De Boni / Keegan Lawson / Hidde Alment / Abdul Dieng / Thomas Levesque",
+      "performer": "Drake",
+      "time": "3:15"
+    },
+    {
+      "num": 13,
+      "title": "2 Hard 4 the Radio",
+      "composers": "Aubrey Graham / Benjamin Wilson / Ozan Yildirim / Paulo Rodriguez / Marcel Korkutata / Kevin Carranceja / Thomas Madynski / Andre Hicks / Khayree Shaheed / Brian Morgan / Wayman Tisdale / Stevie Wonder",
+      "performer": "Drake",
+      "time": "3:03"
+    },
+    {
+      "num": 14,
+      "title": "Make Them Remember",
+      "composers": "Aubrey Graham / Matthew Samuels / Bennet Lusher / Cooper McGill / Michael Suski / Hrayr Azaryan / Ben Lusher",
+      "performer": "Drake",
+      "time": "5:23"
+    },
+    {
+      "num": 15,
+      "title": "Little Birdie",
+      "composers": "Aubrey Graham / Noah Shebib / James Cyr / Hidde Alment / Benjamin Wilson / Joseph McCue / Henry Tubman / Dylan Wilkes",
+      "performer": "Drake",
+      "time": "2:56"
+    },
+    {
+      "num": 16,
+      "title": "Don't Worry",
+      "composers": "Aubrey Graham / Octavian Godji / Bradley Baker / Embrack Jevhaun / Edward Murray / Deandre Adams / Terrel Dawes / Celestine Amajoyi / Kevin Jackson",
+      "performer": "Drake",
+      "time": "4:06"
+    },
+    {
+      "num": 17,
+      "title": "Firm Friends",
+      "composers": "Aubrey Graham / Denzel Williams / Al Hug / Tenzin Ngingthatshang",
+      "performer": "Drake",
+      "time": "5:02"
+    },
+    {
+      "num": 18,
+      "title": "Make Them Know",
+      "composers": "Aubrey Graham / Ozan Yildirim / Octavian Godji / Sebastian Lopez / Stephane Reibaldi / Timothy Rufai / Anthony Hannides / Michael Hannides / Joseph Ramirez / Luka Berman / Feliciano Ecar / Luzian Tuetsch / Harrisis Tsakmaklis",
+      "performer": "Drake",
+      "time": "4:08"
+    }
+  ]
+}
