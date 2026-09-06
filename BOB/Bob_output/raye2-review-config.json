@@ -1,0 +1,151 @@
+{
+  "artistName": "Raye",
+  "artistNameJa": "",
+  "albumTitle": "THIS MUSIC MAY CONTAIN HOPE.",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "raye2",
+  "reviewPara1": "前作『My 21st Century Blues』で大ブレイクを果たしたRayeの3年ぶりとなる2rdアルバム。引き続き自身のレーベルからのリリースとなり、制約の無い環境で作られた、壮大で時流にとらわれない作品となっている。\n            全17曲、約73分に及ぶ、タイパ重視のストリーミング時代に真っ向から逆行するような「マキシマリズム」を体現した大作で、「音楽は薬」という信念のもと、失恋や自己不信のどん底から回復へと向かう心の旅路を「秋・冬・春・夏」の四季になぞらえて構成したコンセプトアルバムになっている。",
+  "reviewPara2": "孤独や失望の秋から、ハッピーで開放感のある夏までをドラマティックな展開で、描き出している。\n            サウンドはオーケストラ、ビッグバンド、ゴスペルを長用した厚みのあるもので、R&amp;B, ポップ, ジャズ, ビッグバンド, ヴィンテージ・ソウル,\n            ディスコ,ディープハウスまで、多彩なジャンルをシームレスに横断している。",
+  "reviewPara3": "特筆すべきは生演奏の豊かな響きで、往年のハリウッド古典映画やミュージカルを思わせる、壮麗でシネマティックなサウンドスケープを展開している。\n            制作は前作に続きMike Sabathが中心となり、映画音楽の巨匠Hans Zimmerをプロデューサーに迎えた楽曲では、彼の劇的なオーケストラ・アレンジが圧倒的なスケール感を生み出している。",
+  "reviewPara4": "ゲストではAl\n            Greenが温かくメンターのように寄り添うデュエットを披露し、実の祖父Grandad Michaelや妹のAmma、Absolutelyらもゲスト参加し、家族の絆を作品に吹き込んでいます。\n            RayeのVocalは、様々な曲調に応じた歌唱力を魅せ、感情の限界まで歌い上げる熱唱がある一方で、スポークンワード（語り）を用いてミュージカルのように親密に語りかける場面も多く用意さ��ている。",
+  "score1": "5",
+  "score2": "2",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "RAYE, Tom Richards, Chris Hill(1,9,17)\n\nTom Richards, Chris Hill, RAYE(2)\n\nRAYE, Mike Sabath(3,4,13)\n\nRAYE, Marvin “Tony” Hemmings, Mike Sabath(5)\n\nRAYE, Hans Zimmer, Mike Sabath(6)\n\nRAYE, Jordan Riley, Pete Clements(7)\n\nPunctual, Jordan Riley, RAYE(8)\n\nRAYE, Pete Clements(10,16)\n\nRAYE, Tom Richards(11)\n\nMike Sabath, RAYE(12)\n\nRAYE, Mike Sabath, Alex Robinson(14)\n\nRAYE, Mike Sabath, Tom Richards(15)",
+  "guests": "Hans Zimmer, Al Green, Grandad Michael, Amma, Absolutely, The London Symphony\n            Orchestra",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1871085677",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "raye1",
+      "artistName": "Raye",
+      "albumTitle": "My 21st Century Blues"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Intro: Girl Under The Grey Cloud.",
+      "composers": "Rachel Keen, Chris Hill, Tom Richards",
+      "performer": "RAYE",
+      "time": "1:12"
+    },
+    {
+      "num": 2,
+      "title": "I Will Overcome.",
+      "composers": "Rachel Keen, Chris Hill, Tom Richards, Mike Sabath, Antoine Klein",
+      "performer": "RAYE",
+      "time": "4:55"
+    },
+    {
+      "num": 3,
+      "title": "Beware.. The South London Lover Boy.",
+      "composers": "Rachel Keen, Pete Clements, Mike Sabath",
+      "performer": "RAYE",
+      "time": "3:26"
+    },
+    {
+      "num": 4,
+      "title": "The WhatsApp Shakespeare.",
+      "composers": "Rachel Keen, Callum Au, Tom Richards, Mike Sabath",
+      "performer": "RAYE",
+      "time": "3:56"
+    },
+    {
+      "num": 5,
+      "title": "Winter Woman.",
+      "composers": "Rachel Keen, Chris Hill, Tom Richards, Toneworld, Mike Sabath",
+      "performer": "RAYE",
+      "time": "4:23"
+    },
+    {
+      "num": 6,
+      "title": "Click Clack Symphony.",
+      "composers": "Rachel Keen, Mike Sabath, Hans Zimmer, Hendric Buenck, Russell Emanuel, Billie Ray Fingers",
+      "performer": "RAYE feat. Hans Zimmer",
+      "time": "5:03"
+    },
+    {
+      "num": 7,
+      "title": "I Know You're Hurting.",
+      "composers": "Rachel Keen, Graeme Blevins, Matt Brooks, Pete Clements, Augie Haas, Chris Hill, Paul Murray, Tom Richards, Jordan Riley, Oscar Steiler",
+      "performer": "RAYE",
+      "time": "6:18"
+    },
+    {
+      "num": 8,
+      "title": "Life Boat.",
+      "composers": "Rachel Keen, Punctual, Jordan Riley",
+      "performer": "RAYE",
+      "time": "4:18"
+    },
+    {
+      "num": 9,
+      "title": "I Hate The Way I Look Today.",
+      "composers": "Rachel Keen, Augie Haas, Chris Hill, Paul Murray, Tom Richards, Ed Richardson, Oscar Steiler",
+      "performer": "RAYE",
+      "time": "3:30"
+    },
+    {
+      "num": 10,
+      "title": "Goodbye Henry.",
+      "composers": "Rachel Keen, Graeme Blevins, Matt Brooks, Augie Haas, Chris Hill, Paul Murray, Tom Richards, Oscar Steiler",
+      "performer": "RAYE feat. Al Green",
+      "time": "5:22"
+    },
+    {
+      "num": 11,
+      "title": "Nightingale Lane.",
+      "composers": "Rachel Keen, Chris Hill, Tom Richards",
+      "performer": "RAYE",
+      "time": "5:02"
+    },
+    {
+      "num": 12,
+      "title": "Skin &amp; Bones.",
+      "composers": "Rachel Keen, Pete Clements, Mike Sabath",
+      "performer": "RAYE",
+      "time": "3:14"
+    },
+    {
+      "num": 13,
+      "title": "WHERE IS MY HUSBAND!",
+      "composers": "Rachel Keen, Mike Sabath",
+      "performer": "RAYE",
+      "time": "3:17"
+    },
+    {
+      "num": 14,
+      "title": "Fields.",
+      "composers": "Rachel Keen, Daniella Bernard, Graeme Blevins, Michael Keen, Paul Murray, Tom Richards, Alex Robinson, Mike Sabath, Liv Thompson",
+      "performer": "RAYE feat. Grandad Michael",
+      "time": "4:12"
+    },
+    {
+      "num": 15,
+      "title": "Joy.",
+      "composers": "Rachel Keen, Abby-Lynn Keen, Lauren Keen, Tom Richards, Mike Sabath",
+      "performer": "RAYE feat. Amma, Absolutely",
+      "time": "4:25"
+    },
+    {
+      "num": 16,
+      "title": "Happier Times Ahead.",
+      "composers": "Rachel Keen, Graeme Blevins, Matt Brooks, Pete Clements, Chris Hill, Tom Richards, Tom Walsh, Joe Webb",
+      "performer": "RAYE",
+      "time": "4:31"
+    },
+    {
+      "num": 17,
+      "title": "Fin.",
+      "composers": "Rachel Keen, Chris Hill, Tom Richards",
+      "performer": "RAYE",
+      "time": "6:27"
+    }
+  ]
+}
