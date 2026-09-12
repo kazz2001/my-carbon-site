@@ -1,0 +1,103 @@
+{
+  "artistName": "Baby Keem",
+  "artistNameJa": "",
+  "albumTitle": "Ca$ino",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "babykeem1",
+  "reviewPara1": "グラミー賞を受賞した&quot;Family Ties&quot;を含むデビュー作&quot;The Melodic Blue&quot;から約5年ぶりとなるBaby\n            Keem(25歳)の2ndアルバム。\n            アルバムタイトルである『Ca\\$ino』は、彼が育ったラスベガスを象徴すると同時に、親の選択すら賭けのようなものである「人生のギャンブル」というメタファーで、最愛の祖母の死、不在の親、自身の精神的葛藤やトラウマを曝け出し、過去と��解することを試みる、極めてパーソナルで自叙伝的なコンセプトとなっている。",
+  "reviewPara2": "\n            サウンド面では、スペーシーな質感と重厚なベース、ダスティなサンプルを軸に、ムーディーで一貫性のある響きを持っている。",
+  "reviewPara3": "温かみのあるソウル・サンプリングと、先進的なトラップビートが絶妙に融合しており、スロットマシンのベル音やコインが落ちる音といったカジノの環境音が効果的に挿入され、独特な空間へと引き込まれる。\n            プロデューサーとして自身に加え、Danja, Scott Bridgeway, Teo Halmなどが中心となり、客演では、いとこのKendrick\n            LamarととMomo Boydがチルな「Good Flirts」で心地よい掛け合いを披露している。",
+  "reviewPara4": "\n            Baby KeemのRapは、かつて特徴的だったハイトーンな声を抑え、自然な低い地声であるバリトンを活かしたGrown Voiceへと移行している。",
+  "score1": "1",
+  "score2": "1",
+  "score3": "2",
+  "score4": "4",
+  "producers": "Baby Keem, Scott Bridgeway, FnZ, Danja(1)\n\nBaby Keem, Scott Bridgeway, Cardo, Teo Halm, Deats(2)\n\nBaby Keem, Danja, Yara Shahidi(3)\n\nBaby Keem, Teo Halm, Rascal, Whatssarp(4)\n\n            Baby Keem, Scott Bridgeway, Teo Halm, Danja(5)\n\nBaby Keem, Jahaan Sweet, Rascal(6)\n\nBaby Keem, Scott Bridgeway, Ojivolta, Teo Halm, Danja, Jahaan Sweet, Michael Uzowuru(7)\n\nBaby Keem, Scott Bridgeway, Ojivolta(8)\n\nBaby Keem, Scott Bridgeway, Teo Halm, Danja, Momberger, Yara Shahidi(9)\n\nBaby Keem, Ojivolta, Sounwave, Beach Noise, Keanu Beats, Argos(10)\n\n            Baby Keem, Scott Bridgeway, Ojivolta, Danja(11)",
+  "guests": "Kendrick Lamar, Momo Boyd, Too $hort, Che Ecru",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1878399948",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "No Security",
+      "composers": "Hykeem Carter, Martin McKinney, Ruchaun Akers, Michael Mulé, Isaac De Boni, Floyd Hills, Elliot Bergman, Natalie Bergman",
+      "performer": "Baby Keem",
+      "time": "1:58"
+    },
+    {
+      "num": 2,
+      "title": "Ca$ino",
+      "composers": "Hykeem Carter, Ruchaun Akers, Ronald LaTour, Teo Halm, Dominik Patrzek",
+      "performer": "Baby Keem",
+      "time": "4:20"
+    },
+    {
+      "num": 3,
+      "title": "Birds &amp; the Bees",
+      "composers": "Hykeem Carter, Evan Hood, Floyd Hills, Yara Shahidi, Leslie Feist",
+      "performer": "Baby Keem",
+      "time": "2:16"
+    },
+    {
+      "num": 4,
+      "title": "Good Flirts",
+      "composers": "Hykeem Carter, Kendrick Duckworth, Kayla Le, Cydel Young, Teo Halm, Tobias Breuer, Teddy Danso Sarpong, Burt Bacharach, Hal David, Lonnie Lynn, James Yancey, Bobby Caldwell, Bruce Malament, Norman Harris",
+      "performer": "Baby Keem feat. Kendrick Lamar &amp; Momo Boyd",
+      "time": "3:52"
+    },
+    {
+      "num": 5,
+      "title": "House Money",
+      "composers": "Hykeem Carter, Kendrick Duckworth, Evan Hood, Ruchaun Akers, Teo Halm, Floyd Hills, Mark Williams, Raul Cubina, Philip Mueller, Philippe Renaux, Steve Wightman",
+      "performer": "Baby Keem",
+      "time": "3:15"
+    },
+    {
+      "num": 6,
+      "title": "I Am Not a Lyricist",
+      "composers": "Hykeem Carter, Clarence Greenwood, Cydel Young, Jahaan Sweet, Tobias Breuer, Giorgos Hatzinasios, Giannis Kalamitsis",
+      "performer": "Baby Keem",
+      "time": "3:25"
+    },
+    {
+      "num": 7,
+      "title": "$ex Appeal",
+      "composers": "Hykeem Carter, Todd Shaw, Evan Hood, Ruchaun Akers, Mark Williams, Raul Cubina, Teo Halm, Floyd Hills, Jahaan Sweet, Michael Uzowuru, Bill Withers",
+      "performer": "Baby Keem feat. Too $hort",
+      "time": "3:04"
+    },
+    {
+      "num": 8,
+      "title": "Highway 95 Pt. 2",
+      "composers": "Hykeem Carter, Ruchaun Akers, Mark Williams, Raul Cubina, Billy Stewart",
+      "performer": "Baby Keem",
+      "time": "3:48"
+    },
+    {
+      "num": 9,
+      "title": "Circus Circus Free$tyle",
+      "composers": "Hykeem Carter, Daniel Tannenbaum, Ruchaun Akers, Teo Halm, Floyd Hills, Sean Momberger, Don Banks",
+      "performer": "Baby Keem",
+      "time": "4:52"
+    },
+    {
+      "num": 10,
+      "title": "Dramatic Girl",
+      "composers": "Hykeem Carter, Michee Lebrun, Samuel Dew, Mark Williams, Raul Cubina, Mark Spears, Matthew Schaeffer, Johnny Kosich, Jake Kosich, Keanu Torres, Nickolas Peristeridis, Steve Lacy",
+      "performer": "Baby Keem feat. Che Ecru",
+      "time": "3:19"
+    },
+    {
+      "num": 11,
+      "title": "No Blame",
+      "composers": "Hykeem Carter, Cydel Young, Ruchaun Akers, Mark Williams, Raul Cubina, Floyd Hills, James Litherland",
+      "performer": "Baby Keem",
+      "time": "2:46"
+    }
+  ]
+}

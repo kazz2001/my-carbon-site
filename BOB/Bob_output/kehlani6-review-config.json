@@ -1,0 +1,171 @@
+{
+  "artistName": "Kehlani",
+  "artistNameJa": "",
+  "albumTitle": "Kehlani",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "kehlani6",
+  "reviewPara1": "④で2026年グラミーを2部門で受賞し、満を持して、自身の31歳の誕生日である2026年4月24日にリリースされたKehlaniのセルフタイトル作。アーティストとしての成熟を示す記念碑的な作品になっている\n            トラウマや痛みをアイデンティティにしてきた過去と訣別し、「喜び」と「学び直し（Unlearn）」を中心に据えた解放と再生の物語で、制作中の2年間にメンタルヘルス治療を経験したKehlaniが、葛藤を隠さず歌に落とし込んでいる。",
+  "reviewPara2": "\n            Y2Kオマージュなサウンドが特徴で、90年代や2000年代の王道R&amp;Bへと原点回帰が感じられる。機械的な打ち込みを排して温かみのあるライブ楽器を積極的に導入、美しいフックやブリッジ、巧みな転調、壮大なアウトロなど、丁寧で高品位なクラフトマンシップが細部まで貫かれており、ジャンルの本質的な魅力を伝えている。",
+  "reviewPara3": "\n            制作では、16-17歳のころのKehlaniを見出した長年の盟友Khris Riddick-Tynesがエグゼクティブ・プロデューサーとしてマルチ楽器演奏を行い、全体に温かく一貫した音像を提供し、⑤でJam\n            &amp;Lewis、⑧でBabyfaceが加わり、往年のサウンドを現代に再現している。\n            GuestはKehlani自身のロールモデルであるBrandyにUsher, Missy Elliott, T-Pain, Lil Wayne,\n            Lil JonといったY2Kリスペクトな人たちに加え、Leon ThomasにCardi B.といった現役バリバリの人たちとひたすら豪華である。",
+  "reviewPara4": "\n            ボーカル面でも成熟が見られ、ウィスパーボイスに頼らず、豊かな感情とエネルギーを伝えるパワフルな発声が随所で聴か��、緻密に重ねられた自身による美しい多重コーラスもY2K的である。",
+  "score1": "4",
+  "score2": "1",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "Khris Riddick-Tynes and Antonio Dixon(1, 6, 10,17)\n\n            Khris Riddick-Tynes and Rich Harrison(2)\n\n            Pop and Oak(3, 12)\n\n            Andre Harris, D.K. the Punisher, Don Mills and Khris Riddick-Tynes(4)\n\n            Khris Riddick-Tynes, Antonio Dixon, Jimmy Jam and Terry Lewis(5)\n\n            Khris Riddick-Tynes, The Stereotypes(7)\n\n            Khris Riddick-Tynes, Babyface(8)\n\n            Khris Riddick-Tynes, Oak(9)\n\n            Camper and Dixon(11)\n\n            Khris Riddick-Tynes, Alex Goldblatt, Dawit Wilson and Daniel Church (13)\n\n            Khris Riddick-Tynes, Jermaine Dupri and Allen Ritter(14)\n\n            Khris Riddick-Tynes and Alex Goldblatt(15,16)",
+  "guests": "Lil Wayne, Clipse, Brandy, Missy Elliott, Usher, T-Pain &amp; Lil Jon,\n            Cardi B, Big Sean, Leon Thomas",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1885055310",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "kehlani5",
+      "artistName": "Kehlani",
+      "albumTitle": "Crash"
+    },
+    {
+      "identifier": "kehlani4",
+      "artistName": "Kehlani",
+      "albumTitle": "Blue Water Road"
+    },
+    {
+      "identifier": "kehlani3",
+      "artistName": "Kehlani",
+      "albumTitle": "It Was Good Until It Wasn't"
+    },
+    {
+      "identifier": "kehlani2",
+      "artistName": "Kehlani",
+      "albumTitle": "While We Wait"
+    },
+    {
+      "identifier": "kehlani1",
+      "artistName": "Kehlani",
+      "albumTitle": "SweetSexy Savage"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "Intro",
+      "composers": "Kehlani Parrish / Antonio Dixon / Khris Riddick-Tynes",
+      "performer": "Kehlani",
+      "time": "0:31"
+    },
+    {
+      "num": 2,
+      "title": "Anotha Luva",
+      "composers": "Kehlani Parrish / Dwayne Carter / Rich Harrison / Khris Riddick-Tynes",
+      "performer": "Kehlani feat. Lil Wayne",
+      "time": "4:01"
+    },
+    {
+      "num": 3,
+      "title": "No Such Thing",
+      "composers": "Kehlani Parrish / Warren Felder / Jayme Silverstein / Gene Thornton / Terrence\n                  Thornton / Andrew Wansel / Dawit Wilson",
+      "performer": "Kehlani feat. Clipse",
+      "time": "3:40"
+    },
+    {
+      "num": 4,
+      "title": "Folded",
+      "composers": "Kehlani Parrish / Miloš Angelov / Andre Harris / Donovan Knight / Khris\n                  Riddick-Tynes / Darius Scott / Dawit Wilson",
+      "performer": "Kehlani",
+      "time": "3:57"
+    },
+    {
+      "num": 5,
+      "title": "I Need You",
+      "composers": "Kehlani Parrish / Antonio Dixon / James Harris III / Terry Lewis / Khris\n                  Riddick-Tynes / Dawit Wilson",
+      "performer": "Kehlani feat. Brandy",
+      "time": "4:03"
+    },
+    {
+      "num": 6,
+      "title": "Oooh",
+      "composers": "Kehlani Parrish / Antonio Dixon / Durrell Babbs / Keri Hilson / Khris Riddick-Tynes",
+      "performer": "Kehlani",
+      "time": "4:08"
+    },
+    {
+      "num": 7,
+      "title": "Back and Forth",
+      "composers": "Kehlani Parrish / Melissa Elliott / Ariowa Irosogie / Ray Charles McCullough\n                  II / Jeremy Reeves / Ray Romulus / Khris Riddick-Tynes / Daniel Upchurch\n                  / Kamal Wilson / Jonathan Yip",
+      "performer": "Kehlani feat. Missy Elliott",
+      "time": "3:34"
+    },
+    {
+      "num": 8,
+      "title": "Shoulda Never",
+      "composers": "Kehlani Parrish / Darius Scott / Kenneth Edmonds / Khris Riddick-Tynes",
+      "performer": "Kehlani feat. Usher",
+      "time": "3:06"
+    },
+    {
+      "num": 9,
+      "title": "You Got It",
+      "composers": "Kehlani Parrish / Warren Felder / Oscar Linnander / Jayme Silverstein /\n                  Dawit Wilson",
+      "performer": "Kehlani",
+      "time": "4:37"
+    },
+    {
+      "num": 10,
+      "title": "Out the Window",
+      "composers": "Kehlani Parrish / Antonio Dixon / Ashton Norful / Khris Riddick-Tynes /\n                  Talay Riley",
+      "performer": "Kehlani",
+      "time": "4:16"
+    },
+    {
+      "num": 11,
+      "title": "Still",
+      "composers": "Kehlani Parrish / Darhyl Camper Jr. / Darius Scott / Maleik Loveridge",
+      "performer": "Kehlani",
+      "time": "3:33"
+    },
+    {
+      "num": 12,
+      "title": "Call Me Back",
+      "composers": "Kehlani Parrish / Faheem Najm / Jayme Silverstein / Jonathan Smith / Daniel\n                  Upchurch / Andrew Wansel",
+      "performer": "Kehlani feat. T-Pain &amp; Lil Jon",
+      "time": "3:19"
+    },
+    {
+      "num": 13,
+      "title": "Pocket",
+      "composers": "Kehlani Parrish / Belcalis Almanzar / Alex Goldblatt / Khris Riddick-Tynes\n                  / Daniel Upchurch / Dawit Wilson",
+      "performer": "Kehlani feat. Cardi B",
+      "time": "3:52"
+    },
+    {
+      "num": 14,
+      "title": "Lights On",
+      "composers": "Kehlani Parrish / Sean Anderson / Jermaine Cherry / Khris Riddick-Tynes\n                  / Allen Ritter",
+      "performer": "Kehlani feat. Big Sean",
+      "time": "2:59"
+    },
+    {
+      "num": 15,
+      "title": "Sweet Nuthins",
+      "composers": "Kehlani Parrish / Leon Thomas / Lazaro Camejo / Alex Goldblatt / Ethan\n                  Polk-Trauman / Khris Riddick-Tynes / Daniel Upchurch",
+      "performer": "Kehlani feat. Leon Thomas",
+      "time": "2:42"
+    },
+    {
+      "num": 16,
+      "title": "Cruise Control",
+      "composers": "Kehlani Parrish / Alex Goldblatt / Ashton Norful / Khris Riddick-Tynes\n                  / Daniel Upchurch",
+      "performer": "Kehlani",
+      "time": "3:04"
+    },
+    {
+      "num": 17,
+      "title": "Unlearn",
+      "composers": "Kehlani Parrish / Kumasi Ade / Antonio Dixon / Khris Riddick-Tynes",
+      "performer": "Kehlani",
+      "time": "4:17"
+    }
+  ]
+}

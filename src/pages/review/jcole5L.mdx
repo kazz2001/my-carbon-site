@@ -1,0 +1,145 @@
+---
+title: "J. Cole / The Fall-Off"
+description: "Album Review of J. Cole / The Fall-Off"
+keywords: "J. Cole, The Fall-Off"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+import Review1 from "../review/jcole4.mdx";
+import Review2 from "../review/jcole3.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![J. Cole / The Fall-Off](../../images/cd/jcole5L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			前作から5年振りとなるJ.Coleの通算7枚目のスタジオアルバム。キャリアの集大成となる最終作として位置づけられている。
+      引退作として長年構想してきたもので、CDでは2枚組、全24曲、100分を超える作品である。コンセプトは「二つの年齢における帰郷」。
+			<br/>Disc 29では29歳当時の野心と葛藤、Disc 39では39歳となった現在の精神的平穏と内省が描かれている。これまでの栄光と影、そして引き換えに失ったものや過ちを故郷の景色に重ね合わせ、自身の半生を完璧に総括している。
+      <br/>サウンドはブームバップを基調に、サザン・ラップやR&amp;Bが美しく融合している。James Taylor, Mobb Deep, Commonなどの名曲をサンプリングやメロディの補完で贅沢に取り入れ、もの静かなアコースティックの音色から、プログレッシブ・ロック調の実験的なビートスイッチまで、多彩で深みのある音作りが特徴で、ゆったりとして落ち着いたスローが多めになっている。
+			<br/>プロデュースはJ. Cole本人とT-Minusが全体を統括し、The Alchemistが29-⑦で哀愁漂う繊細なビートを提供し、そこにFutureのラップとTemsのハミングが溶け合っている。また、39-③ではErykah BaduがOutKastを意識した温かい歌声を重ねてソウルを注入している。
+      <br/>高速な多音節フローで鋭く攻撃的にビートを刻む一方で、歌を積極的に取り入れており、そのボーカル表現力が大幅に向上。温もりや傷つきやすさを宿した、非常に人間味のある歌声やメロウなコーラスが特徴的だ。
+			<br/>リリックでは、成功の影で抱いたサバイバーズ・ギルト（生存者の罪悪感）や物質主義への空虚感、過去の不誠実さへの悔恨が綴られている。特に39-②では、自身の葬儀から出生までを逆時系列でラップする圧巻のストーリーテリングを披露。エゴを捨てて平穏を求め、キャリアを美しく着地させる彼独自の「下降」の美学が描かれている。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/4A086xR" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://amzn.to/3UFmoDV" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+		  <Button className="button-right-mergin"  href="https://apple.co/3UxLuEN" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	    apple music
+  	  </Button>
+		<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="2" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				&lt;Disc 29&gt;
+				<br/>J. Cole(1,5)
+				<br/>T-Minus and Omen(2)
+				<br/>J. Cole, DZL, Wu10 and Sucuki(3)
+				<br/>T-Minus and Jūn Tetra &amp; Gldy Jr(4)
+				<br/>J. Cole and T-Minus(6)
+				<br/>The Alchemist(7)
+				<br/>Vinyls(8)
+				<br/>Jūn Tetra &amp; Gldy Jr(9)
+				<br/>T-Minus(10)
+				<br/>DZL and Wu10(11)
+				<br/>&lt;Disc 39&gt;
+				<br/>J. Cole, T-Minus and Vinyls(1)
+				<br/>DZL(2)
+				<br/>J. Cole and Omen(3)
+				<br/>J. Cole(4,8)
+				<br/>T-Minus(5,7)
+				<br/>T-Minus, DZL and Luca Mauti(6)
+				<br/>Tae Beast and Beat Bitcha(9)
+				<br/>J. Cole, DZL and Omen(10)
+				<br/>Ronald Gilmore, David Linaburg and J. Cole(11)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Future, PJ, Tems, Erykah Badu, Petey Pablo, Burna Boy, Morray
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+Disc 29
+| No. | Title                          | Composers                                                                                                                                                                                         | Performer                   | Time  |
+| --- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | ----- |
+| 1   | 29 Intro                       | Jermaine Cole, James Taylor                                                                                                                                                                       | J. Cole                     | 00:57 |
+| 2   | Two Six                        | Jermaine Cole, Tyler Williams, Damon Coleman, Ron Gilmore Jr., Donald Maurice Pears II                                                                                                            | J. Cole                     | 03:16 |
+| 3   | SAFETY                         | Jermaine Cole, Kelvin Wooten, Powers Pleasant, Tim Friedrich, Michael Holmes, Thomas Wlodarczyk, Keir Gist                                                                                        | J. Cole                     | 05:18 |
+| 4   | Run a Train                    | Jermaine Cole, Nayvadius Wilburn, Steve Bilodeau, Tyler Williams, Nima Jahanbin, Aaron Goldstein, Mario Luciano                                                                                   | J. Cole, feat. Future       | 04:02 |
+| 5   | Poor Thang                     | Jermaine Cole, Steve Bilodeau, Tyler Williams, Kelvin Wooten, Damon Coleman, Michael Holmes, Bunny Sigler, Phillip Hurtt                                                                          | J. Cole                     | 04:50 |
+| 6   | Legacy                         | Jermaine Cole, Paris Jones, Steve Bilodeau, Luca Mauti, Brayon Nelson, Tyler Williams, Leroy Emmanuel                                                                                             | J. Cole, PJ                 | 03:55 |
+| 7   | Bunce Road Blues               | Jermaine Cole, Nayvadius Wilburn, Temilade Openiyi, Abbas Hamad, Bryan James Sledge, Margaux Whitney, Ron Gilmore Jr., Alan Maman, Usher Raymond, Brian Casey, Jermaine Dupri, Manuel Lonnie Seal | J. Cole, feat. Future, Tems | 05:10 |
+| 8   | WHO TF IZ U                    | Jermaine Cole, Tyler Williams, Anderson Hernandez, Harvey Fuqua, Beatrice Verdi                                                                                                                   | J. Cole                     | 04:37 |
+| 9   | Drum n Bass                    | Jermaine Cole, Benjamin Siciliano, Nima Jahanbin, Aaron Goldstein, Tyler Williams, Scott Cossu                                                                                                    | J. Cole                     | 04:14 |
+| 10  | The Let Out                    | Jermaine Cole, Tyler Williams, Steve Bilodeau                                                                                                                                                     | J. Cole                     | 04:14 |
+| 11  | Bombs in the Ville/Hit the Gas | Jermaine Cole, Steve Bilodeau, Tyler Williams, Matthew Samuels, Christopher Bridges, Shondrae Crawford                                                                                            | J. Cole                     | 04:06 |
+| 12  | Lonely at the Top _(Bonus)_    | Jermaine Cole, David Linaburg, Kelvin Wooten, Michael Holmes, Jeremie S. Pennick, Amber Joy Croskery, Thomas A. Paladino                                                                          | J. Cole                     | 03:24 |
+
+Disc 39
+|	No. |	 Title                           | Composers                                                                                                                                                                                                                                                                                               	|	 Performer                 | Time	 |
+|	--- |	-------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |	-------------------------- | ----- |
+|	1	  |	39 Intro                         | Jermaine Cole, Tyler Williams,  Anderson Hernandez, Kelvin Wooten, Steve  Bilodeau, FNZ, Coleman, Willie Hutch                                                                                                                                                                                           |	J. Cole                    | 06:06 |
+|	2	  |	The Fall-Off Is Inevitable       | Jermaine Cole, Michael Holmes, Maneesh Bidaye, Kelvin Wooten                                                                                                                                                                                                                                             |	J. Cole                    | 02:56 |
+|	3	  |	The Villest                      | Jermaine Cole, Erica Badu, Damon Coleman, Tyler Williams, Kelvin Wooten,  Michael Holmes, Antwan Patton, André Benjamin, Barbara Gaskins                                                                                                                                                                	|	J. Cole, feat. Erykah Badu | 04:30 |
+|	4	  |	Old Dog                          | Jermaine Cole, Moses Barrett III, Tyler Williams, Clifford Harris, Aldrin Davis                                                                                                                                                                                                                          |	J. Cole, feat. Petey Pablo | 03:22 |
+|	5	  |	Life Sentence                    | Jermaine Cole, Kelvin Wooten, Tyler Williams, Cedric Brown, Craig AshleyDavid, Fraser Lance Thorneycroft Smith, Earl Simmons, Anthony Fields                                                                                                                                                             |	J. Cole                    | 04:12 |
+|	6	  |	Only You                         | Jermaine Cole, Damini Ogulu, Tyler Williams, Michael Holmes, Luca Mauti, Siccature Alcock, Daoud Anthony, Abdul Aziz Dieng, Alistaire Duhane McCalla, Roshaun Omawate Clarke, Xavier Anthony Davidson, Donovan Bennett, Nigel Andrew Staff, Wayne Morris, Eva L. Fontes                                  |	J. Cole, feat. Burna Boy   | 04:46 |
+|	7	  |	Man Up Above                     | Jermaine Cole, Tyler Williams, William Robinson Jr. , Marvin Louis Sapp,  Matthew Richard Brownie, Jennifer Lopez, Jason Phillips, David Styles,  Andre Deyo, Troy A Oliver, Jean Olivier, Samuel Barnes, José Frenands  Arbex Miro, Michael Ian Oliviere, Lawrence KRSOne Parker, Scott Monroe Sterling	|	J. Cole                    | 04:58 |
+|	8	  |	I Love Her Again                 | Jermaine Cole, Jacob Dutton, Lonnie Lynn, James Dewitt Yancey, Bobby Caldwell, Bruce Malament, Norman Qilliam Harris, Phillip Nimmons                                                                                                                                                                    |	J. Cole                    | 05:32 |
+|	9	  |	What If                          | Jermaine Cole, Morae Ruffin, Donte Perkins, Tyler Williams, Kelvin Wooten,  Beat Bitcha                                                                                                                                                                                                                  |	J. Cole, feat. Morray      | 05:19 |
+|	10	|	Quik Stop                        | Jermaine Cole, Damon Coleman, Michael Holmes, Kelvin Wooten, Devin Copeland, Robert McQueen, Dexter Johnson                                                                                                                                                                                              |	J. Cole                    | 04:24 |
+|	11	|	and the whole world is the Ville | Jermaine Cole, Abdul Aziz Dieng, O'Kelly Isley Jr., Rudolph Isley, Ronald Isley, Christopher Jasper, Omar Davis, Jonathan Billingslea, Marcus Shaw, Steven Maurice Curry                                                                                                                                 |	J. Cole                    | 04:35 |
+|	12	|	Ocean Way *(Bonus)*              | Jermaine Cole, David Linaburg, Ronald Gilmore, Kelvin Wooten                                                                                                                                                                                                                                             |	J. Cole                    | 02:34 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+</Row>
+
+<AdvJS3 />
