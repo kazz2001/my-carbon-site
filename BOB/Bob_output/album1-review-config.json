@@ -1,130 +1,21 @@
 {
-  "artistName": "Genesis Owusu",
+  "artistName": "",
   "artistNameJa": "",
-  "albumTitle": "REDSTAR WU &amp; THE WORLDWIDE SCOURGE",
+  "albumTitle": "",
   "albumTitleJa": "",
   "albumNumber": "1",
   "identifier": "album1",
-  "reviewPara1": "Genesis Owusuの3年ぶりとなる3rdスタジオアルバム。\n            過去作の内省的・寓話的な表現から一転し、2020年代の地球上で起きている生々しい現実に直結した作品です。世界にはびこるヘイトや強欲、偏見を「世界規模の災厄（The\n            Worldwide Scourge）」と位置づけ、正面から対峙。",
-  "reviewPara2": "暗澹たるディストピアの絶望から、人々の連帯と慎重な希望を見出すまでの感情の軌跡をリニアに描き出しています。\n            ポストパンク、シンセパンク、ファンク、ネオソウル、インダストリアル、エレクトロニックを自在に越境するサウンドが特徴で。",
-  "reviewPara3": "性急で荒々しいパンクから、ぬめり気のある重厚なスラッジ・ファンク、エレクトロニック・サウンドまで、緊張感とダンサブルな祝祭性がアルバム全体でせめぎ合っています。\n            全編の主プロデュースとミックスは盟友Dann Humeが手掛け、ウェールズの改築教会に籠もり二人三脚で密室感のある鋭敏な音響を構築している。",
-  "reviewPara4": "\n            ①で見せる息をつかせぬ荒々しいパンク・シャウトや攻撃的なラップから、⑥での艶やかで甘美な歌唱まで、表現のレンジが広い。\n            リリックでは、ガザの悲劇、大統領選の狂騒、SNSに蔓延する陰謀論やインセル文化などを逃げずに直截な言葉で告発しています。",
-  "score1": "2",
-  "score2": "3",
-  "score3": "2",
-  "score4": "4",
-  "producers": "Dann Hume(1,2,3,4,5,6,8,9,11,12,13,14)\n\n            Dann Hume and Andrew Klippel(7,10)",
-  "guests": "Duckwrth, Ladyhawke",
+  "score1": "0",
+  "score2": "0",
+  "score3": "0",
+  "score4": "0",
+  "producers": "",
+  "guests": "",
   "amazonCom": "https://amzn.to/XXXXXXX",
   "amazonJp": "https://amzn.to/XXXXXXX",
-  "appleMusic": "https://music.apple.com/us/album/1887196431",
+  "appleMusic": "https://apple.co/XXXXXXX",
   "best50Year": "",
   "best50Rank": "",
-  "relatedReviews": [
-    {
-      "identifier": "genesisowusu1",
-      "artistName": "Genesis Owusu",
-      "albumTitle": "Smiling With No Teeth"
-    }
-  ],
-  "tracks": [
-    {
-      "num": 1,
-      "title": "PIRATE RADIO",
-      "composers": "Kofi Owusu-Ansah, Dann Hume",
-      "performer": "Genesis Owusu",
-      "time": "2:54"
-    },
-    {
-      "num": 2,
-      "title": "STAMPEDE",
-      "composers": "Kofi Owusu-Ansah, Dann Hume",
-      "performer": "Genesis Owusu",
-      "time": "3:09"
-    },
-    {
-      "num": 3,
-      "title": "HELLSTAR",
-      "composers": "Kofi Owusu-Ansah, Dann Hume, Jared Lee",
-      "performer": "Genesis Owusu feat. Duckwrth",
-      "time": "3:52"
-    },
-    {
-      "num": 4,
-      "title": "FALLING BOTH WAYS",
-      "composers": "Kofi Owusu-Ansah, Dann Hume, Pip Brown",
-      "performer": "Genesis Owusu feat. Ladyhawke",
-      "time": "3:13"
-    },
-    {
-      "num": 5,
-      "title": "THE WORLDWIDE SCOURGE",
-      "composers": "Kofi Owusu-Ansah, Dann Hume",
-      "performer": "Genesis Owusu",
-      "time": "4:50"
-    },
-    {
-      "num": 6,
-      "title": "BLESSED ARE THE MEEK",
-      "composers": "Kofi Owusu-Ansah, Dann Hume",
-      "performer": "Genesis Owusu",
-      "time": "3:50"
-    },
-    {
-      "num": 7,
-      "title": "LIFE KEEPS GOING",
-      "composers": "Kofi Owusu-Ansah, Felix Bloxsom, Andrew Klippel, Kim Moyes",
-      "performer": "Genesis Owusu",
-      "time": "3:39"
-    },
-    {
-      "num": 8,
-      "title": "MOST NORMAL AMERICAN VOTER:",
-      "composers": "Kofi Owusu-Ansah, Dann Hume",
-      "performer": "Genesis Owusu",
-      "time": "2:36"
-    },
-    {
-      "num": 9,
-      "title": "DEATH CULT ZOMBIE",
-      "composers": "Kofi Owusu-Ansah, Dann Hume",
-      "performer": "Genesis Owusu",
-      "time": "3:36"
-    },
-    {
-      "num": 10,
-      "title": "SITUATIONS",
-      "composers": "Kofi Owusu-Ansah, Kirin J. Callinan, Jonti Danilewitz, Michael Di Francesco,\n                  Dann Hume, Julian Sudek",
-      "performer": "Genesis Owusu",
-      "time": "3:34"
-    },
-    {
-      "num": 11,
-      "title": "4LIFE",
-      "composers": "Kofi Owusu-Ansah, Dann Hume",
-      "performer": "Genesis Owusu",
-      "time": "4:10"
-    },
-    {
-      "num": 12,
-      "title": "RUNNIN OUTTA TIME",
-      "composers": "Kofi Owusu-Ansah, Dann Hume",
-      "performer": "Genesis Owusu",
-      "time": "3:34"
-    },
-    {
-      "num": 13,
-      "title": "BIG DOG",
-      "composers": "Kofi Owusu-Ansah, Dann Hume",
-      "performer": "Genesis Owusu",
-      "time": "3:36"
-    },
-    {
-      "num": 14,
-      "title": "ONE4ALL",
-      "composers": "Kofi Owusu-Ansah, Dann Hume",
-      "performer": "Genesis Owusu",
-      "time": "3:45"
-    }
-  ]
+  "relatedReviews": [],
+  "tracks": []
 }

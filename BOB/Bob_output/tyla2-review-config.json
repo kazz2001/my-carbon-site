@@ -1,0 +1,130 @@
+{
+  "artistName": "Tyla",
+  "artistNameJa": "",
+  "albumTitle": "A*POP",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "tyla2",
+  "reviewPara1": "デビュー作となる前作でブレイクし、グラミーをも受賞したTylaの約2年4ヶ月ぶり通算2作目となるスタジオアルバム。\n            『A\\*POP』のタイトルには「アフリカの音楽こそがグローバル・ポップである」という主権的なステートメントが込められていて、既存のポップ像に無理に自分を合わせるのではなく「ポップスを自分に適合させる」という姿勢のもと、アフリカン・ポップスターの��成概念を広げることを提示し、南アフリカのアーティストをゲストの中心に迎えることで、自国の音楽史とルーツに深く根を下ろすコンセプトとなっている。\n            R&amp;Bや欧米ポップスを土台にしつつ、amapianoやafrobeats、afro-houseといった現代アフリカ音楽を主軸に置いた新感覚のサウンドです。",
+  "reviewPara2": "前作よりタフでカッティングエッジなサウンドと、クールで硬質的なダンスビートが特徴的。前半はダンサブルなポップナンバーの中にダンスホールや、ドリルとUKガラージを融合した実験的なトラックが配されています。後半に進むにつれてポピアーノやamapianoの色調が強まり、南アフリカのルーツへ深く立ち返る構成になっている。",
+  "reviewPara3": "\n            南アフリカのアーティスト以外にも、Zara Larssonとのデュエット曲「She Did It Again」が華やかなポップさを添えている。制作陣ではP2JやIan\n            Kirkpatrick、Sammy Sosoらがタフで緻密なトラックメイクを手掛けている。\n            Tylaのヴォーカルは、吐息を交えたシルキーで柔らかい質感と、懐の深さが魅力です。",
+  "reviewPara4": "軽快に跳ねるリズムからソウルフルで力強い歌唱まで自在にコントロールしている。\n            ただ、リリックは「アフリカ」という大きなテーマを誇示するのではなく、一人の女性としての素直な感情や恋愛模様に焦点を当てている。",
+  "score1": "5",
+  "score2": "3",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "P2J and Cole(1,2)\n\n            P2J and Ian Kirkpatrick(3,11)\n\n            Sammy Soso, Ari PenSmith, Believve and Mocha Bands(4,10)\n\n            Jonathan &quot;Ziyon&quot; Hamilton and Thabo &quot;Ryzor&quot; Shokgold(5)\n\nP2J, DAMEDAME*(6)\n\n            P2J, Sucuki and LOOF(7)\n\n            P2J and Akeel(8)\n\nSammy Soso(9,14)\n\nP2J(12)\n\nThe Elements(13)",
+  "guests": "Liquideep, Zara Larsson, MaWhoo, Babalwa",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1894330586",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "tyla1",
+      "artistName": "Tyla",
+      "albumTitle": "Tyla"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "IS IT LOVE",
+      "composers": "Richard Isong, Cole Ostrin, Bibi Bourelly, Tyla Seethal, Douglas Ford",
+      "performer": "Tyla",
+      "time": "3:07"
+    },
+    {
+      "num": 2,
+      "title": "THAT GIRL",
+      "composers": "Tyla Seethal, Richard Isong, Cole Ostrin, Douglas Ford, Bibi Bourelly",
+      "performer": "Tyla",
+      "time": "2:56"
+    },
+    {
+      "num": 3,
+      "title": "KISS",
+      "composers": "Tyla Seethal, Ian Kirkpatrick, Richard Isong, Douglas Ford, Bibi Bourelly",
+      "performer": "Tyla",
+      "time": "3:20"
+    },
+    {
+      "num": 4,
+      "title": "IS IT",
+      "composers": "Tyla Seethal, Samuel Awuku, Ariowa Irosogie, Imani Lewis, Kaine, Corey\n                  Marlon Lindsay-Keay",
+      "performer": "Tyla",
+      "time": "2:44"
+    },
+    {
+      "num": 5,
+      "title": "FAIRYTALE",
+      "composers": "Jonathan Christian Hamilton",
+      "performer": "Tyla feat. Liquideep",
+      "time": "3:28"
+    },
+    {
+      "num": 6,
+      "title": "DOUBLE BLIND",
+      "composers": "Tyla Seethal, Richard Isong, Barbara Boko, Edith Nelson",
+      "performer": "Tyla",
+      "time": "2:28"
+    },
+    {
+      "num": 7,
+      "title": "FEEL SOMETHING",
+      "composers": "Tyla Seethal, Richard Isong, Tim Friedrich, Louis Leibfried, Jason Boyd",
+      "performer": "Tyla",
+      "time": "3:32"
+    },
+    {
+      "num": 8,
+      "title": "RIGHT NOW",
+      "composers": "Tyla Seethal, Richard Isong, Akeel Henry, Douglas Ford, Jason Boyd, Bibi\n                  Bourelly",
+      "performer": "Tyla",
+      "time": "3:05"
+    },
+    {
+      "num": 9,
+      "title": "MR. NONCHALANT",
+      "composers": "Tyla Seethal, Samuel Awuku, Imani Lewis, Ariowa Irosogie, Corey Marlon\n                  Lindsay-Keay",
+      "performer": "Tyla",
+      "time": "2:17"
+    },
+    {
+      "num": 10,
+      "title": "SHE DID IT AGAIN",
+      "composers": "Zara Larsson, Tyla Seethal, Samuel Awuku, Ariowa Irosogie, Imani Lewis,\n                  Corey Marlon Lindsay-Keay, Uzoechi Emenike, Zikai, Helena Gao, Zara Larsson",
+      "performer": "Tyla feat. Zara Larsson",
+      "time": "3:33"
+    },
+    {
+      "num": 11,
+      "title": "CHANEL",
+      "composers": "Ian Kirkpatrick, Douglas Ford, Bibi Bourelly, Richard Isong, Tyla Seethal",
+      "performer": "Tyla",
+      "time": "3:08"
+    },
+    {
+      "num": 12,
+      "title": "CRAZY OF ME",
+      "composers": "Tyla Seethal, Richard Isong, Douglas Ford, Bibi Bourelly, Samuel Awuku,\n                  Imani Lewis, Ariowa Irosogie, Corey Marlon Lindsay-Keay, Thandeka Ngema,\n                  Stacey Bereng",
+      "performer": "Tyla feat. MaWhoo",
+      "time": "4:12"
+    },
+    {
+      "num": 13,
+      "title": "I DON&#39;T CARE",
+      "composers": "Tyla Seethal, Keven Wolfsohn, Paul Bogumil Goller, Dayo Olatunji, Babalwa\n                  Mavuso",
+      "performer": "Tyla feat. Babalwa M",
+      "time": "3:12"
+    },
+    {
+      "num": 14,
+      "title": "HOT TUBS",
+      "composers": "Tyla Seethal, Samuel Awuku, Imani Lewis, Ariowa Irosogie, Corey Marlon\n                  Lindsay-Keay",
+      "performer": "Tyla",
+      "time": "2:57"
+    }
+  ]
+}
