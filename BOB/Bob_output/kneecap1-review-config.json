@@ -1,0 +1,124 @@
+{
+  "artistName": "KNEECAP",
+  "artistNameJa": "",
+  "albumTitle": "FENIAN",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "kneecap1",
+  "reviewPara1": "2017年に北アイルランドのベルファストで結成されたラップトリオ, Kneecapの高評価を得たデビュー作『Fine Art』（2024年）以来2年ぶりとなる2枚目のスタジオ・アルバム。メンバーは Mo Chara(28歳)、Móglaí Bap(32歳)、DJ Próvaí(36歳) の3名で構成される。\n            タイトル『Fenian』は、中世の戦士に由来し、歴史的には侮蔑語として使われてきた言葉である。",
+  "reviewPara2": " Kneecap はこの語を誇り高く再定義し、「権力に抗い信念を貫く全ての人々」を象徴するコンセプトとして掲げている。\n            本作は、Mo Chara に対する裁判やツアー中止など政治的圧力の渦中で制作され、前作の狂騒的なパーティー感から一転して、よりダークで成熟した反骨心と深い人間ドラマを描き出している。\n            Dan Careyが手がけるサウンドは、ハードコア・レイヴやアシッド・ハウス、トリップ・ホップ、ドラムンベースなどを自在に横断する。",
+  "reviewPara3": "アナログ・シンセサイザーや重厚なベースラインを多用し、アナログ・シンセのざらついた質感と、腹の底に響くようなベースラインが全編を貫き、\n            その上に鋭いアタックのダンス・ビートが重なることで、張り詰めた緊迫感が生まれている。\n            ゲストとして、クレジットには記載されていないものの、パレスチナ・ラマッラー出身のラッパー Fawzi が④でアラビア語ラップを披露し、作品に国際的な連帯のニュアンスを加えている。\n            Mo CharaとMóglaí Bapによる、アイルランド語と英語を瞬時に切り替える高速で緻密なバイリンガル・ラップが最大の特徴で、軽快で精度の高い掛け合いに加え、虚勢や狂気、個人的な悲哀や内省までを自在に行き来する表情豊かな表現力が光る。",
+  "reviewPara4": "\n            リリックの核には、アイルランド語の権利回復や脱植民地化、英国政治家への痛烈な風刺、そしてパレスチナとの連帯といった強い政治的メッセージがある。\n            一方で、薬物依存の苦悩や急激な知名度上昇に伴う偏執的な不安、さらにはメンバーの母親の自死による深い喪失感など、極めて個人的で生々しい葛藤も同じ熱量で描かれている。\n            公的な闘争と私的な痛みが交錯することで、作品は単なる政治的アジテーションを超え、より立体的で人間的なドラマとして響いてくる。",
+  "score1": "1",
+  "score2": "1",
+  "score3": "2",
+  "score4": "5",
+  "producers": "Dan Carey(all)",
+  "guests": "Radie Peat, Kae Tempest, Fawzi",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1862223497",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "&#201;ire go Deo",
+      "composers": "Daniel Carey, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh, Rose Linda Connolly",
+      "performer": "Kneecap",
+      "time": "2:19"
+    },
+    {
+      "num": 2,
+      "title": "Smugglers &amp; Scholars",
+      "composers": "Daniel Carey, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap",
+      "time": "3:11"
+    },
+    {
+      "num": 3,
+      "title": "Carnival",
+      "composers": "Daniel Carey, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap",
+      "time": "2:52"
+    },
+    {
+      "num": 4,
+      "title": "Palestine",
+      "composers": "Daniel Carey, Jason Jerry Scheff, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh, Fawzi Sulaiman",
+      "performer": "Kneecap",
+      "time": "2:36"
+    },
+    {
+      "num": 5,
+      "title": "Liars Tale",
+      "composers": "Daniel Carey, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap",
+      "time": "3:17"
+    },
+    {
+      "num": 6,
+      "title": "FENIAN",
+      "composers": "Daniel Carey, Kjetil Bj&#248;reid Aab&#248;, Ketil Kinden Endresen, Omar Emanuel Johnsen, Fredrik &#216;greid Vogsborg, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap",
+      "time": "3:14"
+    },
+    {
+      "num": 7,
+      "title": "Big Bad Mo",
+      "composers": "Daniel Carey, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap",
+      "time": "3:44"
+    },
+    {
+      "num": 8,
+      "title": "Headcase",
+      "composers": "Daniel Carey, Liam Toon, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap",
+      "time": "2:40"
+    },
+    {
+      "num": 9,
+      "title": "An Ra",
+      "composers": "Daniel Carey, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap",
+      "time": "3:40"
+    },
+    {
+      "num": 10,
+      "title": "Cold at the Top",
+      "composers": "Daniel Carey, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap",
+      "time": "3:20"
+    },
+    {
+      "num": 11,
+      "title": "Occupied 6",
+      "composers": "Daniel Carey, Holly Whitaker, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap",
+      "time": "2:04"
+    },
+    {
+      "num": 12,
+      "title": "Gael Phonics",
+      "composers": "Daniel Carey, Thomas Mackenzie Bell, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap",
+      "time": "2:34"
+    },
+    {
+      "num": 13,
+      "title": "Cocaine Hill",
+      "composers": "Daniel Carey, Iain David McGeachy, Naoise &#211; Caireall&#225;in, Liam &#211;g &#211; hAnnaidh",
+      "performer": "Kneecap feat. Radie Peat",
+      "time": "3:27"
+    },
+    {
+      "num": 14,
+      "title": "Irish Goodbye",
+      "composers": "Daniel Carey, Naoise &#211; Caireall&#225;in, Kae Tempest",
+      "performer": "Kneecap feat: Kae Tempest",
+      "time": "3:34"
+    }
+  ]
+}

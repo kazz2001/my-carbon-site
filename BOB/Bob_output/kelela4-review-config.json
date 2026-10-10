@@ -1,0 +1,126 @@
+{
+  "artistName": "Kelela",
+  "artistNameJa": "",
+  "albumTitle": "new avatar",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "kelela4",
+  "reviewPara1": "Kelelaの前作『Raven』以来3年ぶりとなる通算3枚目のスタジオ・アルバム。\n ワシントンD.C.のインディー／パンクシーンという自身の原点に回帰しながら、不穏な世界情勢や個人的な痛みに正面から向き合い、その先にある精神的回復をテーマとしている。SF作家Octavia Butlerの作品に着想を得ており、不条理な現実から逃避するのではなく、混乱を凝視しながら感情の交錯と美しさを見出していく強い連帯のメッセージが全体を貫いている。",
+  "reviewPara2": "\n 前作の静謐なアンビエントやクラブ・サウンドから一転し、本作では力強く歪んだギターが音響の中心に置かれている。ダークで重厚なUKガラージや2-Stepのビートにシューゲイザーやグランジの残響が交錯し、無駄を削ぎ落とした硬質な音響空間を構築。異ジャンルを歪みとノイズで一つの音響言語へと昇華させている。",
+  "reviewPara3": "\n Oscar Schellerがほぼ全編をプロデュースし、緻密なビートとギター音響の骨格を構築している。⑪では、PinkPantheressの透明感あるボーカルがKelelaの艶やかなボーカルと溶け合い、楽曲に独特の浮遊感を与えている。\n Kelelaはシルキーで官能的なR&amp;Bボーカルを基調としながら、ディレイやリバーブを巧みに纏わせた深い表現力を誇っている。",
+  "reviewPara4": "感情を激しく怒号するのではなく、冷静にコントロールされた静かな怒りや寂しさを歌唱で凝縮している。\n            リリックでは、破綻していく人間関係のすれ違いや消耗、不誠実なパートナーへの葛藤が直接的な言葉で綴られている。",
+  "score1": "5",
+  "score2": "2",
+  "score3": "2",
+  "score4": "4.5",
+  "producers": "Oscar Scheller(1,2,3,5,6,7,8,9,10,11,12)\n\n            A. K. Paul(4)",
+  "guests": "A. K. Paul,  Foushe&eacute;, PinkPantheress",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/1888561538",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "kelela3",
+      "artistName": "Kelela",
+      "albumTitle": "Raven"
+    },
+    {
+      "identifier": "kelela2",
+      "artistName": "Kelela",
+      "albumTitle": "Take Me Apart"
+    },
+    {
+      "identifier": "kelela1",
+      "artistName": "Kelela",
+      "albumTitle": "Cut 4 Me"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "idea 1",
+      "composers": "Kelela Mizanekristos, Oscar Scheller, Janiva Ellis",
+      "performer": "Kelela",
+      "time": "3:25"
+    },
+    {
+      "num": 2,
+      "title": "point blank",
+      "composers": "Kelela Mizanekristos, Oscar Scheller",
+      "performer": "Kelela",
+      "time": "4:26"
+    },
+    {
+      "num": 3,
+      "title": "goin down",
+      "composers": "Kelela Mizanekristos, Oscar Scheller, Brittany Foushe&#233;",
+      "performer": "Kelela",
+      "time": "3:20"
+    },
+    {
+      "num": 4,
+      "title": "outta time",
+      "composers": "Kelela Mizanekristos, A. K. Paul, Jessica Chambliss",
+      "performer": "Kelela feat. A. K. Paul",
+      "time": "4:11"
+    },
+    {
+      "num": 5,
+      "title": "against me",
+      "composers": "Kelela Mizanekristos, Oscar Scheller",
+      "performer": "Kelela",
+      "time": "2:40"
+    },
+    {
+      "num": 6,
+      "title": "crystalize",
+      "composers": "Kelela Mizanekristos, Oscar Scheller",
+      "performer": "Kelela",
+      "time": "4:11"
+    },
+    {
+      "num": 7,
+      "title": "retaliation lullaby",
+      "composers": "Kelela Mizanekristos, Oscar Scheller, Janiva Ellis",
+      "performer": "Kelela",
+      "time": "3:07"
+    },
+    {
+      "num": 8,
+      "title": "linknb",
+      "composers": "Kelela Mizanekristos, Oscar Scheller",
+      "performer": "Kelela",
+      "time": "1:55"
+    },
+    {
+      "num": 9,
+      "title": "don&#39;t piss me off",
+      "composers": "Kelela Mizanekristos, Oscar Scheller, Mischa Notcutt",
+      "performer": "Kelela",
+      "time": "3:30"
+    },
+    {
+      "num": 10,
+      "title": "new life forms",
+      "composers": "Kelela Mizanekristos, Oscar Scheller, Brittany Foushe&#233;",
+      "performer": "Kelela feat. Foushe&eacute;",
+      "time": "3:24"
+    },
+    {
+      "num": 11,
+      "title": "the bridge",
+      "composers": "Kelela Mizanekristos, Oscar Scheller, PinkPantheress",
+      "performer": "Kelela feat. PinkPantheress",
+      "time": "3:53"
+    },
+    {
+      "num": 12,
+      "title": "if we meet again",
+      "composers": "Kelela Mizanekristos, Oscar Scheller",
+      "performer": "Kelela",
+      "time": "2:45"
+    }
+  ]
+}

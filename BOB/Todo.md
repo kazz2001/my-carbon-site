@@ -59,7 +59,7 @@ node Bob/add-review-to-cd-year.js addisonrae1 2025
 # 8 相互リンク追加
 
 ```bash
- <review-name>
+node BOB/add-review-to-related.js  <review-name>
 ```
 
 # 9 レビューファイルのレビュー

@@ -1,0 +1,109 @@
+---
+title: "Kelela / new avatar"
+description: "Album Review of Kelela / new avatar"
+keywords: "Kelela, new avatar"
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+import Review1 from "../review/kelela3.mdx";
+import Review2 from "../review/kelela2.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Kelela / new avatar](../../images/cd/kelela4L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			Kelelaの前作『Raven』以来3年ぶりとなる通算3枚目のスタジオ・アルバム。
+ 			<br/>ワシントンD.C.のインディー/パンクシーンという自身の原点に回帰しながら、不穏な世界情勢や個人的な痛みに正面から向き合い、その先にある精神的回復をテーマとしている。SF作家Octavia Butlerの作品に着想を得ており、不条理な現実から逃避するのではなく、混乱を凝視しながら感情の交錯と美しさを見出していく強い連帯のメッセージが全体を貫いている。
+			<br/> 前作の静謐なアンビエントやクラブ・サウンドから一転し、本作では力強く歪んだギターが音響の中心に置かれている。ダークで重厚なUKガラージや2-Stepのビートにシューゲイザーやグランジの残響が交錯し、無駄を削ぎ落とした硬質な音響空間を構築。異ジャンルを歪みとノイズで一つの音響言語へと昇華させている。
+			<br/> Oscar Schellerがほぼ全編をプロデュースし、緻密なビートとギター音響の骨格を構築している。⑪では、PinkPantheressの透明感あるボーカルがKelelaの艶やかなボーカルと溶け合い、楽曲に独特の浮遊感を与えている。
+ 			<br/>Kelelaはシルキーで官能的なR&amp;Bボーカルを基調としながら、ディレイやリバーブを巧みに纏わせた深い表現力を誇っている。
+			感情を激しく怒号するのではなく、冷静にコントロールされた静かな怒りや寂しさを歌唱で凝縮している。
+      <br/>リリックでは、破綻していく人間関係のすれ違いや消耗、不誠実なパートナーへの葛藤が直接的な言葉で綴られている。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://amzn.to/4yKtOF8" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://link.amazon/B0eZybP03" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/4AYehmB" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	    apple music
+  	  </Button>
+		<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="2" />
+			<SliderJS3 value="2" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				Oscar Scheller(1,2,3,5,6,7,8,9,10,11,12)
+				<br/>A. K. Paul(4)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				A. K. Paul, Foushe&eacute;, PinkPantheress
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                 | Composers                                                   | Performer                   | Time |
+| --- | --------------------- | ----------------------------------------------------------- | --------------------------- | ---- |
+| 1   | idea 1                | Kelela Mizanekristos, Oscar Scheller, Janiva Ellis          | Kelela                      | 3:25 |
+| 2   | point blank           | Kelela Mizanekristos, Oscar Scheller                        | Kelela                      | 4:26 |
+| 3   | goin down             | Kelela Mizanekristos, Oscar Scheller, Brittany Foushe&#233; | Kelela                      | 3:20 |
+| 4   | outta time            | Kelela Mizanekristos, A. K. Paul, Jessica Chambliss         | Kelela feat. A. K. Paul     | 4:11 |
+| 5   | against me            | Kelela Mizanekristos, Oscar Scheller                        | Kelela                      | 2:40 |
+| 6   | crystalize            | Kelela Mizanekristos, Oscar Scheller                        | Kelela                      | 4:11 |
+| 7   | retaliation lullaby   | Kelela Mizanekristos, Oscar Scheller, Janiva Ellis          | Kelela                      | 3:07 |
+| 8   | linknb                | Kelela Mizanekristos, Oscar Scheller                        | Kelela                      | 1:55 |
+| 9   | don&#39;t piss me off | Kelela Mizanekristos, Oscar Scheller, Mischa Notcutt        | Kelela                      | 3:30 |
+| 10  | new life forms        | Kelela Mizanekristos, Oscar Scheller, Brittany Foushe&#233; | Kelela feat. Foushe&eacute; | 3:24 |
+| 11  | the bridge            | Kelela Mizanekristos, Oscar Scheller, PinkPantheress        | Kelela feat. PinkPantheress | 3:53 |
+| 12  | if we meet again      | Kelela Mizanekristos, Oscar Scheller                        | Kelela                      | 2:45 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+</Row>
+
+<AdvJS3 />
