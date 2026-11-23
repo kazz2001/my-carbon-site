@@ -1,0 +1,118 @@
+---
+title: "Jorja Smith / What Are The Odds."
+description: "Album Review of Jorja Smith / What Are The Odds."
+keywords: "Jorja Smith, What Are The Odds."
+---
+
+import { Slider, Button } from "@carbon/react";
+import { ArrowUpRight } from "@carbon/icons-react";
+
+import SliderJS1 from "../review/slider1";
+import SliderJS2 from "../review/slider2";
+import SliderJS3 from "../review/slider3";
+import SliderJS4 from "../review/slider4";
+import AdvJS2 from "../review/adv2";
+import AdvJS3 from "../review/adv3";
+
+import { Link } from "gatsby";
+import Review1 from "../review/jorjasmith3.mdx";
+import Review2 from "../review/jorjasmith2.mdx";
+import Review3 from "../review/jorjasmith1.mdx";
+
+<p className="largeP">Album Review</p>
+<h1 className="h1--no--margin">{props.pageContext.frontmatter.title}</h1>
+
+<Row  className="image-card-group">
+	<Column colMd={3} colLg={4} noGutterMdLeft="">
+       <ImageCard>
+
+![Jorja Smith / What Are The Odds.](../../images/cd/jorjasmith4L.jpg)
+
+</ImageCard>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<p>
+			29歳を迎えたJorja Smithの3年ぶり、通算3作目となるスタジオアルバム。 
+      前作『Falling or Flying』で見せたクラブサウンドへのアプローチをさらに押し進め、ダンスフロアへ全面的に踏み出した躍動感あふれる作品になっている。名声の圧力やロンドン生活での燃え尽きから故郷へ拠点を戻した彼女が、「ダンスを感情の避難所（Refuge）」として選び取り、裏切りや孤独といった深い悲哀を抱えながらも、身体を動かし踊ることで心の傷を解放し、自己を再発見していくカタルシスが全編を貫いている。 
+      <br/>サウンド面では、UK Garage、2-Step、UK Funky、House、Afro House、Grimeなど、英国クラブミュージックの要素が融合されている。
+			ほぼ全曲が140BPM前後のテンポで構成され、重厚なベースラインと電子パーカッションを軸としたPopな曲がほとんど。特にWizkidを迎えた⑨のアフロビーツ/アフロハウス的なアプローチは、Tylaに通じるしなやかで多幸感あふれるグルーヴを感じさせる。
+      <br/>前作にも参加していたP2Jがメインプロデューサーを務め、わずか3回のスタジオセッションでアルバムの骨組みを構築したとのこと。
+			Wizkidに加えて、④には自身の代表曲のヴァースを再録したGrimeの重鎮Devlinがストリートの武骨さを持ち込んでいる。また、同曲のクレジットにはHikaru Utadaの名も並んでいるが、Devlinのトラックでサンプリングされているらしい。
+      <br/>Vocalでは、Jorja Smith特有のシルキーでスモーキーな歌声が、高速なビートの上を滑らかに浮遊する。ビートの強い打撃感に埋もれることなく洗練された響きを維持しており、タイトル曲②では軽快なラップフローを披露するなど、ヴォーカリストとしての表現の幅を広げている。
+			<br/>アップテンポなサウンドとは対照的に、歌詞は極めてパーソナルで切実だ。不誠実な元恋人への挑発、友人との別れ、依存症、若き日の自分への赦しなど、傷や葛藤を率直に告白している。
+      <br/>あと、今作もCDパッケージの出来が良く、厚めのブックレットも含めて所有する満足感がある。
+		</p>
+		<div>
+		  <Button className="button-right-mergin"  href="https://link.amazon/B0iKamNmn" renderIcon={ArrowUpRight} size='sm' kind='primary'>
+  	    amazon.com
+  	  </Button>
+  	  <Button className="button-right-mergin"  href="https://link.amazon/B04F5wEhW" renderIcon={ArrowUpRight} size='sm' kind='secondary'>
+  	    amazon.co.jp
+  	  </Button>
+			<Button className="button-right-mergin"  href="https://apple.co/3Wjg31R" renderIcon={ArrowUpRight} size='sm' kind='tertiary'>
+  	    apple music
+  	  </Button>
+		<AdvJS2/>
+		</div>
+	</Column>
+</Row>
+<Row >
+	<Column colMd={4} colLg={4} noGutterMdLeft="">
+		<div>
+		  <h3>Score card</h3>
+			<SliderJS1 value="5" />
+		  <SliderJS2 value="1" />
+			<SliderJS3 value="1" />
+		  <SliderJS4 value="9" />
+		</div>
+	</Column>
+	<Column colMd={4} colLg={8} noGutterMdLeft="">
+		<div>
+			<h3>Producers</h3>
+			<p>
+				P2J(1,3,8,9)
+				<br/>P2J and Deats(2)
+				<br/>P2J and Cole YoursTruly(4,5,10,11)
+				<br/>P2J and Marco Bernardis(7)
+				<br/>P2J and Sucuki(12)
+			</p>
+			<h3>Guests</h3>
+			<p>
+				Devlin, Wizkid
+			</p>
+		</div>
+	</Column>
+</Row>
+
+<h3>Tracks</h3>
+
+| No. | Title                   | Composers                                                                                                                                                     | Performer                | Time |
+| --- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ---- |
+| 1   | For Life                | Jorja Smith / Richard Isong / Hope Katana / Millie Katana                                                                                                     | Jorja Smith              | 2:48 |
+| 2   | What Are the Odds       | Jorja Smith / Richard Isong / Dominik Patrzek / Ezrah Roberts Grey                                                                                            | Jorja Smith              | 2:37 |
+| 3   | What&#39;s Done Is Done | Jorja Smith / Richard Isong / Michael Stafford                                                                                                                | Jorja Smith              | 2:53 |
+| 4   | This City               | Jorja Smith / Christopher Sean Butler / Jordan Crisp / James Devlin / Richard Isong / Hope Katana / Millie Katana / Cole Ostrin / Lloyd Perrin / Hikaru Utada | Jorja Smith feat. Devlin | 3:15 |
+| 5   | Pretend                 | Jorja Smith / Richard Isong / Hope Katana / Millie Katana / Cole Ostrin                                                                                       | Jorja Smith              | 2:43 |
+| 6   | The Way It Was          | Jorja Smith / Joel Baely / Richard Isong / Cole Ostrin / Michael Stafford / Ed Thomas                                                                         | Jorja Smith              | 3:44 |
+| 7   | I Lied, You Lied        | Jorja Smith / Joel Baely / Marco Bernardis / Richard Isong / Michael Stafford                                                                                 | Jorja Smith              | 3:23 |
+| 8   | Dancing                 | Jorja Smith / Richard Isong / Rhea Vasquez Robles / Michael Stafford                                                                                          | Jorja Smith              | 2:41 |
+| 9   | Alive                   | Jorja Smith / Ayodeji Ibrahim Balogun / Clementine Douglas / Richard Isong                                                                                    | Jorja Smith feat. Wizkid | 3:27 |
+| 10  | Young Heart             | Jorja Smith / Richard Isong / Hope Katana / Millie Katana / Cole Ostrin                                                                                       | Jorja Smith              | 4:00 |
+| 11  | Make It Your Home       | Jorja Smith / Ariowa Irosogie / Richard Isong / Ev&#238;n K&#252;c&#252;kali / Cole Ostrin                                                                    | Jorja Smith              | 2:46 |
+| 12  | When It Gets Like That  | Jorja Smith / Joel Baely / Tim Friedrich / Ariowa Irosogie / Richard Isong                                                                                    | Jorja Smith              | 3:08 |
+
+<h3>Other Reviews</h3>
+
+<Row>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+  <Column colMd={3} colLg={3} noGutterMdLeft>
+    <Review3 />
+  </Column>
+</Row>
+
+<AdvJS3 />

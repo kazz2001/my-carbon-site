@@ -1,0 +1,126 @@
+{
+  "artistName": "Jorja Smith",
+  "artistNameJa": "",
+  "albumTitle": "What Are The Odds.",
+  "albumTitleJa": "",
+  "albumNumber": "1",
+  "identifier": "jorjasmith4",
+  "reviewPara1": "29歳を迎えたJorja Smithの3年ぶり、通算3作目となるスタジオアルバム。 \n            前作『Falling or Flying』で見せたクラブサウンドへのアプローチをさらに押し進め、ダンスフロアへ全面的に踏み出した躍動感あふれる作品になっている。名声の圧力やロンドン生活での燃え尽きから故郷へ拠点を戻した彼女が、「ダンスを感情の避難所（Refuge）」��して選び取り、裏切りや孤独といった重い悲哀を抱えながらも、身体を動かし踊ることで傷を解き放ち、自己を再発見していくカタルシスが全編を貫いている。 \n            サウンド面では、UK Garage、2-Step、UK Funky、House、Afro House、Grimeなど、英国クラブミュージックの要素が融合されている。",
+  "reviewPara2": "ほぼ全曲が140BPM前後のテンポで構成され、重厚なベースラインと電子パーカッションを展開したPopな曲がほとんど。特にWizkidを迎えた⑨のアフロビーツ／アフロハウス的なアプローチは、Tylaに通じるしなやかで多幸感あふれるグルーヴを感じさせる。\n            前作にも参加していたP2Jがメインプロデューサーを務め、わずか3回のスタジオセッションでアルバムの骨組みを構築したとのこと。",
+  "reviewPara3": "Wizkidに加えて、④には代表曲のヴァースを再録し、ストリートの武骨さを与えたGrimeの重鎮Devlinが参加。また、同曲のクレジットにはHikaru Utadaの名も並んでいるが、Devlinのトラックでサンプリングされているらしい。\n            Vocalでは、Jorja Smith特有のシルキーでスモーキーな歌声が、高速なビートの上を滑らかに浮遊する。トラックの打撃音と競い合うことなく洗練された響きを維持しており、タイトル曲②では軽快なラップフローを披露するなど、ヴォーカリストとしての表現の幅を広げている。",
+  "reviewPara4": "\n            \n            アップテンポなサウンドとは対照的に、歌詞は極めてパーソナルで切実だ。不誠実な元恋人への挑発、友人との別れ、依存症、若き日の自分への赦しなど、傷や葛藤を率直に告白している。\n            \n            あと、今作もパッケージとしてのCDが、厚めのブックレットも含めて出来が良い。",
+  "score1": "5",
+  "score2": "1",
+  "score3": "1",
+  "score4": "4.5",
+  "producers": "P2J(1,3,8,9)\n\n            P2J and Deats(2)\n\n            P2J and Cole YoursTruly(4,5,,10,11)\n\n            P2J and Marco Bernardis(7)\n\n            P2J and Sucuki(12)",
+  "guests": "Devlin, Wizkid",
+  "amazonCom": "https://amzn.to/XXXXXXX",
+  "amazonJp": "https://amzn.to/XXXXXXX",
+  "appleMusic": "https://music.apple.com/us/album/6771532467",
+  "best50Year": "",
+  "best50Rank": "",
+  "relatedReviews": [
+    {
+      "identifier": "jorjasmith3",
+      "artistName": "Jorja Smith",
+      "albumTitle": "Falling Or Flying"
+    },
+    {
+      "identifier": "jorjasmith2",
+      "artistName": "Jorja Smith",
+      "albumTitle": "Be Right Back"
+    },
+    {
+      "identifier": "jorjasmith1",
+      "artistName": "Jorja Smith",
+      "albumTitle": "Lost &amp; Found"
+    }
+  ],
+  "tracks": [
+    {
+      "num": 1,
+      "title": "For Life",
+      "composers": "Jorja Smith / Richard Isong / Hope Katana / Millie Katana",
+      "performer": "Jorja Smith",
+      "time": "2:48"
+    },
+    {
+      "num": 2,
+      "title": "What Are the Odds",
+      "composers": "Jorja Smith / Richard Isong / Dominik Patrzek / Ezrah Roberts Grey",
+      "performer": "Jorja Smith",
+      "time": "2:37"
+    },
+    {
+      "num": 3,
+      "title": "What&#39;s Done Is Done",
+      "composers": "Jorja Smith / Richard Isong / Michael Stafford",
+      "performer": "Jorja Smith",
+      "time": "2:53"
+    },
+    {
+      "num": 4,
+      "title": "This City",
+      "composers": "Jorja Smith / Christopher Sean Butler / Jordan Crisp / James Devlin / Richard\n                  Isong / Hope Katana / Millie Katana / Cole Ostrin / Lloyd Perrin / Hikaru\n                  Utada",
+      "performer": "Jorja Smith feat. Devlin",
+      "time": "3:15"
+    },
+    {
+      "num": 5,
+      "title": "Pretend",
+      "composers": "Jorja Smith / Richard Isong / Hope Katana / Millie Katana / Cole Ostrin",
+      "performer": "Jorja Smith",
+      "time": "2:43"
+    },
+    {
+      "num": 6,
+      "title": "The Way It Was",
+      "composers": "Jorja Smith / Joel Baely / Richard Isong / Cole Ostrin / Michael Stafford / Ed Thomas",
+      "performer": "Jorja Smith",
+      "time": "3:44"
+    },
+    {
+      "num": 7,
+      "title": "I Lied, You Lied",
+      "composers": "Jorja Smith / Joel Baely / Marco Bernardis / Richard Isong / Michael Stafford",
+      "performer": "Jorja Smith",
+      "time": "3:23"
+    },
+    {
+      "num": 8,
+      "title": "Dancing",
+      "composers": "Jorja Smith / Richard Isong / Rhea Vasquez Robles / Michael Stafford",
+      "performer": "Jorja Smith",
+      "time": "2:41"
+    },
+    {
+      "num": 9,
+      "title": "Alive",
+      "composers": "Jorja Smith / Ayodeji Ibrahim Balogun / Clementine Douglas / Richard Isong",
+      "performer": "Jorja Smith feat. Wizkid",
+      "time": "3:27"
+    },
+    {
+      "num": 10,
+      "title": "Young Heart",
+      "composers": "Jorja Smith / Richard Isong / Hope Katana / Millie Katana / Cole Ostrin",
+      "performer": "Jorja Smith",
+      "time": "4:00"
+    },
+    {
+      "num": 11,
+      "title": "Make It Your Home",
+      "composers": "Jorja Smith / Ariowa Irosogie / Richard Isong / Ev&#238;n K&#252;c&#252;kali / Cole Ostrin",
+      "performer": "Jorja Smith",
+      "time": "2:46"
+    },
+    {
+      "num": 12,
+      "title": "When It Gets Like That",
+      "composers": "Jorja Smith / Joel Baely / Tim Friedrich / Ariowa Irosogie / Richard Isong",
+      "performer": "Jorja Smith",
+      "time": "3:08"
+    }
+  ]
+}

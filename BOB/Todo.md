@@ -19,6 +19,7 @@ node Bob/generate-review-from-json.js config.json
 # 3 手動で修正
 
 affiliate link,画像の配置, レビューコメント整形、Aファイル修正
+Copilotで文章表現をチェック。
 
 # 4,5,7を続けて実行するスクリプト
 
