@@ -1,0 +1,75 @@
+import HomepageTemplate from "../components/Homepage.js";
+// import HomepageTemplate from "gatsby-theme-carbon/src/components/Layouts/Homepage";
+export default HomepageTemplate;
+
+import Review1   from "./review/kelela4.mdx";
+import Review1A  from "./review/kelela4A.mdx";
+import Review2   from "./review/kneecap1.mdx";
+import Review2A  from "./review/kneecap1A.mdx";
+import Review3   from "./review/stevelacy3.mdx";
+import Review3A  from "./review/stevelacy3A.mdx";
+import Review4   from "./review/tyla2.mdx";
+import Review4A  from "./review/tyla2A.mdx";
+
+import BookReview1 from "./book/sekaiichiomoshiroihiphopA.mdx";
+import BookReview2 from "./book/musicguidebook2A.mdx";
+import BookReview3 from "./book/hiphop2025-26A.mdx";
+import BookReview4 from "./book/hiphopmeiban100A.mdx";
+
+<br />
+
+### 最新アルバムレビュー。画像をクリック。
+
+### Latest Album Reviews. Click image to get to each review page.
+
+<Row>
+  <Column colMd={2} colLg={3} noGutterMdLeft>
+    <Review1 />
+  </Column>
+  <Column colMd={5} colLg={8} noGutterMdLeft>
+    <Review1A />
+  </Column>
+</Row>
+<Row>
+  <Column colMd={2} colLg={3} noGutterMdLeft>
+    <Review2 />
+  </Column>
+  <Column colMd={5} colLg={8} noGutterMdLeft>
+    <Review2A />
+  </Column>
+</Row>
+<Row>
+  <Column colMd={2} colLg={3} noGutterMdLeft>
+    <Review3 />
+  </Column>
+  <Column colMd={5} colLg={8} noGutterMdLeft>
+    <Review3A />
+  </Column>
+</Row>
+<Row>
+  <Column colMd={2} colLg={3} noGutterMdLeft>
+    <Review4 />
+  </Column>
+  <Column colMd={5} colLg={8} noGutterMdLeft>
+    <Review4A />
+  </Column>
+</Row>
+
+### 最新ブックレビュー。画像をクリック。
+
+### Latest Book Review. Click image to get to each review page.
+
+<Row>
+  <Column colMd={2} colLg={3} noGutterMdLeft>
+    <BookReview1 />
+  </Column>
+  <Column colMd={2} colLg={3} noGutterMdLeft>
+    <BookReview2 />
+  </Column>
+  <Column colMd={2} colLg={3} noGutterMdLeft>
+    <BookReview3 />
+  </Column>
+  <Column colMd={2} colLg={3} noGutterMdLeft>
+    <BookReview4 />
+  </Column>
+</Row>
